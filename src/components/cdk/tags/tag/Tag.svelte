@@ -13,15 +13,10 @@
     }
 
     @media (max-width: 600px) {
-        ul {
-        justify-content: center;
-        }
-
         b {
         text-align: center;
         font-size: var(--text-size-xs);
         }
     }
 </style>
-
 <b class="tag">#{tag}&nbsp;</b>
