@@ -1,36 +1,92 @@
-body {
-	margin: 0;
-	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
-	color: #333;
+:root {
+  --ssd-black: #1d1d1b;
+  --ssd-beige: #fbd4bc;
+  --ssd-blue: #309bcf;
+  --ssd-orange: #e94e1b;
+  --ssd-purple: #5f517e;
+  --ssd-purple-light: #896ec6;
+
+  --text-size-xxl: 4rem;
+  --text-size-xl: 3rem;
+  --text-size-l: 2rem;
+  --text-size-m: 1.25rem;
+  --text-size-s: 1.125rem;
+  --text-size-xs: 1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	margin: 0 0 0.5em 0;
-	font-weight: 400;
-	line-height: 1.2;
+@font-face {
+  font-family: "Overpass";
+  font-display: swap;
+  src: url("fonts/Overpass-Light.ttf");
+}
+
+html {
+  background: var(--ssd-black);
+}
+
+body {
+  margin: 0;
+  font-family: Overpass, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 0.825em;
+  line-height: 1.5;
+  color: #333;
+  height: 100vh;
+  background: white;
+}
+
+p {
+  hyphens: initial;
+}
+
+#sapper {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.5em 0;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 h1 {
-	font-size: 2em;
+  font-size: var(--text-size-xxl);
+}
+
+h2 {
+  font-size: var(--text-size-l);
+}
+
+h3 {
+  font-size: var(--text-size-m);
+}
+
+p {
+  font-size: var(--text-size-s);
 }
 
 a {
-	color: inherit;
+  color: inherit;
 }
 
-code {
-	font-family: menlo, inconsolata, monospace;
-	font-size: calc(1em - 2px);
-	color: #555;
-	background-color: #f0f0f0;
-	padding: 0.2em 0.4em;
-	border-radius: 2px;
+@media (max-width: 1200px) {
 }
 
-@media (min-width: 400px) {
-	body {
-		font-size: 16px;
-	}
+@media (max-width: 600px) {
+  h1 {
+    font-size: var(--text-size-xl);
+  }
+
+  h2 {
+    font-size: var(--text-size-m);
+  }
+
+  p {
+    font-size: var(--text-size-xs);
+  }
 }
