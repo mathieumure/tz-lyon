@@ -1,10 +1,7 @@
 :root {
-  --ssd-black: #1d1d1b;
-  --ssd-beige: #fbd4bc;
-  --ssd-blue: #309bcf;
-  --ssd-orange: #e94e1b;
-  --ssd-purple: #5f517e;
-  --ssd-purple-light: #896ec6;
+  --z-black: #010006;
+  --z-grey: #292929;
+  --red-znk: #ee2238;
 
   --text-size-xxl: 4rem;
   --text-size-xl: 3rem;
@@ -13,7 +10,7 @@
   --text-size-s: 1.125rem;
   --text-size-xs: 1rem;
 
-  --red-znk: #EE2238;
+  --card-border-radius: 0.5rem;
 }
 
 body {
@@ -22,7 +19,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 0.825em;
   line-height: 1.5;
-  color: #333;
+  color: white;
   height: 100vh;
   background: black;
 }
@@ -66,10 +63,7 @@ a {
   color: inherit;
 }
 
-@media (max-width: 1200px) {
-}
-
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   h1 {
     font-size: var(--text-size-xl);
   }
