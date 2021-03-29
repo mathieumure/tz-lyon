@@ -1,22 +1,16 @@
+<style>
+.tag {
+  color: white;
+  border: 1px solid white;
+  border-radius: 1rem;
+  font-size: var(--text-size-xs);
+  padding: 0.25rem 0.5rem;
+  line-height: 1.25rem;
+}
+</style>
 
 <script>
-    export let tag;
+export let tag;
 </script>
 
-<style>
-    .tag {
-        color: var(--ssd-blue);
-    }
-
-    b {
-        font-size: var(--text-size-s);
-    }
-
-    @media (max-width: 600px) {
-        b {
-        text-align: center;
-        font-size: var(--text-size-xs);
-        }
-    }
-</style>
-<b class="tag">#{tag}&nbsp;</b>
+<span class="tag">{tag}</span>

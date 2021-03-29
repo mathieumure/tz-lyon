@@ -1,27 +1,36 @@
+<style>
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+ul > li:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  ul {
+    justify-content: center;
+  }
+}
+</style>
+
 <script>
-    export let tags;
-    import Tag from './tag/Tag.svelte'
-  </script>
-  
-  <style>
-    ul {
-      list-style: none;
-      display: flex;
-      padding: 0;
-    }
-  
-    @media (max-width: 600px) {
-      ul {
-        justify-content: center;
-      }
-    }
-  </style>
-  
-  <ul>
-    {#each tags as tag}
-      <li>
-        <Tag {tag}/>
-      </li>
-    {/each}
-  </ul>
-  
+export let tags;
+import Tag from "./tag/Tag.svelte";
+</script>
+
+<ul>
+  {#each tags as tag}
+    <li>
+      <Tag {tag} />
+    </li>
+  {/each}
+</ul>
