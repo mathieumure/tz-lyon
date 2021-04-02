@@ -1,6 +1,8 @@
 <script>
     import Talk from "./talk/Talk.svelte";
-    export let talks;
+    import { eventStore } from "../../stores";
+
+    const { talks } = eventStore;
   </script>
   
   <style>
@@ -27,7 +29,7 @@
   </style>
 
   <ul>
-    {#each talks as talk, idx (talk.id)}
+    {#each $talks as talk (talk.id)}
       <li>
         <Talk {...talk} />
       </li>

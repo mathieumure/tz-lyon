@@ -1,8 +1,5 @@
 <script>
-    import Speaker from "../../speaker/Speaker.svelte";
-    import Tags from "../../cdk/tags/Tags.svelte"
-  
-    export let speakers, title, description, tags;
+    export let abstract, title;
   </script>
   
   <style>
@@ -23,25 +20,20 @@
         align-items: center;
         text-align: center;
       }
-  
-      .speaker {
-        margin: 1rem 0;
-      }
     }
   </style>
   
   <div class="wrapper">
-    <div class="speaker">
+    <!-- <div class="speaker">
       {#each speakers as speaker}
         <Speaker {...speaker} />
       {/each}
-    </div>
+    </div> -->
     <div>
       <h3 class="talk-title">
         <b>{title}</b>
       </h3>
-      <p class="talk-desc">{description}</p>
-      <Tags {tags} />
+      <p class="talk-desc">{abstract}</p>
     </div>
   </div>
   
