@@ -1,14 +1,20 @@
 <script context="module">
+	  import { eventStore } from "../stores";
+
 	export async function preload(page, session) {
-		const res = await this.fetch(`_talks.json`);
-		const talks = await res.json();
-		return { talks };
+		const res = await this.fetch(`event.json`);
+		const event = await res.json()
+
+		return { event };
 	}
 </script>
 
 <script>
 	import Talks from '../components/talks/Talks.svelte'
-	export let talks;
+	export let event;
+
+	const { setEvent } = eventStore;
+	setEvent(event)
 </script>
 
 <style>
@@ -18,4 +24,4 @@
 	<title>Technozaure World 2021 - Zenika</title>
 </svelte:head>
 
-<Talks {talks}/>
+<Talks/>
