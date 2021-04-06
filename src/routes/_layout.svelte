@@ -5,6 +5,7 @@
 <style>
   main {
     position: relative;
+    background-color: black;
     margin: 0 auto;
     box-sizing: border-box;
     padding-bottom: 5em;

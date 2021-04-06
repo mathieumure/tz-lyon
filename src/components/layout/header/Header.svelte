@@ -3,6 +3,7 @@
 </script>
 
 <header>
+  <div class="background parallax__layer parallax__layer--deep" />
   <p class="date">23/04/2021</p>
   <p class="subtitle">Sharing the world</p>
   <img class="person-1" src="images/person1.png" alt="Personne 1" />
@@ -26,12 +27,39 @@
 </header>
 
 <style>
+  :global(#sapper) {
+    perspective: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  
   header {
-    font-family: "Nunito";
-    min-height: 100vh;
+    position: relative;
+    transform-style: preserve-3d;
+  }
+
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: transform 200ms ease-in-out;
+  }
+
+  .parallax__layer--deep {
+    transform: translateZ(-300px) scale(2.01);
+  }
+
+  .background {
     background: center url("/images/billy-huynh-W8KTS-mhFUE-unsplash.webp");
     background-blend-mode: screen;
     background-position-y: -223px;
+  }
+
+  header {
+    min-height: 100vh;
     text-align: center;
     color: white;
     display: flex;
@@ -55,22 +83,23 @@
   .person-1,
   .person-2 {
     display: none;
+    transform: translateZ(-100px) scale(1.33);
   }
 
   @media only screen and (min-width: 768px) {
     .person-1 {
       display: block;
       position: absolute;
-      left: 17%;
-      top: 9%;
+      left: 11%;
+      top: 30px;
       width: 19%;
     }
 
     .person-2 {
       display: block;
       position: absolute;
-      top: 2%;
-      right: 9%;
+      top: 10px;
+      right: 4%;
       width: 45%;
     }
   }
