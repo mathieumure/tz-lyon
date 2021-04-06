@@ -31,6 +31,16 @@
     margin: 1rem 0 0;
   }
 
+  img {
+    width: 4rem;
+  }
+
+  @media only screen and (min-width: 768px) {
+    img {
+      width: auto;
+    }
+  }
+
   .stat-title {
     margin: 0;
     font-size: 1.25rem;

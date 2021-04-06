@@ -48,6 +48,6 @@
   }
 
   .stats :global(.stat) {
-    margin: 0 2rem 1rem;
+    margin: 0 1rem 1rem;
   }
 </style>
