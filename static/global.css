@@ -12,35 +12,23 @@
   --text-size-m: 1.25rem;
   --text-size-s: 1.125rem;
   --text-size-xs: 1rem;
-}
 
-@font-face {
-  font-family: "Overpass";
-  font-display: swap;
-  src: url("fonts/Overpass-Light.ttf");
-}
-
-html {
-  background: var(--ssd-black);
+  --red-znk: #EE2238;
 }
 
 body {
   margin: 0;
-  font-family: Overpass, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 0.825em;
   line-height: 1.5;
   color: #333;
   height: 100vh;
-  background: white;
+  background: black;
 }
 
 p {
   hyphens: initial;
-}
-
-#sapper {
-  height: 100%;
 }
 
 h1,

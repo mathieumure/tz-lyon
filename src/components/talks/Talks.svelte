@@ -31,7 +31,7 @@
   <ul>
     {#each $talks as talk (talk.id)}
       <li>
-        <Talk {...talk} />
+        <Talk abstract={talk.abstract} title={talk.title} />
       </li>
     {:else}
       <p>La liste des talks n'est pas disponible.</p>
