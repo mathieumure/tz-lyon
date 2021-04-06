@@ -1,16 +1,32 @@
 <script>
   import Stat from "./Stat.svelte";
+  import { eventStore } from "../../../stores";
+  import { derived } from "svelte/store";
 
-  export let talks = [],
-    speakers = [];
+  const { talks, speakers, formats } = eventStore;
+
+  const workshopsCount = derived([talks, formats], ([$talks, $formats]) => {
+    const workshopFormatsIds = $formats
+      .filter((format) => format.name.includes("Workshop"))
+      .map((format) => format.id);
+    const workshopTalks = $talks.filter((talk) =>
+      workshopFormatsIds.includes(talk.formats)
+    );
+    return workshopTalks.length;
+  });
 </script>
 
 <div class="stats">
-  <Stat class="stat" count={talks.length} picto="talk.svg" title="Talks" />
-  <Stat class="stat" count={43} picto="workshops.svg" title="Workshops" />
+  <Stat class="stat" count={$talks.length} picto="talk.svg" title="Talks" />
   <Stat
     class="stat"
-    count={speakers.length}
+    count={$workshopsCount}
+    picto="workshops.svg"
+    title="Workshops"
+  />
+  <Stat
+    class="stat"
+    count={$speakers.length}
     picto="speaker.svg"
     title="Speakers"
   />

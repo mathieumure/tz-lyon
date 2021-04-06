@@ -1,8 +1,5 @@
 <script>
-  import { eventStore } from "../../../stores";
   import Stats from "./Stats.svelte";
-
-  const { talks, speakers } = eventStore;
 </script>
 
 <header>
@@ -14,7 +11,7 @@
   <img class="logo-tz" src="logos/technozaure.svg" alt="Logo Technozaure" />
   <p class="date">23/04/2021</p>
 
-  <Stats talks={$talks} speakers={$speakers} />
+  <Stats />
 
   <p class="event-description">
     Le principe est simple, sur une même journée, toutes les agences Zenika

@@ -1,16 +1,13 @@
 import { writable } from "svelte/store";
 
 const { subscribe: subscribeCategories, update: updateCategories } = writable(
-  undefined
+  []
 );
-const { subscribe: subscribeFormats, update: updateFormats } = writable(
-  undefined
-);
-const { subscribe: subscribeTalks, update: updateTalks } = writable(undefined);
+const { subscribe: subscribeFormats, update: updateFormats } = writable([]);
 
-const { subscribe: subscribeSpeakers, update: updateSpeakers } = writable(
-  undefined
-);
+const { subscribe: subscribeTalks, update: updateTalks } = writable([]);
+
+const { subscribe: subscribeSpeakers, update: updateSpeakers } = writable([]);
 
 const eventStore = {
   categories: {
