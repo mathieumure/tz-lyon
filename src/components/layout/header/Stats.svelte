@@ -16,38 +16,33 @@
   });
 </script>
 
-<div class="stats">
-  <Stat class="stat" count={$talks.length} picto="talk.svg" title="Talks" />
-  <Stat
-    class="stat"
-    count={$workshopsCount}
-    picto="workshops.svg"
-    title="Workshops"
-  />
-  <Stat
-    class="stat"
-    count={$speakers.length}
-    picto="speaker.svg"
-    title="Speakers"
-  />
-  <Stat
-    class="stat"
-    count={500}
-    picto="participants.svg"
-    title="Participants"
-  />
-</div>
+<ul class="stats">
+  <li class="stat">
+    <Stat count={$talks.length} picto="talk.svg" title="Talks" />
+  </li>
+  <li class="stat">
+    <Stat count={$workshopsCount} picto="workshops.svg" title="Workshops" />
+  </li>
+  <li class="stat">
+    <Stat count={$speakers.length} picto="speaker.svg" title="Speakers" />
+  </li>
+  <li class="stat">
+    <Stat count={500} picto="participants.svg" title="Participants" />
+  </li>
+</ul>
 
 <style>
   .stats {
-    margin-top: 0.5rem;
+    list-style: none;
+    margin: 0.5rem 0 0;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 75%;
   }
 
-  .stats :global(.stat) {
+  .stat {
     margin: 0 1rem 1rem;
   }
 </style>

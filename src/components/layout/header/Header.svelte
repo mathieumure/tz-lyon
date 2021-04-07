@@ -6,8 +6,8 @@
   <div class="background parallax__layer parallax__layer--deep" />
   <p class="date">23/04/2021</p>
   <p class="subtitle">Sharing the world</p>
-  <img class="person-1" src="images/person1.png" alt="Personne 1" />
-  <img class="person-2" src="images/person2.webp" alt="Personne 2" />
+  <img class="person-1" src="images/person1.png" alt="" />
+  <img class="person-2" src="images/person2.webp" alt="" />
   <img class="logo-znk" src="logos/logo-zenika.png" alt="Logo Zenika" />
   <img class="logo-tz" src="logos/technozaure.svg" alt="Logo Technozaure" />
   <p class="date">23/04/2021</p>
@@ -33,7 +33,6 @@
     overflow-y: auto;
   }
 
-  
   header {
     position: relative;
     transform-style: preserve-3d;

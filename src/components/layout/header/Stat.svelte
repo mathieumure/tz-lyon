@@ -17,7 +17,7 @@
   });
 </script>
 
-<div class={$$props.class}>
+<div>
   <img src={`pictos/${picto}`} alt={`picto - ${title}`} />
   <p class="stat-count">{Math.floor($tweenedCount)}</p>
   <p class="stat-title">{title}</p>
