@@ -9,6 +9,8 @@ const { subscribe: subscribeTalks, update: updateTalks } = writable([]);
 
 const { subscribe: subscribeSpeakers, update: updateSpeakers } = writable([]);
 
+const filterStore = writable('');
+
 const eventStore = {
   categories: {
     subscribe: subscribeCategories,
@@ -30,4 +32,4 @@ const eventStore = {
   },
 };
 
-export { eventStore };
+export { eventStore, filterStore };

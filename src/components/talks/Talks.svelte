@@ -32,15 +32,17 @@ h2 {
 </style>
 
 <script>
-import Talk from "./talk/Talk.svelte";
-import { eventStore } from "../../stores";
+    import Talk from "./talk/Talk.svelte";
+    import { eventStore, filterStore } from "../../stores";
 
-const { talks } = eventStore;
+    const { talks } = eventStore;
+
+    $: filteredTalks = $talks.filter(talk => !$filterStore || talk.categories === $filterStore);
 </script>
 
 <h2>Le programme</h2>
 <ul>
-  {#each $talks as { abstract, categories, formats, id, language, level, speakers, title } (id)}
+  {#each filteredTalks as { abstract, categories, formats, id, language, level, speakers, title } (id)}
     <li>
       <Talk
         {abstract}
@@ -52,6 +54,6 @@ const { talks } = eventStore;
         {title} />
     </li>
   {:else}
-    <p>La liste des talks n'est pas disponible.</p>
+    <p>Il n'y a aucun talk dans cette catégorie.</p>
   {/each}
 </ul>

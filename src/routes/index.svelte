@@ -11,6 +11,7 @@
 
 <script>
 	import Talks from '../components/talks/Talks.svelte'
+	import Filters from '../components/filters/Filters.svelte'
 	export let event;
 
 	const { setEvent } = eventStore;
@@ -24,4 +25,5 @@
 	<title>Technozaure World 2021 - Zenika</title>
 </svelte:head>
 
+<Filters/>
 <Talks/>
