@@ -1,9 +1,11 @@
 <script>
+  import SocialNetworks from "./SocialNetworks.svelte";
   import Stats from "./Stats.svelte";
 </script>
 
 <header>
   <div class="background parallax__layer parallax__layer--deep" />
+  <SocialNetworks class="networks" />
   <p class="date">23/04/2021</p>
   <p class="subtitle">Sharing the world</p>
   <img class="person-1" src="images/person1.png" alt="" />
@@ -79,6 +81,10 @@
     margin: 0;
   }
 
+  header :global(.networks) {
+    display: none;
+  }
+
   .person-1,
   .person-2 {
     display: none;
@@ -86,6 +92,13 @@
   }
 
   @media only screen and (min-width: 768px) {
+    header :global(.networks) {
+      display: flex;
+      position: fixed;
+      right: 0;
+      margin: 12px;
+    }
+
     .person-1 {
       display: block;
       position: absolute;
