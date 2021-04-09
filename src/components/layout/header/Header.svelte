@@ -1,5 +1,6 @@
 <script>
   import SocialNetworks from "./SocialNetworks.svelte";
+  import Drawings from "./Drawings.svelte";
   import Stats from "./Stats.svelte";
 </script>
 
@@ -7,8 +8,9 @@
   <div class="background parallax__layer parallax__layer--deep" />
   <SocialNetworks class="networks" />
   <p class="around-the-world top">&lt;around the world&gt;</p>
-  <img class="drawing-laurent" src="images/drawing-laurent.png" alt="" />
-  <img class="drawing-carl" src="images/drawing-carl.webp" alt="" />
+
+  <Drawings />
+
   <img class="logo-znk" src="logos/logo-zenika.png" alt="Logo Zenika" />
   <img class="logo-tz" src="logos/technozaure.svg" alt="Logo Technozaure" />
   <p class="date">23/04/2021</p>
@@ -78,24 +80,6 @@
     display: none;
   }
   
-  .drawing-laurent,
-  .drawing-carl {
-    position: absolute;
-    transform: translateZ(-100px) scale(1.33);
-  }
-
-  .drawing-laurent {
-    left: -50px;
-    top: -30px;
-    width: 30%;
-  }
-
-  .drawing-carl {
-    top: -60px;
-    right: -100px;
-    width: 70%;
-  }
-
   .logo-znk {
     width: 40%;
     max-width: 345px;
@@ -143,18 +127,6 @@
       position: fixed;
       right: 0;
       margin: 12px;
-    }
-
-    .drawing-laurent {
-      left: 11%;
-      top: 30px;
-      width: 19%;
-    }
-
-    .drawing-carl {
-      top: 10px;
-      right: 4%;
-      width: 45%;
     }
 
     .logo-tz {
