@@ -26,7 +26,7 @@
   <li class="stat">
     <Stat count={$speakers.length} picto="speaker.svg" title="Speakers" />
   </li>
-  <li class="stat">
+  <li class="stat participants">
     <Stat count={500} picto="participants.svg" title="Participants" />
   </li>
 </ul>
@@ -34,15 +34,25 @@
 <style>
   .stats {
     list-style: none;
-    margin: 0.75rem 0 0;
+    margin: 2em 0 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 75%;
+    width: 100%;
   }
 
-  .stat {
-    margin: 0 1rem 1rem;
+  .stat.participants {
+    display: none;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .stat.participants {
+      display: block;
+    }
+
+    .stats {
+      width: 75%;
+    }
   }
 </style>

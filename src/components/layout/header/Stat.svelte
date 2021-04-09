@@ -24,26 +24,34 @@
 </div>
 
 <style>
+  div {
+    font-size: 1rem;
+  }
+
   .stat-count {
     font-weight: bold;
-    font-size: 1.875rem;
-    line-height: 2rem;
-    margin: .75rem 0 0;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    margin: 0.25em 0 0;
   }
 
   img {
     width: 4rem;
   }
 
+  .stat-title {
+    margin: 0;
+    font-size: 0.75em;
+    line-height: 1.25em;
+  }
+
   @media only screen and (min-width: 768px) {
     img {
       width: auto;
     }
-  }
 
-  .stat-title {
-    margin: 0;
-    font-size: 1.25rem;
-    line-height:1.25rem;
+    div {
+      font-size: 1.5rem;
+    }
   }
 </style>
