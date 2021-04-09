@@ -34,7 +34,7 @@
 <style>
   .stats {
     list-style: none;
-    margin: 0.5rem 0 0;
+    margin: 0.75rem 0 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;

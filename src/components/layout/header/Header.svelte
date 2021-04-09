@@ -6,8 +6,7 @@
 <header>
   <div class="background parallax__layer parallax__layer--deep" />
   <SocialNetworks class="networks" />
-  <p class="date">23/04/2021</p>
-  <p class="subtitle">Sharing the world</p>
+  <p class="around-the-world top">&lt;around the world&gt;</p>
   <img class="person-1" src="images/person1.png" alt="" />
   <img class="person-2" src="images/person2.webp" alt="" />
   <img class="logo-znk" src="logos/logo-zenika.png" alt="Logo Zenika" />
@@ -25,7 +24,7 @@
     plus fous d'entre nous, il sera possible de faire un marathon de TZ de très
     tôt le matin à très tard dans la nuit
   </p>
-  <p class="around-the-world">&lt;around the world&gt;</p>
+  <p class="around-the-world bottom">&lt;around the world&gt;</p>
 </header>
 
 <style>
@@ -70,14 +69,8 @@
 
   .date {
     font-weight: bold;
+    letter-spacing: 3.67px;
     font-size: 2.5rem;
-    margin: 0;
-  }
-
-  .subtitle {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.25rem;
     margin: 0;
   }
 
@@ -122,9 +115,9 @@
   }
 
   .logo-tz {
-    margin-top: 2rem;
+    margin-top: 1.125rem;
     width: 70%;
-    max-width: 450px;
+    max-width: 470px;
   }
 
   .logo-tz + .date {
@@ -143,7 +136,14 @@
 
   .around-the-world {
     color: var(--red-znk);
-    font-size: 2.5rem;
     margin: 0;
+  }
+
+  .around-the-world.top {
+    font-size: 1.875rem;
+  }
+
+  .around-the-world.bottom {
+    font-size: 2.5rem;
   }
 </style>

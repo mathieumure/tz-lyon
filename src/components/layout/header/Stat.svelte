@@ -28,7 +28,7 @@
     font-weight: bold;
     font-size: 1.875rem;
     line-height: 2rem;
-    margin: 1rem 0 0;
+    margin: .75rem 0 0;
   }
 
   img {
@@ -44,5 +44,6 @@
   .stat-title {
     margin: 0;
     font-size: 1.25rem;
+    line-height:1.25rem;
   }
 </style>
