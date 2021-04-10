@@ -21,7 +21,6 @@
         overflow: hidden;
         border: 0;
         background: none;
-        outline: none;
     }
 
     .chip span {
@@ -50,7 +49,7 @@
         transition: opacity 300ms ease-in-out;
     }
 
-    .chip:hover:after, .chip--selected:after, .chip:focus:after {
+    .chip:hover:after, .chip--selected:after {
         opacity: 1;
     }
 </style>
