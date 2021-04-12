@@ -1,9 +1,5 @@
 <script>
-    export let label, selected, onClick;
-
-    const handleClick = () => {
-        onClick();
-    };
+    export let label, selected;
 </script>
 
 <style>
@@ -44,7 +40,7 @@
 
     .chip:after {
         opacity: 0;
-        background: #ee2238;
+        background: var(--red-znk);
         background: linear-gradient(66deg, #ee2238 0%, #ee2238 50%, #4610df 100%);
         transition: opacity 300ms ease-in-out;
     }
@@ -54,6 +50,6 @@
     }
 </style>
 
-<button class="chip {selected ? 'chip--selected' : ''}" role="button" on:click={handleClick}>
+<button class="chip {selected ? 'chip--selected' : ''}" role="button" on:click>
     <span>{label}</span>
 </button>

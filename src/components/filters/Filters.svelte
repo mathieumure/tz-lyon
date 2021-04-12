@@ -4,15 +4,10 @@
     import { eventStore, filterStore } from '../../stores';
 
     const { categories } = eventStore;
-    let filter;
     let isMobileFilterOpen = false;
 
-    filterStore.subscribe(value => {
-        filter = value;
-    });
-
     const handleFilterChange = (categoryId) => {
-        if (filter === categoryId) {
+        if ($filterStore === categoryId) {
             filterStore.set('');
         } else {
             filterStore.set(categoryId);
@@ -50,8 +45,10 @@
         margin: 16px;
     }
 
-    .filter-icon-wrapper {
+    .filter-icon-button {
         margin-left: 48px;
+        border: none;
+        background: none;
     }
 
     @media only screen and (min-width: 768px) {
@@ -66,15 +63,15 @@
 </style>
 
 <div class="filter-toggle">
-    <Chip label="Filtrer" onClick={toggleMobileFilter} />
-    <div class="filter-icon-wrapper" on:click={toggleMobileFilter}>
+    <Chip label="Filtrer" on:click={toggleMobileFilter} />
+    <button class="filter-icon-button" on:click={toggleMobileFilter}>
         <FilterIcon />
-    </div>
+    </button>
 </div>
 <ul class="filter-list {isMobileFilterOpen ? 'filter-list--open' : ''}">
     {#each $categories as category (category.id)}
         <li class="filter">
-            <Chip label={category.name} onClick={() => handleFilterChange(category.id)} selected={filter === category.id} />
+            <Chip label={category.name} on:click={() => handleFilterChange(category.id)} selected={$filterStore === category.id} />
         </li>
     {/each}
 </ul>
