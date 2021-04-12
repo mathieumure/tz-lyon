@@ -1,15 +1,14 @@
 <style>
 .wrapper_speaker {
-  padding: 0.5rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 p {
-  text-align: center;
-  margin: 0 0.5rem;
-  color: white;
+  margin: .25rem 0 0;
+  font-size: .75rem;
+  line-height: 1rem;
 }
 </style>
 
@@ -21,11 +20,13 @@ export let id;
 
 const { speakers } = eventStore;
 $: speaker = $speakers.find((s) => s.uid === id);
+
+const imageSize = 90;
 </script>
 
-<div class="wrapper_speaker">
+<div class="wrapper_speaker" style={`margin-top: -${imageSize/2}px`}>
   <ImgRounded
-    size="80"
+    size={imageSize}
     src={speaker.photoURL}
     alt={`Photo de ${speaker.displayName}`} />
   <p>{speaker.displayName}</p>

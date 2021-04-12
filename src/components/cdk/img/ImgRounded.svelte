@@ -13,7 +13,9 @@ const defaultImage = "/images/speakers/blob-violet.png";
 </script>
 
 <img
+  class={$$props.class}
   {alt}
   src={src || defaultImage}
+  onerror={`this.src = "${defaultImage}"`}
   style={`height: ${size}px; width: ${size}px;`}
   loading="lazy" />

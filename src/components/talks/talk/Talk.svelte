@@ -5,25 +5,10 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  background-color: var(--z-grey);
+  background-color: var(--dark-grey);
   border-radius: var(--card-border-radius);
   color: white;
-}
-
-.wrapper > * + * {
-  margin-top: 1rem;
-}
-
-header {
-  position: relative;
-  width: 100%;
-  min-height: 150px;
-  height: auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url("/images/full-vert-billy.jpg");
-  background-position: center;
-  background-size: cover;
-  border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
+  padding: 0 1.125rem 1.125rem;
 }
 
 section {
@@ -33,15 +18,13 @@ section {
   justify-content: space-between;
   width: calc(100% - 2rem);
   height: auto;
-  padding: 1rem;
+  margin-top: .5rem;
 }
 
 h3.talk-title {
   color: white;
-}
-
-.abstract {
-  font-size: var(--text-size-xs);
+  font-size: 1.5rem;
+  line-height: 1.75rem;
 }
 
 @media (max-width: 600px) {
@@ -71,7 +54,7 @@ $: abstract140 = `${abstract.slice(0, 140)}${
   </header>
   <section>
     <h3 class="talk-title">{title}</h3>
-    <p class="abstract">{abstract140}</p>
-    <TalkTags categoryId={categories} formatId={formats} {language} {level} />
+    <p class="text-xs">{abstract140}</p>
+    <TalkTags categoryId={categories} {level} />
   </section>
 </article>
