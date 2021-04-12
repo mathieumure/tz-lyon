@@ -13,11 +13,6 @@ li {
   margin: 2rem 1rem;
 }
 
-h2 {
-  color: white;
-  text-align: center;
-}
-
 @media (max-width: 1024px) {
   li {
     width: 45%;
@@ -40,7 +35,6 @@ h2 {
     $: filteredTalks = $talks.filter(talk => !$filterStore || talk.categories === $filterStore);
 </script>
 
-<h2>Le programme</h2>
 <ul>
   {#each filteredTalks as { abstract, categories, formats, id, language, level, speakers, title } (id)}
     <li>

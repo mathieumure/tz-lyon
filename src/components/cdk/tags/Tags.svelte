@@ -1,14 +1,13 @@
 <style>
 ul {
   list-style: none;
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   padding: 0;
 }
 
 li {
   display: flex;
-  margin-top: 0.5rem;
 }
 
 ul > li:not(:last-child) {
