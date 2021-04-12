@@ -7,7 +7,7 @@
 <header>
   <div class="background parallax__layer parallax__layer--deep" />
   <SocialNetworks class="networks" />
-  <p class="around-the-world top">&lt;around the world&gt;</p>
+  <p class="around-the-world">&lt;around the world&gt;</p>
 
   <Drawings />
 
@@ -26,7 +26,6 @@
     plus fous d'entre nous, il sera possible de faire un marathon de TZ de très
     tôt le matin à très tard dans la nuit
   </p>
-  <p class="around-the-world bottom">&lt;around the world&gt;</p>
 </header>
 
 <style>
@@ -103,22 +102,12 @@
     line-height: 1.4em;
     font-size: 1rem;
     margin: 1.5em 1em;
-    order: 1;
   }
 
   .around-the-world {
     color: var(--red-znk);
-    margin: 0;
-  }
-
-  .around-the-world.top {
     font-size: 0.75rem;
-    margin-top: 0.5rem;
-  }
-
-  .around-the-world.bottom {
-    font-size: 1.25rem;
-    margin-top: 1.5em;
+    margin: 0.5rem 0 0;
   }
 
   @media only screen and (min-width: 768px) {
@@ -135,17 +124,10 @@
 
     .event-description {
       font-size: 1.625rem;
-      order: 0;
     }
 
-    .around-the-world.top {
+    .around-the-world {
       font-size: 1.875rem;
-    }
-
-    .around-the-world.bottom {
-      font-size: 2.5rem;
-      margin-top: 0;
-      order: 0;
     }
   }
 </style>
