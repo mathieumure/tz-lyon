@@ -16,9 +16,19 @@
       link: "https://www.facebook.com/ZenikaIT/",
     },
     {
+      name: "LinkedIn",
+      icon: "linkedin.svg",
+      link: "https://www.linkedin.com/company/zenika/",
+    },
+    {
       name: "Instagram",
       icon: "instagram.svg",
       link: "https://www.instagram.com/zenika_it/",
+    },
+    {
+      name: "Twitch",
+      icon: "twitch.svg",
+      link: "https://www.twitch.tv/zenikait",
     },
   ];
 </script>
@@ -48,5 +58,9 @@
 
   a {
     display: inline-block;
+  }
+
+  img {
+    height: 1.5rem;
   }
 </style>
