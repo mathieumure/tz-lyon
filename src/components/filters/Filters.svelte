@@ -24,7 +24,7 @@
         flex-wrap: wrap;
         justify-content: center;
         padding: 0;
-        margin: 8px 16px;
+        margin: .5rem 1rem;
         max-height: 0;
         overflow: hidden;
         transition: max-height 500ms ease-in-out;
@@ -35,14 +35,14 @@
     }
 
     .filter {
-        margin: 8px;
+        margin: .5rem;
     }
 
     .filter-toggle {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 16px;
+        margin: 1rem;
     }
 
     .filter-icon-button {

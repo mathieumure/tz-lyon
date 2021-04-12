@@ -15,7 +15,7 @@
         text-transform: uppercase;
         position: relative;
         overflow: hidden;
-        border: 0;
+        border: none;
         background: none;
     }
 
@@ -42,11 +42,20 @@
         opacity: 0;
         background: var(--red-znk);
         background: linear-gradient(66deg, #ee2238 0%, #ee2238 50%, #4610df 100%);
-        transition: opacity 300ms ease-in-out;
+        transition: opacity 200ms ease-in-out;
     }
 
-    .chip:hover:after, .chip--selected:after {
-        opacity: 1;
+    .chip:hover:after {
+        opacity: .7;
+    }
+
+    .chip--selected:after {
+        opacity: 1 !important;
+    }
+
+    .chip:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px white;
     }
 </style>
 
