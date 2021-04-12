@@ -35,12 +35,14 @@ li {
 </style>
 
 <script>
-    import Talk from "./talk/Talk.svelte";
-    import { eventStore, filterStore } from "../../stores";
+import Talk from "./talk/Talk.svelte";
+import { eventStore, filterStore } from "../../stores";
 
-    const { talks } = eventStore;
+const { talks } = eventStore;
 
-    $: filteredTalks = $talks.filter(talk => !$filterStore || talk.categories === $filterStore);
+$: filteredTalks = $talks.filter(
+  (talk) => !$filterStore || talk.categories === $filterStore
+);
 </script>
 
 <ul>

@@ -19,9 +19,7 @@ const { categories } = eventStore;
 
 $: tags = [$categories.find((c) => c.id === categoryId).name, level];
 
-const formatShort = format.includes("Workshop")
-  ? "workshop"
-  : "talk";
+const formatShort = format.includes("Workshop") ? "workshop" : "talk";
 </script>
 
 <div class="tags">
