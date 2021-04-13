@@ -24,6 +24,7 @@ section {
 h3.talk-title {
   color: white;
   font-size: 1.5rem;
+  font-weight: bold;
   line-height: 1.75rem;
   margin-top: .25rem;
 }
@@ -57,7 +58,7 @@ const format = $storeFormats.find((f) => f.id === formats).name;
 
 <article class="wrapper">
   <header>
-    <TalkSpeakers {speakers} />
+    <TalkSpeakers speakersIds={speakers} />
   </header>
   <section>
     <h3 class="talk-title">{title}</h3>
