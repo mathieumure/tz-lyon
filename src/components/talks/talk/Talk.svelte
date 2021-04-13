@@ -41,16 +41,21 @@ import TalkTags from "./tags/TalkTags.svelte";
 import TalkSpeakers from "./speakers/TalkSpeakers.svelte";
 import TalkMeta from "./meta/TalkMeta.svelte";
 import { eventStore } from "../../../stores";
+import snarkdown from 'snarkdown';
 
 export let abstract, categories, formats, language, level, speakers, title;
 
 const { formats: storeFormats } = eventStore;
 
+const format = $storeFormats.find((f) => f.id === formats).name;
+
 // @todo add short abstract to json ?
 $: abstract140 = `${abstract.slice(0, 140)}${
   abstract.length > 140 ? "..." : ""
 }`;
-const format = $storeFormats.find((f) => f.id === formats).name;
+
+// snarkdown generates empty links for, e.g., "[EN]"
+$: abstractHtml = snarkdown(abstract140).replace(/<a href="undefined">(.*?)<\/a>/, "[$1]");
 </script>
 
 <article class="wrapper">
@@ -59,7 +64,7 @@ const format = $storeFormats.find((f) => f.id === formats).name;
   </header>
   <section>
     <h3 class="talk-title">{title}</h3>
-    <p class="text-xs">{abstract140}</p>
+    <p class="text-xs">{@html abstractHtml}</p>
   </section>
   <footer>
     <TalkTags categoryId={categories} {level} {format} />
