@@ -26,14 +26,12 @@ h3.talk-title {
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 1.75rem;
-  margin-top: .25rem;
+  margin-top: 0.25rem;
 }
 
 @media (max-width: 600px) {
   .wrapper {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
 }
 </style>
@@ -43,7 +41,6 @@ import TalkTags from "./tags/TalkTags.svelte";
 import TalkSpeakers from "./speakers/TalkSpeakers.svelte";
 import TalkMeta from "./meta/TalkMeta.svelte";
 import { eventStore } from "../../../stores";
-
 
 export let abstract, categories, formats, language, level, speakers, title;
 

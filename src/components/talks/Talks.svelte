@@ -4,24 +4,32 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0;
+  padding: 0 1rem;
+  box-sizing: border-box;
   margin: 0;
 }
 
 li {
-  width: 30%;
-  margin: 2rem 1rem;
+  width: calc((100vw - 5 * 2rem) / 4);
+  margin: 2.25rem 1rem;
+}
+
+@media (max-width: 1800px) {
+  li {
+    width: calc((100vw - 4 * 2rem) / 3);
+  }
 }
 
 @media (max-width: 1024px) {
   li {
-    width: 45%;
+    width: calc((100vw - 3 * 2rem) / 2);
   }
 }
 
 @media (max-width: 768px) {
   li {
-    width: 90%;
+    width: 100%;
+    margin: 2.25rem 0;
   }
 }
 </style>

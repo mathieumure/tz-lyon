@@ -8,16 +8,7 @@ ul {
 
 li {
   display: flex;
-}
-
-ul > li:not(:last-child) {
-  margin-right: 0.5rem;
-}
-
-@media (max-width: 768px) {
-  ul {
-    justify-content: center;
-  }
+  margin: 0.25rem;
 }
 </style>
 

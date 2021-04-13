@@ -5,11 +5,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 li {
-  margin-right: .5rem;
+  margin-right: 0.75rem;
 }
 </style>
 
@@ -21,10 +20,11 @@ export let speakersIds = [];
 
 const { speakers: speakersStore } = eventStore;
 
-const speakers = speakersIds.map(id => $speakersStore.find((s) => s.uid === id));
+const speakers = speakersIds.map((id) =>
+  $speakersStore.find((s) => s.uid === id)
+);
 
-const containsLongName = speakers.some(s => s.displayName.length >= 20)
-const displayVertical = speakers.length > 2 || containsLongName;
+const displayVertical = speakers.length > 2;
 const displayTight = speakers.length > 3;
 </script>
 

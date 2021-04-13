@@ -2,10 +2,22 @@
 .speaker {
   display: flex;
   align-items: center;
+  --img-size: 90px;
+  margin-top: calc(-1 * var(--img-size) / 2);
+}
+
+img {
+  width: var(--img-size);
+  height: var(--img-size);
+  border-radius: 50%;
+}
+
+.speaker-tight {
+  margin-right: calc(-1 * var(--img-size) / 3);
 }
 
 p {
-  margin: 0 1rem 1rem 0.5rem;
+  margin: 0 0 0.75rem 0.5rem;
   align-self: flex-end;
   font-size: 0.75rem;
   line-height: 1rem;
@@ -18,32 +30,48 @@ p {
 .speaker-vertical p {
   margin: 0.25rem 0 0;
   align-self: center;
+  text-align: center;
 }
 
+@media (max-width: 1280px) {
+  .speaker-tight img {
+    --img-size: 72px;
+  }
+
+  .speaker-tight p {
+    font-size: 0.625rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .speaker {
+    flex-direction: column;
+  }
+  .speaker p {
+    margin: 0.25rem 0 0;
+    align-self: center;
+    text-align: center;
+  }
+}
 </style>
 
 <script>
-import ImgRounded from "../img/ImgRounded.svelte";
-
 export let speaker, displayVertical, displayTight;
 
 const [firstName, lastName] = speaker.displayName.split(" ");
-const displayNameShort = `${firstName} ${lastName[0]}`
+const displayNameShort = `${firstName} ${lastName[0]}`;
 
-const imageSize = 90;
-let style = `margin-top: -${imageSize / 2}px`
-if (displayTight) {
-  style += `; margin-right: -${imageSize / 3}px`;
-}
+const defaultImage = "/images/speakers/blob-violet.png";
 </script>
 
 <div
   class="speaker"
   class:speaker-vertical={displayVertical}
-  {style}>
-  <ImgRounded
-    size={imageSize}
+  class:speaker-tight={displayTight}>
+  <img
     src={speaker.photoURL}
-    alt={`Photo de ${speaker.displayName}`} />
+    onerror={`this.src = "${defaultImage}"`}
+    alt={`Photo de ${speaker.displayName}`}
+    loading="lazy" />
   <p>{displayTight ? displayNameShort : speaker.displayName}</p>
 </div>
