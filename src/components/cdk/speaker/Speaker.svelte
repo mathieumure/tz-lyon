@@ -9,6 +9,7 @@ p {
   margin: .25rem 0 0;
   font-size: .75rem;
   line-height: 1rem;
+  opacity: .8;
 }
 </style>
 

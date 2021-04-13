@@ -18,7 +18,7 @@
 
 <ul class="stats">
   <li class="stat">
-    <Stat count={$talks.length} picto="talk.svg" title="Talks" />
+    <Stat count={$talks.length} picto="talks.svg" title="Talks" />
   </li>
   <li class="stat">
     <Stat count={$workshopsCount} picto="workshops.svg" title="Workshops" />

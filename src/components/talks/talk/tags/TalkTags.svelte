@@ -13,23 +13,23 @@ img {
 import Tags from "../../../cdk/tags/Tags.svelte";
 import { eventStore } from "../../../../stores";
 
-export let categoryId, formatId, level;
+export let categoryId, format, level;
 
-const { categories, formats } = eventStore;
+const { categories } = eventStore;
 
 $: tags = [$categories.find((c) => c.id === categoryId).name, level];
 
-const format = $formats.find((f) => f.id === formatId).name.includes("Workshop")
+const formatShort = format.includes("Workshop")
   ? "workshop"
   : "talk";
 </script>
 
 <div class="tags">
   <img
-    src="/pictos/{format}.svg"
-    title={format}
+    src="/pictos/{formatShort}.svg"
+    title={formatShort}
     width="50px"
     height="50px"
-    alt="Logo {format}" />
+    alt="Logo {formatShort}" />
   <Tags {tags} />
 </div>
