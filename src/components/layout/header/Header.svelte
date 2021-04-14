@@ -38,6 +38,7 @@
   header {
     position: relative;
     transform-style: preserve-3d;
+    background: linear-gradient(transparent 80%, black 100%);
   }
 
   .parallax__layer {
@@ -54,9 +55,8 @@
   }
 
   .background {
-    background: center url("/images/billy-huynh-W8KTS-mhFUE-unsplash.webp");
-    background-blend-mode: screen;
-    background-position-y: -223px;
+    background: center url("/images/background-stars.jpg");
+    background-size: cover;
   }
 
   header {
