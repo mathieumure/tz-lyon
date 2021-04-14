@@ -44,10 +44,12 @@ p {
 }
 
 @media (max-width: 767px) {
-  .speaker {
+  /* on phone screens, display vertically all speakers
+  except when there is only one (both first and last child) */
+  :global(.speaker:not(li:first-child:last-child .speaker)) {
     flex-direction: column;
   }
-  .speaker p {
+  :global(.speaker:not(li:first-child:last-child .speaker) p) {
     margin: 0.25rem 0 0;
     align-self: center;
     text-align: center;
