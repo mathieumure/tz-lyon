@@ -1,5 +1,5 @@
 <img class="drawing-laurent" src="images/drawing-laurent.png" alt="" />
-<img class="drawing-carl" src="images/drawing-carl.webp" alt="" />
+<img class="drawing-carl" src="images/drawing-carl.png" alt="" />
 
 <style>
   .drawing-laurent,
