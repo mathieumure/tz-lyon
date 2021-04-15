@@ -105,7 +105,7 @@
   }
 
   .around-the-world {
-    color: var(--red-znk);
+    color: var(--z-red);
     font-size: 0.75rem;
     margin: 0.5rem 0 0;
   }

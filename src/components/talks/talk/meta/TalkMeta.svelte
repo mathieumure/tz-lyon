@@ -11,15 +11,16 @@
   align-items: center;
   background: white;
   padding: 0.375rem 0.75rem;
+  margin-right: 1rem;
 }
 
 .talk-time > img {
-    margin-right: .25rem;
+  margin-right: 0.25rem;
 }
 
 .talk-duration__value,
 .talk-duration__label {
-  color: var(--red-znk);
+  color: var(--z-red);
 }
 
 .talk-duration__value {
@@ -32,13 +33,11 @@
 .talk-duration__label {
   margin-left: 0.125rem;
 }
-
-.talk-language {
-  margin-left: 1rem;
-}
 </style>
 
 <script>
+import TalkLang from "./TalkLang.svelte";
+
 export let language, format;
 
 const formatContainsFrenchFlag = /\uD83C\uDDEB\uD83C\uDDF7/.test(format); // regexp for 🇫🇷
@@ -61,9 +60,7 @@ const [_, hour, minutes] = /(\d{1})?h?(\d{2})\s?[min]?/.exec(format);
       <span class="talk-duration__label">min</span>
     {/if}
   </div>
-  <img
-    class="talk-language"
-    src="/pictos/lang-{lang}.svg"
-    alt="Pictogramme langue {lang}"
+  <TalkLang
+    {lang}
     title="{formatShort} donné en {lang === 'fr' ? 'Français' : 'Anglais'}" />
 </div>
