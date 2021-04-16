@@ -48,7 +48,7 @@ const formatShort = format.includes("Workshop") ? "workshop" : "talk";
 const [_, hour, minutes] = /(\d{1})?h?(\d{2})\s?[min]?/.exec(format);
 </script>
 
-<div class="talk-meta">
+<section class="talk-meta">
   <div class="talk-time">
     <img src="/pictos/clock.svg" alt="" />
     {#if hour > 0}
@@ -63,4 +63,4 @@ const [_, hour, minutes] = /(\d{1})?h?(\d{2})\s?[min]?/.exec(format);
   <TalkLang
     {lang}
     title="{formatShort} donné en {lang === 'fr' ? 'Français' : 'Anglais'}" />
-</div>
+</section>
