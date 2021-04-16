@@ -1,6 +1,5 @@
 <script>
     import Chip from './Chip.svelte';
-    import FilterIcon from './FilterIcon.svelte';
     import { eventStore, filterStore } from '../../stores';
 
     const { categories } = eventStore;
