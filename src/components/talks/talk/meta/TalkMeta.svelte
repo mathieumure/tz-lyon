@@ -15,6 +15,8 @@
 }
 
 .talk-time > img {
+  height: 15px;
+  width: 15px;
   margin-right: 0.25rem;
 }
 
