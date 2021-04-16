@@ -14,6 +14,7 @@
         background-clip: content-box;
         box-sizing: border-box;
         font-size: .625rem;
+        line-height: .625rem;
     }
 
     .talk-lang-fr {

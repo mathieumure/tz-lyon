@@ -24,7 +24,7 @@
         flex-wrap: wrap;
         justify-content: center;
         padding: 0;
-        margin: .5rem 1rem;
+        margin: 0 1rem 5rem;
         max-height: 0;
         overflow: hidden;
         transition: max-height 500ms ease-in-out;
@@ -45,12 +45,6 @@
         margin: 1rem;
     }
 
-    .filter-icon-button {
-        margin-left: 48px;
-        border: none;
-        background: none;
-    }
-
     @media only screen and (min-width: 768px) {
        .filter-list {
             max-height: 100vh;
@@ -64,9 +58,6 @@
 
 <div class="filter-toggle">
     <Chip label="Filtrer" on:click={toggleMobileFilter} />
-    <button class="filter-icon-button" on:click={toggleMobileFilter}>
-        <FilterIcon />
-    </button>
 </div>
 <ul class="filter-list {isMobileFilterOpen ? 'filter-list--open' : ''}">
     {#each $categories as category (category.id)}

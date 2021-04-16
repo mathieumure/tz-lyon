@@ -4,7 +4,7 @@ main {
   background-color: var(--z-black);
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 5em 0;
+  padding: 3em 0;
 }
 
 @media (max-width: 1200px) {
