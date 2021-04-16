@@ -37,7 +37,7 @@
   {#each networks as network}
     <li>
       <a href={network.link}>
-        <img src="logos/networks/{network.icon}" alt="Logo {network.name}" />
+        <img src="logos/networks/{network.icon}" alt="" />
       </a>
     </li>
   {/each}

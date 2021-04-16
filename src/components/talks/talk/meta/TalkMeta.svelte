@@ -50,7 +50,7 @@ const [_, hour, minutes] = /(\d{1})?h?(\d{2})\s?[min]?/.exec(format);
 
 <div class="talk-meta">
   <div class="talk-time">
-    <img src="/pictos/clock.svg" alt="Pictogramme horloge" />
+    <img src="/pictos/clock.svg" alt="" />
     {#if hour > 0}
       <span class="talk-duration__value">{hour}</span>
       <span class="talk-duration__label">h</span>
