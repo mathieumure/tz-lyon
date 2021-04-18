@@ -16,9 +16,14 @@ main {
 
 <script>
 import Header from "../components/layout/header/Header.svelte";
+import TalkModal from '../components/talkModal/TalkModal.svelte'
+import { selectedTalkStore } from "../stores";
 </script>
 
 <Header />
+{#if $selectedTalkStore}
+  <TalkModal />
+{/if}
 <main>
   <slot />
 </main>

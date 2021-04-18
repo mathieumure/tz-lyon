@@ -40,10 +40,10 @@ h2.talk-title {
 import TalkTags from "./tags/TalkTags.svelte";
 import TalkSpeakers from "./speakers/TalkSpeakers.svelte";
 import TalkMeta from "./meta/TalkMeta.svelte";
-import { eventStore } from "../../../stores";
+import { eventStore, selectedTalkStore } from "../../../stores";
 import snarkdown from "snarkdown";
 
-export let abstract, categories, formats, language, level, speakers, title;
+export let abstract, categories, formats, id, isShortAbstract, language, level, speakers, title;
 
 const { formats: storeFormats } = eventStore;
 
@@ -59,6 +59,8 @@ $: abstractHtml = snarkdown(abstract140).replace(
   /<a href="undefined">(.*?)<\/a>/,
   "[$1]"
 );
+
+const handleDetailButtonClick = () => selectedTalkStore.set(id);
 </script>
 
 <article class="wrapper">
@@ -67,10 +69,11 @@ $: abstractHtml = snarkdown(abstract140).replace(
   </header>
   <section>
     <h2 class="talk-title">{title}</h2>
-    <p class="text-xs">{@html abstractHtml}</p>
+    <p class="text-xs">{@html isShortAbstract ? abstractHtml : abstract}</p>
   </section>
   <footer>
     <TalkTags categoryId={categories} {level} {format} />
     <TalkMeta {language} {format} />
+    <button on:click={handleDetailButtonClick}>details</button>
   </footer>
 </article>

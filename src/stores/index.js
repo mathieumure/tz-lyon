@@ -11,6 +11,8 @@ const { subscribe: subscribeSpeakers, update: updateSpeakers } = writable([]);
 
 const filterStore = writable('');
 
+const selectedTalkStore = writable('');
+
 const eventStore = {
   categories: {
     subscribe: subscribeCategories,
@@ -32,4 +34,4 @@ const eventStore = {
   },
 };
 
-export { eventStore, filterStore };
+export { eventStore, filterStore, selectedTalkStore };

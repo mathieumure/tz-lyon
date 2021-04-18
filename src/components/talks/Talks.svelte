@@ -52,10 +52,12 @@ $: filteredTalks = $talks.filter(
         {abstract}
         {categories}
         {formats}
+        {id}
         {language}
         {level}
         {speakers}
-        {title} />
+        {title}
+      />
     </li>
   {:else}
     <p>Il n'y a aucun talk dans cette catégorie.</p>
