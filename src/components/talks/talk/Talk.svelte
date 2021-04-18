@@ -43,7 +43,7 @@ import TalkMeta from "./meta/TalkMeta.svelte";
 import { eventStore, selectedTalkStore } from "../../../stores";
 import snarkdown from "snarkdown";
 
-export let abstract, categories, formats, id, isShortAbstract, language, level, speakers, title;
+export let abstract, categories, formats, hideDetailsButton, id, isShortAbstract, language, level, speakers, title;
 
 const { formats: storeFormats } = eventStore;
 
@@ -74,6 +74,8 @@ const handleDetailButtonClick = () => selectedTalkStore.set(id);
   <footer>
     <TalkTags categoryId={categories} {level} {format} />
     <TalkMeta {language} {format} />
-    <button on:click={handleDetailButtonClick}>details</button>
+    {#if !hideDetailsButton}
+      <button on:click={handleDetailButtonClick}>details</button>
+    {/if}
   </footer>
 </article>

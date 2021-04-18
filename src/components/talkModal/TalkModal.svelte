@@ -43,6 +43,17 @@
 <div class="talk-modal">
     <div class="backdrop" on:click={handleBackdropClick}></div>
     <div class="talk-wrapper">
-        <Talk isShortAbstract={false} {abstract} {categories} {formats} {id} {language} {level} {speakers} {title} />
+        <Talk
+            hideDetailsButton
+            isShortAbstract={false}
+            {abstract}
+            {categories}
+            {formats}
+            {id}
+            {language}
+            {level}
+            {speakers}
+            {title}
+        />
     </div>
 </div>
