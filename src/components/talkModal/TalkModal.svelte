@@ -45,7 +45,7 @@
     <div class="talk-wrapper">
         <Talk
             hideDetailsButton
-            isShortAbstract={false}
+            displayFullAbstract
             {abstract}
             {categories}
             {formats}

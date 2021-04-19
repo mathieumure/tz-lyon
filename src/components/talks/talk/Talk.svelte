@@ -55,7 +55,7 @@ import DetailsButton from "./detailsButton/detailsButton.svelte"
 import { eventStore, selectedTalkStore } from "../../../stores";
 import snarkdown from "snarkdown";
 
-export let abstract, categories, formats, hideDetailsButton, id, isShortAbstract, language, level, speakers, title;
+export let abstract, categories, displayFullAbstract, formats, hideDetailsButton, id, language, level, speakers, title;
 
 const { formats: storeFormats } = eventStore;
 
@@ -81,7 +81,7 @@ const handleDetailButtonClick = () => selectedTalkStore.set(id);
   </header>
   <section>
     <h2 class="talk-title">{title}</h2>
-    <p class="text-xs">{@html isShortAbstract ? abstractHtml : abstract}</p>
+    <p class="text-xs">{@html displayFullAbstract ? abstract : abstractHtml}</p>
   </section>
   <footer>
     <TalkTags categoryId={categories} {level} {format} />
