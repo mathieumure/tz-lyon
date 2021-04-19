@@ -22,7 +22,7 @@
 
 .talk-duration__value,
 .talk-duration__label {
-  color: var(--z-red);
+  color: var(--z-red-dark);
 }
 
 .talk-duration__value {
