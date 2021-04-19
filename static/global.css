@@ -1,5 +1,5 @@
 :root {
-  --dark-grey: #0F0E0E;
+  --dark-grey: #0f0e0e;
   --z-black: #010006;
   --z-grey: #292929;
   --z-blue: #414bb2;
@@ -46,15 +46,16 @@ h6 {
 }
 
 h1 {
-  font-size: var(--text-size-xxl);
+  text-align: center;
+  font-size: var(--text-size-xl);
 }
 
 h2 {
-  font-size: var(--text-size-l);
+  font-size: var(--text-size-m);
 }
 
 h3 {
-  font-size: var(--text-size-m);
+  font-size: var(--text-size-s);
 }
 
 p {
@@ -62,7 +63,7 @@ p {
 }
 
 .text-xs {
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.125rem;
   margin: 0;
 }

@@ -41,7 +41,7 @@ import TalkTags from "./tags/TalkTags.svelte";
 import TalkSpeakers from "./speakers/TalkSpeakers.svelte";
 import TalkMeta from "./meta/TalkMeta.svelte";
 import { eventStore } from "../../../stores";
-import snarkdown from 'snarkdown';
+import snarkdown from "snarkdown";
 
 export let abstract, categories, formats, language, level, speakers, title;
 
@@ -55,7 +55,10 @@ $: abstract140 = `${abstract.slice(0, 140)}${
 }`;
 
 // snarkdown generates empty links for, e.g., "[EN]"
-$: abstractHtml = snarkdown(abstract140).replace(/<a href="undefined">(.*?)<\/a>/, "[$1]");
+$: abstractHtml = snarkdown(abstract140).replace(
+  /<a href="undefined">(.*?)<\/a>/,
+  "[$1]"
+);
 </script>
 
 <article class="wrapper">
@@ -63,7 +66,7 @@ $: abstractHtml = snarkdown(abstract140).replace(/<a href="undefined">(.*?)<\/a>
     <TalkSpeakers speakersIds={speakers} />
   </header>
   <section>
-    <h3 class="talk-title">{title}</h3>
+    <h2 class="talk-title">{title}</h2>
     <p class="text-xs">{@html abstractHtml}</p>
   </section>
   <footer>
