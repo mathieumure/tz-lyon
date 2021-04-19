@@ -122,8 +122,8 @@ import Stats from "./Stats.svelte";
 
   <Drawings />
 
-  <img class="logo-znk" src="logos/logo-zenika.png" alt="Logo Zenika" />
-  <img class="logo-tz" src="logos/technozaure.svg" alt="Logo Technozaure" />
+  <img class="logo-znk" src="logos/logo-zenika.png" alt="Zenika" />
+  <img class="logo-tz" src="logos/technozaure.svg" alt="Technozaure" />
   <p class="date">23/04/2021</p>
 
   <Stats />
