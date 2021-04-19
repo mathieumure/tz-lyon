@@ -50,14 +50,14 @@ header :global(.networks) {
 }
 
 .logo-znk {
-  width: 40%;
-  max-width: 345px;
+  width: 250px;
+  height: 243px;
 }
 
 .logo-tz {
   margin-top: 2rem;
-  width: 70%;
-  max-width: 470px;
+  width: 300px;
+  height: 50px;
 }
 
 .logo-tz + .date {
@@ -88,8 +88,15 @@ header :global(.networks) {
     margin: 12px;
   }
 
+  .logo-znk {
+    width: 345px;
+    height: 336px;
+  }
+
   .logo-tz {
     margin-top: 1.125rem;
+    width: 470px;
+    height: 78px;
   }
 
   .event-description {
