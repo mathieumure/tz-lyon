@@ -10,19 +10,19 @@ ul {
 }
 
 li {
-  width: calc((100vw - 5 * 2rem) / 4);
+  width: 23%;
   margin: 2.25rem 1rem;
 }
 
 @media (max-width: 1800px) {
   li {
-    width: calc((100vw - 4 * 2rem) / 3);
+    width: 30%;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   li {
-    width: calc((100vw - 3 * 2rem) / 2);
+    width: 45%;
   }
 }
 
