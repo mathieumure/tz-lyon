@@ -40,7 +40,7 @@
 
     .chip:after {
         opacity: 0;
-        background: var(--red-znk);
+        background: var(--z-red);
         background: linear-gradient(66deg, #ee2238 0%, #ee2238 50%, #4610df 100%);
         transition: opacity 200ms ease-in-out;
     }

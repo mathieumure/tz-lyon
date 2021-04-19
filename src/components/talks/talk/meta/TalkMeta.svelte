@@ -2,7 +2,6 @@
 .talk-meta {
   display: flex;
   align-items: center;
-  margin-top: 0.5rem;
 }
 
 .talk-time {

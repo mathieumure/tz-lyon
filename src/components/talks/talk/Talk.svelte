@@ -29,6 +29,17 @@ h2.talk-title {
   margin-top: 0.25rem;
 }
 
+footer {
+  width: 100%;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
 @media (max-width: 600px) {
   .wrapper {
     flex-direction: column;
@@ -40,6 +51,7 @@ h2.talk-title {
 import TalkTags from "./tags/TalkTags.svelte";
 import TalkSpeakers from "./speakers/TalkSpeakers.svelte";
 import TalkMeta from "./meta/TalkMeta.svelte";
+import DetailsButton from "./detailsButton/detailsButton.svelte"
 import { eventStore, selectedTalkStore } from "../../../stores";
 import snarkdown from "snarkdown";
 
@@ -73,9 +85,11 @@ const handleDetailButtonClick = () => selectedTalkStore.set(id);
   </section>
   <footer>
     <TalkTags categoryId={categories} {level} {format} />
-    <TalkMeta {language} {format} />
-    {#if !hideDetailsButton}
-      <button on:click={handleDetailButtonClick}>details</button>
-    {/if}
+    <div class="footer-bottom">
+      <TalkMeta {language} {format} />
+      {#if !hideDetailsButton}
+        <DetailsButton on:click={handleDetailButtonClick} />
+      {/if}
+    </div>
   </footer>
 </article>
