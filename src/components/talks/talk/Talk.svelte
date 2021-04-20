@@ -21,7 +21,7 @@ section {
   margin-top: 0.5rem;
 }
 
-h3.talk-title {
+h2.talk-title {
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
