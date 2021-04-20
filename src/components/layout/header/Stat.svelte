@@ -53,7 +53,7 @@ onMount(() => {
 </script>
 
 <div>
-  <img src={`pictos/${picto}`} alt={`picto - ${title}`} />
+  <img src={`pictos/${picto}`} alt="" />
   <p class="stat-count">{Math.floor($tweenedCount)}</p>
   <p class="stat-title">{title}</p>
 </div>
