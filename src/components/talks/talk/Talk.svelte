@@ -40,6 +40,20 @@ footer {
   margin-top: 0.5rem;
 }
 
+.hours-section {
+  margin: 1rem 0;
+}
+
+.video-link {
+  display: flex;
+  margin: 0 auto 0 1rem;
+}
+
+img.yt-icon {
+  height: 42px;
+  width: 42px;
+}
+
 @media (max-width: 600px) {
   .wrapper {
     flex-direction: column;
@@ -49,15 +63,36 @@ footer {
 
 <script>
 import TalkTags from "./tags/TalkTags.svelte";
+import Tags from "../../cdk/tags/Tags.svelte";
 import TalkSpeakers from "./speakers/TalkSpeakers.svelte";
 import TalkMeta from "./meta/TalkMeta.svelte";
-import DetailsButton from "./detailsButton/detailsButton.svelte"
+import DetailsButton from "./detailsButton/detailsButton.svelte";
 import { eventStore, selectedTalkStore } from "../../../stores";
 import snarkdown from "snarkdown";
 
-export let abstract, categories, displayFullAbstract, formats, hideDetailsButton, id, language, level, speakers, title;
+export let abstract,
+  categories,
+  displayFullAbstract,
+  formats,
+  hideDetailsButton,
+  id,
+  language,
+  level,
+  speakers,
+  title,
+  showHours,
+  showVideoLink,
+  videoConfLink,
+  startTimeCa,
+  startTimeSg,
+  startTimeFr;
 
 const { formats: storeFormats } = eventStore;
+const hours = [
+  `Singapour : ${startTimeSg}`,
+  `France : ${startTimeFr}`,
+  `Montréal : ${startTimeCa}`,
+];
 
 const format = $storeFormats.find((f) => f.id === formats).name;
 
@@ -85,8 +120,22 @@ const handleDetailButtonClick = () => selectedTalkStore.set(id);
   </section>
   <footer>
     <TalkTags categoryId={categories} {level} {format} />
+    {#if showHours}
+      <section class="hours-section">
+        <h3>Heures de passage</h3>
+        <Tags tags={hours} />
+      </section>
+    {/if}
     <div class="footer-bottom">
       <TalkMeta {language} {format} />
+      {#if showVideoLink}
+        <a
+          class="video-link"
+          href={videoConfLink}
+          aria-label="Lien vers la présentation sur YouTube">
+          <img class="yt-icon" src="logos/networks/youtube.svg" alt="YouTube" />
+        </a>
+      {/if}
       {#if !hideDetailsButton}
         <DetailsButton on:click={handleDetailButtonClick} />
       {/if}

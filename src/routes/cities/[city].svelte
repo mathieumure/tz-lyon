@@ -28,4 +28,4 @@ setEvent(event);
 
 <h1>Le programme à {city}</h1>
 <Filters />
-<Talks />
+<Talks showHours={true} showVideoLink={true} />

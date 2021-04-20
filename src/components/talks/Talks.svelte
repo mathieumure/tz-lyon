@@ -38,6 +38,9 @@ li {
 import Talk from "./talk/Talk.svelte";
 import { eventStore, filterStore } from "../../stores";
 
+export let showHours = false,
+  showVideoLink = false;
+
 const { talks } = eventStore;
 
 $: filteredTalks = $talks.filter(
@@ -46,7 +49,7 @@ $: filteredTalks = $talks.filter(
 </script>
 
 <ul>
-  {#each filteredTalks as { abstract, categories, formats, id, language, level, speakers, title } (id)}
+  {#each filteredTalks as { abstract, categories, formats, id, language, level, speakers, title, startTimeCa, startTimeSg, startTimeFr, videoConfLink } (id)}
     <li>
       <Talk
         {abstract}
@@ -57,7 +60,12 @@ $: filteredTalks = $talks.filter(
         {level}
         {speakers}
         {title}
-      />
+        {startTimeCa}
+        {startTimeSg}
+        {startTimeFr}
+        {videoConfLink}
+        {showHours}
+        {showVideoLink} />
     </li>
   {:else}
     <p>Il n'y a aucun talk dans cette catégorie.</p>
