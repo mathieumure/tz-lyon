@@ -51,7 +51,7 @@ const [_, hour, minutes] = /(\d{1})?h?(\d{2})\s?[min]?/.exec(format);
 </script>
 
 <section class="talk-meta">
-  <div class="talk-time">
+  <div class="talk-time" aria-label="Durée">
     <img src="/pictos/clock.svg" alt="" />
     {#if hour > 0}
       <span class="talk-duration__value">{hour}</span>

@@ -60,7 +60,7 @@ const networks = [
   {#each networks as network}
     <li>
       <a href={network.link} aria-label={network.name}>
-        <img src="logos/networks/{network.icon}" alt="" />
+        <img src="logos/networks/{network.icon}" alt={network.name} />
       </a>
     </li>
   {/each}
