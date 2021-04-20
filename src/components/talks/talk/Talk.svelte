@@ -132,6 +132,7 @@ const handleDetailButtonClick = () => selectedTalkStore.set(id);
         <a
           class="video-link"
           href={videoConfLink}
+          target="_blank"
           aria-label="Lien vers la présentation sur YouTube">
           <img class="yt-icon" src="logos/networks/youtube.svg" alt="YouTube" />
         </a>
