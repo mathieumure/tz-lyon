@@ -11,12 +11,18 @@ button {
 
 button:focus {
   border: 1px solid #ffffff;
-    outline: none;
+  outline: none;
 }
 
 button:before {
-  content: '';
-  background: transparent linear-gradient(51deg, #ee2238 0%, #ee2238 30%, #4610df 100%);
+  content: "";
+  background: transparent
+    linear-gradient(
+      51deg,
+      var(--z-red) 0%,
+      var(--z-red) 30%,
+      var(--z-blue) 100%
+    );
   opacity: 0;
   transition: opacity 200ms ease-in-out;
   position: absolute;
@@ -52,20 +58,21 @@ button:hover .arrow-white {
   left: 0;
 }
 
-.arrow, .arrow-white {
+.arrow,
+.arrow-white {
   transition: opacity 200ms ease-in-out;
 }
 </style>
 
 <script>
-    import Arrow from "./arrow.svelte"
+import Arrow from "./arrow.svelte";
 </script>
 
 <button on:click aria-label="Détails">
-    <span class="arrow">
-      <Arrow />
-    </span>
-    <span class="arrow-white">
-      <Arrow color="#ffffff"/>
-    </span>
+  <span class="arrow">
+    <Arrow />
+  </span>
+  <span class="arrow-white">
+    <Arrow color="#ffffff" />
+  </span>
 </button>
