@@ -60,6 +60,14 @@
       "id": "830659bb-a37c-532d-b9d9-e1692e9f98e4"
     },
     {
+      "name": "Talk 🇫🇷 (50min)",
+      "id": "custom-id-talk-50min-fr"
+    },
+    {
+      "name": "Talk 🇬🇧 (50min)",
+      "id": "custom-id-talk-50min-en"
+    },
+    {
       "id": "ab1ee950-f584-5115-bd20-a45a10f744a4",
       "name": " Workshop 🇬🇧 (50min)"
     },
@@ -100,10 +108,8 @@
       "level": "beginner",
       "abstract": "C'est l'histoire d'une API REST Quarkus impérative qui voulais devenir réactive.\nJe vous conterais, pas par pas, le passage d'un code impératif à réactif sur les couches base de données (MongoDB) puis REST (RESTeasy).\nVenez découvrir comment, grâce à ses API unifiée, Quarkus facilite le passage d'un monde impératif à réactif.",
       "categories": "09d4801b-e7ac-5090-af8d-4a99ac175959",
-      "formats": "830659bb-a37c-532d-b9d9-e1692e9f98e4",
-      "speakers": [
-        "c78qkEcCDhYjS3kuIBkLmsDjX5C2"
-      ],
+      "formats": "custom-id-talk-50min-fr",
+      "speakers": ["c78qkEcCDhYjS3kuIBkLmsDjX5C2"],
       "comments": null,
       "language": "French",
       "createTimestamp": {
@@ -119,9 +125,7 @@
       "abstract": "Je n'ai jamais rencontré de développeur ou développeuse m'affirmer adorer le CSS. \n\"Mais comment on peut aimer ça ? Je change un petit truc et ça casse toute ma mise en page !!\", \"De toute façon, le design c'est pas pour moi ...\".\nAlors oui, le CSS c'est dur. Et non, le CSS ce n'est pas uniquement du design.\n\nSi vous êtes amenés à construire des interfaces web, vous devrez faire du CSS un jour ou l'autre.\nDu coup, le but de ce talk est de rendre ce langage moins pénible pour vous, voir même de vous le faire aimer ! Si, si j'ose !",
       "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "2lIPoMcCvzSpwFWRNWq2kumudhz2"
-      ],
+      "speakers": ["2lIPoMcCvzSpwFWRNWq2kumudhz2"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1614955143,
@@ -136,9 +140,7 @@
       "abstract": "Alors comme ça,\n * Vous êtes développeur Java et pour vous le front c'est trop compliqué ?\n * C'est nul parce que c'est pas typé ?\n * C'est pas propre parce que Sonar n'est pas aussi bien fait pour le JavaScript que pour le Java ?\n * Les tests avec le front c'est juste une allégorie ?\n\nSi vous pensez comme ça, c'est que vous ne connaissez pas tous les outils qui ont été développés et qui existent afin de rendre le front beaucoup plus robuste !\n\nA l'issu de cette présentation, Prettier, Eslint, Stylelint, Storybook, Cypress, Jest (et un peu TypeScript) n'auront plus de secret pour que vous puissiez aborder le développement front avec sérénité.\n\nSi avec ça vous ne décidez pas de devenir dev front... 😉",
       "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "eBooUZ7QZPeiZc86JEWqM49zg5d2"
-      ],
+      "speakers": ["eBooUZ7QZPeiZc86JEWqM49zg5d2"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1615451863,
@@ -153,9 +155,7 @@
       "abstract": "Beaucoup de nos clients semblent penser qu'ils se rapprocheront de \"l'agilité organisationnelle\" grâce à des grands plans de restructuration \"par l'intérieur\" - en modifiant leurs profils, leurs outils, leurs process. Cette présentation vise à démontrer qu'en agissant ainsi, ils nuisent profondément a leurs chances de succès, et qu'un chemin bien plus sûr est de commencer la transformation \"par l'extérieur\", c'est a dire par leurs clients. \n\n\n\n",
       "categories": "d78ac81b-4c5d-5ea7-9a69-8e123fc62d37",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "wKVyAQcSMQTEJ5QqlJObobKnhQR2"
-      ],
+      "speakers": ["wKVyAQcSMQTEJ5QqlJObobKnhQR2"],
       "comments": "Je me suis inscrit pour la faire en FR mais si ca vous intéresse je peux aussi la faire en EN. merci!",
       "language": "French",
       "createTimestamp": {
@@ -171,9 +171,7 @@
       "abstract": "In the last couple of years, I have been a reader, a student, an apprentice, a researcher, a speaker, a trainer, and above all a passionate debater. These activities have something in common: they are all in some way about teaching and learning. Like most people, I did not need a lot of time in school to believe that there are good teachers and bad teachers. But it took me years to understand that it is actually all about good and bad ways to understand things. This talk is a lot about learning, and a bit about teaching if you see it as the action allowing others to learn efficiently.\n\nStarting from a simple exemple, we will go through the 3 levels of understanding together : syntactic, semantic, inductive. We will discuss the symptoms of misunderstanding at each of these levels, and what it means to miss a step on this journey to the third level of understanding.\n\nI will also present a few exemples of these 3 levels in the real world, and conclude on how all of this can help us be better trainers, better speakers and better consultants.",
       "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
       "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
-      "speakers": [
-        "WiEMZCJh17McoMbFqd8KXvvLJSf1"
-      ],
+      "speakers": ["WiEMZCJh17McoMbFqd8KXvvLJSf1"],
       "comments": "Either french or english, depending on the audience.",
       "language": "English",
       "createTimestamp": {
@@ -189,9 +187,7 @@
       "abstract": "Être juré est un devoir que nous tous susceptible de devoir à remplir un jour, c'est un rôle que j'ai eu a endossé en ce début d'année.\nJe vous propose donc de vous partager mon expérience si vous êtes curieux d'en apprendre plus sur le fonctionnement de la justice et le déroulement d'un procès, ainsi que de mon ressentit en tant que juré lors de cette expérience particulière.\nEt si vous avez déjà été juré cela sera l'occasion de confronter nos vécus !",
       "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "ynJudT8ABpRU3JXpJakc8rphsmh2"
-      ],
+      "speakers": ["ynJudT8ABpRU3JXpJakc8rphsmh2"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1614985890,
@@ -224,9 +220,7 @@
       "abstract": "Je suis partis d’un simple projet Arduino avec ma fille et c’est devenu une intervention de mécénat dans son collège.\n- Comment expliquer à des enfants l’électricité.\n- Découvrir les 6 façons fondamentale de la produire.\n- Spoiler : Oui il y a des façons plus Green que d’autres ;)\n- Comprendre le combat AC/DC : Edison vs Tesla.\n- Et le “Why?” dans tout ça ?\n- Puis on bascule sur la présentation de l’Arduino avec toutes les matières que cela peut toucher en faisant des projets concrêts :\n - Electricité, Electronique, Logique, Informatique (Manipulation IDE, Langage C/C++), Math, Physique (Forces, Gestion du temps, …), Anglais (Code C/C++), Art/Dessin (pixels), Musique (Fréquence, etc), Bricolage (bois, vis, percer, soudure, ...)\n\n\n🇬🇧 English version\nFrom the discovery of electricity to the Arduino.\nWe will go back in history and find out about the discovery of electricity and the 6 ways to produce it.\nSpoiler alert : Some ways are more Green than others ;)\nWe will rediscover the 2 Why? of electricity as well as the AC vs DC combat.\nAll of this will point out to the Why? of the Arduino project and the introduction to logic and programming also.\nThis talk & workshops are to be used in schools to teach about electricity, electronic, logic, computer science, math, physics, english, art, music, ...\nin a fun and engaging way!",
       "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "fWBUcz93gfQADsytUos542qVIi63"
-      ],
+      "speakers": ["fWBUcz93gfQADsytUos542qVIi63"],
       "comments": "I can do it in french or in english",
       "language": "French",
       "createTimestamp": {
@@ -260,10 +254,8 @@
       "level": "beginner",
       "abstract": "Documenting systems architecture is always a complciated task.\nOne approach currently gaining traction is using the C4 model, as documented by Simon Brown.\nIn this talk, I will talk about my usage of this system, and the adaptations I made to allow continuous architecture documentation in the easiest way for me.\n",
       "categories": "09d4801b-e7ac-5090-af8d-4a99ac175959",
-      "formats": "ab1ee950-f584-5115-bd20-a45a10f744a4",
-      "speakers": [
-        "X8TWyGh4RFZa829kHMcrZEHBUqJ2"
-      ],
+      "formats": "custom-id-talk-50min-en",
+      "speakers": ["X8TWyGh4RFZa829kHMcrZEHBUqJ2"],
       "comments": "Already done in a quite similar way at Zenika Lille.\nI'm quite ready to do it in english (for singapour colleagues), provided it's not too early 😉",
       "language": "English",
       "createTimestamp": {
@@ -279,9 +271,7 @@
       "abstract": "A la base de projets comme Docker, Kubernetes ou encore Terraform, Golang est un langage désormais incontournable du panorama cloud.\n\nDepuis quelques années, le langage va chercher au-delà de ce positionnement “système” par le biais de WebAssembly pour déployer dans les navigateurs ou avec TinyGo pour déployer sur des micro-contrôleurs.\n\nLors de ce talk je vais vous montrer comment concevoir un projet complet comprenant une interface Web, une API/backend et des capteurs remontant des données, le tout uniquement en Go !",
       "categories": "dfa320e4-1f9b-53ee-8c98-3ef48ba81013",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "k1xCAMXSsMR40SDjOd8Fi5bSavx1"
-      ],
+      "speakers": ["k1xCAMXSsMR40SDjOd8Fi5bSavx1"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1615563593,
@@ -296,9 +286,7 @@
       "abstract": "Le design<b> animé par le mouvement</b> permet de  rendre nos interfaces plus vivantes et nos expériences plus riches.<br>\nComment motion design est-il utilisé, quelles sont ses origines, ses contraintes et les livrables qui permettent de scénariser des interfaces modernes, intuitives et ludiques.<br>\n<i>Avec Zenika, Apple, Airbnb, Saul Bass, James Bond et json</i>",
       "categories": "39181f16-a1af-5355-ad29-8a9cf408a53e",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "1k4xpbNIX9VxhAYWJqgxobbezWO2"
-      ],
+      "speakers": ["1k4xpbNIX9VxhAYWJqgxobbezWO2"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1615894151,
@@ -313,9 +301,7 @@
       "abstract": "Dans ce talk, je vous montrerai grâce à des exemples comment l’information peut être manipulée afin de servir une idée ou devenir un véritable traité de “pipeaulogie”. Et pour finir nous vous donnerons des conseils et des outils pour éviter de vous faire manipuler par ces informations.\n\nA la sortie de cette présentation, vous saurez déjouer des techniques de manipulation de l’information pour arriver à vos fins en entreprise.\n\n“Toute ressemblance avec des situations réelles ou avec des personnes existantes ou ayant existé est partiellement volontaire.”\n",
       "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "hPV9avMI5RW70VtkyjGLO1c1MRO2"
-      ],
+      "speakers": ["hPV9avMI5RW70VtkyjGLO1c1MRO2"],
       "createTimestamp": {
         "_seconds": 1613732517,
         "_nanoseconds": 831000000
@@ -329,9 +315,7 @@
       "abstract": "Un talk qui vous fera voyager au Japon pour y découvrir les pliages origami :)",
       "categories": "d150b0bb-df68-520a-994b-d6464cb8d770",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "p0GedmTLZvRjKr1hz4gzqNMRath1"
-      ],
+      "speakers": ["p0GedmTLZvRjKr1hz4gzqNMRath1"],
       "comments": "Je fais partie des petits nouveaux qui donnent des talks en TZ ;)",
       "language": "French",
       "createTimestamp": {
@@ -347,9 +331,7 @@
       "abstract": "Le concept de la « Clean Architecture », également appelée « Hexagonal Architecture » ou encore « Ports/Adapters Architecture » permet de réduire les dépendances de votre logique métier avec le monde extérieur (API, Base de données, Framework, Librairies tierces) et de souscrire plus facilement aux changements.\n\nCe type d’architecture a déjà fait ses preuves dans le développement backend et a gagné en popularité ces dernières années, mais cette technique ne s’est pas beaucoup démocratisée dans le développement d’application frontend.\n\nJe vous invite donc à venir découvrir les fondamentaux de la Clean Architecture et voir comment l’implémenter dans une application web.",
       "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "2nvqk8REjqWeS310SrnQG1eemLm2"
-      ],
+      "speakers": ["2nvqk8REjqWeS310SrnQG1eemLm2"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1613313585,
@@ -364,9 +346,7 @@
       "abstract": "Un Scrum Master ou un Coach se doit d'agir sur la dynamique de groupe afin de permettre à l'Équipe Scrum de performer à son plein potentiel. L'enjeu majeur dans la réussite de l'application du framework Scrum se trouve au niveau des relations interpersonnelles. \n\nNous verrons quelques cas de figure où la modification et l'optimisation des relations humaines dans le cadre du groupe, a permis l'amélioration de la performance d'une Équipe Scrum.",
       "categories": "d78ac81b-4c5d-5ea7-9a69-8e123fc62d37",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "PG77yQ5M4gOk5nIZv8VJd9Bh7uw1"
-      ],
+      "speakers": ["PG77yQ5M4gOk5nIZv8VJd9Bh7uw1"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1614958938,
@@ -381,9 +361,7 @@
       "abstract": "Voyons ensemble ce que la sortie du Manifest V3 implique pour le développeur d'extensions de navigateurs.\n\nQuelles sont les évolutions apportées par ce manifeste ?\nTous les navigateurs seront-ils compatibles avec celui-ci ? \nQuelles sont les impacts pour l'utilisateur ?\nQuelles sont les possiblités offertes aux développeurs d'extensions ? Quelles restrictions ?\n\nAutant de questions auxquelles je m'efforcerai de répondre lors de cette présentation.",
       "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "PqyrWWV1iGUI2qlj4gZSqdJ55jr1"
-      ],
+      "speakers": ["PqyrWWV1iGUI2qlj4gZSqdJ55jr1"],
       "comments": null,
       "language": "French",
       "createTimestamp": {
@@ -398,10 +376,8 @@
       "level": "beginner",
       "abstract": "Nouvelle année, nouveau projet chez Biomérieux, seulement voilà, qui dit nouveau projet, dit phase exploratoire. Le besoin ? Un outil de gestion de pipeline pour une équipe de bio-informaticiens qui travaille sur le génome de bactéries, sexy ! Le but ? Automatiser des scripts d'analyse et de nettoyage du génome. Plusieurs candidats sont proposés, Snakemake, Nextflow et ma proposition Kubeflow. Et bien merci Mahdi puisque tu connais l'existence de Kubeflow, explore cette piste et fait nous une démo. Voilà comment un frontiste se retrouve tout d'un coups dans le monde magique de kubernetes, AWS et la data science. Ce talk est un récit/REX de mon expérience de l'exploration de Kubeflow chez Biomérieux. Il retrace les différentes étapes d'exploration mais aussi la mise en place et l'utilisation de Kubeflow sur AWS.",
       "categories": "9fdf9509-7363-5d8c-a35d-13197b69a51c",
-      "formats": "830659bb-a37c-532d-b9d9-e1692e9f98e4",
-      "speakers": [
-        "eOsvaUZSsvfEXlFnNQm9rKQOqH63"
-      ],
+      "formats": "custom-id-talk-50min-fr",
+      "speakers": ["eOsvaUZSsvfEXlFnNQm9rKQOqH63"],
       "comments": "Merci pour l'organisation de cette TZ Worldwide une première chez Zenika.",
       "language": "French",
       "createTimestamp": {
@@ -417,9 +393,7 @@
       "abstract": "TypeScript est un langage open-source principalement développé par Microsoft, dont l'objectif est d'être un \"JavaScript avec des types\".\n\nJavaScript est un langage flexible à l'extrême, et les développeurs ne se privent pas d'exploiter cette flexibilité. Par conséquent les programmes JavaScript peuvent être excessivement difficiles à typer précisément. TypeScript choisit tout de même d'être, à terme, en capacité de typer n'importe quel programme JavaScript. Ainsi, avec chaque nouvelle version, le compilateur prend en charge des types de plus en plus puissants afin de couvrir de plus en plus de cas rencontrés en JavaScript. Ceci donne lieu a des types très simples mais inhabituels tel que 1319 qui accepte uniquement la valeur 1319 ou encore des types assez ésotériques tel que Extract<A, B> dont l'ensemble des valeurs est l'intersection de l'ensemble des valeurs du type A avec l'ensemble des valeurs du type B.\n\nTypeScript 4.2 est sur le point de sortir. Faisons une récapitulatif !\n\nDans ce talk je vous présenterai une sélection de types insolites ainsi que les nouveautés 2021 de TypeScript. L'objectif est de s'ouvrir l'esprit sur ce qu'un système de type est capable d'exprimer.",
       "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
       "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
-      "speakers": [
-        "7hX4q2nlIWTY770efZKTMIqWRSr2"
-      ],
+      "speakers": ["7hX4q2nlIWTY770efZKTMIqWRSr2"],
       "comments": "Talk déjà donné en français au NantesJS du 18/02/2021.",
       "createTimestamp": {
         "_seconds": 1614247636,
@@ -434,9 +408,7 @@
       "abstract": "Usually tables are read line by line. However another paradigm can be used: reading column by column! This little modification can save you lots of processing power and so money, especially in Big Data world!\n\nDuring this talk, after explaining you the concept and their actors, I'll show you how much you can gain in performance!",
       "categories": "042915d6-95ab-510c-8665-6c9e2d66eedf",
       "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
-      "speakers": [
-        "SuQynIcCcuRHjGTOdl1VUdg0Mod2"
-      ],
+      "speakers": ["SuQynIcCcuRHjGTOdl1VUdg0Mod2"],
       "language": "English",
       "createTimestamp": {
         "_seconds": 1614863767,
@@ -451,9 +423,7 @@
       "abstract": "La technologie quantique, sous toutes ses formes, devient un défi que de plus en plus d'organisation veulent relever. Avec ce talk, je vous emmène avec moi pour faire un tour sur les nouveautés au travers d'une liste non exhaustive d’éléments non hiérarchisée ayant pour thème commun le monde quantique ... en un mot, un TOP.\n\nMicrosoft, Atos, IBM, algorithmie, informatique, téléportation ... quelles sont les avancés les plus impressionnantes qui pourrait révolutionner notre quotidien ?  ",
       "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "eP6NDWsMivcAllm3fhB7Deb9E233"
-      ],
+      "speakers": ["eP6NDWsMivcAllm3fhB7Deb9E233"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1615472643,
@@ -487,9 +457,7 @@
       "abstract": "Le naming et le cache invalidAtion, c'est hard. C'est especialement hard quand on est francophone, que l'on parle un approximatif anglais, que le bizness parle un mix des deux et que quasiment tous les languages de programAtion baignent dans l'anglais.\n\nAïe ave euh drime ! où le code est lisible et compréhensible par tous, où l'on ne perd pas la boule en essayant de décrypter la méthode `getListesNbUserAuthentificated` de la classe `ProxyServiceHaricotWithConsistenceEventuelleManager`.\n\nUn anglo-américain vous révélera les ingrédients de la sauce secrète qu'il a affiné et optimisé au cours de ses 13 années de pratique en France.",
       "categories": "7160db76-afc8-549f-8fb9-2009b0160653",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "Q3gF8NTUrnMPDDJ8HWfe00qYw5q2"
-      ],
+      "speakers": ["Q3gF8NTUrnMPDDJ8HWfe00qYw5q2"],
       "comments": "❤️❤️❤️",
       "language": "French",
       "createTimestamp": {
@@ -523,9 +491,7 @@
       "abstract": "A partir de 5% de REX , il y a un partage du résultat via l'intéressement.\n\nDans ce talk, nous allons évoquer les différents moyens pour augmenter et améliorer la rentabilité de Z.\n\nComment fait-on pour atteindre une bonne rentabilité ?\n\nLes principaux leviers qui permettent d'améliorer la rentabilité sont les suivants : \n\n-TJM\n-TACE\n\nNous avons un modèle premium avec un cercle vertueux en investissant sur des JNF qui permettent d’améliorer l’expertise de nos consultants.\nDonc cela pourrait permettre d’augmenter le TJM chez les clients.\n\nLa rentabilité permet d'avoir de la trésorerie et donc de pouvoir financer notre croissance afin d'être pérenne dans le temps\n\nVenez échanger avec nous sur ce sujet qui nous concerne tous.\n\n✓ Assurer l'autonomie financière de Zenika\n✓ Permettre de financer le Projet tout en gardant nos valeurs et notre liberté\n✓ Traduit la pertinence du modèle Zenika\n\nEn conclusion , il y a certains leviers qui sont à la portée des salariés afin d'agir sur la rentabilité.\n",
       "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "acg8fsSvT1cisuSoK4qHXh0JzXt1"
-      ],
+      "speakers": ["acg8fsSvT1cisuSoK4qHXh0JzXt1"],
       "comments": "Hello tout le monde,\n\nJ'espère que vous allez bien. Je propose ce sujet au nom de la Finance, actuellement je suis seul sur le Talk mais nous serons sûrement plusieurs à le présenter.\n\nMerci pour l'organisation",
       "language": "French",
       "createTimestamp": {
@@ -541,9 +507,7 @@
       "abstract": "Dans ce talk, je souhaite vous présenter une de mes passions: la production musicale!\nGrâce au logiciel Ableton Live (très connu), il est en effet possible de créer une musique de A à Z (c'est-à-dire de rien jusqu'à une instrumentale relativement complète).\nIl y a trois grandes phases que nous allons découvrir ensemble:\n- Le Choix des Samples\n- Le Gain Staging\n- Le Mixing\nCe n'est pas un sujet technique au sens dev du terme, mais vous y apprendrez quelques notions propres au milieu musical et qui vous seront utiles si vous voulez un jour faire votre propre musique!\nA très bientôt donc! ",
       "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "cRpghQfzRcd0kypsyoa0UM7l9QK2"
-      ],
+      "speakers": ["cRpghQfzRcd0kypsyoa0UM7l9QK2"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1614605087,
@@ -558,9 +522,7 @@
       "abstract": "Notre cerveau a une capacité très pratique : il prend des décision rapidement.\nLe problème c'est que pour ça il fait des raccourcis...\nEt comme il est un peu mesquin, parfois quand on a le temps, il prend quand même les raccourcis qu'il connait.\n\n\nLaissez moi vous présenter certains de ces raccourcis, aussi appelés Biais Cognitif, par des expériences.",
       "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "X7XymhqINGST1YOWpNbq6Rvw4Od2"
-      ],
+      "speakers": ["X7XymhqINGST1YOWpNbq6Rvw4Od2"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1614243990,
@@ -593,9 +555,7 @@
       "abstract": "Following Big Data revolution, advent of Machine Learning is now a reality.  By giving computers the ability to learn from data, in order to turn these data into knowledge, the importance of Machine Learning in Computer Science is continuously increasing.\n\nThe most famous, and used, paradigms of Machine Learning are Supervised and Unsupervised Learning. In this talk, we will discuss a third paradigm which is quite exciting although it is not well-known: Reinforcement Learning.  \n\nContrary to Supervised and Unsupervised Learning which aims at making single predictions one after the other, Reinforcement Learning is much more ambitious (and thus complicated...): it aims at building an exhaustive strategy by learning successive series of actions in a dynamic environment, in order to optimize an overall reward.\n\nAfter a short presentation of theoretical foundations, we will introduce the terminology and present the main algorithms. We will particularly focus on Reinforcement Learning algorithms involving Deep Neural Networks, which have been a major breakthrough in the field. Some applications will be presented.",
       "categories": "042915d6-95ab-510c-8665-6c9e2d66eedf",
       "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
-      "speakers": [
-        "h9SPnYdeA3UbwXoZnH61tErQtLi2"
-      ],
+      "speakers": ["h9SPnYdeA3UbwXoZnH61tErQtLi2"],
       "language": "English",
       "createTimestamp": {
         "_seconds": 1614935734,
@@ -610,9 +570,7 @@
       "abstract": "Le dernier Challenge mondial de CodinGame a été des plus rudes : il a demandé au participants de développer une IA capable de battre toutes les autres dans un jeu de stratégie complexe, si bien que les meilleurs joueurs se sont battus pour les meilleures places en réimplémentant le même algorithme que celui qui a battu le champion d’Échecs Garry Kasparov en 1997 !\n\nJe n'ai pas pu malheureusement participer pleinement à ce challenge, qui tombait en même temps que mes entretiens pour intégrer Zenika. Ce que je vous propose ici c'est de revoir ensemble comment les champions ont utilisé cet algorithme qui rend imbattable aux Échecs et qui assure une place sur le podium de certaines des épreuves d'IA les plus rudes.",
       "categories": "042915d6-95ab-510c-8665-6c9e2d66eedf",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "xjwwgEjMfBUKht3cF0SnOeIPgBq2"
-      ],
+      "speakers": ["xjwwgEjMfBUKht3cF0SnOeIPgBq2"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1614935426,
@@ -627,9 +585,7 @@
       "abstract": "Après un peu plus d'un an de mission à la Sacem, je vous présenterai comment nous avons intégré un design system et amélioré l'ergonomie d'une des applications internes. \n",
       "categories": "39181f16-a1af-5355-ad29-8a9cf408a53e",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "P2t4TJMeSpYFzc5vlUfoh8W9yxh1"
-      ],
+      "speakers": ["P2t4TJMeSpYFzc5vlUfoh8W9yxh1"],
       "createTimestamp": {
         "_seconds": 1614355124,
         "_nanoseconds": 97000000
@@ -643,9 +599,7 @@
       "abstract": "Et si votre framework frontend préféré vous accompagnait (vraiment) dans la création d'applications web accessibles ? Un doux rêve non ? Eh bien ne rêvez plus car Svelte intègre directement dans son compilateur des vérifications sur les bonnes pratiques d'accessibilité. Décryptons ensemble comment cela est fait, les bienfaits et les limites.",
       "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "u3y2fdTflHQYoHt9ILKS9LtZIbg1"
-      ],
+      "speakers": ["u3y2fdTflHQYoHt9ILKS9LtZIbg1"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1615494483,
@@ -660,9 +614,7 @@
       "abstract": "From the inception phase to the deployment phase: a deep dive in the architecture decisions of a low-tech website reflecting our very own Green IT offer.\nWe will discuss:\n- Marketing principles: funneling and facilitating\n- UI/UX Design and Accessibility\n- Performance optimization and SEO\n- Development and Build optimization\n- What's next",
       "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
       "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
-      "speakers": [
-        "JIkth9HhzNRKIS5HMDLvXSjtWYJ3"
-      ],
+      "speakers": ["JIkth9HhzNRKIS5HMDLvXSjtWYJ3"],
       "language": "English",
       "createTimestamp": {
         "_seconds": 1614824100,
@@ -677,9 +629,7 @@
       "abstract": "Vous avez peut-être entendu parler de *QuickPerf*. Il s'agit aujourd'hui d’une librairie de test Java permettant d’évaluer des propriétés impactant la performance applicative (*roundtrips JDBC*, *allocation mémoire*, ...).\n\nQuickPerf comporte des limitations. Comment prioriser l'amélioration des propriétés liées à la performance ? Ecrire un test vous prend trop de temps ? Vous découvrirez au cours de cette présentation les dernières fonctionnalités de QuickPerf, dont certaines en avant-première, afin de favoriser sans effort la performance de vos applications Java.\n\n😒 Vous n'êtes pas intéressé par la  performance applicative ? \nVous aimeriez écrire plus rapidement des tests de non-régression fonctionnelle ? Cette présentation pourrait aussi vous intéresser !\n",
       "categories": "09d4801b-e7ac-5090-af8d-4a99ac175959",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "PpGRtcFYUmXpXENgC2j8tu7JOQj2"
-      ],
+      "speakers": ["PpGRtcFYUmXpXENgC2j8tu7JOQj2"],
       "comments": "J'ai soumis une autre présentation avec un co-speaker. Si le jury devait choisir entre les deux, cela serait peut-être plus sympa de retenir celle avec mon co-speaker :)",
       "language": "French",
       "createTimestamp": {
@@ -695,9 +645,7 @@
       "abstract": "La 3D sur le web, c'est ce petit effet \"wahou\" que certains sites utilisent pour sortir du lot. C'est un object que vous pouvez visualiser tout en le personnalisant en temps réel sur un site de e-commerce. C'est une expérience visuelle (voire sonore) interactive et immersive, accessible simplement depuis un navigateur. Ça vous dirait d'essayer ?\n\nJe vous propose dans ce talk de parcourir différentes méthodes pour obtenir des effets 3D sur le web. Nous irons des méthodes simples en CSS aux plus complexes en WebGL. Nous parlerons aussi d'animations, de performance, le tout avec un peu de code et beaucoup d'exemples.",
       "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "wbREkU3l7Papr8AC0RJbXSakYK62"
-      ],
+      "speakers": ["wbREkU3l7Papr8AC0RJbXSakYK62"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1613758483,
@@ -770,9 +718,7 @@
       "abstract": "Aujourd'hui beaucoup de recruteurs et de clients ne recherchent QUE des experts ou au moins des développeurs confirmés, pour certains d'entre eux il n'est pas question de travailler avec des juniors. En tant que moi même junior je souhaiterais partager mon expérience et montrer en quoi avoir des juniors est une force dans son équipe et comment ces derniers sont partie intégrante de la montée en compétence de toute une équipe.",
       "categories": "d150b0bb-df68-520a-994b-d6464cb8d770",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "Sn0YLBnbApO9tsGG9AMlyxEZxTk2"
-      ],
+      "speakers": ["Sn0YLBnbApO9tsGG9AMlyxEZxTk2"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1613151369,
@@ -805,9 +751,7 @@
       "abstract": "Depuis la version 8.2.0, la bibliothèque Apache Lucene, motorisant les moteurs de recherche distribués Apache Solr et Elasticsearch, contient un module complet de recherche de requêtes stockées.\nCe moteur vient du projet Luwak (https://github.com/flaxsearch/luwak), donné au projet Lucene courant 2019.\n\nCe type de recherches peut être utilisé pour faire de la recommandation, de la détection d'entités ou une gestion d'alertes/abonnements à certain type de contenus/news par exemple. (Bloomberg)\n\nL'idée de ce talk est de présenter l'utilisation de la bibliothèque ainsi que de comparer ce moteur avec ce qui est fait dans le percolator d'Elasticsearch.   \n",
       "categories": "042915d6-95ab-510c-8665-6c9e2d66eedf",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "feKGnuyD8XYqP2m8kPFKVk6tzaP2"
-      ],
+      "speakers": ["feKGnuyD8XYqP2m8kPFKVk6tzaP2"],
       "comments": "25 minutes c'est peut-être un peu court, s'il faut je peux passer à 50 minutes ;)",
       "language": "French",
       "createTimestamp": {
@@ -823,9 +767,7 @@
       "abstract": "Nous sommes très nombreux à utiliser Spring, mais nous ne connaissons pas forcément le fonctionnement interne.\n\n- A quel problématique permet de répondre ce framework ?\n- Pourquoi un tel succès ?\n- Quelles sont les possibilités de configuration avec ce framework ?\n- Comment est géré le cycle de vie des beans ?\n- Comment les fonctionnalités \"magiques\" sont rajoutés à Spring ?\n\nL'idée de talk est de descendre dans le détail sur le fonctionnement de ce framework, ce qui vous donnera les clés sur tous les autres sujets d'intégration avec Spring (Accès BDD, Securité, Transactions, ...)\n\n\n",
       "categories": "09d4801b-e7ac-5090-af8d-4a99ac175959",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "QCL3ZjLcJQa155UlHahACzJi4WM2"
-      ],
+      "speakers": ["QCL3ZjLcJQa155UlHahACzJi4WM2"],
       "comments": "Merci pour l'organisation !",
       "language": "French",
       "createTimestamp": {
@@ -841,9 +783,7 @@
       "abstract": "In the Tech Community, we are curious and passionate about the technologies we use. We love sharing our knowledge and discussing our ideas, side-projects or hobbies. Finding a good way to share and engage an audience can be difficult and stressful...\n\nHow can you effectively communicate and promote your ideas? What are the keys to create your personal brand? How do you capture an audience? Where do you start?\n\nBased on the book \"Success in Programming\" by Fred Harper, this talk shares tips and tricks about Self-Marketing and describes a path to become an influencer.",
       "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
       "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
-      "speakers": [
-        "0rNZujyWZhWZkxHWh7NZdnLv2873"
-      ],
+      "speakers": ["0rNZujyWZhWZkxHWh7NZdnLv2873"],
       "comments": "So happy to see this TZ coming!",
       "language": "English",
       "createTimestamp": {
@@ -858,10 +798,8 @@
       "level": "beginner",
       "abstract": "Hello fellas,\n\nHave you ever dreamed about killing your medically assisted step-mother remotely? Really, did you ? Well that's not really ethical ;)\n\nIn this talk ZenSec will present you a realistic Livehacking where we show you what can happen from attacking a web application to takeover a SCADA (basically an automated electronic network) controlled system. \n\nFrightening, right ? 😬\n",
       "categories": "568257d2-e076-54f5-9210-ae8cb1df0944",
-      "formats": "ab1ee950-f584-5115-bd20-a45a10f744a4",
-      "speakers": [
-        "icXkrMOJgIYr9pvUSgIGzAKLzm73"
-      ],
+      "formats": "custom-id-talk-50min-en",
+      "speakers": ["icXkrMOJgIYr9pvUSgIGzAKLzm73"],
       "comments": "Coucou,\n\nCe sera plutôt un format talk 50m dans la mesure ou ce sera un live hacking et que malheureusement, cela va être compliqué d'impliquer l'auditoire.\n\nEn espérant que ça convienne :)\n\nCheers,\n\nZenSec",
       "language": "English",
       "createTimestamp": {
@@ -876,7 +814,7 @@
       "level": "beginner",
       "abstract": "Lorsqu'on se penche sur les impacts environnementaux de l'IT, on réalise que les principaux impacts sont liés à un renouvellement trop important des terminaux utilisateurs. \n\nDans le cadre de travaux de co-R&D avec notre client Arkea, nous avons donc creusé différents sujets autour de l'idée d'optimiser le ressenti utilisateur sur des applications web et mobiles : \n - Comment optimiser une application mobile Android en fonction de la génération du mobile et de l'état du réseau ?\n - Comment mesurer l'impact d'un site web sur la consommation énergétique du navigateur ?\n - Comment mesurer la fluidité d'un site web en fonction de la génération de son équipement ?\n - Comment utiliser les résultats des questions précédentes pour embrasser les modèles d'éco-conception dans le développement applicatif ?\n - Comment utiliser les résultats des questions précédentes pour accompagner nos clients dans la stratégie de construction de leur produit ?\n\nNous vous proposons de partager avec vous les conclusions auxquelles nous sommes parvenus lors de cette étude.",
       "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
-      "formats": "830659bb-a37c-532d-b9d9-e1692e9f98e4",
+      "formats": "custom-id-talk-50min-fr",
       "speakers": [
         "mNQ7HNno7qX2c1n3xmUl9P2nstx2",
         "6mSHDJwnRhUQQStj1eYDXkyWJ7u2",
@@ -897,9 +835,7 @@
       "abstract": "Pendant le Confinement, premier du nom, j'ai découvert vite js et c'est un sérieux concurrent à Webpack.\n\nEn quoi il concurrence Webpack ? C'est ce que nous allons voir dans ce talk et live coding!\n\n",
       "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "wWYKM4fzp9SqMgB6euFohSb8ud33"
-      ],
+      "speakers": ["wWYKM4fzp9SqMgB6euFohSb8ud33"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1613749613,
@@ -910,20 +846,18 @@
       "id": "Qs9frzMKCUKaoIQB34sz",
       "title": "🍺 Vous pensez avoir fait le tour de FizzBuzz ? Détrompez-vous ! 👨‍💻🎶",
       "state": "confirmed",
-      "level":"beginner",
-         "abstract":"[FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz) est probablement le jeu le plus connu des consultants recruteurs comme des adeptes du Test-Driven Development. 🐱‍👤<br>\nIl a le mérite d'être très simple... Quoique. 🤔<br>\nNous verrons quels challenges il peut poser et étudierons différentes solutions, plus ou moins créatives. 🎨<br>\nQue vous soyez développeur ou simplement curieux, vous apprendrez des choses. 🎓<br>\nSatisfait ou remboursé ! 👍",
-         "categories":"7160db76-afc8-549f-8fb9-2009b0160653",
-         "formats":"d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-         "speakers":[
-            "qiyvDP08XwRTEeQHtGbK5roUTps2"
-         ],
-         "comments":null,
-         "language":"French",
-         "createTimestamp":{
-            "_seconds":1614956421,
-            "_nanoseconds":390000000
-         }
-      },
+      "level": "beginner",
+      "abstract": "[FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz) est probablement le jeu le plus connu des consultants recruteurs comme des adeptes du Test-Driven Development. 🐱‍👤<br>\nIl a le mérite d'être très simple... Quoique. 🤔<br>\nNous verrons quels challenges il peut poser et étudierons différentes solutions, plus ou moins créatives. 🎨<br>\nQue vous soyez développeur ou simplement curieux, vous apprendrez des choses. 🎓<br>\nSatisfait ou remboursé ! 👍",
+      "categories": "7160db76-afc8-549f-8fb9-2009b0160653",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": ["qiyvDP08XwRTEeQHtGbK5roUTps2"],
+      "comments": null,
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614956421,
+        "_nanoseconds": 390000000
+      }
+    },
     {
       "id": "RlzEPj8hIuYP5s2QzO48",
       "title": "À la découverte de DVC: le git du machine learning",
@@ -951,9 +885,7 @@
       "abstract": "Ce talk s’adresse à toutes les personnes qui ont envie d’apprendre à lâcher prise, à relativiser, et à se détendre rapidement. 😤\n\nAu travers de cette présentation basée sur les travaux de Chade Meng Tan, ingénieur de chez Google nominé pour le prix Nobel de la paix vous apprendrez les bienfaits de la méditation sur le lâcher-prise, la respiration, la concentration, la créativité, la relaxation…\nNous testerons en live plusieurs types de méditation et vous pourrez constater par vous mêmes les effets bénéfiques qu’elles procurent. 🧘\n\nVous repartirez avec un ensemble de conseils et d’outils pour poursuivre votre chemin sur la voie de la sérénité au travail. 🕊️\n",
       "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
       "formats": "830659bb-a37c-532d-b9d9-e1692e9f98e4",
-      "speakers": [
-        "jE6CzDpmgHRwolijOjKUGsAnlR53"
-      ],
+      "speakers": ["jE6CzDpmgHRwolijOjKUGsAnlR53"],
       "comments": "C'est mon premier talk. J'espère que ça vous plaira et que ça changera de l'agilité et de la tech... ;-)",
       "language": "French",
       "createTimestamp": {
@@ -969,9 +901,7 @@
       "abstract": "Durant cet atelier de 2h, vous découvriez ce qu'on aurait dû vous apprendre dès votre plus jeune âge : - le par-coeur, c'est le moyen le moins efficace de mémoriser, - la technique des palais mentaux (ou loki), ça existe vraiment et ce n'est pas réservé qu'à Sherlock Holmes, - il existe des règles d'ergonomie cérébrale, très simples à appliquer qui vous permettront d'optimiser votre mémorisation, - avec extrêmement peu de pratique, vous pourrez vous livrer à des tours de mémoire qui vous semblent actuellement impossibles à réaliser comme mémoriser un jeu de 52 cartes dans le désordre. Cet atelier est une mise en pratique des techniques que j'ai récemment découvertes dans le livre \"Booster votre mémoire.\" de Jean-Yves Ponce.",
       "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
       "formats": "b41364e7-0279-55cb-baf8-0e1ab7b78906",
-      "speakers": [
-        "ycuTKbrYKFVQzb1oPJOurrecMZy2"
-      ],
+      "speakers": ["ycuTKbrYKFVQzb1oPJOurrecMZy2"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1614854134,
@@ -986,9 +916,7 @@
       "abstract": "Drawing from experience deployments in releases|deployments in mobile app, backend, frontend that went wrong.\nHow did the team recover from the disasters and save the business? \n\nWhen a newer version is published , each tech stack (mobile, web) have their own \"roll back\" method.\nTo try the new version on a limited portion of users, what strategies of A/B test, staged rollout, Blue-Green Deployment were in place?\n\nFinally, we will the solutions in place and the culture mindset for a safe environment to failures.",
       "categories": "9fdf9509-7363-5d8c-a35d-13197b69a51c",
       "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
-      "speakers": [
-        "HK14wSamIDS06S8bbo0dwdmLotf1"
-      ],
+      "speakers": ["HK14wSamIDS06S8bbo0dwdmLotf1"],
       "comments": "A green background so I can project my slides as background :).\nA real time survey to the audience.",
       "language": "English",
       "createTimestamp": {
@@ -1041,9 +969,7 @@
       "abstract": "Have you heard about software craftsmanship? Are you found of engineering ?\n\nFollwing the adventure of a self taught engineer building a marble machine, this talk will show you how to:\n- craft better software,\n- add value steadily\n- get a craftsman spirit \n",
       "categories": "7160db76-afc8-549f-8fb9-2009b0160653",
       "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
-      "speakers": [
-        "dsUqnOcrNdcxIEqQscMxBFezueB2"
-      ],
+      "speakers": ["dsUqnOcrNdcxIEqQscMxBFezueB2"],
       "comments": null,
       "language": "English",
       "createTimestamp": {
@@ -1113,9 +1039,7 @@
       "abstract": "Présentation du **mutation testing** et retour d'expérience sur la mise en place sur un projet client depuis un an.\n\nCe talk est pour vous si : \n* vous trouvez que, malgré une bonne couverture de test, vous avez régulièrement des régressions\n* vous pensez que 100% de couverture de test c'est de la sur-qualité\n* vous n'avez pas assez confiance dans votre suite de test pour vous lancer sereinement et rapidement dans du refactoring ou des évolutions",
       "categories": "7160db76-afc8-549f-8fb9-2009b0160653",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "IzLVAOy5fCUc4W8enR6TYpAH4Ku1"
-      ],
+      "speakers": ["IzLVAOy5fCUc4W8enR6TYpAH4Ku1"],
       "comments": "Nothing special\nThank you",
       "language": "French",
       "createTimestamp": {
@@ -1168,9 +1092,7 @@
       "abstract": "Terraform is the de facto standard for Infrastructure as Code(IaC). Terrarform is also capable to integrate with other tools to perform more complex tasks. This talk will cover basic usage of Terraform to deploy simple infrastructure and deploy software stacks together with the infrastructure.",
       "categories": "9fdf9509-7363-5d8c-a35d-13197b69a51c",
       "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
-      "speakers": [
-        "7I0i0ujU9UfKCVD25rzdXrZVZEo1"
-      ],
+      "speakers": ["7I0i0ujU9UfKCVD25rzdXrZVZEo1"],
       "comments": "First time speaker",
       "language": "English",
       "createTimestamp": {
@@ -1186,9 +1108,7 @@
       "abstract": "À travers ce talk, nous ferons un tour d'horizon des protocoles Bluetooth et Bluetooth Low Energy. Qu'en est-il de leur sécurité ? Pouvons-nous facilement manipuler des objets connectés ? Comment utiliser son téléphone Android pour nous aider dans la découverte du protocole utilisé pour communiqué avec son objet connecté ?.\n\nUne démo live sur un bracelet connecté sera présentée.",
       "categories": "568257d2-e076-54f5-9210-ae8cb1df0944",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "QjiJmN1cNPWkNTegiDljmd6V1zH2"
-      ],
+      "speakers": ["QjiJmN1cNPWkNTegiDljmd6V1zH2"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1614876142,
@@ -1241,9 +1161,7 @@
       "abstract": "Quelle belle occasion que de faire un petit Gartic Phone que la TZ!\n\nPas besoin d'avoir de talent (bien au contraire) le but c'est juste de bien s'amuser!\nhttps://garticphone.com/fr",
       "categories": "d150b0bb-df68-520a-994b-d6464cb8d770",
       "formats": "830659bb-a37c-532d-b9d9-e1692e9f98e4",
-      "speakers": [
-        "wWYKM4fzp9SqMgB6euFohSb8ud33"
-      ],
+      "speakers": ["wWYKM4fzp9SqMgB6euFohSb8ud33"],
       "comments": "Il faudra surement limiter à le nombre de participans",
       "language": "French",
       "createTimestamp": {
@@ -1259,9 +1177,7 @@
       "abstract": "La négociation n'est pas que pour les commerciaux ou les acheteurs ! Quand on y réfléchit bien, on est souvent amené à négocier (délai, salaire, contrat, temps etc.) , et tout se négocie (les enfants sont forts pour ça)  !  Ce talk est une initiation à la négociation et vous donnera déjà des principes de bases pour mieux appréhender cette merveilleuse discipline. Il est aussi illustré par de nombreux exemples personnels et professionnels ... certaines négociations ayant  eu plus de succès que d'autres :)",
       "categories": "d150b0bb-df68-520a-994b-d6464cb8d770",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "dc4gx84rHMQunydJXyT6RyMHgb93"
-      ],
+      "speakers": ["dc4gx84rHMQunydJXyT6RyMHgb93"],
       "comments": "good luck",
       "language": "French",
       "createTimestamp": {
@@ -1296,9 +1212,7 @@
       "abstract": "On vous embête tous les mois pour avoir vos CRA à J-3. Mais pourquoi J-3 ? Et quelles sont les conséquences d'un retard ou d'une erreur ? Parce qu'au final, ne serait-ce pas \"qu'un CRA\", non ?\nEt non, ce n'est pas qu'un CRA, c'est le point central de toute l'activité de Zenika et on va vous expliquer pourquoi ^^\nIl est probable qu'après ce talk vous aurez plus qu'envie de nous aider en nous rendant vos petits CRA dans les temps :-p \nOn l'espère de tout cœur en tout cas !",
       "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "hJ9A66PfZTRc6oWNZ3m24VoSnbB2"
-      ],
+      "speakers": ["hJ9A66PfZTRc6oWNZ3m24VoSnbB2"],
       "comments": "Coucou les GO (les gentils organisateurs, oui ça fait Club Med mais...non !)\n\nMerci pour cette extraordinaire TZ, on espère que tout le monde pourra se libérer, même un peu !\n\nJe propose un petit talk sur le pourquoi on est un peu beaucoup embêtants avec les CRA et qu'est-ce qu'il se cache derrière.\nJe vais voir pour qu'Hajer et Angelo soient avec moi, afin que tout le monde puisse connaître leur trombine, en plus de la mienne.\n\nBelle journée à tous !",
       "language": "French",
       "createTimestamp": {
@@ -1314,9 +1228,7 @@
       "abstract": "De clearcase à nos jours, venez revivre l'évolution des platforms d'intégration continue, et de  certaines évolutions de l'informatique qui les ont influencés.\nOu comment, Git, docker, Junit, maven ont bousculés l'écosystème.\n\nNous en tirerons des bonnes pratiques qui sont toujours d'actualitées, et peut être oubliées par certains.\n\n",
       "categories": "9fdf9509-7363-5d8c-a35d-13197b69a51c",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "ODEUNcflVuZZtyQmINOHF9Cdful1"
-      ],
+      "speakers": ["ODEUNcflVuZZtyQmINOHF9Cdful1"],
       "comments": "Une petite part d'histoire et de nostalgie autours de l'intégration continue. ",
       "language": "French",
       "createTimestamp": {
@@ -1332,9 +1244,7 @@
       "abstract": "Il était une fois un petit service Java avec son cache et sa base de données sur son cluster K8s. Ce petit service était gentil et donnait de jolis cadeaux à tous ses amis. Mais tout a commencer à changer quand ses fournisseurs ont commencé à changé la forme de leur boîtes, que ces cadeaux ont changé de couleur... \n\nTravailler à plusieurs sur le même service peut mener à des difficultés de rétrocompatibilité lorsqu'un service doit être disponible pour une mise en production continue. à travers mon expérience chez Québecor, parlons de comment penser la rétrocompatibilité et les petits edge case qu'il ne faut pas oublier!",
       "categories": "09d4801b-e7ac-5090-af8d-4a99ac175959",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "PXYTbMeh4paUk0HPtcBEebJAQZk2"
-      ],
+      "speakers": ["PXYTbMeh4paUk0HPtcBEebJAQZk2"],
       "language": "French",
       "createTimestamp": {
         "_seconds": 1614871007,
@@ -1349,9 +1259,7 @@
       "abstract": "Have you ever thought to yourself \"It would be nice to run this Go HTTP server directly in a browser for demonstration\" ? No? Well I have!\n\nBut it's not possible, right? A Go WebAssembly binary *can* run in browsers, but cannot serve HTTP... Or could it?\n\nCould we run a Go WebAssembly binary into a browser's ServiceWorker, and serve HTTP from it? Well let's find out!",
       "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
       "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
-      "speakers": [
-        "977YQDolbxde0ito7I2dUiee2ap1"
-      ],
+      "speakers": ["977YQDolbxde0ito7I2dUiee2ap1"],
       "comments": "💙💚💛💜🖤💝",
       "language": "English",
       "createTimestamp": {
@@ -1405,9 +1313,7 @@
       "abstract": "In this presentation, I'll show you how to boost your interactions during virtual meetings (Meet/Zoom/Teams /Whatever) by channeling computer sound and hacking your webcam. Very useful for online trainings, conference and your casual entreprise meetings ;o)",
       "categories": "d150b0bb-df68-520a-994b-d6464cb8d770",
       "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
-      "speakers": [
-        "TNZEGBt5GgO4zUWRqaalNWo3FRf1"
-      ],
+      "speakers": ["TNZEGBt5GgO4zUWRqaalNWo3FRf1"],
       "createTimestamp": {
         "_seconds": 1614872053,
         "_nanoseconds": 701000000
@@ -1421,9 +1327,7 @@
       "abstract": "Ever thought that [Python](https://www.python.org/)🐍 belongs to the *dark side of IT*? That its birth as a scripting language makes it relevant only for “*magisticians*“ who run data-science services that do not comply with industry standards? That it’s just good enough to handle printers in your computer?\n\nWell, this talk may be the first step to practise parseltongue and start your wizardhood at Zenigwarts!\n\nOur guest Lucius Malforel will introduce you to:\n- [pyenv](https://github.com/pyenv/pyenv/) (🐧, 🍏, [🔲](https://github.com/pyenv-win/pyenv-win)) lets you choose the Python language version, at the project level (much finer than with java-alternatives or nvm)\n- built over pip and virtual environment, [poetry](https://python-poetry.org/docs/) manages your prod & dev dependencies (with a lock-file for the transitive dependencies - convenient when building 🐳 images) but also eases the publication of your libraries on [PyPI](https://pypi.org/) (the Python Package Index, a depository like maven or nvm)\n\nOr:\n- start playing with data in a [Jupyter notebook](https://jupyter.org/) with a simple docker-compose file: *magistics* (magic + statistics) is now at the tip of your wand ✨!\n\n*Expylliarmus!⚡*",
       "categories": "042915d6-95ab-510c-8665-6c9e2d66eedf",
       "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
-      "speakers": [
-        "B6H0t9ZCyoTw9ICvTCvjHCSuMJJ2"
-      ],
+      "speakers": ["B6H0t9ZCyoTw9ICvTCvjHCSuMJJ2"],
       "comments": "can be extended to a workshop",
       "language": "English",
       "createTimestamp": {
@@ -1461,9 +1365,7 @@
       "abstract": "Comment être manager avec des agilistes ? Le Manager est bien souvent \"frontalier\" entre le pays agile et le pays classique... Quelle est sa place ? Comment \"manager\" des individus auto-organisés... Que signifie l'auto-organisation ? Jusqu'où ? Comment interpréter \"protection de l'équipe\"... Jusqu'où ? ...\nQuid si le PO et la devTeam n'ont pas le même manager ? Réglages fins...",
       "categories": "d78ac81b-4c5d-5ea7-9a69-8e123fc62d37",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "35zth78TycYon0IBhmMu07i13Nz2"
-      ],
+      "speakers": ["35zth78TycYon0IBhmMu07i13Nz2"],
       "comments": null,
       "language": "France",
       "createTimestamp": {
@@ -1479,9 +1381,7 @@
       "abstract": "D'imposteur à vainqueur, il y a un long chemin.\n\nLa lutte contre moi-même est mon quotidien.\n\nPeurs multiples, hypersensibilité, perte d'authenticité, regard des autres et poids du jugements, etc...  ca vous parle ? \n\nJe souhaite partager l'expérience de mon développement personnel qui m'a mené à la sérénité.\n\n\n\n",
       "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": [
-        "A9zzfqYXubg8W63xrhWSXDz2Is53"
-      ],
+      "speakers": ["A9zzfqYXubg8W63xrhWSXDz2Is53"],
       "comments": "A travers, ce talk je partage toutes les sources qui ont menés à cet objectif. \n\nLes personnes souffrants de l'imposture pourraient  trouver des clés pour  apaiser ce sentiment.",
       "language": "French",
       "createTimestamp": {
@@ -1490,40 +1390,36 @@
       }
     },
     {
-      "id":"AUsaqxwQQleZHUOIAFZz",
-      "title":"\"Where Are We Going, Captain?\"",
-      "state":"rejected",
-      "level":"intermediate",
-      "abstract":"Switching product roadmap direction on the fly, extra dev hours & week-ends trashed, hard work that will never reach Prod and will never be shipped on users hands...\n\nThe bad news is that unfortunately this is the daily struggle of dev or product team. \nThe reason why is it happening? Almost all the time this comes from a lack of Product Vision, that North start that will set the course.\n\nThe **good news is that you can change it**!\nTech people, don't wait for business owners to have proper Product Vision! On this workshop you will learn 3 easy to apply techniques that you can push and own as a dev team in order to set the direction get the stakeholders buy-in!\n\nSo roll up your sleeves, STOP undergoing. Get your virtual post'its,  your oratory skills and get ready to have fun 🦄\n",
-      "categories":"39181f16-a1af-5355-ad29-8a9cf408a53e",
-      "formats":"ab1ee950-f584-5115-bd20-a45a10f744a4",
-      "speakers":[
-         "SEm6MUED1WfY2TpdNKe4rpQXNcN2"
-      ],
-      "comments":"Besoin de ZOOM pro pour faire des Break-out rooms et de mural pro :) ",
-      "language":"English",
-      "createTimestamp":{
-         "_seconds":1613384871,
-         "_nanoseconds":902000000
+      "id": "AUsaqxwQQleZHUOIAFZz",
+      "title": "\"Where Are We Going, Captain?\"",
+      "state": "rejected",
+      "level": "intermediate",
+      "abstract": "Switching product roadmap direction on the fly, extra dev hours & week-ends trashed, hard work that will never reach Prod and will never be shipped on users hands...\n\nThe bad news is that unfortunately this is the daily struggle of dev or product team. \nThe reason why is it happening? Almost all the time this comes from a lack of Product Vision, that North start that will set the course.\n\nThe **good news is that you can change it**!\nTech people, don't wait for business owners to have proper Product Vision! On this workshop you will learn 3 easy to apply techniques that you can push and own as a dev team in order to set the direction get the stakeholders buy-in!\n\nSo roll up your sleeves, STOP undergoing. Get your virtual post'its,  your oratory skills and get ready to have fun 🦄\n",
+      "categories": "39181f16-a1af-5355-ad29-8a9cf408a53e",
+      "formats": "ab1ee950-f584-5115-bd20-a45a10f744a4",
+      "speakers": ["SEm6MUED1WfY2TpdNKe4rpQXNcN2"],
+      "comments": "Besoin de ZOOM pro pour faire des Break-out rooms et de mural pro :) ",
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1613384871,
+        "_nanoseconds": 902000000
       }
     },
     {
-      "id":"R7zXCql2e2TzDabmQ2LR",
-      "title":"Je sais gérer mon temps et mes priorités",
-      "state":"confirmed",
-      "level":"beginner",
-      "abstract":"J’ai des murs de post-its, des listes, des listes de listes que je ré-ordonne très (trop) souvent et elles ne désemplissent pas.\nComment cela se fait ? J’ai l’impression d’avoir toujours mille choses à faire et au final j’ai l’impression de ne rien faire car mes listes sont toujours aussi remplies.\nVous aussi ?\nEssayons de comprendre….",
-      "categories":"ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
-      "formats":"d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers":[
-         "2N62dBFb7je99HXXnOvUOwdspEv1"
-      ],
-      "language":"French",
-      "createTimestamp":{
-         "_seconds":1614346816,
-         "_nanoseconds":705000000
+      "id": "R7zXCql2e2TzDabmQ2LR",
+      "title": "Je sais gérer mon temps et mes priorités",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "J’ai des murs de post-its, des listes, des listes de listes que je ré-ordonne très (trop) souvent et elles ne désemplissent pas.\nComment cela se fait ? J’ai l’impression d’avoir toujours mille choses à faire et au final j’ai l’impression de ne rien faire car mes listes sont toujours aussi remplies.\nVous aussi ?\nEssayons de comprendre….",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": ["2N62dBFb7je99HXXnOvUOwdspEv1"],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614346816,
+        "_nanoseconds": 705000000
       }
-   }
+    }
   ],
   "speakers": [
     {
