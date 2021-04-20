@@ -1388,7 +1388,8 @@
       "formats": "b41364e7-0279-55cb-baf8-0e1ab7b78906",
       "speakers": [
         "ES3NiKd0zeaDOgue8W3lRHDJZUi2",
-        "OCdwPv6F8fdShLbwSDtFlvE0aZn1"
+        "OCdwPv6F8fdShLbwSDtFlvE0aZn1",
+        "T02ARLB3PU01E336K7MHd01169228be5"
       ],
       "language": "French",
       "createTimestamp": {
@@ -2577,6 +2578,11 @@
       "uid": "ES3NiKd0zeaDOgue8W3lRHDJZUi2",
       "displayName": "Mana Yon Snoeck",
       "photoURL": "https://lh4.googleusercontent.com/-1O3IgutywB8/AAAAAAAAAAI/AAAAAAAAAAc/sCknpKaxBcA/photo.jpg"
+    },
+    {
+      "uid": "T02ARLB3PU01E336K7MHd01169228be5",
+      "displayName": "Claire Chauvet",
+      "photoURL": "https://ca.slack-edge.com/T02ARLB3P-U01E336K7MH-d01169228be5-512"
     },
     {
       "uid": "OCdwPv6F8fdShLbwSDtFlvE0aZn1",
