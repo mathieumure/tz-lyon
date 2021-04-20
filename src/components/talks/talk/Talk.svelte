@@ -67,8 +67,8 @@ $: abstract140 = `${abstract.slice(0, 140)}${
 }`;
 
 // snarkdown generates empty links for, e.g., "[EN]"
-$: abstractHtml = snarkdown(abstract140).replace(
-  /<a href="undefined">(.*?)<\/a>/,
+$: abstractHtml = snarkdown(displayFullAbstract ? abstract : abstract140).replace(
+  /<a href="undefined">(.*?)<\/a>/g,
   "[$1]"
 );
 
@@ -81,7 +81,7 @@ const handleDetailButtonClick = () => selectedTalkStore.set(id);
   </header>
   <section>
     <h2 class="talk-title">{title}</h2>
-    <p class="text-xs">{@html displayFullAbstract ? abstract : abstractHtml}</p>
+    <p class="text-xs">{@html abstractHtml}</p>
   </section>
   <footer>
     <TalkTags categoryId={categories} {level} {format} />
