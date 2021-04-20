@@ -1,0 +1,3036 @@
+{
+  "name": "TechnoZaure World 2021",
+  "categories": [
+    {
+      "name": "🌍 Web",
+      "id": "05354232-9af7-50db-8ec6-a7f7f78eec4f"
+    },
+    {
+      "name": "🖍 Agility",
+      "id": "d78ac81b-4c5d-5ea7-9a69-8e123fc62d37"
+    },
+    {
+      "name": "🤖 Data & AI",
+      "id": "042915d6-95ab-510c-8665-6c9e2d66eedf"
+    },
+    {
+      "name": "☁️ DevOps & Cloud",
+      "id": "9fdf9509-7363-5d8c-a35d-13197b69a51c"
+    },
+    {
+      "id": "568257d2-e076-54f5-9210-ae8cb1df0944",
+      "name": "💻 Security"
+    },
+    {
+      "id": "09d4801b-e7ac-5090-af8d-4a99ac175959",
+      "name": "👷‍♂️ Back-End & Architecture"
+    },
+    {
+      "name": "💡Discovery",
+      "id": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9"
+    },
+    {
+      "name": "🎲 Fun",
+      "id": "d150b0bb-df68-520a-994b-d6464cb8d770"
+    },
+    {
+      "id": "7160db76-afc8-549f-8fb9-2009b0160653",
+      "name": "🛠 Craft"
+    },
+    {
+      "name": "📱 Mobile & IoT",
+      "id": "dfa320e4-1f9b-53ee-8c98-3ef48ba81013"
+    },
+    {
+      "name": "💚 Product & Design",
+      "id": "39181f16-a1af-5355-ad29-8a9cf408a53e"
+    }
+  ],
+  "formats": [
+    {
+      "id": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "name": "Talk 🇫🇷 (25 min)"
+    },
+    {
+      "id": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "name": "Talk 🇬🇧 (25min)"
+    },
+    {
+      "name": "Workshop 🇫🇷 (50min)",
+      "id": "830659bb-a37c-532d-b9d9-e1692e9f98e4"
+    },
+    {
+      "id": "ab1ee950-f584-5115-bd20-a45a10f744a4",
+      "name": " Workshop 🇬🇧 (50min)"
+    },
+    {
+      "name": "Long Workshop 🇫🇷 (1h50)",
+      "id": "b41364e7-0279-55cb-baf8-0e1ab7b78906"
+    },
+    {
+      "name": "Long Workshop 🇬🇧 (1h50)",
+      "id": "b41364e7-0279-55cb-baf8-0e1ab7b78906"
+    }
+  ],
+  "address": {
+    "latLng": {
+      "lat": 48.8790862,
+      "lng": 2.3284437
+    },
+    "formattedAddress": "Zenika, Rue de Milan, Paris, France",
+    "timezone": null,
+    "country": {
+      "short_name": "FR",
+      "long_name": "France"
+    },
+    "locality": {
+      "long_name": "Paris",
+      "short_name": "Paris"
+    }
+  },
+  "conferenceDates": {
+    "end": "2021-04-22T22:00:00.000Z",
+    "start": "2021-04-22T22:00:00.000Z"
+  },
+  "talks": [
+    {
+      "id": "08x2xflHMKNrqtmhCSqa",
+      "title": "D'impératif à réactif avec Quarkus, MongoDB et RESTeasy",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "C'est l'histoire d'une API REST Quarkus impérative qui voulais devenir réactive.\nJe vous conterais, pas par pas, le passage d'un code impératif à réactif sur les couches base de données (MongoDB) puis REST (RESTeasy).\nVenez découvrir comment, grâce à ses API unifiée, Quarkus facilite le passage d'un monde impératif à réactif.",
+      "categories": "09d4801b-e7ac-5090-af8d-4a99ac175959",
+      "formats": "830659bb-a37c-532d-b9d9-e1692e9f98e4",
+      "speakers": [
+        "c78qkEcCDhYjS3kuIBkLmsDjX5C2"
+      ],
+      "comments": null,
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614860001,
+        "_nanoseconds": 979000000
+      },
+      "startTimeCa": "05h15",
+      "startTimeSg": "17h15",
+      "startTimeFr": "11h15",
+      "trackName": "Nantes",
+      "videoConfLink": "https://www.youtube.com/watch?v=unj_JlY1KV0"
+    },
+    {
+      "id": "0NXdKCLfQYmHTuiEgVF8",
+      "title": "Comment arrêter de se battre avec le CSS",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Je n'ai jamais rencontré de développeur ou développeuse m'affirmer adorer le CSS. \n\"Mais comment on peut aimer ça ? Je change un petit truc et ça casse toute ma mise en page !!\", \"De toute façon, le design c'est pas pour moi ...\".\nAlors oui, le CSS c'est dur. Et non, le CSS ce n'est pas uniquement du design.\n\nSi vous êtes amenés à construire des interfaces web, vous devrez faire du CSS un jour ou l'autre.\nDu coup, le but de ce talk est de rendre ce langage moins pénible pour vous, voir même de vous le faire aimer ! Si, si j'ose !",
+      "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "2lIPoMcCvzSpwFWRNWq2kumudhz2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614955143,
+        "_nanoseconds": 790000000
+      },
+      "startTimeCa": "08h00",
+      "startTimeSg": "20h00",
+      "startTimeFr": "14h00",
+      "trackName": "Brest",
+      "videoConfLink": "https://www.youtube.com/watch?v=ieKcWKxjkHk"
+    },
+    {
+      "id": "0nOfOD07P21bW2wKGh5g",
+      "title": "La qualité de code pour le front",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Alors comme ça,\n * Vous êtes développeur Java et pour vous le front c'est trop compliqué ?\n * C'est nul parce que c'est pas typé ?\n * C'est pas propre parce que Sonar n'est pas aussi bien fait pour le JavaScript que pour le Java ?\n * Les tests avec le front c'est juste une allégorie ?\n\nSi vous pensez comme ça, c'est que vous ne connaissez pas tous les outils qui ont été développés et qui existent afin de rendre le front beaucoup plus robuste !\n\nA l'issu de cette présentation, Prettier, Eslint, Stylelint, Storybook, Cypress, Jest (et un peu TypeScript) n'auront plus de secret pour que vous puissiez aborder le développement front avec sérénité.\n\nSi avec ça vous ne décidez pas de devenir dev front... 😉",
+      "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "eBooUZ7QZPeiZc86JEWqM49zg5d2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1615451863,
+        "_nanoseconds": 160000000
+      },
+      "startTimeCa": "09h00",
+      "startTimeSg": "21h",
+      "startTimeFr": "15h00",
+      "trackName": "Paris",
+      "videoConfLink": "https://www.youtube.com/watch?v=i9r0B5Renmo"
+    },
+    {
+      "id": "1DW3GTLXhvqKRhDpbveI",
+      "title": "Transformation Agile - Votre client est votre meilleur agent de transformation",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Beaucoup de nos clients semblent penser qu'ils se rapprocheront de \"l'agilité organisationnelle\" grâce à des grands plans de restructuration \"par l'intérieur\" - en modifiant leurs profils, leurs outils, leurs process. Cette présentation vise à démontrer qu'en agissant ainsi, ils nuisent profondément a leurs chances de succès, et qu'un chemin bien plus sûr est de commencer la transformation \"par l'extérieur\", c'est a dire par leurs clients. \n\n\n\n",
+      "categories": "d78ac81b-4c5d-5ea7-9a69-8e123fc62d37",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "wKVyAQcSMQTEJ5QqlJObobKnhQR2"
+      ],
+      "comments": "Je me suis inscrit pour la faire en FR mais si ca vous intéresse je peux aussi la faire en EN. merci!",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1615492890,
+        "_nanoseconds": 642000000
+      },
+      "startTimeCa": "11h15",
+      "startTimeSg": "23h15",
+      "startTimeFr": "17h15",
+      "trackName": "Nantes",
+      "videoConfLink": "https://www.youtube.com/watch?v=unj_JlY1KV0"
+    },
+    {
+      "id": "1bn0X8y8pdmveezUxQW6",
+      "title": "The three levels of understanding",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "In the last couple of years, I have been a reader, a student, an apprentice, a researcher, a speaker, a trainer, and above all a passionate debater. These activities have something in common: they are all in some way about teaching and learning. Like most people, I did not need a lot of time in school to believe that there are good teachers and bad teachers. But it took me years to understand that it is actually all about good and bad ways to understand things. This talk is a lot about learning, and a bit about teaching if you see it as the action allowing others to learn efficiently.\n\nStarting from a simple exemple, we will go through the 3 levels of understanding together : syntactic, semantic, inductive. We will discuss the symptoms of misunderstanding at each of these levels, and what it means to miss a step on this journey to the third level of understanding.\n\nI will also present a few exemples of these 3 levels in the real world, and conclude on how all of this can help us be better trainers, better speakers and better consultants.",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "speakers": [
+        "WiEMZCJh17McoMbFqd8KXvvLJSf1"
+      ],
+      "comments": "Either french or english, depending on the audience.",
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1614619574,
+        "_nanoseconds": 263000000
+      },
+      "startTimeCa": "04h45",
+      "startTimeSg": "16h45",
+      "startTimeFr": "10h45",
+      "trackName": "Singapour",
+      "videoConfLink": "https://www.youtube.com/watch?v=hebzxZ0wG6w"
+    },
+    {
+      "id": "1jpcB8OGim66TjC2HKho",
+      "title": "Juré d'Assises - 1 mois en immersion au palais de justice de Paris",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Être juré est un devoir que nous tous susceptible de devoir à remplir un jour, c'est un rôle que j'ai eu a endossé en ce début d'année.\nJe vous propose donc de vous partager mon expérience si vous êtes curieux d'en apprendre plus sur le fonctionnement de la justice et le déroulement d'un procès, ainsi que de mon ressentit en tant que juré lors de cette expérience particulière.\nEt si vous avez déjà été juré cela sera l'occasion de confronter nos vécus !",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "ynJudT8ABpRU3JXpJakc8rphsmh2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614985890,
+        "_nanoseconds": 893000000
+      },
+      "startTimeCa": "11h45",
+      "startTimeSg": "23h45",
+      "startTimeFr": "17h45",
+      "trackName": "Lyon",
+      "videoConfLink": "https://www.youtube.com/watch?v=rUElTC-U4WY"
+    },
+    {
+      "id": "2r1SfMKhQxkD7wNWrdgi",
+      "title": "À l'abordage ! Deviens un véritable consultant-pirate et fais naître le désir de changement chez tes clients.",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "\"Je ne peux rien faire changer dans cette boîte, je suis seulement consultant(e) externe!\"\n\nSi c'est ce que tu te dis quand tu regardes ta mission actuelle, alors laisse-nous te prouver que tu te trompes.\n\nC'est toujours pareil, en tant que consultant(e), on t'envoie sur des missions où il faut sauver le projet de la noyade.\n\nTu dois :\n- Travailler dans le rush, parce que certaines US ne sont prêtes que 4 jours avant la fin du sprint en cours\n- Rattraper les 3 mois de retards sur la livraison de la release 1.5.2\n- Reprendre l'activité de quelqu'un qui sort du projet avec seulement 5 jours de biseau et peu de documentation (dans le meilleur des cas)\n\nMais comme d'habitude, dans leur contexte tous les changements sont difficiles à entreprendre, tout est lent à mettre en place...\n\nTu entends d'ailleurs souvent les fameux :\n\"Mettre en place une intégration continue ? On y a pensé, mais chez nous on ne peut pas, c'est TELLEMENT compliqué.\"\n\"La rétrospective ? Laisse tomber, nous on y va pas, ça sert à rien.\"\n\"Bien sûr qu'on aimerait bien améliorer la couverture de tests, mais on a vraiment pas le temps là.\"\n\nDans ces conditions, tu t'épuises à essayer de faire bouger les choses sans résultat. Tu te sens certainement frustré de ne pas réussir à faire émerger le désir de changement. Et peut-être même que tu te demandes comment tu vas réussir la mission qu'on t'a confiée vu le contexte.\n\nEt c'est bien normal.\n\nSi tu veux enfin savoir comment mieux utiliser ton énergie et rompre l'inaction, redonner l'envie à ton client de s'améliorer, déclencher le tilt pour que les choses changent, alors tu as trouvé le bon talk !\n\nGrâce à des secrets ancestraux de pirate, tu auras des clés pour mieux comprendre les dynamiques de groupes et ce qu'elles impliquent, tu sauras quelles actions tu peux mener pour améliorer ton environnement de travail et tu pourras enfin focaliser ton énergie sur le périmètre de ta mission initiale.\n\nArrête de frotter le pont moussaillon et... À L'ABORDAGE !",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "EkkvSaF2KgaJUTkg7yNqZHlDskq2",
+        "OOBkm0ZNHxYBmAsavjzERyxYSkh2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1615566603,
+        "_nanoseconds": 766000000
+      },
+      "startTimeCa": "05h15",
+      "startTimeSg": "17h15",
+      "startTimeFr": "11h15",
+      "trackName": "Lille",
+      "videoConfLink": "https://www.youtube.com/watch?v=ObR44UcwM1A"
+    },
+    {
+      "id": "3es5AAs8HK2F5mj4EGI5",
+      "title": "De la découverte de l'électricité ⚡️ à l'Arduino 💻",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Je suis partis d’un simple projet Arduino avec ma fille et c’est devenu une intervention de mécénat dans son collège.\n- Comment expliquer à des enfants l’électricité.\n- Découvrir les 6 façons fondamentale de la produire.\n- Spoiler : Oui il y a des façons plus Green que d’autres ;)\n- Comprendre le combat AC/DC : Edison vs Tesla.\n- Et le “Why?” dans tout ça ?\n- Puis on bascule sur la présentation de l’Arduino avec toutes les matières que cela peut toucher en faisant des projets concrêts :\n - Electricité, Electronique, Logique, Informatique (Manipulation IDE, Langage C/C++), Math, Physique (Forces, Gestion du temps, …), Anglais (Code C/C++), Art/Dessin (pixels), Musique (Fréquence, etc), Bricolage (bois, vis, percer, soudure, ...)\n\n\n🇬🇧 English version\nFrom the discovery of electricity to the Arduino.\nWe will go back in history and find out about the discovery of electricity and the 6 ways to produce it.\nSpoiler alert : Some ways are more Green than others ;)\nWe will rediscover the 2 Why? of electricity as well as the AC vs DC combat.\nAll of this will point out to the Why? of the Arduino project and the introduction to logic and programming also.\nThis talk & workshops are to be used in schools to teach about electricity, electronic, logic, computer science, math, physics, english, art, music, ...\nin a fun and engaging way!",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "fWBUcz93gfQADsytUos542qVIi63"
+      ],
+      "comments": "I can do it in french or in english",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614524582,
+        "_nanoseconds": 482000000
+      },
+      "startTimeCa": "05h45",
+      "startTimeSg": "17h45",
+      "startTimeFr": "11h45",
+      "trackName": "Lyon",
+      "videoConfLink": "https://www.youtube.com/watch?v=rUElTC-U4WY"
+    },
+    {
+      "id": "4HvY48ylp2u0csUwUPNR",
+      "title": "No! I am not negative! Let's reinvent our communication ...",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Have you ever asked yourself the questions:\n- \"How many potentially neutral or negative formulations do I use on a daily basis?\"\n- \"Could this have an impact on the quality and the clarity of my communication, and in particular now in remote situation?\"\n\nThrough many examples / illustrations, you will discover that making small changes in your vocabulary can really bring a difference on your interactions and the way you think.\n\nAre you ready to experiment with an appreciative and more positive approach in your communication?",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "speakers": [
+        "vovOXfGHrRMQQws6StxPkctNLhj2",
+        "rquFFaV88uY4CfvruCXNzIB2P772"
+      ],
+      "comments": "Nous pouvons faire ce talk en français ou en anglais.\nPar contre, comme Jérôme est basé à Singapour, il faudrait prévoir le talk le matin heure française.",
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1614072672,
+        "_nanoseconds": 550000000
+      },
+      "startTimeCa": "03h30",
+      "startTimeSg": "15h30",
+      "startTimeFr": "09h30",
+      "trackName": "Rennes",
+      "videoConfLink": "https://www.youtube.com/watch?v=GY2-Nvwvl6s"
+    },
+    {
+      "id": "4kS0iEASCgIuMDvd1CgX",
+      "title": "Can C4 help me see forward ?",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Documenting systems architecture is always a complciated task.\nOne approach currently gaining traction is using the C4 model, as documented by Simon Brown.\nIn this talk, I will talk about my usage of this system, and the adaptations I made to allow continuous architecture documentation in the easiest way for me.\n",
+      "categories": "09d4801b-e7ac-5090-af8d-4a99ac175959",
+      "formats": "ab1ee950-f584-5115-bd20-a45a10f744a4",
+      "speakers": [
+        "X8TWyGh4RFZa829kHMcrZEHBUqJ2"
+      ],
+      "comments": "Already done in a quite similar way at Zenika Lille.\nI'm quite ready to do it in english (for singapour colleagues), provided it's not too early 😉",
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1615369890,
+        "_nanoseconds": 465000000
+      },
+      "startTimeCa": "05h15",
+      "startTimeSg": "17h15",
+      "startTimeFr": "11h15",
+      "trackName": "Singapour",
+      "videoConfLink": "https://www.youtube.com/watch?v=hebzxZ0wG6w"
+    },
+    {
+      "id": "6SgKiZIxgXEEwvM9yCMF",
+      "title": "Golang Everywhere",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "A la base de projets comme Docker, Kubernetes ou encore Terraform, Golang est un langage désormais incontournable du panorama cloud.\n\nDepuis quelques années, le langage va chercher au-delà de ce positionnement “système” par le biais de WebAssembly pour déployer dans les navigateurs ou avec TinyGo pour déployer sur des micro-contrôleurs.\n\nLors de ce talk je vais vous montrer comment concevoir un projet complet comprenant une interface Web, une API/backend et des capteurs remontant des données, le tout uniquement en Go !",
+      "categories": "dfa320e4-1f9b-53ee-8c98-3ef48ba81013",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "k1xCAMXSsMR40SDjOd8Fi5bSavx1"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1615563593,
+        "_nanoseconds": 364000000
+      },
+      "startTimeCa": "03h00",
+      "startTimeSg": "15h00",
+      "startTimeFr": "09h00",
+      "trackName": "Grenoble",
+      "videoConfLink": "https://www.youtube.com/watch?v=UeGCA3WtkqE"
+    },
+    {
+      "id": "6cejz97na6adkEL12fCT",
+      "title": "Motion Emotion le design en mouvement",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Le design<b> animé par le mouvement</b> permet de  rendre nos interfaces plus vivantes et nos expériences plus riches.<br>\nComment motion design est-il utilisé, quelles sont ses origines, ses contraintes et les livrables qui permettent de scénariser des interfaces modernes, intuitives et ludiques.<br>\n<i>Avec Zenika, Apple, Airbnb, Saul Bass, James Bond et json</i>",
+      "categories": "39181f16-a1af-5355-ad29-8a9cf408a53e",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "1k4xpbNIX9VxhAYWJqgxobbezWO2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1615894151,
+        "_nanoseconds": 608000000
+      },
+      "startTimeCa": "08h00",
+      "startTimeSg": "20h00",
+      "startTimeFr": "14h00",
+      "trackName": "Nantes",
+      "videoConfLink": "https://www.youtube.com/watch?v=unj_JlY1KV0"
+    },
+    {
+      "id": "6zFJzrDmKWu0RtGe6nhk",
+      "title": "Comprendre la langue de bois pour survivre en entreprise",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Dans ce talk, je vous montrerai grâce à des exemples comment l’information peut être manipulée afin de servir une idée ou devenir un véritable traité de “pipeaulogie”. Et pour finir nous vous donnerons des conseils et des outils pour éviter de vous faire manipuler par ces informations.\n\nA la sortie de cette présentation, vous saurez déjouer des techniques de manipulation de l’information pour arriver à vos fins en entreprise.\n\n“Toute ressemblance avec des situations réelles ou avec des personnes existantes ou ayant existé est partiellement volontaire.”\n",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "hPV9avMI5RW70VtkyjGLO1c1MRO2"
+      ],
+      "createTimestamp": {
+        "_seconds": 1613732517,
+        "_nanoseconds": 831000000
+      },
+      "startTimeCa": "09h30",
+      "startTimeSg": "21h30",
+      "startTimeFr": "15h30",
+      "trackName": "Grenoble",
+      "videoConfLink": "https://www.youtube.com/watch?v=UeGCA3WtkqE"
+    },
+    {
+      "id": "7gYE8YLQM66L77RRjJKk",
+      "title": "Passion Origami",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Un talk qui vous fera voyager au Japon pour y découvrir les pliages origami :)",
+      "categories": "d150b0bb-df68-520a-994b-d6464cb8d770",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "p0GedmTLZvRjKr1hz4gzqNMRath1"
+      ],
+      "comments": "Je fais partie des petits nouveaux qui donnent des talks en TZ ;)",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614874874,
+        "_nanoseconds": 470000000
+      },
+      "startTimeCa": "11h45",
+      "startTimeSg": "23h45",
+      "startTimeFr": "17h45",
+      "trackName": "Nantes",
+      "videoConfLink": "https://www.youtube.com/watch?v=unj_JlY1KV0"
+    },
+    {
+      "id": "7j0zkzHQ2GwWcEdl9XRN",
+      "title": "La Clean Architecture ou comment moins subir l'évolution rapide du web",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "Le concept de la « Clean Architecture », également appelée « Hexagonal Architecture » ou encore « Ports/Adapters Architecture » permet de réduire les dépendances de votre logique métier avec le monde extérieur (API, Base de données, Framework, Librairies tierces) et de souscrire plus facilement aux changements.\n\nCe type d’architecture a déjà fait ses preuves dans le développement backend et a gagné en popularité ces dernières années, mais cette technique ne s’est pas beaucoup démocratisée dans le développement d’application frontend.\n\nJe vous invite donc à venir découvrir les fondamentaux de la Clean Architecture et voir comment l’implémenter dans une application web.",
+      "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "2nvqk8REjqWeS310SrnQG1eemLm2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1613313585,
+        "_nanoseconds": 293000000
+      },
+      "startTimeCa": "08h30",
+      "startTimeSg": "20h30",
+      "startTimeFr": "14h30",
+      "trackName": "Nantes",
+      "videoConfLink": "https://www.youtube.com/watch?v=unj_JlY1KV0"
+    },
+    {
+      "id": "8DgKgeTKOs27Svm8HRJk",
+      "title": "La dynamique de groupe dans une Équipe Scrum",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "Un Scrum Master ou un Coach se doit d'agir sur la dynamique de groupe afin de permettre à l'Équipe Scrum de performer à son plein potentiel. L'enjeu majeur dans la réussite de l'application du framework Scrum se trouve au niveau des relations interpersonnelles. \n\nNous verrons quelques cas de figure où la modification et l'optimisation des relations humaines dans le cadre du groupe, a permis l'amélioration de la performance d'une Équipe Scrum.",
+      "categories": "d78ac81b-4c5d-5ea7-9a69-8e123fc62d37",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "PG77yQ5M4gOk5nIZv8VJd9Bh7uw1"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614958938,
+        "_nanoseconds": 474000000
+      },
+      "startTimeCa": "09h30",
+      "startTimeSg": "21h30",
+      "startTimeFr": "15h30",
+      "trackName": "Rennes",
+      "videoConfLink": "https://www.youtube.com/watch?v=GY2-Nvwvl6s"
+    },
+    {
+      "id": "8dSNBL8tALIRvZsWEBmU",
+      "title": "Développer son extension de navigateur en 2021",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Voyons ensemble ce que la sortie du Manifest V3 implique pour le développeur d'extensions de navigateurs.\n\nQuelles sont les évolutions apportées par ce manifeste ?\nTous les navigateurs seront-ils compatibles avec celui-ci ? \nQuelles sont les impacts pour l'utilisateur ?\nQuelles sont les possiblités offertes aux développeurs d'extensions ? Quelles restrictions ?\n\nAutant de questions auxquelles je m'efforcerai de répondre lors de cette présentation.",
+      "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "PqyrWWV1iGUI2qlj4gZSqdJ55jr1"
+      ],
+      "comments": null,
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614953969,
+        "_nanoseconds": 100000000
+      },
+      "startTimeCa": "11h15",
+      "startTimeSg": "23h15",
+      "startTimeFr": "17h15",
+      "trackName": "Lille",
+      "videoConfLink": "https://www.youtube.com/watch?v=ObR44UcwM1A"
+    },
+    {
+      "id": "98wyEWKL5HcDkXbLEapi",
+      "title": "Quand un frontiste fait du Kubeflow, récit de la mise en place de Kubeflow sur AWS chez Biomérieux en partant de zéro. ",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Nouvelle année, nouveau projet chez Biomérieux, seulement voilà, qui dit nouveau projet, dit phase exploratoire. Le besoin ? Un outil de gestion de pipeline pour une équipe de bio-informaticiens qui travaille sur le génome de bactéries, sexy ! Le but ? Automatiser des scripts d'analyse et de nettoyage du génome. Plusieurs candidats sont proposés, Snakemake, Nextflow et ma proposition Kubeflow. Et bien merci Mahdi puisque tu connais l'existence de Kubeflow, explore cette piste et fait nous une démo. Voilà comment un frontiste se retrouve tout d'un coups dans le monde magique de kubernetes, AWS et la data science. Ce talk est un récit/REX de mon expérience de l'exploration de Kubeflow chez Biomérieux. Il retrace les différentes étapes d'exploration mais aussi la mise en place et l'utilisation de Kubeflow sur AWS.",
+      "categories": "9fdf9509-7363-5d8c-a35d-13197b69a51c",
+      "formats": "830659bb-a37c-532d-b9d9-e1692e9f98e4",
+      "speakers": [
+        "eOsvaUZSsvfEXlFnNQm9rKQOqH63"
+      ],
+      "comments": "Merci pour l'organisation de cette TZ Worldwide une première chez Zenika.",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1615559285,
+        "_nanoseconds": 649000000
+      },
+      "startTimeCa": "11h15",
+      "startTimeSg": "23h15",
+      "startTimeFr": "17h15",
+      "trackName": "Rennes",
+      "videoConfLink": "https://www.youtube.com/watch?v=GY2-Nvwvl6s"
+    },
+    {
+      "id": "9O1JikmlIJTj6i55Sfer",
+      "title": "🤯 avec TypeScript",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "TypeScript est un langage open-source principalement développé par Microsoft, dont l'objectif est d'être un \"JavaScript avec des types\".\n\nJavaScript est un langage flexible à l'extrême, et les développeurs ne se privent pas d'exploiter cette flexibilité. Par conséquent les programmes JavaScript peuvent être excessivement difficiles à typer précisément. TypeScript choisit tout de même d'être, à terme, en capacité de typer n'importe quel programme JavaScript. Ainsi, avec chaque nouvelle version, le compilateur prend en charge des types de plus en plus puissants afin de couvrir de plus en plus de cas rencontrés en JavaScript. Ceci donne lieu a des types très simples mais inhabituels tel que 1319 qui accepte uniquement la valeur 1319 ou encore des types assez ésotériques tel que Extract<A, B> dont l'ensemble des valeurs est l'intersection de l'ensemble des valeurs du type A avec l'ensemble des valeurs du type B.\n\nTypeScript 4.2 est sur le point de sortir. Faisons une récapitulatif !\n\nDans ce talk je vous présenterai une sélection de types insolites ainsi que les nouveautés 2021 de TypeScript. L'objectif est de s'ouvrir l'esprit sur ce qu'un système de type est capable d'exprimer.",
+      "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
+      "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "speakers": [
+        "7hX4q2nlIWTY770efZKTMIqWRSr2"
+      ],
+      "comments": "Talk déjà donné en français au NantesJS du 18/02/2021.",
+      "createTimestamp": {
+        "_seconds": 1614247636,
+        "_nanoseconds": 753000000
+      },
+      "startTimeCa": "03h30",
+      "startTimeSg": "15h30",
+      "startTimeFr": "09h30",
+      "trackName": "Singapour",
+      "videoConfLink": "https://www.youtube.com/watch?v=hebzxZ0wG6w"
+    },
+    {
+      "id": "AHnmezQGdDhmj5RQbwAS",
+      "title": "What if you read your table by column?",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Usually tables are read line by line. However another paradigm can be used: reading column by column! This little modification can save you lots of processing power and so money, especially in Big Data world!\n\nDuring this talk, after explaining you the concept and their actors, I'll show you how much you can gain in performance!",
+      "categories": "042915d6-95ab-510c-8665-6c9e2d66eedf",
+      "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "speakers": [
+        "SuQynIcCcuRHjGTOdl1VUdg0Mod2"
+      ],
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1614863767,
+        "_nanoseconds": 187000000
+      },
+      "startTimeCa": "03h00",
+      "startTimeSg": "15h00",
+      "startTimeFr": "09h00",
+      "trackName": "Brest",
+      "videoConfLink": "https://www.youtube.com/watch?v=ieKcWKxjkHk"
+    },
+    {
+      "id": "CBmDM274sgwWbYwKxmMf",
+      "title": "Les nouveautés du monde quantique",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "La technologie quantique, sous toutes ses formes, devient un défi que de plus en plus d'organisation veulent relever. Avec ce talk, je vous emmène avec moi pour faire un tour sur les nouveautés au travers d'une liste non exhaustive d’éléments non hiérarchisée ayant pour thème commun le monde quantique ... en un mot, un TOP.\n\nMicrosoft, Atos, IBM, algorithmie, informatique, téléportation ... quelles sont les avancés les plus impressionnantes qui pourrait révolutionner notre quotidien ?  ",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "eP6NDWsMivcAllm3fhB7Deb9E233"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1615472643,
+        "_nanoseconds": 43000000
+      },
+      "startTimeCa": "11h15",
+      "startTimeSg": "23h15",
+      "startTimeFr": "17h15",
+      "trackName": "Montreal",
+      "videoConfLink": "https://www.youtube.com/watch?v=JbrqD-rPNu0"
+    },
+    {
+      "id": "CYwIWgB8yhZFnT7jvqQN",
+      "title": "MyC02 - Atelier de sensibilisation bas-carbone",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "En 2021, Zenika a décidé de travailler son impact environnemental avec [Carbone 4](http://www.carbone4.com/).\nDurant la TZ nous vous proposons un atelier ludique  et personnalisé pour recontextualiser l’empreinte et la stratégie carbone de votre entreprise ou de votre secteur. A travers l'outil, [MyCO2](https://www.myco2.fr/) vous pourrez sans culpabilisation conscientiser vos choix personnels et trouvez des actions de réduction en respectant le rythme de chacun !\n\nPourquoi faire ça pendant la technozaure ? C'est un des rares moments où nous pouvons être rassemblés au même moment sur un même sujet et cet atelier étant organisé par une société extérieure, nous vous proposons de le faire tous ensemble pour profiter au maximum de leur présence. \n\nL'atelier dure 2 heures.\n",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "b41364e7-0279-55cb-baf8-0e1ab7b78906",
+      "speakers": [
+        "WrWpAXvAKXO0SyS6IcqutqoMVdh2",
+        "M44UjHAaNYUiLRhx4AP879KQY9l2"
+      ],
+      "comments": "Proposé par les Green Advocates.\nIl s'agit d'un atelier que nous avons acheté 3000 euros :-)",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614754820,
+        "_nanoseconds": 159000000
+      },
+      "startTimeCa": "08h00",
+      "startTimeSg": "20h00",
+      "startTimeFr": "14h00",
+      "trackName": "Bordeaux",
+      "videoConfLink": "https://www.youtube.com/watch?v=p6cT5AbMroQ"
+    },
+    {
+      "id": "DKpDiSgZnSuJEAItXZKb",
+      "title": "ProgramAtion in Franglais",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Le naming et le cache invalidAtion, c'est hard. C'est especialement hard quand on est francophone, que l'on parle un approximatif anglais, que le bizness parle un mix des deux et que quasiment tous les languages de programAtion baignent dans l'anglais.\n\nAïe ave euh drime ! où le code est lisible et compréhensible par tous, où l'on ne perd pas la boule en essayant de décrypter la méthode `getListesNbUserAuthentificated` de la classe `ProxyServiceHaricotWithConsistenceEventuelleManager`.\n\nUn anglo-américain vous révélera les ingrédients de la sauce secrète qu'il a affiné et optimisé au cours de ses 13 années de pratique en France.",
+      "categories": "7160db76-afc8-549f-8fb9-2009b0160653",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "Q3gF8NTUrnMPDDJ8HWfe00qYw5q2"
+      ],
+      "comments": "❤️❤️❤️",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1612891195,
+        "_nanoseconds": 790000000
+      },
+      "startTimeCa": "10h",
+      "startTimeSg": "22h15",
+      "startTimeFr": "16h15",
+      "trackName": "Lyon",
+      "videoConfLink": "https://www.youtube.com/watch?v=rUElTC-U4WY"
+    },
+    {
+      "id": "DTgvDrU2489lR0ajGBA4",
+      "title": "Flutter: Write once, run anywhere (vraiment ?)",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Depuis de nombreuses années, nous avons des outils pour développer des applications multiplateformes, on peut parler de Cordova, d'Électron ou de React Native qui permettent de faire des applications mobile et desktop en utilisant les technologies du web.\n\nFlutter apporte enfin une solution qui permet de développer des applications multiplateforme (mobile, web et desktop), se rapprochant au plus proche d’une expérience native.\n\nReprenons la promesse initiale de Java en 1995 : _“Write once, run anywhere”_, et voyons comment Flutter l’a vraiment adapté pour faire du multiplateforme.\n\nSi vous voulez savoir comment cela est possible, nous vous présenterons une application qui fonctionne à la fois sur le web, le mobile et le desktop.\n",
+      "categories": "dfa320e4-1f9b-53ee-8c98-3ef48ba81013",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "yVh0TaIWmiRohty6BeheTneHxLI2",
+        "zuGFLtXDJ8Qo4lbQIBtBSUEt3s82"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614857400,
+        "_nanoseconds": 916000000
+      },
+      "startTimeCa": "08h30",
+      "startTimeSg": "20h30",
+      "startTimeFr": "14h30",
+      "trackName": "Paris",
+      "videoConfLink": "https://www.youtube.com/watch?v=i9r0B5Renmo"
+    },
+    {
+      "id": "EJzhu79ygYBxq0FD4vsT",
+      "title": "Augmentons notre pouvoir d’achat en améliorant la rentabilité de Zenika",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "A partir de 5% de REX , il y a un partage du résultat via l'intéressement.\n\nDans ce talk, nous allons évoquer les différents moyens pour augmenter et améliorer la rentabilité de Z.\n\nComment fait-on pour atteindre une bonne rentabilité ?\n\nLes principaux leviers qui permettent d'améliorer la rentabilité sont les suivants : \n\n-TJM\n-TACE\n\nNous avons un modèle premium avec un cercle vertueux en investissant sur des JNF qui permettent d’améliorer l’expertise de nos consultants.\nDonc cela pourrait permettre d’augmenter le TJM chez les clients.\n\nLa rentabilité permet d'avoir de la trésorerie et donc de pouvoir financer notre croissance afin d'être pérenne dans le temps\n\nVenez échanger avec nous sur ce sujet qui nous concerne tous.\n\n✓ Assurer l'autonomie financière de Zenika\n✓ Permettre de financer le Projet tout en gardant nos valeurs et notre liberté\n✓ Traduit la pertinence du modèle Zenika\n\nEn conclusion , il y a certains leviers qui sont à la portée des salariés afin d'agir sur la rentabilité.\n",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "acg8fsSvT1cisuSoK4qHXh0JzXt1"
+      ],
+      "comments": "Hello tout le monde,\n\nJ'espère que vous allez bien. Je propose ce sujet au nom de la Finance, actuellement je suis seul sur le Talk mais nous serons sûrement plusieurs à le présenter.\n\nMerci pour l'organisation",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1615564028,
+        "_nanoseconds": 465000000
+      },
+      "startTimeCa": "03h00",
+      "startTimeSg": "15h00",
+      "startTimeFr": "09h00",
+      "trackName": "Singapour",
+      "videoConfLink": "https://www.youtube.com/watch?v=hebzxZ0wG6w"
+    },
+    {
+      "id": "ESqnrZj8hSCDue2wBvuO",
+      "title": "Comment produire une musique de A à Z",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Dans ce talk, je souhaite vous présenter une de mes passions: la production musicale!\nGrâce au logiciel Ableton Live (très connu), il est en effet possible de créer une musique de A à Z (c'est-à-dire de rien jusqu'à une instrumentale relativement complète).\nIl y a trois grandes phases que nous allons découvrir ensemble:\n- Le Choix des Samples\n- Le Gain Staging\n- Le Mixing\nCe n'est pas un sujet technique au sens dev du terme, mais vous y apprendrez quelques notions propres au milieu musical et qui vous seront utiles si vous voulez un jour faire votre propre musique!\nA très bientôt donc! ",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "cRpghQfzRcd0kypsyoa0UM7l9QK2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614605087,
+        "_nanoseconds": 680000000
+      },
+      "startTimeCa": "11h15",
+      "startTimeSg": "23h15",
+      "startTimeFr": "17h15",
+      "trackName": "Bordeaux",
+      "videoConfLink": "https://www.youtube.com/watch?v=p6cT5AbMroQ"
+    },
+    {
+      "id": "GCXjUOA9G8ubK7I6q15y",
+      "title": "Nous sommes tous biaisés",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Notre cerveau a une capacité très pratique : il prend des décision rapidement.\nLe problème c'est que pour ça il fait des raccourcis...\nEt comme il est un peu mesquin, parfois quand on a le temps, il prend quand même les raccourcis qu'il connait.\n\n\nLaissez moi vous présenter certains de ces raccourcis, aussi appelés Biais Cognitif, par des expériences.",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "X7XymhqINGST1YOWpNbq6Rvw4Od2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614243990,
+        "_nanoseconds": 973000000
+      },
+      "startTimeCa": "10h45",
+      "startTimeSg": "22h45",
+      "startTimeFr": "16h45",
+      "trackName": "Lyon",
+      "videoConfLink": "https://www.youtube.com/watch?v=rUElTC-U4WY"
+    },
+    {
+      "id": "GbT2aoi0Agm9LjHiapOp",
+      "title": "GitHub Actions. Automatisez-vous la vie.",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Vous aimeriez que vos tickets se trient tout seuls, que vos changelogs se génèrent à chaque release ou automatiser la file des PRs prêtes au merge… **Les GitHub Actions sont là pour vous automatiser la vie.**\n\n**GitHub Actions n'est pas GitHub CI/CD, elle va au delà du déploiement ou de l'intégration continue.** Son API permet d’organiser n’importe quel workflow, lié à n’importe quel événement. Il est possible de réaliser des builds, exécuter vos tests, déployer vos applications, faire des reviews, gérer vos branches ou même trier vos tickets. Vous pourrez alors automatiser tous vos workflows.\n\nNous verrons différentes possibilités d'automatisation et comment elles peuvent vous aider dans le développement de vos projets.\n",
+      "categories": "9fdf9509-7363-5d8c-a35d-13197b69a51c",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "CiJ9ahTlUSX1J6wj8C4PHpgEiHE2",
+        "LBXSNoYRKbWwvirzjnpHzMk03cM2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614601531,
+        "_nanoseconds": 410000000
+      },
+      "startTimeCa": "08h00",
+      "startTimeSg": "20h00",
+      "startTimeFr": "14h00",
+      "trackName": "Grenoble",
+      "videoConfLink": "https://www.youtube.com/watch?v=UeGCA3WtkqE"
+    },
+    {
+      "id": "Gd18T0vjwdeTzD5N4oUm",
+      "title": "Introduction to Deep Reinforcement Learning",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Following Big Data revolution, advent of Machine Learning is now a reality.  By giving computers the ability to learn from data, in order to turn these data into knowledge, the importance of Machine Learning in Computer Science is continuously increasing.\n\nThe most famous, and used, paradigms of Machine Learning are Supervised and Unsupervised Learning. In this talk, we will discuss a third paradigm which is quite exciting although it is not well-known: Reinforcement Learning.  \n\nContrary to Supervised and Unsupervised Learning which aims at making single predictions one after the other, Reinforcement Learning is much more ambitious (and thus complicated...): it aims at building an exhaustive strategy by learning successive series of actions in a dynamic environment, in order to optimize an overall reward.\n\nAfter a short presentation of theoretical foundations, we will introduce the terminology and present the main algorithms. We will particularly focus on Reinforcement Learning algorithms involving Deep Neural Networks, which have been a major breakthrough in the field. Some applications will be presented.",
+      "categories": "042915d6-95ab-510c-8665-6c9e2d66eedf",
+      "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "speakers": [
+        "h9SPnYdeA3UbwXoZnH61tErQtLi2"
+      ],
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1614935734,
+        "_nanoseconds": 293000000
+      },
+      "startTimeCa": "05h45",
+      "startTimeSg": "17h45",
+      "startTimeFr": "11h45",
+      "trackName": "Rennes",
+      "videoConfLink": "https://www.youtube.com/watch?v=GY2-Nvwvl6s"
+    },
+    {
+      "id": "HV33sA3bmb9x4XGvP4rx",
+      "title": "Comment être champion du Monde au Fall Challenge 2020 de CodinGame",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Le dernier Challenge mondial de CodinGame a été des plus rudes : il a demandé au participants de développer une IA capable de battre toutes les autres dans un jeu de stratégie complexe, si bien que les meilleurs joueurs se sont battus pour les meilleures places en réimplémentant le même algorithme que celui qui a battu le champion d’Échecs Garry Kasparov en 1997 !\n\nJe n'ai pas pu malheureusement participer pleinement à ce challenge, qui tombait en même temps que mes entretiens pour intégrer Zenika. Ce que je vous propose ici c'est de revoir ensemble comment les champions ont utilisé cet algorithme qui rend imbattable aux Échecs et qui assure une place sur le podium de certaines des épreuves d'IA les plus rudes.",
+      "categories": "042915d6-95ab-510c-8665-6c9e2d66eedf",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "xjwwgEjMfBUKht3cF0SnOeIPgBq2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614935426,
+        "_nanoseconds": 666000000
+      },
+      "startTimeCa": "08h30",
+      "startTimeSg": "20h30",
+      "startTimeFr": "14h30",
+      "trackName": "Lyon",
+      "videoConfLink": "https://www.youtube.com/watch?v=rUElTC-U4WY"
+    },
+    {
+      "id": "HdF3Q29sqkn6TNgAjda6",
+      "title": "Rex SACEM : mise en place d'un Design System",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Après un peu plus d'un an de mission à la Sacem, je vous présenterai comment nous avons intégré un design system et amélioré l'ergonomie d'une des applications internes. \n",
+      "categories": "39181f16-a1af-5355-ad29-8a9cf408a53e",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "P2t4TJMeSpYFzc5vlUfoh8W9yxh1"
+      ],
+      "createTimestamp": {
+        "_seconds": 1614355124,
+        "_nanoseconds": 97000000
+      },
+      "startTimeCa": "09h00",
+      "startTimeSg": "21h",
+      "startTimeFr": "15h00",
+      "trackName": "Brest",
+      "videoConfLink": "https://www.youtube.com/watch?v=ieKcWKxjkHk"
+    },
+    {
+      "id": "IYHk2Hkrrxbv2qonLpvz",
+      "title": "Compilez pour l'accessibilité avec Svelte",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Et si votre framework frontend préféré vous accompagnait (vraiment) dans la création d'applications web accessibles ? Un doux rêve non ? Eh bien ne rêvez plus car Svelte intègre directement dans son compilateur des vérifications sur les bonnes pratiques d'accessibilité. Décryptons ensemble comment cela est fait, les bienfaits et les limites.",
+      "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "u3y2fdTflHQYoHt9ILKS9LtZIbg1"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1615494483,
+        "_nanoseconds": 568000000
+      },
+      "startTimeCa": "05h15",
+      "startTimeSg": "17h15",
+      "startTimeFr": "11h15",
+      "trackName": "Lyon",
+      "videoConfLink": "https://www.youtube.com/watch?v=rUElTC-U4WY"
+    },
+    {
+      "id": "IdK3lRhBDunCmaEly1xH",
+      "title": "How we designed our new low-tech Zenika Singapore website",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "From the inception phase to the deployment phase: a deep dive in the architecture decisions of a low-tech website reflecting our very own Green IT offer.\nWe will discuss:\n- Marketing principles: funneling and facilitating\n- UI/UX Design and Accessibility\n- Performance optimization and SEO\n- Development and Build optimization\n- What's next",
+      "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
+      "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "speakers": [
+        "JIkth9HhzNRKIS5HMDLvXSjtWYJ3"
+      ],
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1614824100,
+        "_nanoseconds": 907000000
+      },
+      "startTimeCa": "04h00",
+      "startTimeSg": "16h00",
+      "startTimeFr": "10h00",
+      "trackName": "Bordeaux",
+      "videoConfLink": "https://www.youtube.com/watch?v=p6cT5AbMroQ"
+    },
+    {
+      "id": "JGeEZKtosHxERy7TjW8A",
+      "title": "QuickPerf, quelle suite ?",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "Vous avez peut-être entendu parler de *QuickPerf*. Il s'agit aujourd'hui d’une librairie de test Java permettant d’évaluer des propriétés impactant la performance applicative (*roundtrips JDBC*, *allocation mémoire*, ...).\n\nQuickPerf comporte des limitations. Comment prioriser l'amélioration des propriétés liées à la performance ? Ecrire un test vous prend trop de temps ? Vous découvrirez au cours de cette présentation les dernières fonctionnalités de QuickPerf, dont certaines en avant-première, afin de favoriser sans effort la performance de vos applications Java.\n\n😒 Vous n'êtes pas intéressé par la  performance applicative ? \nVous aimeriez écrire plus rapidement des tests de non-régression fonctionnelle ? Cette présentation pourrait aussi vous intéresser !\n",
+      "categories": "09d4801b-e7ac-5090-af8d-4a99ac175959",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "PpGRtcFYUmXpXENgC2j8tu7JOQj2"
+      ],
+      "comments": "J'ai soumis une autre présentation avec un co-speaker. Si le jury devait choisir entre les deux, cela serait peut-être plus sympa de retenir celle avec mon co-speaker :)",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614969306,
+        "_nanoseconds": 164000000
+      },
+      "startTimeCa": "09h00",
+      "startTimeSg": "21h",
+      "startTimeFr": "15h00",
+      "trackName": "Nantes",
+      "videoConfLink": "https://www.youtube.com/watch?v=unj_JlY1KV0"
+    },
+    {
+      "id": "JavWatopJXqXe0rq4zq0",
+      "title": "Des expériences visuelles interactives avec la 3D sur le web",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "La 3D sur le web, c'est ce petit effet \"wahou\" que certains sites utilisent pour sortir du lot. C'est un object que vous pouvez visualiser tout en le personnalisant en temps réel sur un site de e-commerce. C'est une expérience visuelle (voire sonore) interactive et immersive, accessible simplement depuis un navigateur. Ça vous dirait d'essayer ?\n\nJe vous propose dans ce talk de parcourir différentes méthodes pour obtenir des effets 3D sur le web. Nous irons des méthodes simples en CSS aux plus complexes en WebGL. Nous parlerons aussi d'animations, de performance, le tout avec un peu de code et beaucoup d'exemples.",
+      "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "wbREkU3l7Papr8AC0RJbXSakYK62"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1613758483,
+        "_nanoseconds": 815000000
+      },
+      "startTimeCa": "05h45",
+      "startTimeSg": "17h45",
+      "startTimeFr": "11h45",
+      "trackName": "Paris",
+      "videoConfLink": "https://www.youtube.com/watch?v=i9r0B5Renmo"
+    },
+    {
+      "id": "JxRt5VDA2VZWmgFy7vDe",
+      "title": "Après la censure, l’auto censure… mais là c’est drôle, éducatif et avec de l’IA",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Vous vous rappelez des séries avec des “bips” sur certains mots ? Nous allons faire de même, mais avec un censeur automatique utilisant sur un réseau de neurones.\nPourquoi ? Parce que c’est drôle et cela nous permet de découvrir avec vous ce merveilleux sujet.\n\nNous aborderons les problématiques de choix de réseau neuronal et de stratégie de flux de traitement audio.\n\nEt si la démonstration tombe en marche 🤞 nous parions que cela vous donnera à vous aussi envie de tester keras (tensorflow) sur un flux audio (ou autre). \n\n",
+      "categories": "042915d6-95ab-510c-8665-6c9e2d66eedf",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "TE2jAFDI7Ge8wHjohUMVHTZhxYG2",
+        "golnkyMWh5W7HjoAfmYcCvXh9Yg2"
+      ],
+      "comments": "👋 et merci aux gentils organisateurs, bon à vous courage",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614929162,
+        "_nanoseconds": 525000000
+      },
+      "startTimeCa": "10h",
+      "startTimeSg": "22h15",
+      "startTimeFr": "16h15",
+      "trackName": "Lille",
+      "videoConfLink": "https://www.youtube.com/watch?v=ObR44UcwM1A"
+    },
+    {
+      "id": "K9yNLwk8mGyDvoTvSbK3",
+      "title": "How to make a streamable video using a serverless architecture (Netflix like backstory)",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "Présentation de la nouvelle solution de création des contenus streaming chez Bedrock. Pour développer cette nouvelle solution nous avons pris le parti d'utiliser des services managés AWS permettant de développer une application serverless.\n \nNous vous proposons :\n - Une introduction au streaming vidéo\n - Une démonstration du service AWS Lambda Function\n - Une démonstration du service AWS Step Functions",
+      "categories": "09d4801b-e7ac-5090-af8d-4a99ac175959",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "GD7LTdZkPZbHLvnmpkaVOKK5fvc2",
+        "XU8bJv33aUSCq1GL3M1Gyh6sv5l1",
+        "7VQ8wdjtOlaqGRPwS4X9XdFCEVh1"
+      ],
+      "comments": "Talk à l'intersection des catégories Cloud et architecture",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614874376,
+        "_nanoseconds": 199000000
+      },
+      "startTimeCa": "03h30",
+      "startTimeSg": "15h30",
+      "startTimeFr": "09h30",
+      "trackName": "Nantes",
+      "videoConfLink": "https://www.youtube.com/watch?v=unj_JlY1KV0"
+    },
+    {
+      "id": "LdywqrTTlkbuSPGzAmaf",
+      "title": "Le rapport d’étonnement : un outil pour amener du changement positif dans ton mandat",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Quand on commence un nouveau mandat chez un client, il n'est pas rare d'observer de nombreux dysfonctionnements ou des choses qui ne nous conviennent pas. Par exemple : on nous avait promis de la qualité durant l'entretien, mais dans les faits, aucun développeur n'écrit de tests automatisés, et personne ne souhaite apprendre comment faire. \n\nQue faire dans ce genre de situation ? Comment essayer d'ajuster notre mandat en adoptant une posture bienveillante et de conseil ? Et dans le pire des cas, comment quitter le mandat plus tôt que prévu tout en restant en de bons termes commerciaux ?\n\nNous vous proposons un outil simple, qui a déjà fait ses preuves dans le passé : le rapport d'étonnement. À travers cette présentation, nous vous expliquerons l'intérêt de ce type de rapport, comment structurer son contenu, éviter certains écueils, et aussi comment préparer le client à recevoir ce rapport dès le premier jour du mandat.",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "mArCT6gnIgQJ9cjaDdnciMxUKz12",
+        "T6CvcsbXPefeANP3ZwfIciwT3v12"
+      ],
+      "comments": "TimeZone Montréal :-)",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614272640,
+        "_nanoseconds": 144000000
+      },
+      "startTimeCa": "10h",
+      "startTimeSg": "22h15",
+      "startTimeFr": "16h15",
+      "trackName": "Rennes",
+      "videoConfLink": "https://www.youtube.com/watch?v=GY2-Nvwvl6s"
+    },
+    {
+      "id": "MviMikRG6BT9H97UpUBB",
+      "title": "Pourquoi vous avez besoin de juniors dans vos équipes ",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Aujourd'hui beaucoup de recruteurs et de clients ne recherchent QUE des experts ou au moins des développeurs confirmés, pour certains d'entre eux il n'est pas question de travailler avec des juniors. En tant que moi même junior je souhaiterais partager mon expérience et montrer en quoi avoir des juniors est une force dans son équipe et comment ces derniers sont partie intégrante de la montée en compétence de toute une équipe.",
+      "categories": "d150b0bb-df68-520a-994b-d6464cb8d770",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "Sn0YLBnbApO9tsGG9AMlyxEZxTk2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1613151369,
+        "_nanoseconds": 792000000
+      },
+      "startTimeCa": "04h45",
+      "startTimeSg": "16h45",
+      "startTimeFr": "10h45",
+      "trackName": "Bordeaux",
+      "videoConfLink": "https://www.youtube.com/watch?v=p6cT5AbMroQ"
+    },
+    {
+      "id": "NhjO5O8DfCDyJLPcVLZL",
+      "title": "CMS headless : pour qui, pour quoi ?",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "On assiste depuis quelques années à l’apparition de nouvelles tendances dans le paysage des outils de gestion de contenu web.\n\nDans un marché depuis longtemps dominé par les mastodontes que sont Wordpress ou Drupal, on voit aujourd’hui se populariser des CMS, dits “headless”, qui ont pris le parti de surfer sur la vague des nouvelles technologies Front. \n\nLeur but ? Casser le lien entre le back-office et le front-office en mettant le contenu à disposition via des API (API-first CMS) ou des fichiers stockés dans un répertoire Git (Git-based CMS).\n\nÀ travers ce talk, nous essaierons de :\n- comprendre l’intérêt d’utiliser un CMS headless,\n- faire une revue des solutions existantes et essayer d’évaluer leur pérennité,\n- lister les questions à se poser afin de sélectionner le bon outil qui conviendra le mieux à notre besoin.\n\nBien que le sujet puisse paraître purement technique, il abordera aussi des questions d’UX, de SEO et de sobriété numérique.\n\nVenez échanger avec nous sur ce qui ferait, pour vous, le parfait outil de gestion de contenu.\n",
+      "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "3jAixvFWDwMpoISHbnkL3IqGNjP2",
+        "rjLKrPb3mjcXp35cXflq5PGPS6f1"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614937266,
+        "_nanoseconds": 988000000
+      },
+      "startTimeCa": "10h",
+      "startTimeSg": "22h15",
+      "startTimeFr": "16h15",
+      "trackName": "Paris",
+      "videoConfLink": "https://www.youtube.com/watch?v=i9r0B5Renmo"
+    },
+    {
+      "id": "OWMubXUSA9HLnLs4Mcfi",
+      "title": "Jouons à Jeopardy! avec Apache Lucene",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "Depuis la version 8.2.0, la bibliothèque Apache Lucene, motorisant les moteurs de recherche distribués Apache Solr et Elasticsearch, contient un module complet de recherche de requêtes stockées.\nCe moteur vient du projet Luwak (https://github.com/flaxsearch/luwak), donné au projet Lucene courant 2019.\n\nCe type de recherches peut être utilisé pour faire de la recommandation, de la détection d'entités ou une gestion d'alertes/abonnements à certain type de contenus/news par exemple. (Bloomberg)\n\nL'idée de ce talk est de présenter l'utilisation de la bibliothèque ainsi que de comparer ce moteur avec ce qui est fait dans le percolator d'Elasticsearch.   \n",
+      "categories": "042915d6-95ab-510c-8665-6c9e2d66eedf",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "feKGnuyD8XYqP2m8kPFKVk6tzaP2"
+      ],
+      "comments": "25 minutes c'est peut-être un peu court, s'il faut je peux passer à 50 minutes ;)",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614690116,
+        "_nanoseconds": 580000000
+      },
+      "startTimeCa": "09h30",
+      "startTimeSg": "21h30",
+      "startTimeFr": "15h30",
+      "trackName": "Paris",
+      "videoConfLink": "https://www.youtube.com/watch?v=i9r0B5Renmo"
+    },
+    {
+      "id": "OajkaVizzk5TMHIDr5LA",
+      "title": "Spring internal secrets",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "Nous sommes très nombreux à utiliser Spring, mais nous ne connaissons pas forcément le fonctionnement interne.\n\n- A quel problématique permet de répondre ce framework ?\n- Pourquoi un tel succès ?\n- Quelles sont les possibilités de configuration avec ce framework ?\n- Comment est géré le cycle de vie des beans ?\n- Comment les fonctionnalités \"magiques\" sont rajoutés à Spring ?\n\nL'idée de talk est de descendre dans le détail sur le fonctionnement de ce framework, ce qui vous donnera les clés sur tous les autres sujets d'intégration avec Spring (Accès BDD, Securité, Transactions, ...)\n\n\n",
+      "categories": "09d4801b-e7ac-5090-af8d-4a99ac175959",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "QCL3ZjLcJQa155UlHahACzJi4WM2"
+      ],
+      "comments": "Merci pour l'organisation !",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614872476,
+        "_nanoseconds": 603000000
+      },
+      "startTimeCa": "08h00",
+      "startTimeSg": "20h00",
+      "startTimeFr": "14h00",
+      "trackName": "Rennes",
+      "videoConfLink": "https://www.youtube.com/watch?v=GY2-Nvwvl6s"
+    },
+    {
+      "id": "ObeaRDo46Q2PhymuayHx",
+      "title": "🇬🇧 Self-Marketing for Developers",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "In the Tech Community, we are curious and passionate about the technologies we use. We love sharing our knowledge and discussing our ideas, side-projects or hobbies. Finding a good way to share and engage an audience can be difficult and stressful...\n\nHow can you effectively communicate and promote your ideas? What are the keys to create your personal brand? How do you capture an audience? Where do you start?\n\nBased on the book \"Success in Programming\" by Fred Harper, this talk shares tips and tricks about Self-Marketing and describes a path to become an influencer.",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "speakers": [
+        "0rNZujyWZhWZkxHWh7NZdnLv2873"
+      ],
+      "comments": "So happy to see this TZ coming!",
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1614675193,
+        "_nanoseconds": 967000000
+      },
+      "startTimeCa": "03h00",
+      "startTimeSg": "15h00",
+      "startTimeFr": "09h00",
+      "trackName": "Paris",
+      "videoConfLink": "https://www.youtube.com/watch?v=i9r0B5Renmo"
+    },
+    {
+      "id": "P3Lv3gst4nLCNAAZJkRY",
+      "title": "Live hacking: From Internet to SCADA pwn",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Hello fellas,\n\nHave you ever dreamed about killing your medically assisted step-mother remotely? Really, did you ? Well that's not really ethical ;)\n\nIn this talk ZenSec will present you a realistic Livehacking where we show you what can happen from attacking a web application to takeover a SCADA (basically an automated electronic network) controlled system. \n\nFrightening, right ? 😬\n",
+      "categories": "568257d2-e076-54f5-9210-ae8cb1df0944",
+      "formats": "ab1ee950-f584-5115-bd20-a45a10f744a4",
+      "speakers": [
+        "icXkrMOJgIYr9pvUSgIGzAKLzm73"
+      ],
+      "comments": "Coucou,\n\nCe sera plutôt un format talk 50m dans la mesure ou ce sera un live hacking et que malheureusement, cela va être compliqué d'impliquer l'auditoire.\n\nEn espérant que ça convienne :)\n\nCheers,\n\nZenSec",
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1614871969,
+        "_nanoseconds": 467000000
+      },
+      "startTimeCa": "03h00",
+      "startTimeSg": "15h00",
+      "startTimeFr": "09h00",
+      "trackName": "Bordeaux",
+      "videoConfLink": "https://www.youtube.com/watch?v=p6cT5AbMroQ"
+    },
+    {
+      "id": "QUkUTwMbBLwnKPzu6zQ5",
+      "title": "[GreenIT] Mesurer et optimiser la performance de vos sites et applications",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Lorsqu'on se penche sur les impacts environnementaux de l'IT, on réalise que les principaux impacts sont liés à un renouvellement trop important des terminaux utilisateurs. \n\nDans le cadre de travaux de co-R&D avec notre client Arkea, nous avons donc creusé différents sujets autour de l'idée d'optimiser le ressenti utilisateur sur des applications web et mobiles : \n - Comment optimiser une application mobile Android en fonction de la génération du mobile et de l'état du réseau ?\n - Comment mesurer l'impact d'un site web sur la consommation énergétique du navigateur ?\n - Comment mesurer la fluidité d'un site web en fonction de la génération de son équipement ?\n - Comment utiliser les résultats des questions précédentes pour embrasser les modèles d'éco-conception dans le développement applicatif ?\n - Comment utiliser les résultats des questions précédentes pour accompagner nos clients dans la stratégie de construction de leur produit ?\n\nNous vous proposons de partager avec vous les conclusions auxquelles nous sommes parvenus lors de cette étude.",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "830659bb-a37c-532d-b9d9-e1692e9f98e4",
+      "speakers": [
+        "mNQ7HNno7qX2c1n3xmUl9P2nstx2",
+        "6mSHDJwnRhUQQStj1eYDXkyWJ7u2",
+        "CEhpHuumwEbTzJOqYMOXamuAJEh2"
+      ],
+      "comments": "Ce n'est pas à proprement parler un workshop, c'est plutôt un talk de 50 minutes avec des démos techniques (mais on pourra mettre à dispo un repo à cloner pour ceux qui voudraient tester des choses pendant le talk).",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1613659399,
+        "_nanoseconds": 348000000
+      },
+      "startTimeCa": "10h",
+      "startTimeSg": "22h15",
+      "startTimeFr": "16h15",
+      "trackName": "Grenoble",
+      "videoConfLink": "https://www.youtube.com/watch?v=UeGCA3WtkqE"
+    },
+    {
+      "id": "QYeD36ff9h4A8v243Hu3",
+      "title": "⚡️Vite ⚡️the Webpack killer",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Pendant le Confinement, premier du nom, j'ai découvert vite js et c'est un sérieux concurrent à Webpack.\n\nEn quoi il concurrence Webpack ? C'est ce que nous allons voir dans ce talk et live coding!\n\n",
+      "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "wWYKM4fzp9SqMgB6euFohSb8ud33"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1613749613,
+        "_nanoseconds": 222000000
+      },
+      "startTimeCa": "09h30",
+      "startTimeSg": "21h30",
+      "startTimeFr": "15h30",
+      "trackName": "Montreal",
+      "videoConfLink": "https://www.youtube.com/watch?v=JbrqD-rPNu0"
+    },
+    {
+      "id": "Qs9frzMKCUKaoIQB34sz",
+      "title": "🍺 Vous pensez avoir fait le tour de FizzBuzz ? Détrompez-vous ! 👨‍💻🎶",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "[FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz) est probablement le jeu le plus connu des consultants recruteurs comme des adeptes du Test-Driven Development. 🐱‍👤<br>\nIl a le mérite d'être très simple... Quoique. 🤔<br>\nNous verrons quels challenges il peut poser et étudierons différentes solutions, plus ou moins créatives. 🎨<br>\nQue vous soyez développeur ou simplement curieux, vous apprendrez des choses. 🎓<br>\nSatisfait ou remboursé ! 👍",
+      "categories": "7160db76-afc8-549f-8fb9-2009b0160653",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "qiyvDP08XwRTEeQHtGbK5roUTps2"
+      ],
+      "comments": null,
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614956421,
+        "_nanoseconds": 390000000
+      },
+      "startTimeCa": "11h45",
+      "startTimeSg": "23h45",
+      "startTimeFr": "17h45",
+      "trackName": "Grenoble",
+      "videoConfLink": "https://www.youtube.com/watch?v=UeGCA3WtkqE"
+    },
+    {
+      "id": "RlzEPj8hIuYP5s2QzO48",
+      "title": "À la découverte de DVC: le git du machine learning",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "La gestion du cycle de vie des modèles de Machine Learning est devenue une problématique de premier plan. Le passage de la phase de prototype à la phase de production soulève un certain nombre de questions dont le déploiement, la mise à jour des jeux de données, le réentraînement des modèles et l’évaluation de ces modèles en production. \nDVC fait partie des nouveaux outils mis à disposition des Dev, Data Scientists et Ops pour asssurer le suivi des expérimentations autour d'un projet de Machine Learning. \nCette présentation vise à introduire la démarche MLOps par la mise en oeuvre de DVC. ",
+      "categories": "042915d6-95ab-510c-8665-6c9e2d66eedf",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "NCPIJTOI8dOB1mDI02X1zcYRnwt1",
+        "WbtMWcgbmIMm4mraT1eu8DckqPN2"
+      ],
+      "comments": "😘😘😘",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1615561804,
+        "_nanoseconds": 361000000
+      },
+      "startTimeCa": "11h45",
+      "startTimeSg": "23h45",
+      "startTimeFr": "17h45",
+      "trackName": "Lille",
+      "videoConfLink": "https://www.youtube.com/watch?v=ObR44UcwM1A"
+    },
+    {
+      "id": "SSIOWtgbv8QDyHPSkDoj",
+      "title": "Search Inside Yourself - Comment s’épanouir au travail par la méditation ?",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Ce talk s’adresse à toutes les personnes qui ont envie d’apprendre à lâcher prise, à relativiser, et à se détendre rapidement. 😤\n\nAu travers de cette présentation basée sur les travaux de Chade Meng Tan, ingénieur de chez Google nominé pour le prix Nobel de la paix vous apprendrez les bienfaits de la méditation sur le lâcher-prise, la respiration, la concentration, la créativité, la relaxation…\nNous testerons en live plusieurs types de méditation et vous pourrez constater par vous mêmes les effets bénéfiques qu’elles procurent. 🧘\n\nVous repartirez avec un ensemble de conseils et d’outils pour poursuivre votre chemin sur la voie de la sérénité au travail. 🕊️\n",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "830659bb-a37c-532d-b9d9-e1692e9f98e4",
+      "speakers": [
+        "jE6CzDpmgHRwolijOjKUGsAnlR53"
+      ],
+      "comments": "C'est mon premier talk. J'espère que ça vous plaira et que ça changera de l'agilité et de la tech... ;-)",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614879104,
+        "_nanoseconds": 492000000
+      },
+      "startTimeCa": "07h00",
+      "startTimeSg": "19h00",
+      "startTimeFr": "13h00",
+      "trackName": "Lille",
+      "videoConfLink": "https://www.youtube.com/watch?v=ObR44UcwM1A"
+    },
+    {
+      "id": "TMd5zGklZU5YjKbFItwO",
+      "title": "Les astuces pour une mémoire de champion",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Durant cet atelier de 2h, vous découvriez ce qu'on aurait dû vous apprendre dès votre plus jeune âge : - le par-coeur, c'est le moyen le moins efficace de mémoriser, - la technique des palais mentaux (ou loki), ça existe vraiment et ce n'est pas réservé qu'à Sherlock Holmes, - il existe des règles d'ergonomie cérébrale, très simples à appliquer qui vous permettront d'optimiser votre mémorisation, - avec extrêmement peu de pratique, vous pourrez vous livrer à des tours de mémoire qui vous semblent actuellement impossibles à réaliser comme mémoriser un jeu de 52 cartes dans le désordre. Cet atelier est une mise en pratique des techniques que j'ai récemment découvertes dans le livre \"Booster votre mémoire.\" de Jean-Yves Ponce.",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "b41364e7-0279-55cb-baf8-0e1ab7b78906",
+      "speakers": [
+        "ycuTKbrYKFVQzb1oPJOurrecMZy2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614854134,
+        "_nanoseconds": 110000000
+      },
+      "startTimeCa": "10h",
+      "startTimeSg": "22h15",
+      "startTimeFr": "16h15",
+      "trackName": "Brest",
+      "videoConfLink": "https://www.youtube.com/watch?v=ieKcWKxjkHk"
+    },
+    {
+      "id": "UEVngywr6ecj6jHxbeQS",
+      "title": "☁️👷‍♂️📱Epic fails and safe deployments",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "Drawing from experience deployments in releases|deployments in mobile app, backend, frontend that went wrong.\nHow did the team recover from the disasters and save the business? \n\nWhen a newer version is published , each tech stack (mobile, web) have their own \"roll back\" method.\nTo try the new version on a limited portion of users, what strategies of A/B test, staged rollout, Blue-Green Deployment were in place?\n\nFinally, we will the solutions in place and the culture mindset for a safe environment to failures.",
+      "categories": "9fdf9509-7363-5d8c-a35d-13197b69a51c",
+      "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "speakers": [
+        "HK14wSamIDS06S8bbo0dwdmLotf1"
+      ],
+      "comments": "A green background so I can project my slides as background :).\nA real time survey to the audience.",
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1614799197,
+        "_nanoseconds": 800000000
+      },
+      "startTimeCa": "04h00",
+      "startTimeSg": "16h00",
+      "startTimeFr": "10h00",
+      "trackName": "Lyon",
+      "videoConfLink": "https://www.youtube.com/watch?v=rUElTC-U4WY"
+    },
+    {
+      "id": "UlqtjKiRH7WMtmh4pwQL",
+      "title": "Sexiste ou pas sexiste ?",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "De nombreux débats fleurissent sur Twitter : la robe est-elle bleue et noire ou blanche et dorée ? Et les baskets, roses et blanches ou grises et turquoises ? Quelle est la vraie recette des spaghettis carbonnara ? Doit-on dire chocolatine ou pain au chocolat ?\n\nEt plus sérieusement : qu’est-ce qui est sexiste et qu’est-ce qui ne l’est pas ? \n\nNous proposons de vous donner la parole : images, réflexions, expressions... Sexiste ou non ? Quel regard portez-vous sur ce qui nous entoure au quotidien ?\n\nNous allons vous proposer différents exemples, et confronter nos points de vue. Amenez vos propres exemples !",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "830659bb-a37c-532d-b9d9-e1692e9f98e4",
+      "speakers": [
+        "QV57QdSNcaectyv2o1CQR4EdmUf1",
+        "LBXSNoYRKbWwvirzjnpHzMk03cM2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614874984,
+        "_nanoseconds": 381000000
+      },
+      "startTimeCa": "03h00",
+      "startTimeSg": "15h00",
+      "startTimeFr": "09h00",
+      "trackName": "Lille",
+      "videoConfLink": "https://www.youtube.com/watch?v=ObR44UcwM1A"
+    },
+    {
+      "id": "VO6rKAMvHF179f1CtIwm",
+      "title": "🦀 Rust, a language to consider ?",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "When you start a new project for a client, at some point you have to pick a language. Most of the time, a shortlist has already been established and approved by the client: Java, JavaScript, Python. Sadly, Rust doesn't show up in this list, despite the popularity and numerous advantages of this wonderful language #Ad.\n\nBy the end of this talk, you will understand that Rust is an option worth considering and you will have a few arguments to convince your colleagues/clients to choose Rust*.\n\n*Warning, Rust is not a [golden hammer](https://en.wikipedia.org/wiki/Law_of_the_instrument) and you are invited to stay critical and pick the right tool for the right task.",
+      "categories": "09d4801b-e7ac-5090-af8d-4a99ac175959",
+      "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "speakers": [
+        "0ZbtTwugPpTsYEAbDRbt6Voqcca2",
+        "qRXG7KJmxGPuI3g6GPE8tRRPmfw1"
+      ],
+      "comments": "Hi ! Thanks for the organization.",
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1614609674,
+        "_nanoseconds": 101000000
+      },
+      "startTimeCa": "04h45",
+      "startTimeSg": "16h45",
+      "startTimeFr": "10h45",
+      "trackName": "Lille",
+      "videoConfLink": "https://www.youtube.com/watch?v=ObR44UcwM1A"
+    },
+    {
+      "id": "W5INsaYJEI6uyQpBKUxG",
+      "title": "How a marble machine can make your code cleaner ?",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Have you heard about software craftsmanship? Are you found of engineering ?\n\nFollwing the adventure of a self taught engineer building a marble machine, this talk will show you how to:\n- craft better software,\n- add value steadily\n- get a craftsman spirit \n",
+      "categories": "7160db76-afc8-549f-8fb9-2009b0160653",
+      "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "speakers": [
+        "dsUqnOcrNdcxIEqQscMxBFezueB2"
+      ],
+      "comments": null,
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1614974085,
+        "_nanoseconds": 595000000
+      },
+      "startTimeCa": "11h45",
+      "startTimeSg": "23h45",
+      "startTimeFr": "17h45",
+      "trackName": "Bordeaux",
+      "videoConfLink": "https://www.youtube.com/watch?v=p6cT5AbMroQ"
+    },
+    {
+      "id": "ZFOa99QWGMW7yuqUnuHW",
+      "title": "Kubernetes sans Docker",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Kubernetes et Docker, c’est une histoire d’amour qui dure depuis le début. Mais depuis décembre 2020, c’est fini ! Cela a provoqué un mini drame dans le monde du DevOps. Mais pas de panique, ce n’est pas si grave.\n\nNous vous proposons avec cette présentation de mieux comprendre les interactions entre le runtime de conteneur et Kubernetes et de vous montrer en quoi cette rupture n’est pas un drame. C’est même l’occasion de découvrir des nouveaux runtime de conteneur et des nouveaux concepts !",
+      "categories": "9fdf9509-7363-5d8c-a35d-13197b69a51c",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "LvVUYM30MDauK82Z3tLczympOnq1",
+        "nekfKGP05KWO5W5CwB9uegBovAx1"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1613558052,
+        "_nanoseconds": 603000000
+      },
+      "startTimeCa": "10h45",
+      "startTimeSg": "22h45",
+      "startTimeFr": "16h45",
+      "trackName": "Bordeaux",
+      "videoConfLink": "https://www.youtube.com/watch?v=p6cT5AbMroQ"
+    },
+    {
+      "id": "ZY8Cx6ywLLTVYFv3cGZF",
+      "title": "Monitoring multi-cluster avec Prometheus et Thanos",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "Prometheus fait partie des projets les plus populaires quand on parle de monitoring et d'alerting.\nÀ ce jour, c'est également la seule solution de monitoring qui a le status \"Graduated\" par la CNCF.\n\nMalgré son efficacité et sa popularité, il existe quelques limitations notamment lorsqu'il s'agit de faire de la mise à l'échelle horizontale, du multi clustering ou encore de la rétention longue sur *beaucoup* de données. C'est ici qu'arrive Thanos.\n\nDurant cette présentation, nous allons vous montrer comment mettre en place rapidement du monitoring avec Prometheus et comment résoudre les problématiques citées plus haut avec Thanos.",
+      "categories": "9fdf9509-7363-5d8c-a35d-13197b69a51c",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "Mfblv0IRwBSLoop83IoWkRdoePx2",
+        "XXQwznpHHkWqbIrGTIRK2qmaqlH3"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1615306350,
+        "_nanoseconds": 560000000
+      },
+      "startTimeCa": "09h00",
+      "startTimeSg": "21h",
+      "startTimeFr": "15h00",
+      "trackName": "Lille",
+      "videoConfLink": "https://www.youtube.com/watch?v=ObR44UcwM1A"
+    },
+    {
+      "id": "ZycN2wNzyYkczVe56epd",
+      "title": "IncluZive - L’anonymisation des CV avec l’intelligence artificielle comme solution à la discrimination",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Dans le contexte de la __Recherche & Innovation__ de __Zenika__, nous avons étudié des techniques pour reconnaître automatiquement les données à caractères personnelles au sein d'une source. Afin de concrétiser notre approche, nous avons choisi l'anonymisation des CV, ou comment construire un outil permettant aux RH de juger les CV sans discrimination.\nNous vous présenterons les techniques issues du traitement du langage naturel (NLP) que nous avons utilisées, comment nous les avons complétées avec des règles de programmation classique, et les difficultés rencontrées avec la manipulation du format PDF.",
+      "categories": "042915d6-95ab-510c-8665-6c9e2d66eedf",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "f0l21qpMnBYwjaCMLlrlxzejHRJ3",
+        "eyvLz8TpD5aEJ59VrSzyTqpA8An2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1615569402,
+        "_nanoseconds": 289000000
+      },
+      "startTimeCa": "10h45",
+      "startTimeSg": "22h45",
+      "startTimeFr": "16h45",
+      "trackName": "Rennes",
+      "videoConfLink": "https://www.youtube.com/watch?v=GY2-Nvwvl6s"
+    },
+    {
+      "id": "auZmNheiF21Qv46fs6Pu",
+      "title": "REX mutation testing après un an de mise en place chez un client",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Présentation du **mutation testing** et retour d'expérience sur la mise en place sur un projet client depuis un an.\n\nCe talk est pour vous si : \n* vous trouvez que, malgré une bonne couverture de test, vous avez régulièrement des régressions\n* vous pensez que 100% de couverture de test c'est de la sur-qualité\n* vous n'avez pas assez confiance dans votre suite de test pour vous lancer sereinement et rapidement dans du refactoring ou des évolutions",
+      "categories": "7160db76-afc8-549f-8fb9-2009b0160653",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "IzLVAOy5fCUc4W8enR6TYpAH4Ku1"
+      ],
+      "comments": "Nothing special\nThank you",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1613377582,
+        "_nanoseconds": 597000000
+      },
+      "startTimeCa": "04h45",
+      "startTimeSg": "16h45",
+      "startTimeFr": "10h45",
+      "trackName": "Rennes",
+      "videoConfLink": "https://www.youtube.com/watch?v=GY2-Nvwvl6s"
+    },
+    {
+      "id": "ckihQlKEifaH3GrkDRlQ",
+      "title": "Workshop Apache Kafka : Introduction aux fondamentaux",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Ce workshop à pour objectif de vous initier à Kafka au travers d'une présentation des fondamentaux, d'une démo et d'un live coding.\n\nNous utiliserons les bin Kafka (cli) et Spring Boot avec son starter Kafka pour la partie applicative. Novice ou débutant ce workshop est pour vous afin que vous disposiez d'un bon tour d'horizon de cette stack. Les notions de broker, topic, record, consumer et producer seront abordées.\n\nL'ensemble du code produit sera à votre disposition à la fin de la session afin de pouvoir démarrer votre premier projet Kafka de votre coté ;).",
+      "categories": "09d4801b-e7ac-5090-af8d-4a99ac175959",
+      "formats": "830659bb-a37c-532d-b9d9-e1692e9f98e4",
+      "speakers": [
+        "mNQ7HNno7qX2c1n3xmUl9P2nstx2",
+        "1nFSFSffbxNS3BC0tru2vE3MdrO2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614872386,
+        "_nanoseconds": 705000000
+      },
+      "startTimeCa": "08h00",
+      "startTimeSg": "20h00",
+      "startTimeFr": "14h00",
+      "trackName": "Lille",
+      "videoConfLink": "https://www.youtube.com/watch?v=ObR44UcwM1A"
+    },
+    {
+      "id": "cpcBEYnmHVHu07fKgOeg",
+      "title": "Du contrôle à distance d'un parc de télévisions ",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Vous-êtes vous déjà posé la question de comment gérer et contrôler à distance votre parc de plusieurs dizaines de télévisions ? Est-ce que cette question vous hante le matin quand vous vous brossez les dents ? C'était notre cas, on en dormait même plus la nuit. N'ayez plus d'inquiétude, ce talk est fait pour vous !\n\nDans une ambiance chaleureuse, vos deux consultants préférés vous expliqueront leurs péripéties dans cette grande aventure qu'est ~~la vie~~ la recherche et développement. Au programme, électronique, impression 3d, conception, et même au moins une bonne blague*. \n\n\n`* Offre soumise a condition, dans la limite des stocks disponibles, Zenika décline toute responsabilité en cas de non-rigolage, voir conditions dans votre agence.\n\n",
+      "categories": "dfa320e4-1f9b-53ee-8c98-3ef48ba81013",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "CrgixD5lSBRuoHVQGEjiO0gALtu2",
+        "JTaNVLnEAqc9g7EDrMvRvunGES53"
+      ],
+      "comments": null,
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1612861154,
+        "_nanoseconds": 410000000
+      },
+      "startTimeCa": "04h00",
+      "startTimeSg": "16h00",
+      "startTimeFr": "10h00",
+      "trackName": "Lille",
+      "videoConfLink": "https://www.youtube.com/watch?v=ObR44UcwM1A"
+    },
+    {
+      "id": "cwGXLJO4L9LfakWaQouI",
+      "title": "Infrastructure as Code in a fun way",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "Terraform is the de facto standard for Infrastructure as Code(IaC). Terrarform is also capable to integrate with other tools to perform more complex tasks. This talk will cover basic usage of Terraform to deploy simple infrastructure and deploy software stacks together with the infrastructure.",
+      "categories": "9fdf9509-7363-5d8c-a35d-13197b69a51c",
+      "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "speakers": [
+        "7I0i0ujU9UfKCVD25rzdXrZVZEo1"
+      ],
+      "comments": "First time speaker",
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1614953535,
+        "_nanoseconds": 865000000
+      },
+      "startTimeCa": "03h30",
+      "startTimeSg": "15h30",
+      "startTimeFr": "09h30",
+      "trackName": "Paris",
+      "videoConfLink": "https://www.youtube.com/watch?v=i9r0B5Renmo"
+    },
+    {
+      "id": "dugXh1J0eDvl9NMsd7eA",
+      "title": "BLE: Exploitation d'un bracelet intelligent... ou pas ?",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "À travers ce talk, nous ferons un tour d'horizon des protocoles Bluetooth et Bluetooth Low Energy. Qu'en est-il de leur sécurité ? Pouvons-nous facilement manipuler des objets connectés ? Comment utiliser son téléphone Android pour nous aider dans la découverte du protocole utilisé pour communiqué avec son objet connecté ?.\n\nUne démo live sur un bracelet connecté sera présentée.",
+      "categories": "568257d2-e076-54f5-9210-ae8cb1df0944",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "QjiJmN1cNPWkNTegiDljmd6V1zH2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614876142,
+        "_nanoseconds": 102000000
+      },
+      "startTimeCa": "09h30",
+      "startTimeSg": "21h30",
+      "startTimeFr": "15h30",
+      "trackName": "Brest",
+      "videoConfLink": "https://www.youtube.com/watch?v=ieKcWKxjkHk"
+    },
+    {
+      "id": "ebxxWmp24bHfXKlp9SVM",
+      "title": "git init znk-brest",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Retour sur l'épopée de la création de l'agence Zenika française la plus à l'ouest !",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "u3y2fdTflHQYoHt9ILKS9LtZIbg1",
+        "xrpnN7ohuzeKiiIrdXNSczaqIu13"
+      ],
+      "comments": null,
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614961087,
+        "_nanoseconds": 399000000
+      },
+      "startTimeCa": "08h30",
+      "startTimeSg": "20h30",
+      "startTimeFr": "14h30",
+      "trackName": "Grenoble",
+      "videoConfLink": "https://www.youtube.com/watch?v=UeGCA3WtkqE"
+    },
+    {
+      "id": "g3p8t5Db1rMqLKLWkcl5",
+      "title": "Trucs et astuces pour réussir son burn-out",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Pendant ce talk, nous te donnerons tous les trucs et astuces pour être sûr de finir a minima :\n- en PLS\n- sous tranquillisant\n- voire mieux : brûlé·e par tes collègues\n\nSi toi aussi le burn-out est ton objectif de vie, que tu sens que tes collègues essaient de t'en éloigner, qu'il y a trop de bonheur dans ta vie, nous allons t'apprendre :\n- à t'enfermer dans une situation toxique,\n- à te faire piétiner,\n- à ne vivre que pour ton travail,\n- à t'investir émotionnellement dans toutes les situations,\n- en somme, à te pourrir la vie.\n\nViens prendre ton shoot de négativité avec nous ! À gagner : un paquet de Kleenex (mais à la charte Zenika). YEAH !",
+      "categories": "d150b0bb-df68-520a-994b-d6464cb8d770",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "WeyT26YvUmPM5x3GTRbsfoP6ddr2",
+        "WyLUApe5AXORfuw4ILgbO9hrgO72"
+      ],
+      "comments": "Vous êtes vraiment nos DTs préférés !",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614265188,
+        "_nanoseconds": 722000000
+      },
+      "startTimeCa": "03h30",
+      "startTimeSg": "15h30",
+      "startTimeFr": "09h30",
+      "trackName": "Lyon",
+      "videoConfLink": "https://www.youtube.com/watch?v=rUElTC-U4WY"
+    },
+    {
+      "id": "gt0IzU50WluMySFC6F5S",
+      "title": "Un petit Gartic Phone du plaisir ?",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Quelle belle occasion que de faire un petit Gartic Phone que la TZ!\n\nPas besoin d'avoir de talent (bien au contraire) le but c'est juste de bien s'amuser!\nhttps://garticphone.com/fr",
+      "categories": "d150b0bb-df68-520a-994b-d6464cb8d770",
+      "formats": "830659bb-a37c-532d-b9d9-e1692e9f98e4",
+      "speakers": [
+        "wWYKM4fzp9SqMgB6euFohSb8ud33"
+      ],
+      "comments": "Il faudra surement limiter à le nombre de participans",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1615455683,
+        "_nanoseconds": 431000000
+      },
+      "startTimeCa": "07h00",
+      "startTimeSg": "19h00",
+      "startTimeFr": "13h00",
+      "trackName": "Paris",
+      "videoConfLink": "https://www.youtube.com/watch?v=i9r0B5Renmo"
+    },
+    {
+      "id": "izi86BuWSqm980f4dxVW",
+      "title": "L'art de la négociation",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "La négociation n'est pas que pour les commerciaux ou les acheteurs ! Quand on y réfléchit bien, on est souvent amené à négocier (délai, salaire, contrat, temps etc.) , et tout se négocie (les enfants sont forts pour ça)  !  Ce talk est une initiation à la négociation et vous donnera déjà des principes de bases pour mieux appréhender cette merveilleuse discipline. Il est aussi illustré par de nombreux exemples personnels et professionnels ... certaines négociations ayant  eu plus de succès que d'autres :)",
+      "categories": "d150b0bb-df68-520a-994b-d6464cb8d770",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "dc4gx84rHMQunydJXyT6RyMHgb93"
+      ],
+      "comments": "good luck",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614703382,
+        "_nanoseconds": 831000000
+      },
+      "startTimeCa": "08h00",
+      "startTimeSg": "20h00",
+      "startTimeFr": "14h00",
+      "trackName": "Montreal",
+      "videoConfLink": "https://www.youtube.com/watch?v=JbrqD-rPNu0"
+    },
+    {
+      "id": "jf4ofzOlzikGBwbXDh3p",
+      "title": "🔫Livre la fonctionnalité avant ton voisin !",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "« Monsieur Dave Ops, mettez en place ce qu'il faut pour réduire notre [time to market](https://fr.wiktionary.org/wiki/time_to_market).\n\n— Je ne crois pas que j'y arriverais.  \n— Vous pensez que ce sera difficile ?  \n— Très.  \n— Et bien ce n'est pas _mission difficile_ M. Ops, c'est _mission impossible_. Difficile serait un jeu d'enfant pour vous. »\n\n_Bienvenue dans notre famille d'espions !_  \nEn tant qu'organisation secrète nous voulons livrer plus tôt de la valeur utile, tout en gardant nos coûts et notre qualité. Que faire ?\n\n---\n_Dans cet atelier, il y aura une compétition acharnée entre les équipes que vous formerez._  \n_Par groupe, vous aurez ainsi des choix à faire pour livrer vos fonctionnalités avant vos voisins._  \n_Et souvent, la bonne décision est à l'opposé de votre intuition... mais ça fonctionne, vous verrez !_  \n_Il y aura un lot à gagner pour l'équipe avec le plus de points._\n_Aucune connaissance n'est nécessaire, c'est accessible à tous !_\n\n_Nous utiliserons le Kanban Flow Simulator._",
+      "categories": "d78ac81b-4c5d-5ea7-9a69-8e123fc62d37",
+      "formats": "830659bb-a37c-532d-b9d9-e1692e9f98e4",
+      "speakers": [
+        "ZJsRTPaYEeOyXNd9561BBF4Y8w73",
+        "8wDF6v3YmOUGf6mQL2U0F6dVSjG2"
+      ],
+      "comments": "❤️ Prenez soin de vous !",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614854003,
+        "_nanoseconds": 151000000
+      },
+      "startTimeCa": "09h00",
+      "startTimeSg": "21h",
+      "startTimeFr": "15h00",
+      "trackName": "Lyon",
+      "videoConfLink": "https://www.youtube.com/watch?v=rUElTC-U4WY"
+    },
+    {
+      "id": "ktYCNLxi9ICw4a5wZwzn",
+      "title": "Pourquoi, mais pourquoi ADV insiste tellement pour le rendu des CRA à l'heure ?",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "On vous embête tous les mois pour avoir vos CRA à J-3. Mais pourquoi J-3 ? Et quelles sont les conséquences d'un retard ou d'une erreur ? Parce qu'au final, ne serait-ce pas \"qu'un CRA\", non ?\nEt non, ce n'est pas qu'un CRA, c'est le point central de toute l'activité de Zenika et on va vous expliquer pourquoi ^^\nIl est probable qu'après ce talk vous aurez plus qu'envie de nous aider en nous rendant vos petits CRA dans les temps :-p \nOn l'espère de tout cœur en tout cas !",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "hJ9A66PfZTRc6oWNZ3m24VoSnbB2"
+      ],
+      "comments": "Coucou les GO (les gentils organisateurs, oui ça fait Club Med mais...non !)\n\nMerci pour cette extraordinaire TZ, on espère que tout le monde pourra se libérer, même un peu !\n\nJe propose un petit talk sur le pourquoi on est un peu beaucoup embêtants avec les CRA et qu'est-ce qu'il se cache derrière.\nJe vais voir pour qu'Hajer et Angelo soient avec moi, afin que tout le monde puisse connaître leur trombine, en plus de la mienne.\n\nBelle journée à tous !",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614609603,
+        "_nanoseconds": 867000000
+      },
+      "startTimeCa": "04h00",
+      "startTimeSg": "16h00",
+      "startTimeFr": "10h00",
+      "trackName": "Nantes",
+      "videoConfLink": "https://www.youtube.com/watch?v=unj_JlY1KV0"
+    },
+    {
+      "id": "mu55e6ypQLqGpkHOBJGU",
+      "title": "Integration continue ... 30 ans ... déjà",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "De clearcase à nos jours, venez revivre l'évolution des platforms d'intégration continue, et de  certaines évolutions de l'informatique qui les ont influencés.\nOu comment, Git, docker, Junit, maven ont bousculés l'écosystème.\n\nNous en tirerons des bonnes pratiques qui sont toujours d'actualitées, et peut être oubliées par certains.\n\n",
+      "categories": "9fdf9509-7363-5d8c-a35d-13197b69a51c",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "ODEUNcflVuZZtyQmINOHF9Cdful1"
+      ],
+      "comments": "Une petite part d'histoire et de nostalgie autours de l'intégration continue. ",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614867019,
+        "_nanoseconds": 496000000
+      },
+      "startTimeCa": "11h15",
+      "startTimeSg": "23h15",
+      "startTimeFr": "17h15",
+      "trackName": "Paris",
+      "videoConfLink": "https://www.youtube.com/watch?v=i9r0B5Renmo"
+    },
+    {
+      "id": "nxkE5jMSgNvDY6I8LvtX",
+      "title": "Déploiement continue et microservice : Zoom sur la rétrocompatibilité logicielle.",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "Il était une fois un petit service Java avec son cache et sa base de données sur son cluster K8s. Ce petit service était gentil et donnait de jolis cadeaux à tous ses amis. Mais tout a commencer à changer quand ses fournisseurs ont commencé à changé la forme de leur boîtes, que ces cadeaux ont changé de couleur... \n\nTravailler à plusieurs sur le même service peut mener à des difficultés de rétrocompatibilité lorsqu'un service doit être disponible pour une mise en production continue. à travers mon expérience chez Québecor, parlons de comment penser la rétrocompatibilité et les petits edge case qu'il ne faut pas oublier!",
+      "categories": "09d4801b-e7ac-5090-af8d-4a99ac175959",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "PXYTbMeh4paUk0HPtcBEebJAQZk2"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614871007,
+        "_nanoseconds": 74000000
+      },
+      "startTimeCa": "10h45",
+      "startTimeSg": "22h45",
+      "startTimeFr": "16h45",
+      "trackName": "Paris",
+      "videoConfLink": "https://www.youtube.com/watch?v=i9r0B5Renmo"
+    },
+    {
+      "id": "o7Wk8ST8pFe5ENrKCKvc",
+      "title": "Deploy a Go HTTP server in your browser",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "Have you ever thought to yourself \"It would be nice to run this Go HTTP server directly in a browser for demonstration\" ? No? Well I have!\n\nBut it's not possible, right? A Go WebAssembly binary *can* run in browsers, but cannot serve HTTP... Or could it?\n\nCould we run a Go WebAssembly binary into a browser's ServiceWorker, and serve HTTP from it? Well let's find out!",
+      "categories": "05354232-9af7-50db-8ec6-a7f7f78eec4f",
+      "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "speakers": [
+        "977YQDolbxde0ito7I2dUiee2ap1"
+      ],
+      "comments": "💙💚💛💜🖤💝",
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1613047145,
+        "_nanoseconds": 776000000
+      },
+      "startTimeCa": "03h00",
+      "startTimeSg": "15h00",
+      "startTimeFr": "09h00",
+      "trackName": "Lyon",
+      "videoConfLink": "https://www.youtube.com/watch?v=rUElTC-U4WY"
+    },
+    {
+      "id": "q5eovyzh3eVmyAv6GuOi",
+      "title": "GreenIT 🌱, Agile 🔄 & craftsmanship ⚙️ ?",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "[EN] Is integrated an ecodesign approach easy in a classic IT project context? Are there compatibilities, or even convergences with agility and craftsmanship? Which ones?\n\nAfter a brief reminder of the ecodesign approach for digital services (if necessary), we will give an overview of the values, practices and postures of agility and software craftsmanship and show how and why these aspects are connected.\n\n[FR] Est-ce que l’intégration d’une démarche d’écoconception est facile dans un contexte classique de projet informatique ? Est-ce qu’il y a des compatibilités, voire des convergences avec l’agilité, le craftsmanship ? Lesquelles ?\n\nAprès un bref rappel de la démarche d’écoconception de service numérique (si besoin) nous ferons un tour d’horizon des valeurs, pratiques, postures de l’agilité et du software craftsmanship et montreront comment et pourquoi ces aspects concordent.",
+      "categories": "7160db76-afc8-549f-8fb9-2009b0160653",
+      "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "speakers": [
+        "1XdPOmhfgVXrxkhRXItPFhaIjuK2",
+        "WrWpAXvAKXO0SyS6IcqutqoMVdh2"
+      ],
+      "comments": "👋",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614351590,
+        "_nanoseconds": 921000000
+      },
+      "startTimeCa": "05h45",
+      "startTimeSg": "17h45",
+      "startTimeFr": "11h45",
+      "trackName": "Brest",
+      "videoConfLink": "https://www.youtube.com/watch?v=ieKcWKxjkHk"
+    },
+    {
+      "id": "rz6AL5QrOqmx5d3o1Pso",
+      "title": "Apprendre à recevoir et donner du feedback avec la CNV",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "> \"Je profite de notre one to one pour te faire part d'un retour sur la qualité de ton travail. Sache que nous n'avons aucun problème avec la motivation dont tu fais preuve néanmoins, il arrive souvent que tu n'aies pas la réponse aux questions de l'équipe. Pour nous, cela est un problème en qualité de LT de l'équipe.\" \n\nCe feedback vous choque et vous trouvez sa forme dérangeante néanmoins, vous ne voyez pas comment améliorer sa construction ?\nOu au contraire cela vous semble tout à fait normal et vous estimez que ce retour est constructif et bien formulé ?\n\nSi vous avez répondu oui à l’une de ces questions alors, nous vous invitons à venir découvrir à travers un atelier pratique comment la Communication Non Violente (CNV) peut vous aider à construire un feedback efficace et comment le recevoir.\n\nClaire, Mana & Yoann.",
+      "categories": "d78ac81b-4c5d-5ea7-9a69-8e123fc62d37",
+      "formats": "b41364e7-0279-55cb-baf8-0e1ab7b78906",
+      "speakers": [
+        "ES3NiKd0zeaDOgue8W3lRHDJZUi2",
+        "OCdwPv6F8fdShLbwSDtFlvE0aZn1"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614846121,
+        "_nanoseconds": 536000000
+      },
+      "startTimeCa": "04h00",
+      "startTimeSg": "16h00",
+      "startTimeFr": "10h00",
+      "trackName": "Grenoble",
+      "videoConfLink": "https://www.youtube.com/watch?v=UeGCA3WtkqE"
+    },
+    {
+      "id": "tCRzNX6gzHaWI0ABQCcI",
+      "title": "How to clown around with your webcam and some sound in your virtual meetings?",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "In this presentation, I'll show you how to boost your interactions during virtual meetings (Meet/Zoom/Teams /Whatever) by channeling computer sound and hacking your webcam. Very useful for online trainings, conference and your casual entreprise meetings ;o)",
+      "categories": "d150b0bb-df68-520a-994b-d6464cb8d770",
+      "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "speakers": [
+        "TNZEGBt5GgO4zUWRqaalNWo3FRf1"
+      ],
+      "createTimestamp": {
+        "_seconds": 1614872053,
+        "_nanoseconds": 701000000
+      },
+      "startTimeCa": "05h15",
+      "startTimeSg": "17h15",
+      "startTimeFr": "11h15",
+      "trackName": "Bordeaux",
+      "videoConfLink": "https://www.youtube.com/watch?v=p6cT5AbMroQ"
+    },
+    {
+      "id": "tRXUOc0lAvYXliwjC8Cb",
+      "title": "Python for the muggle-born developer",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Ever thought that [Python](https://www.python.org/)🐍 belongs to the *dark side of IT*? That its birth as a scripting language makes it relevant only for “*magisticians*“ who run data-science services that do not comply with industry standards? That it’s just good enough to handle printers in your computer?\n\nWell, this talk may be the first step to practise parseltongue and start your wizardhood at Zenigwarts!\n\nOur guest Lucius Malforel will introduce you to:\n- [pyenv](https://github.com/pyenv/pyenv/) (🐧, 🍏, [🔲](https://github.com/pyenv-win/pyenv-win)) lets you choose the Python language version, at the project level (much finer than with java-alternatives or nvm)\n- built over pip and virtual environment, [poetry](https://python-poetry.org/docs/) manages your prod & dev dependencies (with a lock-file for the transitive dependencies - convenient when building 🐳 images) but also eases the publication of your libraries on [PyPI](https://pypi.org/) (the Python Package Index, a depository like maven or nvm)\n\nOr:\n- start playing with data in a [Jupyter notebook](https://jupyter.org/) with a simple docker-compose file: *magistics* (magic + statistics) is now at the tip of your wand ✨!\n\n*Expylliarmus!⚡*",
+      "categories": "042915d6-95ab-510c-8665-6c9e2d66eedf",
+      "formats": "20b4ca1f-6cd3-5269-876e-da4ce9e09b00",
+      "speakers": [
+        "B6H0t9ZCyoTw9ICvTCvjHCSuMJJ2"
+      ],
+      "comments": "can be extended to a workshop",
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1615128273,
+        "_nanoseconds": 0
+      },
+      "startTimeCa": "05h15",
+      "startTimeSg": "17h15",
+      "startTimeFr": "11h15",
+      "trackName": "Paris",
+      "videoConfLink": "https://www.youtube.com/watch?v=i9r0B5Renmo"
+    },
+    {
+      "id": "uW8iasTcoJTGBNokLEXS",
+      "title": "Use the Liberating Structures to unleash innovation, collective intelligence and people motivation !!!",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "We propose to bring you through an experimentation of various techniques to share ideas, reveal possibilities, analyse situations, get help from the others, create strategies or build plans. Liberating Structure is a repository of 33 innovative formats to conduct such workshops.\nDuring this workshop you will practice and discover some of these 33 techniques.",
+      "categories": "d78ac81b-4c5d-5ea7-9a69-8e123fc62d37",
+      "formats": "ab1ee950-f584-5115-bd20-a45a10f744a4",
+      "speakers": [
+        "1838WNgCO3aHQyRSobVWCSBmWmw2",
+        "OOBkm0ZNHxYBmAsavjzERyxYSkh2",
+        "qG3vmWbwoAOXmGGyPy6rnU6GhGz2",
+        "vovOXfGHrRMQQws6StxPkctNLhj2",
+        "rquFFaV88uY4CfvruCXNzIB2P772"
+      ],
+      "comments": "Thanks !!!\n",
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1614942139,
+        "_nanoseconds": 448000000
+      },
+      "startTimeCa": "04h00",
+      "startTimeSg": "16h00",
+      "startTimeFr": "10h00",
+      "trackName": "Brest",
+      "videoConfLink": "https://www.youtube.com/watch?v=ieKcWKxjkHk"
+    },
+    {
+      "id": "y0VACQZvWCiWG5lfCBPz",
+      "title": "Manager agile : trouver sa place entre trop de présence et pas assez",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Comment être manager avec des agilistes ? Le Manager est bien souvent \"frontalier\" entre le pays agile et le pays classique... Quelle est sa place ? Comment \"manager\" des individus auto-organisés... Que signifie l'auto-organisation ? Jusqu'où ? Comment interpréter \"protection de l'équipe\"... Jusqu'où ? ...\nQuid si le PO et la devTeam n'ont pas le même manager ? Réglages fins...",
+      "categories": "d78ac81b-4c5d-5ea7-9a69-8e123fc62d37",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "35zth78TycYon0IBhmMu07i13Nz2"
+      ],
+      "comments": null,
+      "language": "France",
+      "createTimestamp": {
+        "_seconds": 1614886059,
+        "_nanoseconds": 815000000
+      },
+      "startTimeCa": "10h45",
+      "startTimeSg": "22h45",
+      "startTimeFr": "16h45",
+      "trackName": "Lille",
+      "videoConfLink": "https://www.youtube.com/watch?v=ObR44UcwM1A"
+    },
+    {
+      "id": "yp6NMBVI03KotXCds8Un",
+      "title": "Comment j'ai vaincu mon syndrome de l'imposteur.",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "D'imposteur à vainqueur, il y a un long chemin.\n\nLa lutte contre moi-même est mon quotidien.\n\nPeurs multiples, hypersensibilité, perte d'authenticité, regard des autres et poids du jugements, etc...  ca vous parle ? \n\nJe souhaite partager l'expérience de mon développement personnel qui m'a mené à la sérénité.\n\n\n\n",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "A9zzfqYXubg8W63xrhWSXDz2Is53"
+      ],
+      "comments": "A travers, ce talk je partage toutes les sources qui ont menés à cet objectif. \n\nLes personnes souffrants de l'imposture pourraient  trouver des clés pour  apaiser ce sentiment.",
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1613156375,
+        "_nanoseconds": 681000000
+      },
+      "startTimeCa": "09h00",
+      "startTimeSg": "21h",
+      "startTimeFr": "15h00",
+      "trackName": "Montreal",
+      "videoConfLink": "https://www.youtube.com/watch?v=JbrqD-rPNu0"
+    },
+    {
+      "id": "AUsaqxwQQleZHUOIAFZz",
+      "title": "\"Where Are We Going, Captain?\"",
+      "state": "rejected",
+      "level": "intermediate",
+      "abstract": "Switching product roadmap direction on the fly, extra dev hours & week-ends trashed, hard work that will never reach Prod and will never be shipped on users hands...\n\nThe bad news is that unfortunately this is the daily struggle of dev or product team. \nThe reason why is it happening? Almost all the time this comes from a lack of Product Vision, that North start that will set the course.\n\nThe **good news is that you can change it**!\nTech people, don't wait for business owners to have proper Product Vision! On this workshop you will learn 3 easy to apply techniques that you can push and own as a dev team in order to set the direction get the stakeholders buy-in!\n\nSo roll up your sleeves, STOP undergoing. Get your virtual post'its,  your oratory skills and get ready to have fun 🦄\n",
+      "categories": "39181f16-a1af-5355-ad29-8a9cf408a53e",
+      "formats": "ab1ee950-f584-5115-bd20-a45a10f744a4",
+      "speakers": [
+        "SEm6MUED1WfY2TpdNKe4rpQXNcN2"
+      ],
+      "comments": "Besoin de ZOOM pro pour faire des Break-out rooms et de mural pro :) ",
+      "language": "English",
+      "createTimestamp": {
+        "_seconds": 1613384871,
+        "_nanoseconds": 902000000
+      },
+      "startTimeCa": "04h00",
+      "startTimeSg": "16h00",
+      "startTimeFr": "10h00",
+      "trackName": "Singapour",
+      "videoConfLink": "https://www.youtube.com/watch?v=hebzxZ0wG6w"
+    },
+    {
+      "id": "R7zXCql2e2TzDabmQ2LR",
+      "title": "Je sais gérer mon temps et mes priorités",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "J’ai des murs de post-its, des listes, des listes de listes que je ré-ordonne très (trop) souvent et elles ne désemplissent pas.\nComment cela se fait ? J’ai l’impression d’avoir toujours mille choses à faire et au final j’ai l’impression de ne rien faire car mes listes sont toujours aussi remplies.\nVous aussi ?\nEssayons de comprendre….",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
+      "speakers": [
+        "2N62dBFb7je99HXXnOvUOwdspEv1"
+      ],
+      "language": "French",
+      "createTimestamp": {
+        "_seconds": 1614346816,
+        "_nanoseconds": 705000000
+      },
+      "startTimeCa": "08h30",
+      "startTimeSg": "20h30",
+      "startTimeFr": "14h30",
+      "trackName": "Rennes",
+      "videoConfLink": "https://www.youtube.com/watch?v=GY2-Nvwvl6s"
+    }
+  ],
+  "speakers": [
+    {
+      "uid": "c78qkEcCDhYjS3kuIBkLmsDjX5C2",
+      "displayName": "Loïc MATHIEU",
+      "bio": "Consultant et formateur chez Zenika après 9 ans d'architecture logicielle chez un client final. Développeur Java depuis 16 ans. \nPassionné, technophile, aime apprendre de nouvelles choses et partager ce que j'ai appris.",
+      "speakerReferences": "Devoxx France 2019 :\nMes premiers pas en deeplearning avec Keras : https://www.youtube.com/watch?v=fSCT2Jv4mDU&list=PLbf9DSLhCPwTw_4IUA2Hne6nzGwInybBm&index=5\nArthas – Alibaba Java Diagnostic Tool : https://www.youtube.com/watch?v=e8CMlsMvIrc&list=PLbf9DSLhCPwTw_4IUA2Hne6nzGwInybBm&index=4&t=0s\n\nDevoxx Belgique 2019 :\nArthas: Alibaba Java Diagnostic Tool : https://www.youtube.com/watch?v=GgeT5O1iWzc&list=PLg0UT5MZOM_YUqJAsLox1U7cZrpfAGD5B&index=5&t=1s\nMy first steps on Deep Learning with Keras  :  https://www.youtube.com/watch?v=V5bpdpwDmwg&list=PLg0UT5MZOM_YUqJAsLox1U7cZrpfAGD5B&index=4&t=1s\n\nDevfest Nantes 2019 : \nDévelopper une API Cloud Ready avec Quarkus : https://www.youtube.com/watch?v=6VdChn13f3U&list=PLg0UT5MZOM_YUqJAsLox1U7cZrpfAGD5B&index=3&t=1s",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/-RuLeNSAnwNs/AAAAAAAAAAI/AAAAAAAAF-Y/LEEahe2FSqU/photo.jpg",
+      "twitter": "@loicmathieu",
+      "github": "loicmathieu"
+    },
+    {
+      "uid": "2lIPoMcCvzSpwFWRNWq2kumudhz2",
+      "displayName": "Anne-Gaëlle Schall",
+      "photoURL": "https://lh3.googleusercontent.com/-yDuz7MrTjfc/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nCWiBZqP6EFaGJpILpDlbsBVSt9iA/photo.jpg"
+    },
+    {
+      "uid": "zoXZ914sjARa7mDgQz2TnlcBCYN2",
+      "displayName": "Flavien Normand",
+      "bio": "Angular Lover, Hardcore raider and Open Source gaming tools creator.",
+      "speakerReferences": " - ECS, le design pattern favoris d'Unity (Human Talks)\n - Universal, la réponse à vos soucis de SEO avec Angular (Talk @Kanoma)\n - Optimisation de performances avec Angular (EPSI Nantes)",
+      "company": "Zenika",
+      "photoURL": "https://lh5.googleusercontent.com/-bmWUSMUJFiE/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcTMusifWFZX0p_MAqdBHA99x812g/photo.jpg",
+      "twitter": "@Supamiu_",
+      "github": "Supamiu"
+    },
+    {
+      "uid": "WyLUApe5AXORfuw4ILgbO9hrgO72",
+      "displayName": "Julia Lehoux",
+      "bio": "CMO @ Zenika, Julia's approach to marketing must, in her opinion, be above all collaborative!",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mDQ0ZEsybs2sgzP6pvzXoH37W-RFS_svGPs9-SYSA",
+      "twitter": "https://twitter.com/julia_lehoux",
+      "github": "https://github.com/JuliaLehoux"
+    },
+    {
+      "uid": "EA8fTZVrUSTJMf0nEZ7xwE293Fp1",
+      "displayName": "Julien Landuré",
+      "photoURL": "https://lh6.googleusercontent.com/-kxkl4-Q7AWc/AAAAAAAAAAI/AAAAAAAAAuA/6kOINJ2UrBY/photo.jpg"
+    },
+    {
+      "uid": "eBooUZ7QZPeiZc86JEWqM49zg5d2",
+      "displayName": "Bruno Sabot",
+      "bio": "Bruno est développeur, consultant et formateur chez Zenika, passionné de Front-end, d'UX, de performance.\n\nIl a été speaker à BDX I/O, au JUG summer camp, au Breizhcamp et lors d'événements internes à Zenika.\nIl est aussi particulièrement engagé au sein de la communauté en tant qu'organisateur, à BDX I/O et au GDG Bordeaux .",
+      "speakerReferences": "Speaker :\n - Snowcamp en 2020\n - Breizh Camp 2019 : https://www.youtube.com/watch?v=jnxkdHo8OEk\n - JUG Summer Camp en 2018 : https://www.youtube.com/watch?v=H2KWVDH64EY\n - BDX I/O en 2017 : https://www.youtube.com/watch?v=h0MAi-1GdZQ\n\nEn interne chez Zenika Bordeaux  :\n - https://www.youtube.com/watch?v=E0Rkka2K-1o\n - https://www.youtube.com/watch?v=5D-KfQOOyJY",
+      "company": "Zenika",
+      "photoURL": "https://brunosabot.com/images/brunosabot.jpg",
+      "twitter": "@brunosabot",
+      "github": "brunosabot"
+    },
+    {
+      "uid": "wKVyAQcSMQTEJ5QqlJObobKnhQR2",
+      "displayName": "Olivier Bertrand",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14Gi3LbI27X_QeOH7Lj-gv3v4LMz7-ne81loCCY5M=s96-c"
+    },
+    {
+      "uid": "6199iEsiCAOfNiDpPZXaDEDp0Mo1",
+      "displayName": "Jean-Marc VOGE",
+      "speakerReferences": "Talk about chess with Romain Vernoux",
+      "company": "ZENIKA",
+      "photoURL": "https://lh3.googleusercontent.com/-hBXUKu63Dm4/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucntsrXfo-x6OmlyzkzpZVqlHxarhg/s96-c/photo.jpg"
+    },
+    {
+      "uid": "bbncnEvTkcX6K154nSMZQFmgChs1",
+      "displayName": "Mohamed Karaga",
+      "photoURL": "https://lh4.googleusercontent.com/-HNwsNEqI_J0/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn0DMqRGH7YkCUQXWFhCJpza0UlaA/s96-c/photo.jpg"
+    },
+    {
+      "uid": "WiEMZCJh17McoMbFqd8KXvvLJSf1",
+      "displayName": "Romain Vernoux",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mCVmPmxpi5qn_qkbUWi4XbjlOReStBPEE1T7xLmhA"
+    },
+    {
+      "uid": "QzD751BmuWNd9Ns7PETLlOcWgyV2",
+      "displayName": "Loïc Lengrand",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mBQ7AZRP2QnTrx9PM-TvEM_ga6uCc69EoDkq5ky",
+      "twitter": "loiclengrand",
+      "github": "https://github.com/loic5"
+    },
+    {
+      "uid": "ynJudT8ABpRU3JXpJakc8rphsmh2",
+      "displayName": "Damien Deis",
+      "photoURL": "https://lh5.googleusercontent.com/-TmE56vjUie8/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclfbcLTeBh7fJ_wSOqVtdGsFW2ejQ/s96-c/photo.jpg"
+    },
+    {
+      "uid": "EkkvSaF2KgaJUTkg7yNqZHlDskq2",
+      "displayName": "Mélanie Cordero",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14Gi-U_mPAdAP-YKvrPjK03zKXInzOt56GTIMdudR=s96-c"
+    },
+    {
+      "uid": "OOBkm0ZNHxYBmAsavjzERyxYSkh2",
+      "displayName": "Alison JORRE",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GgRNxsjRrQjcyU4nGnMjV3PHS9J4L7Rj4_rwdXV=s96-c"
+    },
+    {
+      "uid": "dAUKiVuLPvXWjTE2vhmhP92dOGr2",
+      "displayName": "Vickrame Ujoodha",
+      "company": "zenika",
+      "photoURL": "https://lh6.googleusercontent.com/-QTGnrzzrH_4/AAAAAAAAAAI/AAAAAAAAAek/g_P01IArqNE/photo.jpg",
+      "twitter": "@Ruvachlea",
+      "github": "vickrame"
+    },
+    {
+      "uid": "fWBUcz93gfQADsytUos542qVIi63",
+      "displayName": "Olivier Huber",
+      "bio": "Olivier Huber est un passionné de création logicielle.\nPour lui, notre métier est l'un des rares à nous donner la capacité de matérialiser une idée rapidement et à faible coût.\nInitié il y a plus de 15 ans à l'agilité par la pratique de l'eXtrême Programming, il devient Agiliste convaincu et Scrum Master par la suite.\nIl intervient principalement pendant 20 ans en développement / conseil / formation chez des clients qui ont des besoins Java et Web.\nOccasionnellement il donne des conférences (Devoxx, Mix-IT, Breizchamp, …) sur des sujets comme AngularJS, Vert.x, …\nIl rejoint Zenika en septembre 2008 pour évoluer parmi des collègues qui ont la même ferveur et afin de partager (formations, conférences, …) au maximum ses connaissances.\nIl occupe actuellement le poste de responsable pédagogique formation au sein de Zenika.\n",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/-gTUxVoYDe-0/AAAAAAAAAAI/AAAAAAAACjQ/7Wlr5vCU33g/photo.jpg",
+      "twitter": "@olivierhuber",
+      "github": "olivierhuber"
+    },
+    {
+      "uid": "vovOXfGHrRMQQws6StxPkctNLhj2",
+      "displayName": "Alexiane MOTTE",
+      "photoURL": "https://lh6.googleusercontent.com/-cD-rPRk2ddY/AAAAAAAAAAI/AAAAAAAAAB4/AMZuucnVbNOi1gEjqP6MMmgZ3Lw0nYAUoQ/s96-c/photo.jpg"
+    },
+    {
+      "uid": "rquFFaV88uY4CfvruCXNzIB2P772",
+      "displayName": "Jerome Bourgeon",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mDwrRzdkPpiHSHMUkff3KhDmqTI7bvpR_RLJoCH"
+    },
+    {
+      "uid": "binfDk1dDDWVpsSumZ7wRyR6dSh1",
+      "displayName": "Freddy Salomé",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GgHOdLSmho2zInffSnwy4Bf75I3oXTIi2sJa037=s96-c"
+    },
+    {
+      "uid": "X8TWyGh4RFZa829kHMcrZEHBUqJ2",
+      "displayName": "Nicolas Delsaux",
+      "bio": "Développeur Java pendant 15 ans, je suis devenu depuis quelques années peut-être un peu plus qu'un vieux développeur : un architecte, un référent technique, peut-être un mentor.\nJ'ai fait du Java dans suffisamment d'environnements différents pour apprendre beaucoup à la fois sur la technique, mais aussi sur le coeur du développement : l'humain.",
+      "company": "Zenika",
+      "photoURL": "https://lh5.googleusercontent.com/-1DvTAtmlHdo/AAAAAAAAAAI/AAAAAAAAAAo/awDrOx-c9TQ/photo.jpg",
+      "twitter": "@riduidel",
+      "github": "riduidel"
+    },
+    {
+      "uid": "uGPuOB4Ca4U1yhtGb9DeK3l4tZt1",
+      "displayName": "Logan HAUSPIE",
+      "bio": "Consultant [@ZenikaLille](https://twitter.com/ZenikaLille) orienté vers le développement back-end et l'architecture de solution.  \nAvide d'explorations techniques, c'est un vrai touche à tout qui n’hésite pas à tenter de nouvelles aventures.  \nSpeaker à ses heures autour du Stream Data Processing (SMACK, Apache Beam, Kafka), il aime la bonne bouffe, la bonne bière, les soirées entre amis et le billard.  \nSes sujets actuels gravitent autour de GCP (PubSub, DataFlow, AppEngine, ComputeEngine) ainsi que de GoLang. ",
+      "company": "Zenika",
+      "photoURL": "https://pbs.twimg.com/profile_images/1055741424539521026/8ksXipol_400x400.jpg",
+      "twitter": "@lhauspie",
+      "github": "lhauspie"
+    },
+    {
+      "uid": "d9JCAeT86eX7GvgZJwGcNSCq4qC2",
+      "displayName": "Marian GAPPA",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GicONKvzSNHOJUEE37QPDMSzyIh-X5Czouy0ZPT"
+    },
+    {
+      "uid": "NMQgpWqtfJYFaqw07W9yDKTNETH3",
+      "displayName": "Gerard Chan",
+      "photoURL": "https://lh3.googleusercontent.com/-Ciaseb_Iiww/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmQILqwogVacCNAPmrmEbljlo4QVA/s96-c/photo.jpg"
+    },
+    {
+      "uid": "977YQDolbxde0ito7I2dUiee2ap1",
+      "displayName": "Nicolas Lepage",
+      "bio": "Nicolas is a passionate developer, currently employed at Zenika IT.\n\nHe likes to get involved in long-term projects, where he can improve people's daily lives with custom software fitting their needs.",
+      "speakerReferences": "* [Deploy a Go HTTP server in your browser](https://fosdem.org/2021/schedule/event/goserverinbrowser/) at Go devroom of FOSDEM 2021 (virtual edition)\n* [Des channels Go en JS ? Inutile donc indispensable !](https://youtu.be/62HySuTJbUU) : [BordeauxJS Novembre 2020](https://www.meetup.com/fr-FR/BordeauxJS/events/274509520/)\n* Gophers le retour (Nouveautés de Go 2) avec [Valentin Cocaud](https://twitter.com/ragorn44) : [GDG Lille](https://www.meetup.com/fr-FR/GDG-Lille/events/264218182/), TouraineTech 2020\n* [Dr Gopher, Anatomie du Scheduler Golang](https://youtu.be/TPt6pS-ptfM) : BreizhCamp 2019, SunnyTech 2019, DevFest Nantes 2019\n* [Au Pays des Gophers (à partir de 3 ans)](https://youtu.be/kJR74dG6_1U) : JUG Summer Camp 2018, DevFest Nantes 2018, Bdx I/O 2018, Touraine Tech 2019, DevFest Paris 2019, DevFest BdM 2019\n* [L’immuabilité en Javascript](https://www.eventbrite.fr/e/billets-nantesjs-meetup-32-46653271190) au meetup [NantesJS](http://nantesjs.org/) #32 avec [Yvonnick Frin](https://twitter.com/YvonnickFrin)\n* [Découvrir et comprendre Kotlin par la pratique](https://www.meetup.com/fr-FR/NightClazz-by-Zenika-Nantes/events/246038841/) au meetup [NightClazz by Zenika Nantes](https://www.meetup.com/fr-FR/NightClazz-by-Zenika-Nantes/) avec [Grégory Bévan](https://twitter.com/gr3gory_b3van)",
+      "company": "Zenika",
+      "photoURL": "https://lh6.googleusercontent.com/-96ltg2kr4oc/AAAAAAAAAAI/AAAAAAAAAG4/bk0-E9b9kuU/photo.jpg",
+      "twitter": "@njblepage",
+      "github": "nlepage"
+    },
+    {
+      "uid": "XCGCwhEbFaNNWEPahMeHR8dsJH93",
+      "displayName": "Brice Kieffer",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mDLcVk9wOHV9AyIKU9ceaIKxDIrLckuMuSTM-m6"
+    },
+    {
+      "uid": "1FnJVQspiYgiKe3q8RZcHuE6gD83",
+      "displayName": "Olivier Perez",
+      "bio": "Développeur piloté par la passion, j'ai arrêté de compter les langages que j'ai rencontré depuis mes 14 ans. Après 5 ans chez Worldline, dont 2 de Spring et 3 d'Android, je suis aujourd'hui développeur chez Zenika, mes journées m'amènent à faire beaucoup de Kotlin sur Android.\n\nLe soir je joue en ligne, et je code pour... coder.",
+      "speakerReferences": "**Conférences en interne**\n\n- Sujets mensuels autour de Git (10 à 15 min, ~50 spectateurs)\n- Git Undercover, le Git qu'on ne connait pas (45 min, ~30 spectateurs)\n- Différents sujets sur Android (de 5 et 45 minutes, ~15 spectateurs)\n- Android Débutant pour développeurs confirmés (45 min, 15 spectateurs)\n- Présentation sur Kotlin en anglais (45 min, 80 spectateurs)\n\n**Meetups & Conférences**\n\n- Atelier : Handson SpringBoot2Kotlin\n  - [NightClazz](https://www.meetup.com/fr-FR/NightClazz-by-Zenika-Lyon/)\n  - [Snowcamp 2020](https://sched.co/XoNB)\n  - Devoxx Paris 2020 (planing pas encore annoncé)\n- Atelier : Apprenons par l'erreur... de nos paires\n  - [Software Craftmanship Lyon](https://www.meetup.com/fr-FR/NightClazz-by-Zenika-Lyon/)\n  - Breizhcamp (planing pas encore annoncé)\n\n**Animation de formations**\n\n- Kotlin\n- Programmation réactive",
+      "company": "Zenika",
+      "photoURL": "https://lh6.googleusercontent.com/-yri0cdoXh-0/AAAAAAAAAAI/AAAAAAAAAA0/kWXopdYYBZM/photo.jpg",
+      "twitter": "@olivierperez",
+      "github": "olivierperez"
+    },
+    {
+      "uid": "k1xCAMXSsMR40SDjOd8Fi5bSavx1",
+      "displayName": "Glenn Feunteun",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GgzVdND_SnaoUQTNe7VJVJ0_8khdkZiyM2Jpek7=s96-c",
+      "twitter": "@g_feun",
+      "github": "gfeun"
+    },
+    {
+      "uid": "1k4xpbNIX9VxhAYWJqgxobbezWO2",
+      "displayName": "Cyril Renault",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GgS_BtL3az1f-uEA_9U3cwSboh1kBqCQWIM8hV1xg=s96-c"
+    },
+    {
+      "uid": "SuQynIcCcuRHjGTOdl1VUdg0Mod2",
+      "displayName": "Hassen Makni",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mCwW16oVU_hGtz3yzZxJQX9NIuL-cn0AduPsoMQ"
+    },
+    {
+      "uid": "EZTZRZX2vQWwpfWgULY3pMJSeVA3",
+      "displayName": "Guillaume Lamanda",
+      "bio": "Consultant chez Zenika Brest.\n\nDepuis maintenant 3 ans, je participe à l'organisation du BrestJS. J'ai également eu l'occasion de faire plusieurs présentation, dont Storybook, Lisk Blockchain et un atelier GraphQL. \n\nJS & Blockchain Lover",
+      "speakerReferences": "- Présentation de Storybook au BrestJS  \n- CoPrésentation de la blockchain Lisk lors d'un événement commun BrestJS/BrestBlockTeck\n- Atelier GraphQL pour le BrestJS (client + serveur)  \n- Présentation de la blockchain à la FrenchTech\n",
+      "company": "Zenika",
+      "photoURL": "https://lh4.googleusercontent.com/-R49oK1LFHgo/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rddth_nfp2qtHh8i5XoY5uZSFXRHw/photo.jpg",
+      "twitter": "@OlamsInc",
+      "github": "guillaumeLamanda"
+    },
+    {
+      "uid": "hPV9avMI5RW70VtkyjGLO1c1MRO2",
+      "displayName": "Marie Viley",
+      "bio": "Commerciale chez Zenika, je me suis toujours intéressée à la communication non verbale et aux mécanismes d’influence et de prise de décision. \nCe qui me motive, c’est de comprendre au mieux les gens et de pouvoir échanger avec eux. \nFan des conférences TED et  [#TRU] (https://www.linkhumans.fr/tru/) je suis constamment en veille sur le recrutement, le RGPD et les nouveautés tech.\nJ’aime également le métal, la bière et Dikkenek ^^\n",
+      "company": "Zenika",
+      "photoURL": "https://lh6.googleusercontent.com/-LZHYx43aSFI/AAAAAAAAAAI/AAAAAAAACd4/xbCJI1QDS3w/photo.jpg",
+      "twitter": "@marie_viley"
+    },
+    {
+      "uid": "C9GUCBO8PEbD8KoBCUESnzypO7u2",
+      "displayName": "Quentin LEVASLOT",
+      "photoURL": "https://lh5.googleusercontent.com/-I7AMDWcmd1U/AAAAAAAAAAI/AAAAAAAAAGM/9nCq3Klx7nk/photo.jpg"
+    },
+    {
+      "uid": "p0GedmTLZvRjKr1hz4gzqNMRath1",
+      "displayName": "Aurore Husson",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GjxdW1k3D97ObP6bqtaWPbIUic8QO2uJSy2AHp9=s96-c"
+    },
+    {
+      "uid": "0rNZujyWZhWZkxHWh7NZdnLv2873",
+      "displayName": "Julien Landuré",
+      "bio": "CTO de Zenika Nantes, Julien est aussi Google Developer Expert Cloud. Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes.",
+      "speakerReferences": "Website avec toutes les infos : https://jlandure.dev/\nListe des talks: https://speakerdeck.com/jlandure\nVidéo des talks : https://www.youtube.com/playlist?list=PLdVDu8iO6zrMurVwGrFR23uw5OtGh4vFx\n\n(Remote) Skillsmatter 2020 : Let’s Play with Cloud Code to Run Cloud Native Applications\n(Remote) RemoteClazz Zenika 2020 : Cloud Patterns ou comment développer une application Cloud-Native link\nSingapore Kubernetes UG 2019 : Let's play with Cloud Code\nAgile Tour Nantes 2019 : Les nouveaux géants du Web\nJugSummerCamp 2019 : Self-Marketing for Developers\nSunnyTech 2019, Devops DDay 2018, JugSummerCamp 2018 : Jouons avec Skaffold & Container Structure Test\nNantesJUG 2019, DevFest bout du monde 2019, Devoxx Maroc 2018, CNCF Nantes 2018 : La CNCF et son écosystème\nGDG Lyon 2019, GDG Nantes 2018 : Cloud Study Jam : Codelab Kubernetes\nRemoteClazz Zenika, Web2Day 2017 : Cloud Patterns: Writing Applications That Scale\nRJ Talk 2017, DevFest Lille 2017, Web2Day 2017, NantesJUG : Serverless: just a buzzword?\nDevFest Nantes 2016 : Cloud Patterns avec D. Girard\nDevoxx Maroc 2017, NantesDigitalWeek 2016, ADN’Ouest 2017 : Things you can learn from big players avec A. Bonneau\nDevFest Paris 2016, Breizhcamp 2016, Web2Day 2016, NantesJUG 2016, JugSummerCamp 2016: HTTP2, ce qui va changer !\nWeb2Day 2015, DevoxxFR 2015 : Chrome Dev Tools avec Jef Garreau\nDevFest Nantes 2013 : Go & AppEngine\nBreizhCamp 2013 : Tour de la plateforme Cloud de Google\n",
+      "company": "Zenika",
+      "photoURL": "https://lh5.googleusercontent.com/-BrUtXil2gXA/AAAAAAAAAAI/AAAAAAAArDA/X8QWXTZ-ZrA/photo.jpg",
+      "twitter": "@jlandure",
+      "github": "jlandure"
+    },
+    {
+      "uid": "nekfKGP05KWO5W5CwB9uegBovAx1",
+      "displayName": "Eric Briand",
+      "bio": "Développeur touche à tout depuis plus de 10 ans, il travaille actuellement à Zenika Nantes. Ses sujets du moment sont le Cloud et kubernetes. Il est formateur Docker, kubernetes et co-organisateur du CNCF Meetup Nantes.\n",
+      "speakerReferences": "J'ai créé une playlist youtube avec les talks que j'ai déjà donné. Vous pouvez la retrouver ici : https://www.youtube.com/playlist?list=PLtu_ZpDVgTxROg78FeoRt9txxCemrmG1l",
+      "company": "Zenika",
+      "photoURL": "https://lh6.googleusercontent.com/-lC7mxzc8Tk0/AAAAAAAAAAI/AAAAAAAAAP0/Fh3yc5EcC6g/photo.jpg",
+      "twitter": "@eric_briand",
+      "github": "ebriand"
+    },
+    {
+      "uid": "2nvqk8REjqWeS310SrnQG1eemLm2",
+      "displayName": "Martin Choraine",
+      "speakerReferences": null,
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mBToMfrpltmYGMwEd2HoshGpuGwq4A2TUjsrugH",
+      "twitter": "@mchoraine",
+      "github": "chocho01"
+    },
+    {
+      "uid": "BHW8h7LzhBSqs80aZEVwrDiAUDj2",
+      "displayName": "Jean-Phi Baconnais",
+      "bio": "**Développeur / Consultant chez Zenika Nantes **\n\nPlongé dans le développement avec l'éco-système Java, curieux de nature, j'aime découvrir et expérimenter de nouvelles technos back end ou front end et les partager autour de moi.\n\nGitLab Heroes depuis l'été 2020 🦊\n",
+      "speakerReferences": "📅 Janvier 2021 : Paris JUG : \"Le développement dès le plus jeune âge\" (Quicky - 15 minutes)\n\n📅 Décembre 2020 : BBL chez Stack Labs : \n- \"Le développement dès le plus jeune âge\" (Quicky - 15 minutes)\n- \"Développer avec Quarkus\" (Quicky - 15 minutes)\n\n📅 Juillet 2020 : France DevOps : \"Votre CI/CD aux petits oignons avec #GitlabCI !\"  (Conférence  - 50 minutes)\n\n📅 Juin 2020 : BBL chez Younup \"Votre CI/CD aux petits oignons avec #GitlabCI !\" - (Conférence  - 50 minutes)\n\n📅 Mai 2020 : \n- Kotlin User Nantes Group :  REX : entamer une migration Kotlin dans une DSI Java (Quicky - 15 minutes)\n- Human Talks : les 11 commandements pour rester zen avec un agenda bien rempli (10 minutes)\n\n📅 Septembre 2019 : \n- Sfeir Lunch pour un quicky sur GitLab CI : Make GitLab CI : hype again ?\n- JUG Summer Camp : REX : entamer une migration Kotlin dans une DSI Java (Quicky - 15 minutes)\n\n📅 Juin 2019 : Nantes JUG : REX : entamer une migration Kotlin dans une DSI Java (Quicky - 15 minutes)\n",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/fife/ABSRlIolFLYdZXhdEhfta3KuRkn0TNkALmg_a4n3BDfczSV3NHXDHybLMTDH3fvTn_1jPt1dWReCOZUtu9jbSSFjtg4EfeIjBoX6ptGQGIQdYiwn-BBrkR1c96vFvwBmbm964nn9hehrGK05oHelbYG4uDcCJnXkNmh214yNwN2gZd_fhNpiBnN3XGEKB4pkgnhEF1KUBhcaGJe1xpLM0czGL8QdzKvBroZrrkXsID3MYhnihDGdYYGKJquZz2I9YeBo-jp_Zr69iotJ1L9VixvRvw1WVHDRIdmeo8LKEApVNWfH9E339jrxGvU9PSA3qHHPuz00RTFj8daRowjWxC9Z3ycOLnjCsIqGA2yyFX7AZ7zvobFgXgI0YsI0TCV_iRxRAPh98Hq_jcJZDdlENNWUdA0FH6K6NBXQLcWtA4ARObDFky_6zcbV8ccdG7Fxs4vAha_QYJY8jQ2bfyzDltVxxEHghAcuR6-QYflrwwwV55MXlXux66Eu3VS3uJQG6o7G5I-IgwsYYmNHhImJrSG0OfAuA_8zy4pETVYWBMgMyWmE7hoqI0LVvvl23bR0vYH-h3qyqz-P8RLuNWX2Dnhj73QUR23Oz68d7-R3OGgF7ZRNtDZFORp5x6iwQWG5SFWnSQB-3PKtNgOvsFdzZo035rH0vRbhZyy-Omn4aPSpljBuq0KXWS2wjgoBEdOf6DPwnP_4TOiU5ceLrVu-2pIST7xmnd0dJNb3ovyEkNVPw-I9Kg=s83-c",
+      "twitter": "@JPhi_Baconnais",
+      "github": "jeanphibaconnais"
+    },
+    {
+      "uid": "PG77yQ5M4gOk5nIZv8VJd9Bh7uw1",
+      "displayName": "Pascal Boucher",
+      "bio": " ",
+      "speakerReferences": " ",
+      "company": "Zenika Montréal",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GiMUMLwnvxyNafDIF1rzQVmJ7eG60Fqg9OC9l0d=s96-c"
+    },
+    {
+      "uid": "PqyrWWV1iGUI2qlj4gZSqdJ55jr1",
+      "displayName": "Jeremy Riverain",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GjZt83XpokkKJRhTXL4eiMgo8-AuPzjD_fzpRD7=s96-c",
+      "twitter": "https://twitter.com/jeremy_riverain",
+      "github": "https://github.com/jeremyriverain"
+    },
+    {
+      "uid": "eOsvaUZSsvfEXlFnNQm9rKQOqH63",
+      "displayName": "Mahdi Aici",
+      "photoURL": "https://lh3.google.com/u/1/ogw/ADGmqu8zUVc4WbEgvWKut5sqWCWZRTKEu9t4jTRojD6y=s192-c-mo"
+    },
+    {
+      "uid": "7hX4q2nlIWTY770efZKTMIqWRSr2",
+      "displayName": "Hugo Wood",
+      "bio": "Passionate software developer since 2003. Professional since 2013. I like to play with code just for fun as well as make useful stuff out of it.",
+      "speakerReferences": "- \"Améliorer la qualité du code par restriction du langage\", [Nantes JUG 2013](http://www.nantesjug.org/#/events/2013_11_04)\n- \"Principles of Reactive Programming\", Zenika internal conference 2015\n- \"Hypermedia in the Shadow of the Death Star\", DevFest Nantes 2015 ([video](https://www.youtube.com/watch?v=_TcBu40PyJY))\n- \"Kill all the REST with the Falcor\", Breizhcamp 2016, [Nantes JUG 2016](http://www.nantesjug.org/#/events/2016_04_12),\n Devoxx France ([video](https://www.youtube.com/watch?v=woOg4UyNHn8))\n- \"GraphQL vs Falcor\", DevFest Nantes 2016 ([video](https://www.youtube.com/watch?v=HJuOC2WFNDs)), SnowCamp 2017, Devoxx France 2017 ([video](https://www.youtube.com/watch?v=BMvUwHnVyiE)), Voxxed Days Luxembourg 2017 ([video](https://www.youtube.com/watch?v=w4LBCBDQiVc))\n- \"Event Sourcing avec Apache Kafka\", NantesJUG 2017 ([video](https://www.youtube.com/watch?v=pqw_8rDw4Yw))\n- \"Out of the Tar Pit\", Zenika internal conference 2018",
+      "company": "Zenika",
+      "photoURL": "https://avatars0.githubusercontent.com/u/1656170?v=4",
+      "twitter": "@mercury_wood",
+      "github": "hgwood"
+    },
+    {
+      "uid": "qiyvDP08XwRTEeQHtGbK5roUTps2",
+      "displayName": "Nicolas Moreau",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GgDjWXiiRks3tW6QoPBWrPxGlmFW3nmmXomaSWmOw",
+      "twitter": "@BalfolkCoder",
+      "github": "moreau-nicolas"
+    },
+    {
+      "uid": "JZ7ax9LINVTyXYkfhTbL5bJNTix1",
+      "displayName": "Antoine Céol",
+      "bio": "Je suis (officiellement) dévelopeur depuis une petite décennie, et chez Zenika depuis presque autant de temps. \nCTO depuis un an, je suis passionné par le front-end, l'UX, et par ailleurs par le back-end et le devOps,  si possible en craftmanship.  \n\nFaisons beau, Faisons bien et faisons le ensemble!",
+      "company": "Zenika",
+      "photoURL": "https://lh4.googleusercontent.com/-x_HLgeitDLI/AAAAAAAAAAI/AAAAAAAAAFM/1PPhFZmeXRU/photo.jpg",
+      "twitter": "@boomboombap",
+      "github": "aceol"
+    },
+    {
+      "uid": "SEm6MUED1WfY2TpdNKe4rpQXNcN2",
+      "displayName": "Maria-Eliza Paez",
+      "bio": "::::::::::::::::::::::::::::::::::::\n🐣 Product Manager\n::::::::::::::::::::::::::::::::::::\n\nBercée par le Lean Startup et le Design Thinking, j'accompagne les individus, les équipes et les entreprises à devenir plus agile et adopter une culture Produit :)\n\n",
+      "company": "Zenika",
+      "photoURL": "https://media-exp1.licdn.com/dms/image/C5603AQHwD-uldsBXlA/profile-displayphoto-shrink_800_800/0/1557132528072?e=1624492800&v=beta&t=Wv4vfpuw6UoVFYBF8PwpRsdpMtxrI6ODvVc8VNuQ3Ng"
+    },
+    {
+      "uid": "Fmzr0kqDmCZawzL4jcyXT31s05U2",
+      "displayName": "Jehane Zouane",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GhDmmH99BorkbtT-uhhvFefktNzkOb7JNnWdDyU=s96-c"
+    },
+    {
+      "uid": "LFtkTDS5uSgFNmUjHjGj51FPWVS2",
+      "displayName": "Sébastien Morineau",
+      "photoURL": "https://lh5.googleusercontent.com/-lAh9DStyp9Y/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuck5KYZVi5DE6gpSjJWoBW2RZajzPA/s96-c/photo.jpg"
+    },
+    {
+      "uid": "PpGRtcFYUmXpXENgC2j8tu7JOQj2",
+      "displayName": "Jean Bisutti",
+      "bio": "Jean Bisutti est consultant pour la société Zenika. Jean a créé le projet open source QuickPerf permettant d'évaluer et d'investiguer rapidement des propriétés liées à la performance.",
+      "speakerReferences": null,
+      "company": "Zenika",
+      "photoURL": "https://lh4.googleusercontent.com/-RVMqD4pVhvo/AAAAAAAAAAI/AAAAAAAAAIw/FYpDcL2_Sg8/photo.jpg",
+      "twitter": "@jean_bisutti",
+      "github": "jeanbisutti"
+    },
+    {
+      "uid": "L3EkgcYt0MT1GGwE52P2LDSCkNz2",
+      "displayName": "Gwénolé Kerninon",
+      "company": "Zenika",
+      "photoURL": "https://lh5.googleusercontent.com/-F4H0hx4Dzg0/AAAAAAAAAAI/AAAAAAAAAAc/XhOXtF8FgLQ/photo.jpg"
+    },
+    {
+      "uid": "8qZbE1u0amcApMNVcDjTxbGKUpo2",
+      "displayName": "Jean-Michel Leclercq",
+      "company": "Zenika Rennes",
+      "photoURL": "https://lh4.googleusercontent.com/-kcVXlyUdvpQ/AAAAAAAAAAI/AAAAAAAAAAc/F2qVp6TOd18/photo.jpg"
+    },
+    {
+      "uid": "eP6NDWsMivcAllm3fhB7Deb9E233",
+      "displayName": "Guillaume Briand",
+      "bio": "Développeur junior backend, passionné par les nouvelles technologies et la sciences =). ",
+      "company": "Zenika",
+      "photoURL": "https://lh5.googleusercontent.com/-llQzF4UQHyk/AAAAAAAAAAI/AAAAAAAAAAA/AGDgw-gIUMK2vyijCM-jOGjZq1Ak_0KrGA/mo/photo.jpg",
+      "twitter": "@Ethoytaryn",
+      "github": "ethoytaryn"
+    },
+    {
+      "uid": "2N62dBFb7je99HXXnOvUOwdspEv1",
+      "displayName": "Antoine COMBLE",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GgMOhQUEVK0DsbWgiDGkEdeHVcpMjlNO-6oQADw=s96-c"
+    },
+    {
+      "uid": "X7XymhqINGST1YOWpNbq6Rvw4Od2",
+      "displayName": "Bertrand Renou",
+      "photoURL": "https://i.pinimg.com/236x/f5/a8/97/f5a89720155154e5fda33eff214e16ef--star-wars-t-shirts-red-pandas.jpg"
+    },
+    {
+      "uid": "WrWpAXvAKXO0SyS6IcqutqoMVdh2",
+      "displayName": "Margerie Guilliot",
+      "photoURL": "https://lh6.googleusercontent.com/-pNZXkYLh5T4/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclowcp2xdqj0DqwkPGYZkjSVyGGPw/s96-c/photo.jpg"
+    },
+    {
+      "uid": "M44UjHAaNYUiLRhx4AP879KQY9l2",
+      "displayName": "Serge Hardy",
+      "photoURL": "https://lh6.googleusercontent.com/-dj4Lh_RBUv0/AAAAAAAAAAI/AAAAAAAAAAs/s93zMtMwDUs/photo.jpg"
+    },
+    {
+      "uid": "F1WDXeypLyZKXiTBdydGKHSPdDO2",
+      "displayName": "Séverine Luzeau",
+      "bio": "Après avoir subi le management à l'ancienne, j'ai pris le pouvoir !\nAgiliste et coach, je privilégie l'agilité aux \"méthodes agiles\". \nMa valeur agile préférée : L'adaptation au changement plutôt que le suivi d'un plan.\n",
+      "company": "Zenika",
+      "photoURL": "https://lh4.googleusercontent.com/-ZiRCyALr-LY/AAAAAAAAAAI/AAAAAAAAAAc/2S1a_WJJzvw/photo.jpg",
+      "twitter": "@SLuzeau"
+    },
+    {
+      "uid": "Q3gF8NTUrnMPDDJ8HWfe00qYw5q2",
+      "displayName": "William Bartlett",
+      "bio": "Second generation developer, William had his first email account in 1990 at the age of 6 and fell into IT at the age of 10. On his journey across the universe of programming, he has roamed the superpowers of procedural and object-oriented where C, Python or Java are natively spoken. He has also embarked on several treks to the more exotic lands of the functional world, equipped only with a lambda and a few parentheses. His familiar is the penguin and his motto is “Use the right tool at the right time”.",
+      "speakerReferences": "I have been speaking at conferences for a few years now. In 2018. I presented talks at the [DevOps D-Day](https://youtu.be/blCfIwccnnI), [API Days](https://youtu.be/EzPvH-2C7U8) and CloudExpo Europe. I have also presented at a few meetups, notably MarsJUG in June 2018 and a 6th Docker Birthday event.\nIn 2019, I had the honour of speaking at [Devoxx Belgium](https://devoxx.be/speaker-details/?id=21408) for the first time.\nIn 2020, I spoke at [SnowCamp](https://sched.co/XoPk) and was selected to speak at the canceled [Voxxed Thessaloniki](https://voxxeddays.com/thessaloniki/speakers/).\n\nI started doing presentations while I was preparing a doctorate from 2009 to 2012. I have done some theatre and I like to keep my presentations professional yet fun and original.",
+      "company": "Zenika",
+      "photoURL": "https://namrats.net/images/Photo-2019-square.jpg",
+      "twitter": "@bartlettstarman",
+      "github": "punkstarman"
+    },
+    {
+      "uid": "yVh0TaIWmiRohty6BeheTneHxLI2",
+      "displayName": "Patrice De Saint Steban",
+      "bio": "Depuis presque 10  ans je me passionne pour le développement d'applications WEB et Mobile, en touchant à toutes les couches du Front au Back jusqu'à son déploiement sur le Cloud.\n\nJ'ai travaillé sur des technologies très différentes, du PHP au JAVA et JAVASCRIPT, du GWT à Angular et React, de Google App Engine à NodeJS.\nJe m'intéresse au Machine Learning et les agents conversationnels.",
+      "speakerReferences": "*Conférences publiques*\n- Co-Animateur au CodeLab sur Google App Engine à Devoxx en 2012\n- Conférence sur Html5 et GWT à Rivierra Jug en 2011\n- Conférence sur le futur de GWT à DevFest Paris en 2015\n- Quickie sur  IA vs machine learning vs deep learning à [Sfeir Lunch Nantes](https://www.eventbrite.fr/e/billets-sfeir-lunch-6-58291769251#) en avril 2019\n- Quickie sur \"Java 12: quoi de neuf ?\" à [Nantes JUG](https://nantesjug.org/#/events/2019_05_20) en mai 2019\n- **Quickie sur \"Auto ML Vision : le PAAS du machine Learning\" à [DevFest Lille](https://devfest.gdglille.org/agenda.html)** en juin 2019\n- SummerClazz  \"Auto ML Vision\" à [Zenika Nantes](https://www.meetup.com/fr-FR/NightClazz-by-Zenika-Nantes/events/262590522/) en aout 2019\n- **Conférence sur \"AMP For Email : Mon email devient dynamique\" à [DevFest Strasbourg](https://devfest.gdgstrasbourg.fr/schedule/2018-11-06?sessionId=117)** en novembre 2019\n\n\n*Conférences Internes*\n- Conférence en interne chez TalendSoft sur l'IA en 2018\n- Conférence en interne chez Société Générale sur les tendances du WEB\n- Présentations internes chez Sfeir et Zenika\n\nMes vidéos : https://www.youtube.com/playlist?list=PLITDFQQM8KHoW8ltnHiiqpJi9-VySqUnx",
+      "company": "Zenika",
+      "photoURL": "https://lh6.googleusercontent.com/-RdYlDLmyOLo/AAAAAAAAAAI/AAAAAAAAAAc/KyxC3C3XSwc/photo.jpg",
+      "twitter": "@patoudss",
+      "github": "patou"
+    },
+    {
+      "uid": "zuGFLtXDJ8Qo4lbQIBtBSUEt3s82",
+      "displayName": "Antoine Cellier",
+      "bio": "Développeur et formateur chez Zenika Nantes. J'intervient sur des missions de réalisation autour des technos front et back tel que Angular, ReactJS et NodeJS. Je participe régulièrement aux meetups Nantais et donne des talks lors de différents événements.",
+      "speakerReferences": "- Lightning talk : ReactJS: NantesJS(17/09/15)\n- Fetch your data with GraphQL: Nantes JUG(14/06/16), BDX.io (21/10/16)\n- Composez vos interfaces utilisateurs avec React: Voxxed Day Luxembourg (22/06/16)\n- GraphQL vs Falcor (co speaker: WOOD Hugo): DevFest Nantes (09/11/16), Snowcamp (09/02/17), Devoxx France (07/04/17), Voxxed Day Luxembourg (22/06/17)\n- Apollo for Angular (codelab): Devfest Lille (21/06/18), MixIT (19/04/18), Devoxx France (20/04/18)\n- React Context (co speaker: Julien TANGUY): Nantes JS (17/01/19)",
+      "company": "Zenika",
+      "photoURL": "https://lh4.googleusercontent.com/-YWw7Mu4LDJ4/AAAAAAAAAAI/AAAAAAAAADQ/MSYA8Siu2XI/photo.jpg",
+      "twitter": "@AntoineCellier3",
+      "github": "antoinecellier"
+    },
+    {
+      "uid": "dc4gx84rHMQunydJXyT6RyMHgb93",
+      "displayName": "Antoine Bonneau",
+      "bio": "I'm here",
+      "company": "zenika",
+      "photoURL": "https://lh6.googleusercontent.com/-to_aRrSbIvc/AAAAAAAAAAI/AAAAAAAAABQ/QepXzz8WcD0/photo.jpg",
+      "twitter": "@callmegoodwater",
+      "github": "@callmegoodwater"
+    },
+    {
+      "uid": "zDicUtkZpbaW8RXevTUS66bu1ph1",
+      "displayName": "Jérémie Huchet",
+      "bio": "Jeremie aime coder 💻, les chats 😼 et la bière 🍺",
+      "speakerReferences": null,
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/-ZPNWgH0ZpPA/AAAAAAAAAAI/AAAAAAAAAAc/8akib4H_LfQ/photo.jpg",
+      "twitter": "jeremiehuchet",
+      "github": "jeremiehuchet"
+    },
+    {
+      "uid": "M5iivlSd6vNKx7fJH8z00invbrP2",
+      "displayName": "Benoit Travers",
+      "speakerReferences": "[![Spring WebFlux par la pratique](http://img.youtube.com/vi/_glQmQe2GC8/0.jpg)](http://www.youtube.com/watch?v=_glQmQe2GC8)\n",
+      "company": "Zenika",
+      "photoURL": "https://lh4.googleusercontent.com/-DtwyvvaMVyQ/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQMJ6JTaJIEx5owYsV0VUogTzHptxg/mo/photo.jpg"
+    },
+    {
+      "uid": "MIk2pkgfjjfTWRrlZQulaVJxWgR2",
+      "displayName": "Alexandre Fruchaud",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14Gi4z-_e-jd9KBy14b9yJooRZGuC21crMv16vGs5=s96-c",
+      "twitter": "MalcMacphail",
+      "github": "mmacphail"
+    },
+    {
+      "uid": "acg8fsSvT1cisuSoK4qHXh0JzXt1",
+      "displayName": "Marouan Rouatbi",
+      "photoURL": "https://lh4.googleusercontent.com/-cNiEumUM7nM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclCLvVwIvLs2koVBGWCswLQE7YpiQ/s96-c/photo.jpg"
+    },
+    {
+      "uid": "cRpghQfzRcd0kypsyoa0UM7l9QK2",
+      "displayName": "Jeiffer Andriantavison",
+      "photoURL": "https://lh6.googleusercontent.com/-I8kzEX3xpZU/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rd6yzvsAJCW08WWC0smqhZTQTKf8A/photo.jpg"
+    },
+    {
+      "uid": "CEhpHuumwEbTzJOqYMOXamuAJEh2",
+      "displayName": "Sylvain Revereault",
+      "photoURL": "https://lh3.googleusercontent.com/-khRyv9HGI-Y/AAAAAAAAAAI/AAAAAAAAAI4/S6m8l_JLyC4/photo.jpg"
+    },
+    {
+      "uid": "PISLohru8Vcnb11Fhk9DZL5iYSy1",
+      "displayName": "Glenn GUEGAN",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14Ggi2p-VBi-i88jthgzjPDURz_MQybaHZRhlH3Jv=s96-c"
+    },
+    {
+      "uid": "CiJ9ahTlUSX1J6wj8C4PHpgEiHE2",
+      "displayName": "Benjamin Petetot",
+      "bio": "👻Web Developer, JS  & React Trainer @ Zenika\n\n🥑 Open Source Advocate @ Zenika\n\n⭐️[DevFest Nantes](https///devfest.gdgnantes.com) Organizer\n\n✏️Dev & UI for @gdgnantes\n\n📣Creator and developer of [https://conference-hall.io](https://conference-hall.io)",
+      "speakerReferences": null,
+      "company": "Zenika",
+      "photoURL": "https://lh6.googleusercontent.com/-eLNPp-cIkYU/AAAAAAAAAAI/AAAAAAAAK0g/GSqGVZIugwk/photo.jpg",
+      "twitter": "bpetetot",
+      "github": "bpetetot"
+    },
+    {
+      "uid": "LBXSNoYRKbWwvirzjnpHzMk03cM2",
+      "displayName": "Lise Quesnel",
+      "bio": "Consultante chez Zenika, Lise a déménagé il y a quelques mois de Paris vers les contrées nantaises. Elle travaille en tant que développeuse web en full-remote pour son client, Pix. Grande curieuse, elle aime découvrir sans cesse de nouvelles choses et a tout particulièrement une appétence pour les technologies front-end.",
+      "speakerReferences": "J'ai eu l'occasion de donner deux talks aux événements interne à Zenika, appelés Technozaure. L'un sur le framework de tests end-to-end Cypress, l'autre sur la start-up d'état Pix. J'ai également pu donner mon talk \"🏡 Full-remote : comment réussir à travailler en équipe ?\" à Codeurs en Seine 2019 et à Touraine Tech 2020.",
+      "company": "Zenika - Pix",
+      "photoURL": "https://lh3.googleusercontent.com/-4_4dOg_V9C4/AAAAAAAAAAI/AAAAAAAAAFU/9-fQ0kBWKIQ/photo.jpg",
+      "twitter": "@QuesnelLise",
+      "github": "lisequesnel"
+    },
+    {
+      "uid": "h9SPnYdeA3UbwXoZnH61tErQtLi2",
+      "displayName": "Damien Bouvet",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GgX0CMzADabJD6THD5r9-qjCKMz_Zmfo4jITpcj=s96-c"
+    },
+    {
+      "uid": "R85UUEVO7bg4W0bldPuTCKKIZ6o1",
+      "displayName": "Denis Le",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GgCRmcMc1B60RZtZDPZcU_Tg3JxhPPH7danOWEL=s96-c"
+    },
+    {
+      "uid": "xjwwgEjMfBUKht3cF0SnOeIPgBq2",
+      "displayName": "Nicolas KIRCHNER",
+      "photoURL": "https://lh3.googleusercontent.com/-UFmp6I5KB6o/YH7O_hmGSyI/AAAAAAAAAAc/Yn7glHxu728QCbvo1UHbb6cF2IOUzdeNgCEwYBhgLKtQDAL1Ocqx-N-RSXx4k64cUOOfer4qE8KIexUdVFQdzK2TuV_HPMGqGNBn9mXKvrn9F-CPrvc59DPXr8AG8lVwkG_Pfd7lbxvGyAE2_BzNpN3ephaDP2l_IrAGxBN7KVZO_F5u_bCcoIEbiJZ1m_aT69EFH9yElmZVlFSjWvsxTYPD4wNwjvlAYjj-ufrp0jbHGmzXwhNvMm2cTwtpF3B9nqMXWC_BH_aHz0BdMTC8SrGmSt2QZvwZKwZ48TE87U1N2P2W8HFbnKGC8sbWjzmj5ePuBzNkFVxdsfJEtWnI3vmXwoAAPLBoCqJRGXAYZvbU_nGucXGy0LSpAiudqeItNh7JX_voIlBMYRbRaVEZS28rohZbiZ12yrdHFvY1loXhpG5Y5XkaDpoh4CHWbbwNBgjBcvbbNiks1I_MmpxEjY4I56cPj3ZHKFHWWWzSJ7gXI6EwC5Yq3tFtSAYiMPoJt3i3D2C6O5A6MFTWSOi3OZ_254npEya3pvg0H4B_Lg7gbG1qUjBiOQ6cDxJpM5uhaKHeDIyznr9klwjbgpqiadEcVdqaTp91zaZ0zF22NE8BDuOSvqg6PteRRzJPf6H5SS1nlVvEclsFWpX2SsMnMRSr3e-fiMKik-4MG/w280-h280-p/2021-04-20.jpg"
+    },
+    {
+      "uid": "P2t4TJMeSpYFzc5vlUfoh8W9yxh1",
+      "displayName": "Denise Do Rosario",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14Gi3p-R4ZwDE3d_gtHae-NXcxrM4CChvi-SJrCA=s96-c"
+    },
+    {
+      "uid": "eMxgr6F4ejMtT40vhjAs7x8kfbF2",
+      "displayName": "Mustapha NEZZARI",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GglSLj6ReB1rANnAGdz56dN_JcYyXit44okY2X1=s96-c",
+      "twitter": "mustaphanezzari",
+      "github": "MawsFr"
+    },
+    {
+      "uid": "u3y2fdTflHQYoHt9ILKS9LtZIbg1",
+      "displayName": "Anthony Le Goas",
+      "bio": "Developer & CTO @Zenika Brest / Co-organizer BrestJS + UX Design Brest + Svelte Society France",
+      "speakerReferences": "Conférences & Meetups :\n- 27/09/2020 : \"Svelte, le framework qui sauve les bébés phoques\" - Svelte Society Day France (vidéo disponible sur YouTube: https://www.youtube.com/watch?v=p9KZILKv5E4)\n- 15/04/2020 : \"Svelte, pourquoi tant de hype ?\" - RemoteClazz Zenika (vidéo disponible sur YouTube: https://www.youtube.com/watch?v=b4U2vxdADg4)\n- ~~25/03/2020 : \"Svelte, pourquoi tant de hype ?\" - BreizhCamp~~ (annulé)\n- 27/11/2019 : \"Svelte, pourquoi tant de hype ?\" - BrestJS\n- 17/10/2018 : \"Polymer & web components\" - BrestJS\n\nPublications :\n- My tech trends of 2020 https://dev.to/anthony_legoas/my-tech-trends-of-2020-cjn\n- Improve your styling with Chrome DevTools - part 1 https://dev.to/zenika/improve-your-styling-with-chrome-devtools-part-1-4ogm\n- Svelte : why so much hype ? https://dev.to/zenika/svelte-why-so-much-hype-2k61\n- Svelte : pourquoi tant de hype ? https://medium.com/@anthony.legoas/svelte-pourquoi-tant-de-hype-3ead1a8fab5f\n\nPodcasts :\n- Arrêter le “script” de javascript pour améliorer les performances - IFTTD #54 (https://ifttd.io/54-arreter-le-script-de-javascript-pour-ameliorer-les-performances-anthony-le-goas-et-bruno-sabot/)",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mAnziHFLh1pMZ3mVBpgOlJOwGJoUfm76U2JPg5x",
+      "twitter": "@anthony_legoas",
+      "github": "@anthonylegoas"
+    },
+    {
+      "uid": "JIkth9HhzNRKIS5HMDLvXSjtWYJ3",
+      "displayName": "Adrien Nortain",
+      "bio": "Ex-Wavestone\nEx-Bosch\nEx-CGI\nCurrent-Zenika :)",
+      "speakerReferences": "VoxxedDays Singapore 2019 - Web Components: The Good, The Bad and The Ugly\nWildCard Conf Singapore 2020 - Architecture 2.0 - Building for Sustainability\n\nMeetups: \n- Web Frameworks comparisons (2018)\n- Introduction to Microservice Architecture and API management (2019)\n- Agile Dojo co-organizer and co-facilitator (2019 - )\n- Green IT Engineering - why, what and how? (2020)\n- GraalVM for Sustainable Software Development? (2020)",
+      "company": "Zenika",
+      "photoURL": "https://lh6.googleusercontent.com/--BOWWjOT0r4/AAAAAAAAAAI/AAAAAAAAAAc/Z8-FPmo3G5U/photo.jpg",
+      "twitter": "@AdrienNortain",
+      "github": "LamSonFei"
+    },
+    {
+      "uid": "WeyT26YvUmPM5x3GTRbsfoP6ddr2",
+      "displayName": "Cynthia Staebler",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mBwSvJKUBoFQmtgP5mmTx4XquiG5YHEDhgJhYMTpQ",
+      "twitter": "@CynthiaStaebler"
+    },
+    {
+      "uid": "wbREkU3l7Papr8AC0RJbXSakYK62",
+      "displayName": "Julien Sulpis",
+      "company": "Zenika",
+      "photoURL": "https://avatars2.githubusercontent.com/u/22420399?v=4",
+      "twitter": "@jsulpis",
+      "github": "jsulpis"
+    },
+    {
+      "uid": "7SO22ZQ0ODXkwGw5LX8vH2Q9wr93",
+      "displayName": "Tahar JEGHAM",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GixaD9axaKN7nxHpu1IMqn42OKu4lXlhmQNYiJH=s96-c"
+    },
+    {
+      "uid": "Sn0YLBnbApO9tsGG9AMlyxEZxTk2",
+      "displayName": "Prescillia Seck",
+      "photoURL": "https://media-exp1.licdn.com/dms/image/C4D03AQEkXisA13_cUA/profile-displayphoto-shrink_400_400/0/1611669870311?e=1624492800&v=beta&t=R8WOjFg7qaPWzxzfm0QueFkYT5GpArkCciLfUeVR7v4"
+    },
+    {
+      "uid": "PNMgivvPineyfT0sxPqcfSOIkbA2",
+      "displayName": "scauglog",
+      "bio": "Développeur depuis 6 ans, Scauglog s’intéresse à tout ce qui tourne autour de l’écosystème Big Data. UX de formation, il aime rapprocher ces deux mondes et code secrètement en JavaScript.",
+      "company": "Zenika",
+      "photoURL": "https://avatars3.githubusercontent.com/u/4425250?v=4",
+      "twitter": "@scauglog",
+      "github": "https://github.com/scauglog/prez/"
+    },
+    {
+      "uid": "TE2jAFDI7Ge8wHjohUMVHTZhxYG2",
+      "displayName": "Pierre Morvan",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GgXW4fOnfD8K3SshIwxYuO1_vR-0fvJ4ipXGQ6I",
+      "twitter": "ryarnyah",
+      "github": "ryarnyah"
+    },
+    {
+      "uid": "golnkyMWh5W7HjoAfmYcCvXh9Yg2",
+      "displayName": "Louis Tournayre",
+      "bio": "Développeur passionné & \"DevOps\" (à temps plein), DT @ Zenika Lyon (en journée) et co organisateur du GDG Cloud IoT Lyon.  \nJe suis aussi speaker et formateur sur les sujets techniques qui me tiennent à coeur Backend & DevOps.",
+      "speakerReferences": "Mon expérience de speaker est la suivante :\n\n * [Devoxx 2018](https://cfp.devoxx.fr/2018/speaker/louis_tournayre.html) ([quickie](https://cfp.devoxx.fr/2018/talk/DND-1912/La_blockchain_expliquee_a_mes_Grands_Parents.html) & [atelier](https://cfp.devoxx.fr/2018/talk/LPJ-5998/Hands_on_Jigsaw.html))\n * [Devfest Nantes 2018](https://devfest2018-site.firebaseapp.com/speakers/167/) ([atelier](https://devfest2018-site.firebaseapp.com/schedule/day1?sessionId=166), [tuto](https://mathieumure.github.io/devfest-nantes-jigsaw-docs/), [repo](https://github.com/louiznk/hands-on-jigsaw-devfest))\n * [Devfest du bout du monde 2019](https://devfest.duboutdumonde.bzh/speakers/louis_tournayre/) ([atelier](https://devfest.duboutdumonde.bzh/schedule/2019-02-22?sessionId=3101), [tuto](https://mathieumure.github.io/devfest-bdm-jigsaw-docs/), [repo](https://github.com/louiznk/hands-on-jigsaw-bdm))\n * [JugSummerCamp 2019](https://www.jugsummercamp.org/edition/10/speakers/golnkyMWh5W7HjoAfmYcCvXh9Yg2) ([quickie](https://www.jugsummercamp.org/edition/10/presentations/sdDLSCpwlUg3rIXYqOor))\n * [BlendWebMix 2019](https://www.blendwebmix.com/conferenciers/louis-tournayre/) ([talk](https://www.blendwebmix.com/programme/conferences/kubernetes-attention-aux-apprentis-sorciers/)) \n\n[Speaker Deck](https://speakerdeck.com/louiznk) et [Vidéo Deck](https://www.youtube.com/playlist?list=PLC2-HiskQcJXRRLlqEw__ukiY5Flk0uPl)\n\n",
+      "company": "Zenika",
+      "photoURL": "https://lh4.googleusercontent.com/-cVRndUQ_8GQ/AAAAAAAAAAI/AAAAAAAAAB8/HnFHwMBucLc/photo.jpg",
+      "twitter": "@_louidji",
+      "github": "louiznk"
+    },
+    {
+      "uid": "GD7LTdZkPZbHLvnmpkaVOKK5fvc2",
+      "displayName": "Moustapha Agack",
+      "photoURL": "https://lh6.googleusercontent.com/-Vzdk20GHbaA/AAAAAAAAAAI/AAAAAAAAAC0/ejfSNuj_OjM/photo.jpg"
+    },
+    {
+      "uid": "XU8bJv33aUSCq1GL3M1Gyh6sv5l1",
+      "displayName": "Yanis BOULAOUINAT",
+      "photoURL": "https://lh5.googleusercontent.com/-u9Im-Vr0wq0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdg6omRmfKtEDEutQqm9Qp2h7d9KA/photo.jpg"
+    },
+    {
+      "uid": "7VQ8wdjtOlaqGRPwS4X9XdFCEVh1",
+      "displayName": "Jérémie Picard",
+      "photoURL": "https://lh6.googleusercontent.com/-TpUP6kVMTBc/AAAAAAAAAAI/AAAAAAAAAAo/c-TZDH31M_Q/photo.jpg"
+    },
+    {
+      "uid": "JbUUOvPC3BQPandvs31ufemPpPQ2",
+      "displayName": "Jérémy Lejeune",
+      "bio": "Quite new in the development community, I started a career change 3 years ago as a web developer. Beginning with the PHP/Symphony - Javascript combo, I followed for a 2 year internship in the Information Systems Division at La Poste, working on Openshift and CI/CD development and deployment then on an micro-services based application mixing back-end and front-end conception and development with Java/Spring and Angular. I'm now working at Zenika in the Dreamlab team, managing and creating applications for the information system of the company. Passionate about functional programming, I discovered Scala recently and working on a small side project on Elm.",
+      "company": "Zenika",
+      "photoURL": "https://lh4.googleusercontent.com/-YW-wpZdJkrk/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQPWmdnLhRJYTKKsHRXZxlcyRJSGgA/mo/photo.jpg",
+      "github": "yodur2potassium"
+    },
+    {
+      "uid": "O9ENJe73iKgWK2Yzzz6y1r9DpSG2",
+      "displayName": "Thomas Sauques",
+      "company": "Zenika",
+      "photoURL": "https://lh6.googleusercontent.com/-hznYZOfOeQY/AAAAAAAAAAI/AAAAAAAAAA8/kllJAS9Pm70/photo.jpg",
+      "twitter": "@Morphyish",
+      "github": "Morphyish"
+    },
+    {
+      "uid": "1XdPOmhfgVXrxkhRXItPFhaIjuK2",
+      "displayName": "Raphaël LEMAIRE",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14Ggdd0jup1-h5Ux1S9CtLhKwKOOAUxOwdIYXYpFX"
+    },
+    {
+      "uid": "SdOyeiESCWeAqS6pz6VJ2Y91eWh2",
+      "displayName": "Clément LALANDE",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14Gh3fgeOrR6fdz0EL3HtO15iucEQn_vc6a7J4tlh=s96-c",
+      "twitter": "@Clement_Lalande"
+    },
+    {
+      "uid": "3jAixvFWDwMpoISHbnkL3IqGNjP2",
+      "displayName": "Jimmy Kasprzak",
+      "bio": "Consultant formateur à Zenika, je me passionne pour le monde du développement web depuis déjà quelques années. J'adore me confronter à de nouvelles problématiques, découvrir, apprendre et partager autour de moi avec des gens qui partage la même passion. Adepte de Javascript, Typescript, fan d'Angular et dresseur pokémon à mes heures perdues, n'hésitez pas à me retrouver sur les différents réseaux sociaux pour échanger :)",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/-1klXL98Tgmo/AAAAAAAAAAI/AAAAAAAAAI4/2MgtgWfi9Zw/photo.jpg",
+      "twitter": "@JimmyKasprzak",
+      "github": "Orodan"
+    },
+    {
+      "uid": "mArCT6gnIgQJ9cjaDdnciMxUKz12",
+      "displayName": "Olivier Damour",
+      "photoURL": "https://lh5.googleusercontent.com/-4pAw2yD8Ly8/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3red7cVg8ghTA8wzBMiPgKHfaNu0NQ/mo/photo.jpg"
+    },
+    {
+      "uid": "T6CvcsbXPefeANP3ZwfIciwT3v12",
+      "displayName": "Damien Beaufils",
+      "photoURL": "https://lh6.googleusercontent.com/-EylDt8XAV7s/AAAAAAAAAAI/AAAAAAAAAA0/oupWv8vXs18/photo.jpg"
+    },
+    {
+      "uid": "RBd17nmc8uMTe2KYteh1Nhl9XpD3",
+      "displayName": "Emeric Martineau",
+      "bio": "I'm devops engineer at Zenika.\n\nI'm working in IT since 2001.\n\nI've been C developer, Delphi developer, Java developer.\n\nI'm also working as system administrator.\n\nI help my client to be more agile and work more efficient with DevOps think. \n\nI love Elixir !",
+      "company": "Zenika",
+      "photoURL": "https://lh4.googleusercontent.com/-z1PzogWFSWQ/AAAAAAAAAAI/AAAAAAAAAHs/1yGIhD3Ri14/photo.jpg",
+      "twitter": "@MartineauEmeric",
+      "github": "bubulemaster"
+    },
+    {
+      "uid": "UjwPVWe4tBROeuDA6fjQvRI8Rq62",
+      "displayName": "Nicolas Hodicq",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mD5u3U3zq6RcrS1L7LR-FrCME2t8bxX6vLCETlp",
+      "twitter": "@nartawak",
+      "github": "nartawak"
+    },
+    {
+      "uid": "bP7Qfb6lsndcaqwvWxLZVy559Rq2",
+      "displayName": "Victoire D'ALMEIDA",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/-IT0eq6drJI4/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3re3qYStqLkicgsASPlZhT5_YSsF1g/photo.jpg"
+    },
+    {
+      "uid": "rjLKrPb3mjcXp35cXflq5PGPS6f1",
+      "displayName": "Geoffroy BEGOUAUSSEL",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GjnvN--NbVNjcUKy1RDUbZ7dRasAsqsu2kgbN5T=s96-c"
+    },
+    {
+      "uid": "0ZbtTwugPpTsYEAbDRbt6Voqcca2",
+      "displayName": "Pierre-Yves Aillet",
+      "bio": "Passionné d'informatique, Pierre-Yves travaille depuis 15 ans sur des technologies variées allant de PHP à Java en passant par Javascript. Son IHM de prédilection est la ligne de commande. Il est consultant chez Zenika Nantes et intervient sur des missions d’audit, d’expertise technique ou d’appui pour la mise en place d’outillages de développement.",
+      "speakerReferences": "- [Speakerdeck](https://speakerdeck.com/pyaillet/)\n- [Talks filmés](https://www.youtube.com/playlist?list=PLt4ek4WeGOjjmzOmyMHLHgqUpuqxgOOeH)\n- Et quelques autres talks et Workshops (Devfest Nantes, Devfest du Bout du Monde, Devfest Paris, ...)",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/-vRueeeZ11qc/AAAAAAAAAAI/AAAAAAAAAA0/8WHvuJZv-kQ/photo.jpg",
+      "twitter": "@pyaillet",
+      "github": "pyaillet"
+    },
+    {
+      "uid": "feKGnuyD8XYqP2m8kPFKVk6tzaP2",
+      "displayName": "Ludovic Boutros",
+      "bio": "Développeur passionné depuis 17 ans principalement sur des sujets autour des données (Search, Big Data).\nFormateur Elasticsearch, Apache Solr, MongoDB.\nProf' à l'ESIR à Rennes.\n",
+      "company": "Zenika",
+      "photoURL": "https://lh5.googleusercontent.com/-6FVA5ttGMp4/AAAAAAAAAAI/AAAAAAAAAAo/R7cnNWyx8iY/photo.jpg",
+      "twitter": "@LudovicBoutros"
+    },
+    {
+      "uid": "QCL3ZjLcJQa155UlHahACzJi4WM2",
+      "displayName": "Carl Azoury",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GgcrpAVZtKIouLl9NxEBcSesJ7s9aXECIhn4autVA=s96-c"
+    },
+    {
+      "uid": "icXkrMOJgIYr9pvUSgIGzAKLzm73",
+      "displayName": "Benoît Decampenaire",
+      "photoURL": "https://media-exp1.licdn.com/dms/image/C4E03AQFhx3LCYBDO-A/profile-displayphoto-shrink_200_200/0/1516980593245?e=1620864000&v=beta&t=_D39VQcq4V4FG6sB2gdarhqRSuSP8AXR4k45LU7C1mg"
+    },
+    {
+      "uid": "mNQ7HNno7qX2c1n3xmUl9P2nstx2",
+      "displayName": "Mickaël Boixière",
+      "company": "Zenika",
+      "photoURL": "https://lh4.googleusercontent.com/-h73_-7z51TU/AAAAAAAAAAI/AAAAAAAAAFU/cmaMWCY_6V8/photo.jpg"
+    },
+    {
+      "uid": "6mSHDJwnRhUQQStj1eYDXkyWJ7u2",
+      "displayName": "Kevin DANEZIS",
+      "bio": "Il m’est toujours compliqué de me présenter, que ce soit pour me vendre sur un poste ou pour exposer mes compétences sur le net.\n\nIl suffit de voir ma page linkedin pour se rendre compte que ce n’est pas ma spécialité…\n\nAlors essayons de fonctionner par thématique voulez-vous ?\n\n## Je suis un vieux gamer\nJ’ai eu cette chance de grandir il y a fort longtemps avec un Amstrad CPC 6128 sur lequel j’ai passé mes longues soirées d’hiver (et d’été) à me cramer les rétines devant des jeux dont les graphismes étaient … basiques (?)\n\nEn parlant de Basic tiens, ce fut mon premier langage de programmation, l’occasion pour moi de faire mes armes et un plaisir qui ne me quittera jamais.\n\nAujourd’hui encore je prends beaucoup de plaisir sur les jeux vidéo, le plus souvent sur des jeux indies, loin des triples A.\n\n## Je suis un vieux développeur\nBasic d’abord. HTML, CSS et JS ensuite. Java pendant 15 ans… Php pendant 8 ans, Python, Re-JS, NodeJS, Kotlin, etc. Je ne compte plus le nombre de langages testés ou masterisés à leur époque.\n\nC’est toujours avec plaisir, après toutes ces années, que je retourne au chantier, la plongée dans la documentation, les premiers succès, les nuits d’insomnies, autant de plaisir un peu masochiste.\n\n## Je suis un formateur\nLe plaisir d’apprendre passe chez moi par le plaisir de partager mes connaissances pour peu que l’on me le demande. Que ce soit sur des sujets techniques (git), de sujets de management et de gestion de projet (agilité, scrum, sm, kanban, po, etc.) ou sur des sujets qui n’ont rien à voir avec mon métier (formateur croix rouge), je tente de partager ma passion et de remercier la communauté pour tout ce qu’elle a pu m’apporter toutes ses années d’apprentissage.\n\n## Je suis un agiliste convaincu\nMais pas un fachiste de la méthode.\n\nVous ne me verrez pas jurer QUE par l’agilité. Mon passif de chef de projet forfait m’en empêche. Et puis à creuser un peu des sujets tels que les matrices de complexité on se rend compte vite de la place que peut occuper les méthodes agiles dans le monde des projets aujourd’hui… et les endroits où elle n’a pas sa place.\n\nTout comme les formations, je tiens à remercier la communauté en participant à mon simple niveau en tant qu’organisateur de l’agile tour Rennes depuis quelques années maintenant.\n\nAider les équipes à grandir dans leur pratique de la gestion de projet est actuellement ma principale occupation, un nouveau challenge pour 2021.\n\n## Je touche à beaucoup de choses\nGénéalogiste, plongeur, secouriste, podcaster, jardinier, contributeur du monde open source, voyageur et papa accessoirement, autant d’aventures et autant de possibilités d’apprendre des autres.\n\n",
+      "speakerReferences": "\n## Mars 2015 : Conférence au Geek Moot (BE/EN) \n\nTalk en Anglais sur l'évolution d'un orm déjà présenté 3 ans auparavant ainsi qu'un talk sur les travaux liés à une forge logiciel pour CmsMadesimple [lien](http://www.cmsmadesimple.fr/2015/03/Le-Geekmoot-2015-en-resume)\n\n##  Juin 2013 : Participation au CMSDay \n\ntable ronde\n\n## Septembre 2012 :  Participation au CMSDay \n\nTable ronde [Extensibilité & modularité : Arme fatale des CMS Open Source](https://www.youtube.com/watch?v=7p6jiFU7NlU) \n\n## Mars 2012 : Conférence au Geek Moot (EN) \n\nPrésentation en Anglais d'un portage sous PHP d'un ORM pour CmsMadeSimple, projet [Open Source](https://github.com/besstiolle/orm-ms)",
+      "company": "Zenika",
+      "photoURL": "https://www.geneanet.org/mon_compte/file/photos/visuel_150/b/besstiolle.jpg",
+      "twitter": "besstiolle",
+      "github": "besstiolle"
+    },
+    {
+      "uid": "wWYKM4fzp9SqMgB6euFohSb8ud33",
+      "displayName": "Mathieu Mure",
+      "bio": "Consultant Fullstack à Zenika le jour, CTO la nuit et speaker le reste du temps.\n\nJe ❤️ le web et je ❤️ encore plus lorsque je peux partager ce que j'aime.\n\nParmi mes crushs du moment, il y a une grosse bataille entre Vue et Kotlin, et pour l'instant aucun d'eux ne semble remporter la bataille.\n",
+      "speakerReferences": "## De Spring boot à Kotlin\n- [Snowcamp](https://sched.co/XoNB)\n- [Nightclazz by Zenika](https://www.meetup.com/fr-FR/NightClazz-by-Zenika-Lyon/events/260672304/)\n\n## Comment se faire traquer sur TOR sans s'en rendre compte\n- [Devfest Strasbourg](https://devfest.gdgstrasbourg.fr/schedule/2018-11-06?sessionId=109)\n\n## Handson Jigsaw\n- [Devoxx](https://cfp.devoxx.fr/2018/talk/LPJ-5998/Hands_on_Jigsaw.html)\n- [Devfest Nantes](https://devfest.gdgnantes.com/schedule/day1?sessionId=166)\n- [Devfest du bout du monde](https://devfestbdm.firebaseapp.com/schedule/2019-02-22?sessionId=3101).\n\n## VueJS\n-[snowcamp](https://sched.co/J2s8) \n- nightclazz by Zenika\n- Alpes Jug.",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/-zW9q6DSj72k/AAAAAAAAAAI/AAAAAAAAABs/_pqpmU87wFk/photo.jpg",
+      "twitter": "@MathieuMure",
+      "github": "mathieumure"
+    },
+    {
+      "uid": "VMQOWSSUbCOZZHFFfpKPbOfWsFj2",
+      "displayName": "Frédéric Faure",
+      "photoURL": "https://lh4.googleusercontent.com/-yzy0IygmOs8/AAAAAAAAAAI/AAAAAAAAALU/KUAPZVlulpo/photo.jpg"
+    },
+    {
+      "uid": "NCPIJTOI8dOB1mDI02X1zcYRnwt1",
+      "displayName": "Nicolas Zimmermann",
+      "photoURL": "https://lh3.googleusercontent.com/-qLCqzvHIkg8/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQPQjNe3lVztFajLJjVIjaGD_xIPSQ/mo/photo.jpg"
+    },
+    {
+      "uid": "WbtMWcgbmIMm4mraT1eu8DckqPN2",
+      "displayName": "Géraud Dugé de Bernonville",
+      "bio": "Consultant Big Data chez Zenika Bordeaux, et ayant de l'expérience dans le monde JavaEE, j'ai pris goût à la data et j'aime mettre en oeuvre les architectures permettant le traitement de données à grande échelle. Passioné des technologies autour d'Hadoop, Spark, Kafka, Elasticsearch et autres technos NoSQL, je m'intéresse également de près au Machine Learning (avec des mises en oeuvres en Spark, R et H2O). Je donne également des formations autour de Kafka, Elasticsearch, du Machine Learning et Tensorflow.\n",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "twitter": "@geraudster",
+      "github": "geraudster"
+    },
+    {
+      "uid": "HK14wSamIDS06S8bbo0dwdmLotf1",
+      "displayName": "Raymond Chenon",
+      "speakerReferences": "Spoke at Droidcon, Devfest, Meetup",
+      "company": null,
+      "photoURL": "https://avatars.githubusercontent.com/u/3137141?v=4",
+      "twitter": "raychenon",
+      "github": "https://github.com/raychenon"
+    },
+    {
+      "uid": "X0tm9N6jdWd4Zsw0F2zYSjXZ2d52",
+      "displayName": "Karine Sabatier",
+      "bio": "Product Management @Zenika\nAnimation du Meetup \"Design Thinking, Lean UX et Design d'eXpérience\" & \"Rennes Product Management\"\n",
+      "speakerReferences": "2020 [La Next Conf] Dérisquer son idée avec le Lean Startup (atelier)\n\n2019 [Cercle des Jeunes Dirigeants  plénière ouest] Effectuation, principes pour créer de la valeur dans un monde incertain\n2019 [Université Rennes 1] - Conférence \"Modèles économiques disruptifs\" \n\n2018 [Learning Show Rennes] Entrepreneuriat & effectuation : le meilleur outil d'apprentissage sur soi et sur le monde \n2018 [Table ronde UXRennes] - \"Faites vos jeux : le serious game comme outil de Design\"\n2018 [360Possibles Rennes] - \"Effectuation et agilité pour tirer partie d'un monde incertain\"\n2018 [LISAA Rennes]  L'agilité au service du design d'expérience \n2018 [EIT Digital tech talks] The innovation process through Lean Startup & Customer Centric approaches \n2016 [Agile Tour Rennes] Lean Startup, nouvelle mode ou avenir de l'agilité ?\n",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mBhNjsCLs2NDV6v15d2AIGY_Y35LrZrzNK-xggq",
+      "twitter": "karinesabatier",
+      "github": "ksabatier"
+    },
+    {
+      "uid": "8saSURnCJHaG9qobKTSS03gdiEm2",
+      "displayName": "Antoine Cailly",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mCX-bW9qYoh47EuoraYZjxZVysPcfQCkEVrohjYQg"
+    },
+    {
+      "uid": "jE6CzDpmgHRwolijOjKUGsAnlR53",
+      "displayName": "Evelyne Arnould",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GgGEg4_I9WjcyHmKDW9TAEaCYhnD3ZNfSMiN7xx=s96-c"
+    },
+    {
+      "uid": "Tj3bGDcmw5PqpZuYi3ZiB6zNlDM2",
+      "displayName": "Tarek Touati",
+      "bio": "Développeur FullStack, travaille actuellement à Zenika Nantes. Son sujet du moment c'est le développement d'application mobile hybride/native.\n",
+      "speakerReferences": null,
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mCilh36Jr0GHBhq4BbqXshmjT2BNVHaaemgfaYw",
+      "twitter": "tarektweeti",
+      "github": "Tarektouati"
+    },
+    {
+      "uid": "ycuTKbrYKFVQzb1oPJOurrecMZy2",
+      "displayName": "Benjamin Fontaine",
+      "photoURL": "https://lh3.googleusercontent.com/-pVkPFvsKRCU/AAAAAAAAAAI/AAAAAAAAAGg/15jXp03vVms/photo.jpg"
+    },
+    {
+      "uid": "ujT517jdE0Y9jaG00JAwtKH9LVR2",
+      "displayName": "Thomas Vauzelle",
+      "photoURL": "https://lh5.googleusercontent.com/-Y7AwLzA6hNY/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdRSqBrmhuEetYVIpvmA6iUqRB0Sw/photo.jpg"
+    },
+    {
+      "uid": "QV57QdSNcaectyv2o1CQR4EdmUf1",
+      "displayName": "Mireille Campourcy",
+      "bio": "Développeuse Javascript chez Zenika, co-organisatrice du NantesJS.\nAuparavant webmaster pour un pure-player parisien, avant de se reformer pour apprendre à manipuler la matrice.  \nAime coder, manger, randonner et regarder les feux d'artifices.  \nVeut travailler pour la Nasa quand elle sera plus grande.",
+      "speakerReferences": "\"Axe-Core et React : l'accessibilité, ça se teste !\":\n   - NantesJS, janvier 2019 (co-présentée)\n   - évènement interne chez ElevenLabs Nantes, janvier 2019 (co-présentée)\n   - RemoteClazz Nantes, avril 2020\n\n\"Révolution ! De la diversité dans l'IT\":\n   - Technozaure Zenika (conférences internes), septembre 2019\n   - Women In Tech, Nantes, janvier 2020",
+      "company": "Zenika",
+      "photoURL": "https://lh5.googleusercontent.com/-t96Fb5mpD6E/AAAAAAAAAAI/AAAAAAAAAAc/7g1mApHJBg0/photo.jpg",
+      "twitter": "@mireille_cmpcy",
+      "github": "mcampourcy"
+    },
+    {
+      "uid": "qRXG7KJmxGPuI3g6GPE8tRRPmfw1",
+      "displayName": "Charles-Henri Guérin",
+      "bio": "Développeur passionné depuis plus de 10 ans, c'est un véritable couteau-suisse.\nSon environnement de travail est son terminal ; c'est donc uniquement pour nager dans les eaux du Web qu'il quitte sa coquille.\nComme un poisson dans l'eau, il réalise, déploie et maintient des applications web et progressives (mobile) et accessibles.\nSes outils du moment sont NodeJS, GraphQL, React, Terraform et Docker.\nAccro à l'Open Source, il contribue très régulièrement aux outils qu'il utilise comme React, Terraform ou Gatsby.\nIl est aussi speaker, formateur et organisateur du meetup NantesJS.",
+      "speakerReferences": "* Quoi de neuf TC39 ? Nantes JS - https://www.youtube.com/watch?v=Vu4es0j9dW4\n* Mes premiers pas en opensource avec Golang. CNCF Nantes/Golang Meetup - https://www.youtube.com/watch?v=XuYuGJuU950\n* Is my tram ready yet? Technozaure Zenika Nantes 2018\n* From Node to Rust. Technozaure Zenika Nantes 2017",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/-U0EU0qEPBp0/AAAAAAAAAAI/AAAAAAAAAAs/baI7nAxXW9Y/photo.jpg",
+      "twitter": "charlyx",
+      "github": "charlyx"
+    },
+    {
+      "uid": "TNZEGBt5GgO4zUWRqaalNWo3FRf1",
+      "displayName": "Cédric Rup",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mBUi3sSu3nczjoayFLYa8h21ud-UZago3lg6-GA"
+    },
+    {
+      "uid": "dsUqnOcrNdcxIEqQscMxBFezueB2",
+      "displayName": "Matthieu Pouille",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14Gg8b3bx-QD3oub8liOxUEh1O1CC7cFp4IQiNgun=s96-c"
+    },
+    {
+      "uid": "ZJsRTPaYEeOyXNd9561BBF4Y8w73",
+      "displayName": "Johan Bonneau",
+      "company": "Zenika",
+      "photoURL": "https://lh6.googleusercontent.com/-YDIhSArT7u4/AAAAAAAAAAI/AAAAAAAAAbA/SlXYPwwo73c/photo.jpg",
+      "twitter": "johanbonneau",
+      "github": "zenigata"
+    },
+    {
+      "uid": "EbyOSxWhIjf809ckqEJS3qFHw4e2",
+      "displayName": "Sébastien Velay",
+      "bio": null,
+      "speakerReferences": null,
+      "company": "Zenika",
+      "photoURL": "https://lh6.googleusercontent.com/-ITErH--Jtyk/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQMOsHZPTrVUEk32QVBcdVIhhxQ_Hw/mo/photo.jpg",
+      "twitter": "@seb_ve",
+      "github": "sebvelay"
+    },
+    {
+      "uid": "6klOX1xduHbBCxddJhe0sBJLZp13",
+      "displayName": "Delphin Aubin",
+      "bio": "Delphin Aubin\n\nFan de web, je développe avec passion depuis plus de 10 ans.\nJe vois dans la qualité logicielle un business model durable et une opportunité d’exercer mon métier de façon responsable.\nCurieux de nature, jaime beaucoup savoir comment les choses fonctionnent et regarder sous le capot des outils que nous utilisons tous les jours.\n\nEnfin, comme j'aime le partage, je suis buveur de bière et  speaker à mes heures perdues :)",
+      "speakerReferences": "## Vous êtes dévelopeur web mais savez vous comment il fonctionne ?\n- BBL (Décathlon)\n- Meet Up (NightClazz)\n- Technozaure (Zenika)\n\n## Cucumber : Codez bien, codez végétarien !\n- GDG (Lille)\n- Technozaure (Zenika)",
+      "company": "Zenika Lille",
+      "photoURL": "https://lh3.googleusercontent.com/-UzixzWYbeqM/AAAAAAAAAAI/AAAAAAAAABc/3c7NRhzQzqk/photo.jpg",
+      "twitter": "@delphinaubin",
+      "github": "delphinaubin"
+    },
+    {
+      "uid": "UP0hJkHZeHZhXwrILrKF1P2HeAr2",
+      "displayName": "Alban Delcourt",
+      "photoURL": "https://lh6.googleusercontent.com/-RwT8drB0Kzo/AAAAAAAAAAI/AAAAAAAAAFk/vUoXAAvwXCQ/photo.jpg",
+      "twitter": "@albankize",
+      "github": "Kize"
+    },
+    {
+      "uid": "LvVUYM30MDauK82Z3tLczympOnq1",
+      "displayName": "Yoan Rousseau",
+      "speakerReferences": "https://www.youtube.com/playlist?list=PLieW_0UYuAbgBa_6ibiRLmCNttEuHsl2h",
+      "photoURL": "https://lh3.googleusercontent.com/-l9YsvAF5ddY/AAAAAAAAAAI/AAAAAAAAAFE/hdz-nPcwHLc/photo.jpg"
+    },
+    {
+      "uid": "Mfblv0IRwBSLoop83IoWkRdoePx2",
+      "displayName": "Marc ABOU CHACRA",
+      "photoURL": "https://lh3.googleusercontent.com/fife/ABSRlIpH7H62SUBaMqsZUel__aO2U-IC7aMxP4aHnKz10C4X7xEbVGrbq66yp_IiDN1VHX4f6l1pNYkJqKoyIQRGnXLtNwih93a2JkBMyGvvFzCaKywRT6vDS-6OM4iSWgc6MhEVneVGlHe64_L5qhAUCq2Z3zXn9-XvASBKkcAHFyOvvv4STlz20IIZrE6l2q1yoXsr9sN6E4KAIX7g7XDqBQmRQo7-ORDV0wDbFpc8mTWExWjF6YGhYP5-DATnyCRfanr8SBdEmZulS8pGJxI0iLaACNJ8JozcgKX-fzyqPnTbN1cmCCX8s2ibw4agheXbaEHU53AmGnzClVZUX5TDqkZxrCjbgVgyis1fFAu33cfa_XAaXPSvbcFXxwmLyemn9YGa4L8R4ZfCrxb47X1ALvPwLyDUVIyeXIBm-VvtkAqM1fOw4gPug_xiPPIYyJz693SccXcnfjOPvN86P98ZwM-nFSd3xwoKeKbBigGEBdojXIteMZzDqEWkvBIVTRJB_qZU8yZmUUovLrxewwQ4aJgguECFGv3ZcMn9Whdz1NIIplevFfL5AdsI1xIBuX5f5qR_QcyI9HFsCx1CJHqh3SZ0eEe1FvDKrHcmoWBTQz2CJHQSV_TUMfjB7vq2lxhRyaMlkyVmG7RgAX0IRRbEq-0OOG81Tbn7gmrUgF1rp7TbdMH9tve2BFWIf9yoWkf3_A-p4jQqUMex_2JAQYdNtyhxkOCbGSLkKi1rUj1ocotZSA"
+    },
+    {
+      "uid": "XXQwznpHHkWqbIrGTIRK2qmaqlH3",
+      "displayName": "David Da Silva",
+      "photoURL": "https://lh6.googleusercontent.com/-F9mTEtd7eY4/AAAAAAAAAAI/AAAAAAAAAH0/d3UYUVy00LA/photo.jpg"
+    },
+    {
+      "uid": "f0l21qpMnBYwjaCMLlrlxzejHRJ3",
+      "displayName": "Benoît Nouyrigat",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14Gi4Oj3Pgk9Ucsy7UyRm339inbHzi34y9ArfIwDt=s96-c"
+    },
+    {
+      "uid": "eyvLz8TpD5aEJ59VrSzyTqpA8An2",
+      "displayName": "Amal Bedoui",
+      "photoURL": "https://lh5.googleusercontent.com/-K_jGtf4nnRE/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnBgvbYtVduIMOsTGgj5C_50UrxGQ/s96-c/photo.jpg"
+    },
+    {
+      "uid": "pC33zHADDyMeKJBbSn6TdRmMJSf2",
+      "displayName": "Anaëlle Huet",
+      "bio": "Petit lu nantais et assistante marketing et communication chez Zenika depuis bientôt 3 ans. \nJe suis une grande fan de chats, de jeux de mots pourris, de ma team et surtout d'amour/humour (ne rayez aucune mention). \nOptimiste et danseuse à mes heures perdues, j'aime diffuser ma bonne humeur.",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mDaiS7PrNxm70I03DfxP1Qa5cFidvhio3Vo9oLFBA"
+    },
+    {
+      "uid": "gaX7LDSdAEUKyGk7C2RvfKRhSDw2",
+      "displayName": "Julien Hespel",
+      "company": "Zenika Lille",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mAC2ATGWysjtD73qj_FpEklzX3ooLBXjXRxHnZO"
+    },
+    {
+      "uid": "IzLVAOy5fCUc4W8enR6TYpAH4Ku1",
+      "displayName": "Christophe Tardella",
+      "photoURL": "https://lh3.googleusercontent.com/-DUEKqdLO8rI/AAAAAAAAAAI/AAAAAAAAANk/ZbR9OcbM00M/photo.jpg"
+    },
+    {
+      "uid": "5LSqhJSgK2OxfSam9WHuq9M7ggN2",
+      "displayName": "Patrice Cavezzan",
+      "company": "Zenika",
+      "photoURL": "https://lh4.googleusercontent.com/-o96PpZHkKAg/AAAAAAAAAAI/AAAAAAAAAAo/aukqS4aFOu4/photo.jpg",
+      "twitter": "@pcavezzan",
+      "github": "pcavezzan"
+    },
+    {
+      "uid": "1nFSFSffbxNS3BC0tru2vE3MdrO2",
+      "displayName": "Adrien Wattez",
+      "bio": null,
+      "speakerReferences": null,
+      "company": "Zenika",
+      "photoURL": "https://lh5.googleusercontent.com/-e_Rn80KSAqE/AAAAAAAAAAI/AAAAAAAAAAA/AKxrwcYGJTtGGwvLJEoeUPtaGAwD5J3xEw/mo/photo.jpg",
+      "twitter": "@WattezAdrien",
+      "github": "https://github.com/awattez"
+    },
+    {
+      "uid": "CrgixD5lSBRuoHVQGEjiO0gALtu2",
+      "displayName": "Martin Steffen",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GhehGADgsV5EuYAmP9VPcxhLIToBlJs8RRUb9Go"
+    },
+    {
+      "uid": "JTaNVLnEAqc9g7EDrMvRvunGES53",
+      "displayName": "Valentin Chabrier",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mD9VKQyFO6fRm8U39fTdCJIfabdswqyxI3kqi0a"
+    },
+    {
+      "uid": "7I0i0ujU9UfKCVD25rzdXrZVZEo1",
+      "displayName": "Zhang Ran",
+      "company": "Zenika Singapore Pte Ltd",
+      "photoURL": "https://lh4.googleusercontent.com/-QjzqwLpdnBQ/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn5ZQnLZHuCUkRy68IMjXytpU4zQw/s96-c/photo.jpg",
+      "github": "zhangran1"
+    },
+    {
+      "uid": "THZnoCZS3ASgqbtoDVsDACKJ9j73",
+      "displayName": "Quentin LEVASLOT",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GhCuOMPjn9ru9mc1fcySwgZ7AlTWIhnzNQDYhVz9g=s96-c"
+    },
+    {
+      "uid": "QjiJmN1cNPWkNTegiDljmd6V1zH2",
+      "displayName": "Thomas Fady",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mBU9hB9lqeNc1X2YJZSJyvxCySgEc2exELn4X4g"
+    },
+    {
+      "uid": "r4TsO4ZJU3bVRRHhoOEI9P4Y7pB2",
+      "displayName": "Niusha Pakseresht",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mBlXY_YwllsgM9F4vbFHkaWjfLTpXwFaad5sCkV"
+    },
+    {
+      "uid": "xrpnN7ohuzeKiiIrdXNSczaqIu13",
+      "displayName": "Herri Heas",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mBTh-eftxoZER1v-0Kcf35ABzGTEtMsuimcOjWmjw"
+    },
+    {
+      "uid": "ixrl0vUjv3RET3wnDqQJxf8OeYj2",
+      "displayName": "Eliott Coyac",
+      "photoURL": "https://lh6.googleusercontent.com/-GEB3mjMNYKQ/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnROR7Crjpdj5u5TjuyHPRzabIhqA/s96-c/photo.jpg"
+    },
+    {
+      "uid": "HBhlcDMDhLa1iYkZS8lrenOLMpw1",
+      "displayName": "Nicolas Leport",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mCQPLZaALiOptbIL2fSUxed2LdlrB6OvYf4mk4E",
+      "twitter": "@nkcreationweb",
+      "github": "nkCreation"
+    },
+    {
+      "uid": "rqaK5KDWglgrBEdi2xdVnDUwE3o2",
+      "displayName": "Nikolas Souza",
+      "photoURL": "https://lh4.googleusercontent.com/-3QkgzhBA85g/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckL0Bs4RdxJK41klz6eJy9vSbjsCQ/s96-c/photo.jpg"
+    },
+    {
+      "uid": "8wDF6v3YmOUGf6mQL2U0F6dVSjG2",
+      "displayName": "Maël Morel",
+      "photoURL": "https://lh6.googleusercontent.com/-ljZdj5mRGbI/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdEvqoOh4aQOsHOwstyoVnMJVVYnA/mo/photo.jpg"
+    },
+    {
+      "uid": "8q7RoNiTtkYcqEBTvqBPbwSqHZ73",
+      "displayName": "Laurent Weyand",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14Gjtn5OjgIXSkh-cErV-8jXegLwciQXdxadIBzmNaQ=s96-c"
+    },
+    {
+      "uid": "hJ9A66PfZTRc6oWNZ3m24VoSnbB2",
+      "displayName": "Emilie Crinon",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14Gj9XCEVu9Wu8K5TV1HnsGbAhsfxW0xF1_Wrto_ezw=s96-c",
+      "twitter": "@MilieCricri"
+    },
+    {
+      "uid": "woEpjLOFgLXT7Tp1csKJUELILm32",
+      "displayName": "Philippe TONY",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14Gi-6ZF1y9tSd0PYWnGNPpJ5Fde3hSWC7lcoBpVs",
+      "github": "philippetony"
+    },
+    {
+      "uid": "ODEUNcflVuZZtyQmINOHF9Cdful1",
+      "displayName": "Laurent Tardif",
+      "bio": "En 2 mots, Zenika Devops\nEn 1 mot de plus, j'adore jouer !\n\nPourquoi faire les choses à la main, quand on peut les automatiser ? Etant maladroit et gaffeur de nature, j'automatise. Surtout que j'aime dormir la nuit, et ne pas être reveiller pour sauver le data center.\nJe suis tombé dans les problématiques search chez Kelkoo, puis architect et Paranoid chez Yahoo. Toujours partant pour \nessayer des nouvelles méthodes ludiques pour progresser. \nAujourd'hui je suis expert Devops et Agilité chez Zenika.",
+      "speakerReferences": "Meetup & nigthclass\nFormations\nAgile Grenoble, Lille, AlpesCraft, .... \n",
+      "company": "Zenika",
+      "photoURL": "https://lh4.googleusercontent.com/-IWNAyMorI9w/AAAAAAAAAAI/AAAAAAAAABU/3zQ2au3eOyU/photo.jpg",
+      "twitter": "@ouelcum"
+    },
+    {
+      "uid": "PXYTbMeh4paUk0HPtcBEebJAQZk2",
+      "displayName": "Ronan Presle",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mCFQTGn5ynjmCl4v0Zwv-x3fpcNja_vF8MWIMHF"
+    },
+    {
+      "uid": "w1CcXw3TqKcvBkcdRpcqhTvZfaC3",
+      "displayName": "Antoine Oili",
+      "photoURL": "https://lh3.googleusercontent.com/-MIL2StzWNy8/AAAAAAAAAAI/AAAAAAAAAAc/OrPplGYuz9I/photo.jpg"
+    },
+    {
+      "uid": "n68rfUKHagPpc1NqKV4CxT5xlAo1",
+      "displayName": "Rémy Génin",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GhUMelLYDY2I-aKkMK9bKtbhSjApNAOkzpRlmuC3Q=s96-c"
+    },
+    {
+      "uid": "B6H0t9ZCyoTw9ICvTCvjHCSuMJJ2",
+      "displayName": "Luc Sorel-Giffo",
+      "company": "Zenika Rennes",
+      "photoURL": "https://lh4.googleusercontent.com/-7k4z7BYmtJs/AAAAAAAAAAI/AAAAAAAAAAc/zNPM25OLCT8/photo.jpg",
+      "twitter": "@lucsorel",
+      "github": "lucsorel"
+    },
+    {
+      "uid": "osM87M9zHgOn1PEkUwcYCw30Vok2",
+      "displayName": "Alexandre Baron",
+      "company": "Zenika",
+      "photoURL": "https://lh5.googleusercontent.com/-jkRyLDDfyBk/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQOZ6lIAv_DaYiWjEMc13SS-iKeUaA/mo/photo.jpg"
+    },
+    {
+      "uid": "ES3NiKd0zeaDOgue8W3lRHDJZUi2",
+      "displayName": "Mana Yon Snoeck",
+      "photoURL": "https://lh4.googleusercontent.com/-1O3IgutywB8/AAAAAAAAAAI/AAAAAAAAAAc/sCknpKaxBcA/photo.jpg"
+    },
+    {
+      "uid": "OCdwPv6F8fdShLbwSDtFlvE0aZn1",
+      "displayName": "Yoann Bourdex",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/-v_UBwEWwZ4Q/XnDUH1Y_M8I/AAAAAAAAAIE/eB5eUp-tSzAYYmcuMM9g0eMANHUaXuPtACEwYBhgLKtMDAL1OcqyxnWZidbkX7kgNqXXo3DLOvspLxKwYmgjSTAK3gnpdjeSAB_shZvx3ck34iliAsaV-b845YSfvi83DgnPuZgnPt6jHo1vrD2w5AX9lNVLT4BN66nMgcBj4k_lZ5lle0ewCNo4kfhg66zSX9NGmAT4sxpzPQ9w8vGiUOQ24fs-ozNMRUFD7Xy1hfa7ATqg6IabhPGrrxtUGYpbyZbx9721Z_d82z04E1QzATLoRSdY87wzN1g8lNirApEdYq9yM62IjDdMm0loZ9M-sYuohqZQj8mxoxWSlCEOnqYkjU5r9rlsF8I76E74Hu3LDTJuTmKbKcvlx9-jSzuXrSfE_2KKUrN50haWXJJC8VdLB8b0iAa-WPGcIu75C3eCs9YfHfLUK7-ne-r7D6e8gRt53vaY00KBtdcBLXAtSMFLZoU7HmhOW8cWUuD1lhcRU9A4SRQ7Ghpz0VWdduB0ocH593bp-1_07LmI21GK4vVBXL_m8AXZsnuCpZL3k8txZHpJWD-ZJdBD6EpYRJ5OvMbNyLxYZHieMKre994gNFaJ_903mH0jEJqMV5m-mqjvXzpOQnnEZYvJtumH70dvUn5SACtPQi7L_LxEOXgNGg-kIX8Ew0pj7gwY/yoannbourdex.jpg",
+      "github": "@Yopadd"
+    },
+    {
+      "uid": "FujmWAm9bLgBdSaxTt4zPzbyMP13",
+      "displayName": "Benoit Couetil",
+      "photoURL": "https://lh5.googleusercontent.com/-EJbmQ4IVh5s/AAAAAAAAAAI/AAAAAAAAAB8/rCuE2V1dM2A/photo.jpg"
+    },
+    {
+      "uid": "aHchGCaQStWhoqQtDKBjBpkEnLF2",
+      "displayName": "Guillaume Membré",
+      "bio": "Geek à toute heure, je travaille principalement autour des technologies Java/JavaEE mais aussi sur des problématiques de déploiement continu, de qualimétrie. Désormais, je partage son expérience pour faciliter la mise en place de démarche devops chez différents acteurs. J'adore bidouiller des RaspberryPi ou Arduino pour créer des choses inutiles donc indispensables.\nLorsque le temps le permet, je décris mes aventures sur mon [site web](https://www.geekeries.fun).",
+      "speakerReferences": "### Suivre les avions avec un Raspberry\n- BDX.io 2017, le 10/11/2017 : [slides](https://www.slideshare.net/MembreGuillaume/suivre-les-avions-des-lignes-avec-un-raspberry-pi)\n[video](https://youtu.be/2NiJEA9C_B4)\n- Devoxx FR, 18/04/2018\n[slides](https://www.slideshare.net/MembreGuillaume/suivre-les-avions-des-lignes-avec-un-raspberry-pi-94522064)\n[video](https://youtu.be/NcmCdeY5Iuo)\n- JugSummer Camp, 14/09/2018 [video](https://www.youtube.com/watch?v=DbtWUFs2_XU)\n- Devfest toulouse, 08/11/2018 [video](https://www.youtube.com/watch?v=UcADSVfOg3k)\n\n### REX Openshift à la Poste\n[Docker Meetup de Nantes, le 29/06/17](https://www.meetup.com/fr-FR/Docker-Nantes/events/240106239/) : [slides](https://www.slideshare.net/MembreGuillaume/rex-openshift-la-poste)\n\n### CI, CD, pipelines, conteneurs : la cohabitation est elle possible ?\n[Nantes JUG, le 15/05/2017](http://nantesjug.org/#/events/2017_05_15) : [Slides](https://www.slideshare.net/MembreGuillaume/ci-cd-pipelines-conteneurs-la-cohabitation-est-elle-possible)\n\n### Construire une station météo en NodeJS avec un Raspberry PI et un Arduino\nBDX I/O 2016 - Devfest Nantes 2016 :\n- Vidéo : [Bdx.io](https://www.youtube.com/watch?v=Y-2zpNji9UM) [DevFest](https://www.youtube.com/watch?v=iK71pBYfsoc)\n- Slides : [HTML](https://gmembre-zenika.github.io/bdx.io-prez-2016-arduino) [PDF](https://github.com/gmembre-zenika/bdx.io-prez-2016-arduino/raw/master/presentation/PDF/Bdx.io%202016%20Arduino-Slides.pdf)\n\n### REX docker sur la mise d'une forge logicielle et ALM\n[Nantes JUG, le 23/11/2015](http://nantesjug.org/#/events/2015_11_23) : [Video](https://www.youtube.com/watch?v=YzfZsEAgNHc)\n",
+      "company": "Zenika",
+      "photoURL": "https://lh5.googleusercontent.com/-_wR1F6ARzlY/AAAAAAAAAAI/AAAAAAAAABA/sL5Sk_m1uWA/photo.jpg",
+      "twitter": "@GuillaumeMembre",
+      "github": "gmembre-zenika"
+    },
+    {
+      "uid": "1838WNgCO3aHQyRSobVWCSBmWmw2",
+      "displayName": "Cyrielle Eudeline",
+      "bio": "Facilitatrice agile et graphique, coach agile aussi, je m'intéresse à beaucoup de sujets différents tant que ça concerne les humains, leurs interactions et ce qui les anime !",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mAlCYr4Atx9tYlf2zYee9VVW2manD1s1DcpZy0O5vMgU6JfqNYfBWuYK5nP1l4sTfK69ClKsFqjDpS3i4LGjOqTfOMIUnuSBZmSAPorbKZKDTmSiG9PGMCAaCqmSqxgAYsCI_iusdv5C9AaMIs9gWC1iR52PmFwbycAEUJxevjWkzEocPLjS_hYC_U6xAA2HHAbjSbwZcqZMoofx-ztefm0tJ-L8igWARqhSczcbaBD20Vbqoex3IohKKHqaVa2CopBZGQJ9pZkyUIJ9sUL4KuokkiblUpDXOEkZ0-ZIIfusf3RZeQZTCNJAJk3zdudAi_mGSS-ibQ1hBUxeTm_3fjL9vjQrFhGT95TaPvWe5zp3OU2tSygXkVZt5KatftZGegRJ4IN4ORmhTLqIYoAgJuwI9TzmIEdmUv78V8WtIHYRd_-gE9gEqFrSq263uyUxHtxXlJZKYp30Z-XWzOW5LkGppvQFWmvn2_MyfPDZdNdlNCUcfN6ICiek-TM5bdda-UTU9dmy2HKnSV3E2rCvSxWwEiQmwduHr9diCKVOUtiW60C9bhF7O0agqxY7kxDuSO1R8eqTICuHLUFrWMSdkIFRx33HUxUsf8dsOvZx7TFxm3r7Rh0Yn0Vs42amkn1kYRVcWZRCHQcI2DNy8moIwlFY6r6MNev_sUGwa6IoVMYbNbKqOhR3PUoAD-aJ8cZbTxZ9hs3bNrv_XhE5vln_jkYSFwQGwoFim53Ea_rHkIMDO-ruHlkO7KFBmAaG9o"
+    },
+    {
+      "uid": "qG3vmWbwoAOXmGGyPy6rnU6GhGz2",
+      "displayName": "Emmanuel Etasse",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mAuj14qtTQ8HMOxHTpQwNWoxns95fixR3D4_5wv"
+    },
+    {
+      "uid": "pzFvcjtQaoS3zxeWlNjCLVdnrVk1",
+      "displayName": "Lang Hoang",
+      "company": "Zenika",
+      "photoURL": "https://lh5.googleusercontent.com/-INB6T46yh50/AAAAAAAAAAI/AAAAAAAAAAc/EBhp0PXk7HM/photo.jpg"
+    },
+    {
+      "uid": "zQcqWU0AgUbUfklR6GgvXn9Pchz2",
+      "displayName": "Khalil Lakhneche",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mCoNgtqFMnFVfFOOwEA9um2qD46fXJ2wNJpv_LR"
+    },
+    {
+      "uid": "A9zzfqYXubg8W63xrhWSXDz2Is53",
+      "displayName": "Geoffrey Graveaud",
+      "photoURL": "https://lh4.googleusercontent.com/-LxOA57dxztA/AAAAAAAAAAI/AAAAAAAAAAc/55NLnQsyoCs/photo.jpg"
+    },
+    {
+      "uid": "35zth78TycYon0IBhmMu07i13Nz2",
+      "displayName": "Jean Dupuis",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mDjwmhB3eWW1fNAoisH8hVfkekxY6VdMrKJYF3c"
+    }
+  ]
+}
