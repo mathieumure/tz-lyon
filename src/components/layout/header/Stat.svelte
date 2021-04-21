@@ -45,10 +45,14 @@ export let picto,
 let tweenedCount = tweened(0);
 
 onMount(() => {
-  tweenedCount.set(count, {
-    duration: 3000 * Math.min(count / 100, 1),
-    easing: cubicOut,
-  });
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    tweenedCount.set(count, {duration: 0});
+  } else {
+    tweenedCount.set(count, {
+      duration: 3000 * Math.min(count / 100, 1),
+      easing: cubicOut,
+    });
+  }
 });
 </script>
 
