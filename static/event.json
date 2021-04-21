@@ -56,6 +56,14 @@
       "name": "Talk 🇬🇧 (25min)"
     },
     {
+      "id": "custom-id-workshop-25min-en",
+      "name": "Workshop 🇬🇧 (25min)"
+    },
+    {
+      "id": "custom-id-workshop-25min-fr",
+      "name": "Workshop 🇫🇷 (25min)"
+    },
+    {
       "name": "Workshop 🇫🇷 (50min)",
       "id": "830659bb-a37c-532d-b9d9-e1692e9f98e4"
     },
