@@ -5,6 +5,12 @@
   overflow-y: auto;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  :global(#sapper) {
+    overflow: revert;
+  }
+}
+
 header {
   position: relative;
   transform-style: preserve-3d;
