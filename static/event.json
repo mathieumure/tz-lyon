@@ -165,7 +165,7 @@
         "_nanoseconds": 160000000
       },
       "startTimeCa": "09h00",
-      "startTimeSg": "21h",
+      "startTimeSg": "21h00",
       "startTimeFr": "15h00",
       "trackName": "Paris",
       "videoConfLink": "https://www.youtube.com/watch?v=i9r0B5Renmo"
@@ -582,7 +582,7 @@
         "_seconds": 1612891195,
         "_nanoseconds": 790000000
       },
-      "startTimeCa": "10h",
+      "startTimeCa": "10h00",
       "startTimeSg": "22h15",
       "startTimeFr": "16h15",
       "trackName": "Lyon",
@@ -749,7 +749,7 @@
         "_nanoseconds": 97000000
       },
       "startTimeCa": "09h00",
-      "startTimeSg": "21h",
+      "startTimeSg": "21h00",
       "startTimeFr": "15h00",
       "trackName": "Brest",
       "videoConfLink": "https://www.youtube.com/watch?v=ieKcWKxjkHk"
@@ -810,7 +810,7 @@
         "_nanoseconds": 164000000
       },
       "startTimeCa": "09h00",
-      "startTimeSg": "21h",
+      "startTimeSg": "21h00",
       "startTimeFr": "15h00",
       "trackName": "Nantes",
       "videoConfLink": "https://www.youtube.com/watch?v=unj_JlY1KV0"
@@ -853,7 +853,7 @@
         "_seconds": 1614929162,
         "_nanoseconds": 525000000
       },
-      "startTimeCa": "10h",
+      "startTimeCa": "10h00",
       "startTimeSg": "22h15",
       "startTimeFr": "16h15",
       "trackName": "Lille",
@@ -902,7 +902,7 @@
         "_seconds": 1614272640,
         "_nanoseconds": 144000000
       },
-      "startTimeCa": "10h",
+      "startTimeCa": "10h00",
       "startTimeSg": "22h15",
       "startTimeFr": "16h15",
       "trackName": "Rennes",
@@ -945,7 +945,7 @@
         "_seconds": 1614937266,
         "_nanoseconds": 988000000
       },
-      "startTimeCa": "10h",
+      "startTimeCa": "10h00",
       "startTimeSg": "22h15",
       "startTimeFr": "16h15",
       "trackName": "Paris",
@@ -1054,7 +1054,7 @@
         "_seconds": 1613659399,
         "_nanoseconds": 348000000
       },
-      "startTimeCa": "10h",
+      "startTimeCa": "10h00",
       "startTimeSg": "22h15",
       "startTimeFr": "16h15",
       "trackName": "Grenoble",
@@ -1160,7 +1160,7 @@
         "_seconds": 1614854134,
         "_nanoseconds": 110000000
       },
-      "startTimeCa": "10h",
+      "startTimeCa": "10h00",
       "startTimeSg": "22h15",
       "startTimeFr": "16h15",
       "trackName": "Brest",
@@ -1296,7 +1296,7 @@
         "_nanoseconds": 560000000
       },
       "startTimeCa": "09h00",
-      "startTimeSg": "21h",
+      "startTimeSg": "21h00",
       "startTimeFr": "15h00",
       "trackName": "Lille",
       "videoConfLink": "https://www.youtube.com/watch?v=ObR44UcwM1A"
@@ -1542,7 +1542,7 @@
         "_nanoseconds": 151000000
       },
       "startTimeCa": "09h00",
-      "startTimeSg": "21h",
+      "startTimeSg": "21h00",
       "startTimeFr": "15h00",
       "trackName": "Lyon",
       "videoConfLink": "https://www.youtube.com/watch?v=rUElTC-U4WY"
@@ -1782,7 +1782,7 @@
         "_nanoseconds": 681000000
       },
       "startTimeCa": "09h00",
-      "startTimeSg": "21h",
+      "startTimeSg": "21h00",
       "startTimeFr": "15h00",
       "trackName": "Montreal",
       "videoConfLink": "https://www.youtube.com/watch?v=JbrqD-rPNu0"
