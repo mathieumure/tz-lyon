@@ -18,6 +18,15 @@ main {
 import Header from "../components/layout/header/Header.svelte";
 import TalkModal from '../components/talkModal/TalkModal.svelte'
 import { selectedTalkStore } from "../stores";
+
+
+if (
+  typeof window !== "undefined" 
+  && window?.location?.protocol === "http:"
+  && window?.location?.hostname !== "localhost"
+) {
+  window.location.protocol = "https:"
+}
 </script>
 
 <Header />
