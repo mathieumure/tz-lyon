@@ -1,36 +1,51 @@
-<img class="drawing-laurent" src="images/drawing-laurent.png" alt="" />
-<img class="drawing-carl" src="images/drawing-carl.png" alt="" />
+<img class="drawing-catherine" src="images/catherine-caron-sketching.png" alt="" />
+<img class="drawing-laurent" src="images/laurent-delvaux-sketching.png" alt="" />
+<img class="drawing-carl" src="images/carl-azoury-sketching.png" alt="" />
+<img class="drawing-loic" src="images/loic-bertholet-sketching.png" alt="" />
 
 <style>
-  .drawing-laurent,
-  .drawing-carl {
+  img {
     position: absolute;
     transform: translateZ(-100px) scale(1.33);
+    width: 45%;
+    top: -5%;
+  }
+
+  .drawing-catherine,
+  .drawing-loic {
+    display: none
   }
 
   .drawing-laurent {
-    left: -60px;
-    top: -30px;
-    width: 30%;
+    left: -20%;
   }
 
   .drawing-carl {
-    top: -60px;
-    right: -110px;
-    width: 70%;
+    right: -20%;
   }
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 1024px) {
+    img {
+      width: 28%;
+      top: 5%;
+    }
+
     .drawing-laurent {
-      left: 11%;
-      top: 30px;
-      width: 19%;
+      left: 5%;
     }
 
     .drawing-carl {
-      top: 10px;
-      right: 4%;
-      width: 45%;
+      right: 5%;
+    }
+    
+    .drawing-catherine {
+      display: block;
+      left: -13%;
+    }
+
+    .drawing-loic {
+      display: block;
+      right: -15%;
     }
   }
 </style>
