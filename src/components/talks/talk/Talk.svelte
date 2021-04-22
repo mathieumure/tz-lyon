@@ -9,6 +9,7 @@
   border-radius: var(--card-border-radius);
   color: white;
   padding: 0 1.125rem 1.125rem;
+  height: 100%;
 }
 
 section {
@@ -31,6 +32,7 @@ h2.talk-title {
 
 footer {
   width: 100%;
+  margin-top: auto;
 }
 
 .footer-bottom {
