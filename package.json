@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
-    "export": "sapper export --legacy",
+    "export": "sapper export --legacy --entry \"/ /cities/brest /cities/rennes /cities/nantes /cities/paris /cities/lille /cities/lyon /cities/grenoble /cities/bordeaux /cities/singapour /cities/montreal\"",
     "start": "node __sapper__/build"
   },
   "dependencies": {
