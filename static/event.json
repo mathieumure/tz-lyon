@@ -619,7 +619,7 @@
       "abstract": "A partir de 5% de REX , il y a un partage du résultat via l'intéressement.\n\nDans ce talk, nous allons évoquer les différents moyens pour augmenter et améliorer la rentabilité de Z.\n\nComment fait-on pour atteindre une bonne rentabilité ?\n\nLes principaux leviers qui permettent d'améliorer la rentabilité sont les suivants : \n\n-TJM\n-TACE\n\nNous avons un modèle premium avec un cercle vertueux en investissant sur des JNF qui permettent d’améliorer l’expertise de nos consultants.\nDonc cela pourrait permettre d’augmenter le TJM chez les clients.\n\nLa rentabilité permet d'avoir de la trésorerie et donc de pouvoir financer notre croissance afin d'être pérenne dans le temps\n\nVenez échanger avec nous sur ce sujet qui nous concerne tous.\n\n✓ Assurer l'autonomie financière de Zenika\n✓ Permettre de financer le Projet tout en gardant nos valeurs et notre liberté\n✓ Traduit la pertinence du modèle Zenika\n\nEn conclusion , il y a certains leviers qui sont à la portée des salariés afin d'agir sur la rentabilité.\n",
       "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
       "formats": "d3d4c221-cf79-5b51-ad0e-6ee27449702f",
-      "speakers": ["acg8fsSvT1cisuSoK4qHXh0JzXt1"],
+      "speakers": ["acg8fsSvT1cisuSoK4qHXh0JzXt1", "arthur-speaker"],
       "comments": "Hello tout le monde,\n\nJ'espère que vous allez bien. Je propose ce sujet au nom de la Finance, actuellement je suis seul sur le Talk mais nous serons sûrement plusieurs à le présenter.\n\nMerci pour l'organisation",
       "language": "French",
       "createTimestamp": {
@@ -2942,6 +2942,11 @@
       "uid": "35zth78TycYon0IBhmMu07i13Nz2",
       "displayName": "Jean Dupuis",
       "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mDjwmhB3eWW1fNAoisH8hVfkekxY6VdMrKJYF3c"
+    },
+    {
+      "uid": "arthur-speaker",
+      "displayName": "Arthur Maniquant",
+      "photoURL": "https://user-images.githubusercontent.com/525974/115744251-b0b2e980-a392-11eb-88e0-bffde776d4a5.jpg"
     }
   ]
 }
