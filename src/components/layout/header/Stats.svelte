@@ -50,12 +50,9 @@ const count = derived([talks, formats], ([$talks, $formats]) => {
     <Stat count={$count.talks} picto="talks.svg" title="Talks" />
   </li>
   <li class="stat">
-    <Stat count={$count.workshops} picto="workshops.svg" title="Workshops" />
-  </li>
-  <li class="stat">
     <Stat count={$speakers.length} picto="speaker.svg" title="Speakers" />
   </li>
   <li class="stat participants">
-    <Stat count={500} picto="participants.svg" title="Participants" />
+    <Stat count={50} picto="participants.svg" title="Participants" />
   </li>
 </ul>

@@ -26,7 +26,7 @@ const networks = [
   {
     name: "Twitter",
     icon: "twitter.svg",
-    link: "https://twitter.com/ZenikaIT",
+    link: "https://twitter.com/ZenikaNantes",
   },
   {
     name: "YouTube",
@@ -34,14 +34,9 @@ const networks = [
     link: "https://www.youtube.com/user/ZenikaITTv",
   },
   {
-    name: "Facebook",
-    icon: "facebook.svg",
-    link: "https://www.facebook.com/ZenikaIT/",
-  },
-  {
     name: "LinkedIn",
     icon: "linkedin.svg",
-    link: "https://www.linkedin.com/company/zenika/",
+    link: "https://www.linkedin.com/company/zenika-nantes/",
   },
   {
     name: "Instagram",
