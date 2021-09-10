@@ -70,7 +70,10 @@
       "abstract": "\"Bonjour,\nNous souhaitons vous consulter sur un RFP pour le développement d’une application mobile pour Safran AE.\nPouvez-vous svp nous transmettre le NDA complété (éléments surlignés en jaune) au plus tard le 14/04 à 12h en version word et nous communiquer les coordonnées du signataire (mail et téléphone portable) ?\"\n\nUne nouvelle aventure qui commence ! 🤘\n\nNDA, RFP, Go/NoGo, cahier des charges, soutenance, achats, forfait, UO, TMA : plein de (gros 🤔) mots que vous avez surement déjà entendus ici et là. A travers différents retours d'expérience, nous vous expliquerons les rouages d'une réponse à appel d'offres (étapes, acteurs, positionnement, pièges à éviter, ...).\n\nMa promesse, vous transformer en de parfait ingénieur avant-vente 😉\n",
       "categories": "2274638a-91de-5cf8-a9de-ed8e1825729c",
       "formats": "66e91640-ceb6-5e2d-8f7c-309ffaafaa6e",
-      "speakers": ["D77o78q6jsTYxXLcWZQBBb04bXf1"],
+      "speakers": [
+        "D77o78q6jsTYxXLcWZQBBb04bXf1",
+        "0rNZujyWZhWZkxHWh7NZdnLv2873"  
+      ],
       "language": "French"
     },
     {
@@ -200,10 +203,7 @@
       "abstract": "GraphQL est vraiment top pour le développement front-end, mais avez-vous déjà essayé de coder le côté serveur ? C'est un travail difficile, répétitif et peu gratifiant, sans parler qu'il n'apporte pas de valeur métier.\n\nSi vous utilisez PostgreSQL, Hasura vous fournit une API GraphQL complète, et ceci très rapidement. En fait, il peut même remplacer votre back-end si vous le souhaitez. A la manière de Firebase, Hasura s'occupe de l'accès aux données et vous laisse vous concentrer sur l'interface utilisateur et la logique métier. Mais au contraire de Firebase, vous restez maitre de l'infrastructure, des données et du prix. Et pas de vendor lock-in !\n\nAprès l'avoir déployé en production à Zenika, nous voulons partager notre amour pour Hasura en l'utilisant pour développer avec vous un back-end *from scratch*.",
       "categories": "cf75cee3-5ee8-58de-ac77-6bb665a3463d",
       "formats": "66e91640-ceb6-5e2d-8f7c-309ffaafaa6e",
-      "speakers": [
-        "7hX4q2nlIWTY770efZKTMIqWRSr2",
-        "bQs4kjUy2OZSha5Z6JUXTMdfiJG3"
-      ],
+      "speakers": ["7hX4q2nlIWTY770efZKTMIqWRSr2"],
       "language": "French"
     },
     {
@@ -522,12 +522,6 @@
       },
       "language": "French",
       "email": "hx4.5@free.fr"
-    },
-    {
-      "uid": "bQs4kjUy2OZSha5Z6JUXTMdfiJG3",
-      "displayName": "Valentin Cocaud",
-      "photoURL": "https://avatars.githubusercontent.com/u/3855602?v=4",
-      "email": "v.cocaud@gmail.com"
     },
     {
       "uid": "lrI6gAvw7EU8fseDc5NfOoYWQJx2",
