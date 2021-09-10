@@ -1,4 +1,3 @@
-service: tz-2021-09
 runtime: python39
 
 handlers:
@@ -13,4 +12,4 @@ handlers:
   secure: always
 
 # cp app.yaml __sapper__/export
-# gcloud app deploy --project tz-nantes --version dummy .
+# gcloud app deploy --project tz-nantes --version v1 __sapper__/export/
