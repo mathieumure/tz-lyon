@@ -85,7 +85,8 @@
         "Fmzr0kqDmCZawzL4jcyXT31s05U2"
       ],
       "language": "French",
-      "startTime": "09h45"
+      "startTime": "09h45",
+      "track": "discovery"
     },
     {
       "id": "C0Q89TRhKBNnSUUKHEoB",
@@ -99,7 +100,8 @@
         "dc4gx84rHMQunydJXyT6RyMHgb93"
       ],
       "language": "French",
-      "startTime": "11h30"
+      "startTime": "11h30",
+      "track": "discovery"
     },
     {
       "id": "29nPxcHFaTAa1HcUpYRf",
@@ -114,7 +116,8 @@
         "0rNZujyWZhWZkxHWh7NZdnLv2873"
       ],
       "language": "French",
-      "startTime": "16h00"
+      "startTime": "16h00",
+      "track": "discovery"
     },
     {
       "id": "6DGOAqyOWchy3KYzEw98",
@@ -128,7 +131,8 @@
         "977YQDolbxde0ito7I2dUiee2ap1"
       ],
       "language": "French",
-      "startTime": "16h00"
+      "startTime": "16h00",
+      "track": "tech"
     },
     {
       "id": "90T5dMm4uw7wVAJDn5m1",
@@ -143,7 +147,8 @@
         "BHW8h7LzhBSqs80aZEVwrDiAUDj2"
       ],
       "language": "French",
-      "startTime": "09h45"
+      "startTime": "09h45",
+      "track": "tech"
     },
     {
       "id": "9eLV72mKT1JwumMCBrNx",
@@ -157,7 +162,8 @@
         "KOhMTwPfClPzzPQSWr2V2PM8smX2"
       ],
       "language": "French",
-      "startTime": "11h00"
+      "startTime": "11h00",
+      "track": "tech"
     },
     {
       "id": "9mx91dnbQegxuMZPrp8m",
@@ -171,7 +177,8 @@
         "3jAixvFWDwMpoISHbnkL3IqGNjP2"
       ],
       "language": "French",
-      "startTime": "12h00"
+      "startTime": "12h00",
+      "track": "discovery"
     },
     {
       "id": "J4xd6uRFPB9m38DMZEuC",
@@ -185,7 +192,8 @@
         "nekfKGP05KWO5W5CwB9uegBovAx1"
       ],
       "language": "French",
-      "startTime": "12h00"
+      "startTime": "12h00",
+      "track": "tech"
     },
     {
       "id": "JfGsZxg0emn9YkyKzXD6",
@@ -199,7 +207,8 @@
         "vfiWz0MM2aZzvyytchjpapGISOo1"
       ],
       "language": "French",
-      "startTime": "10h30"
+      "startTime": "10h30",
+      "track": "tech"
     },
     {
       "id": "Jfx88lTXyR7Jukw7YhSq",
@@ -213,7 +222,8 @@
         "ZJsRTPaYEeOyXNd9561BBF4Y8w73"
       ],
       "language": "French",
-      "startTime": "11h00"
+      "startTime": "11h00",
+      "track": "discovery"
     },
     {
       "id": "M3ZlnxBJ35Sib1x8OPAp",
@@ -228,7 +238,8 @@
         "WyLUApe5AXORfuw4ILgbO9hrgO72"
       ],
       "language": "French",
-      "startTime": "10h30"
+      "startTime": "10h30",
+      "track": "discovery"
     },
     {
       "id": "PgdFOErWNhGDT05J6TKz",
@@ -242,7 +253,8 @@
         "F1WDXeypLyZKXiTBdydGKHSPdDO2"
       ],
       "language": "French",
-      "startTime": "14h00"
+      "startTime": "14h00",
+      "track": "tech"
     },
     {
       "id": "RdGjAGVJxHrXTv44NOAF",
@@ -256,7 +268,8 @@
         "CiJ9ahTlUSX1J6wj8C4PHpgEiHE2"
       ],
       "language": "French",
-      "startTime": "14h30"
+      "startTime": "14h30",
+      "track": "tech"
     },
     {
       "id": "UMYnlgARm8K5Yp3pWuGQ",
@@ -270,7 +283,8 @@
         "7hX4q2nlIWTY770efZKTMIqWRSr2"
       ],
       "language": "French",
-      "startTime": "16h30"
+      "startTime": "16h30",
+      "track": "tech"
     },
     {
       "id": "WUPkFRi2Amy7ZagsGrxq",
@@ -284,7 +298,8 @@
         "lrI6gAvw7EU8fseDc5NfOoYWQJx2"
       ],
       "language": "French",
-      "startTime": "16h30"
+      "startTime": "16h30",
+      "track": "discovery"
     },
     {
       "id": "YQTAjgwk6xdeFnXQlM6t",
@@ -298,7 +313,8 @@
         "zoXZ914sjARa7mDgQz2TnlcBCYN2"
       ],
       "language": "French",
-      "startTime": "11h30"
+      "startTime": "11h30",
+      "track": "tech"
     },
     {
       "id": "hAQ9ECaubJ1j9edmdYvr",
@@ -313,7 +329,8 @@
         "aHchGCaQStWhoqQtDKBjBpkEnLF2"
       ],
       "language": "French",
-      "startTime": "17h00"
+      "startTime": "17h00",
+      "track": "discovery"
     },
     {
       "id": "lxuICEBYUMrIZjKWZeJ1",
@@ -327,11 +344,12 @@
         "woEpjLOFgLXT7Tp1csKJUELILm32"
       ],
       "language": "English",
-      "startTime": "15h00"
+      "startTime": "15h00",
+      "track": "discovery"
     },
     {
       "id": "nsMZJpf0t6ZN8Fj60URU",
-      "title": "Comment utiliser les biais cognitifs des gens pour réussir dans la vie ? ",
+      "title": "Comment utiliser les biais cognitifs des gens pour réussir dans la vie ?",
       "state": "confirmed",
       "level": "beginner",
       "abstract": "On peut lire et regarder beaucoup d'articles et de vidéos sur la manière d'éviter et de combattre les biais cognitifs mais aucun sur la manière de les utiliser. \nDans ce talk on va voir ensemble comment exploiter les biais cognitifs de vos interlocuteurs (managers, collègues, famille etc) pour arriver à ses fins et pourquoi pas même aller dans l'espace. ",
@@ -341,7 +359,8 @@
         "hPV9avMI5RW70VtkyjGLO1c1MRO2"
       ],
       "language": "French",
-      "startTime": "14h00"
+      "startTime": "14h00",
+      "track": "discovery"
     },
     {
       "id": "qOMyQcvCQMCW2AgueDTM",
@@ -355,7 +374,8 @@
         "RBd17nmc8uMTe2KYteh1Nhl9XpD3"
       ],
       "language": "French",
-      "startTime": "14h30"
+      "startTime": "14h30",
+      "track": "tech"
     },
     {
       "id": "r7lYHElqsneWnvKhKxZP",
@@ -369,7 +389,8 @@
         "Q3gF8NTUrnMPDDJ8HWfe00qYw5q2"
       ],
       "language": "French",
-      "startTime": "17h00"
+      "startTime": "17h00",
+      "track": "tech"
     },
     {
       "id": "tU0bobr9UIeFa8ciNFiT",
@@ -383,7 +404,8 @@
         "rjLKrPb3mjcXp35cXflq5PGPS6f1"
       ],
       "language": "French",
-      "startTime": "09h15"
+      "startTime": "09h15",
+      "track": "discovery"
     },
     {
       "id": "tejfxq6zaQHIIEoGxC3E",
@@ -397,7 +419,8 @@
         "8wDF6v3YmOUGf6mQL2U0F6dVSjG2"
       ],
       "language": "French",
-      "startTime": "15h00"
+      "startTime": "15h00",
+      "track": "tech"
     }
   ],
   "speakers": [
@@ -997,6 +1020,18 @@
       "photoURL": "https://lh6.googleusercontent.com/-lC7mxzc8Tk0/AAAAAAAAAAI/AAAAAAAAAP0/Fh3yc5EcC6g/photo.jpg",
       "twitter": "@eric_briand",
       "github": "ebriand"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "discovery",
+      "name": "Discovery",
+      "room": "Salle Roumanov"
+    },
+    {
+      "id": "tech",
+      "name": "Tech",
+      "room": "Chez Marius"
     }
   ]
 }
