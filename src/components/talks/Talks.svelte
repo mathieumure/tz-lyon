@@ -49,7 +49,7 @@ $: filteredTalks = $talks
 </script>
 
 <ul>
-  {#each filteredTalks as { abstract, categories, formats, id, language, level, speakers, title, startTime, videoConfLink } (id)}
+  {#each filteredTalks as { abstract, categories, formats, id, language, level, speakers, title, startTime, videoConfLink, track } (id)}
     <li>
       <Talk
         {abstract}
@@ -63,7 +63,8 @@ $: filteredTalks = $talks
         {startTime}
         {videoConfLink}
         {showHours}
-        {showVideoLink} />
+        {showVideoLink}
+        {track} />
     </li>
   {:else}
     <p>Il n'y a aucun talk pour ces filtres.</p>

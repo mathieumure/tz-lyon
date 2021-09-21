@@ -80,11 +80,14 @@ export let abstract,
   showHours,
   showVideoLink,
   videoConfLink,
-  startTime;
+  startTime,
+  track;
 
-const { formats: storeFormats } = eventStore;
+const { formats: storeFormats, tracks } = eventStore;
 
 const format = $storeFormats.find((f) => f.id === formats).name;
+
+const { room } = $tracks.find(t => t.id === track);
 
 // @todo add short abstract to json ?
 $: abstract140 = `${abstract.slice(0, 140)}${
@@ -109,7 +112,7 @@ const handleDetailButtonClick = () => selectedTalkStore.set(id);
     <p class="text-xs">{@html abstractHtml}</p>
   </section>
   <footer>
-    <TalkTags categoryId={categories} {level} {format} {showHours} {startTime} />
+    <TalkTags categoryId={categories} {level} {format} {showHours} {startTime} {room} />
     <div class="footer-bottom">
       <TalkMeta {language} {format} />
       {#if showVideoLink}
