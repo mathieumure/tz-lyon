@@ -83,11 +83,11 @@ export let abstract,
   startTime,
   track;
 
-const { formats: storeFormats, tracks } = eventStore;
+const { formats: storeFormats, tracks, levels } = eventStore;
 
 const format = $storeFormats.find((f) => f.id === formats).name;
-
 const { room } = $tracks.find(t => t.id === track);
+const { name: levelName } = $levels.find(l => l.id === level);
 
 // @todo add short abstract to json ?
 $: abstract140 = `${abstract.slice(0, 140)}${
@@ -112,7 +112,7 @@ const handleDetailButtonClick = () => selectedTalkStore.set(id);
     <p class="text-xs">{@html abstractHtml}</p>
   </section>
   <footer>
-    <TalkTags categoryId={categories} {level} {format} {showHours} {startTime} {room} />
+    <TalkTags categoryId={categories} level={levelName} {format} {showHours} {startTime} {room} />
     <div class="footer-bottom">
       <TalkMeta {language} {format} />
       {#if showVideoLink}
