@@ -1025,12 +1025,12 @@
   "tracks": [
     {
       "id": "discovery",
-      "name": "Discovery",
+      "name": "🧪 Discovery",
       "room": "Salle Roumanov"
     },
     {
       "id": "tech",
-      "name": "Tech",
+      "name": "👩‍💻 Tech",
       "room": "Chez Marius"
     }
   ]

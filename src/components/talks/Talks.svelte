@@ -43,9 +43,9 @@ export let showHours = true,
 
 const { talks, description } = eventStore;
 
-$: filteredTalks = $talks.filter(
-  (talk) => !$filterStore || talk.categories === $filterStore
-);
+$: filteredTalks = $talks
+  .filter(talk => !$filterStore.trackId || talk.track === $filterStore.trackId)
+  .filter(talk => !$filterStore.categoryId || talk.categories === $filterStore.categoryId);
 </script>
 
 <ul>
@@ -66,6 +66,6 @@ $: filteredTalks = $talks.filter(
         {showVideoLink} />
     </li>
   {:else}
-    <p>Il n'y a aucun talk dans cette catégorie.</p>
+    <p>Il n'y a aucun talk pour ces filtres.</p>
   {/each}
 </ul>
