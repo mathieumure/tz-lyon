@@ -14,12 +14,12 @@ import Talks from "../components/talks/Talks.svelte";
 import Filters from "../components/filters/Filters.svelte";
 export let event;
 
-const { setEvent } = eventStore;
+const { setEvent, description } = eventStore;
 setEvent(event);
 </script>
 
 <svelte:head>
-  <title>Technozaure World 2021 - Zenika</title>
+  <title>{$description.name} - Zenika</title>
 </svelte:head>
 
 <h1>Le programme</h1>

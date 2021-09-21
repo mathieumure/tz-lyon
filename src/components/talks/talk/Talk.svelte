@@ -42,10 +42,6 @@ footer {
   margin-top: 0.5rem;
 }
 
-.hours-section {
-  margin: 1rem 0;
-}
-
 .video-link {
   display: flex;
   margin: 0 auto 0 1rem;
@@ -65,7 +61,6 @@ img.yt-icon {
 
 <script>
 import TalkTags from "./tags/TalkTags.svelte";
-import Tags from "../../cdk/tags/Tags.svelte";
 import TalkSpeakers from "./speakers/TalkSpeakers.svelte";
 import TalkMeta from "./meta/TalkMeta.svelte";
 import DetailsButton from "./detailsButton/detailsButton.svelte";
@@ -85,16 +80,9 @@ export let abstract,
   showHours,
   showVideoLink,
   videoConfLink,
-  startTimeCa,
-  startTimeSg,
-  startTimeFr;
+  startTime;
 
 const { formats: storeFormats } = eventStore;
-const hours = [
-  `Singapour : ${startTimeSg}`,
-  `France : ${startTimeFr}`,
-  `Montréal : ${startTimeCa}`,
-];
 
 const format = $storeFormats.find((f) => f.id === formats).name;
 
@@ -121,13 +109,7 @@ const handleDetailButtonClick = () => selectedTalkStore.set(id);
     <p class="text-xs">{@html abstractHtml}</p>
   </section>
   <footer>
-    <TalkTags categoryId={categories} {level} {format} />
-    {#if showHours}
-      <section class="hours-section">
-        <h3>Heures de passage</h3>
-        <Tags tags={hours} />
-      </section>
-    {/if}
+    <TalkTags categoryId={categories} {level} {format} {showHours} {startTime} />
     <div class="footer-bottom">
       <TalkMeta {language} {format} />
       {#if showVideoLink}

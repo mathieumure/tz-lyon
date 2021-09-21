@@ -13,11 +13,13 @@ img {
 import Tags from "../../../cdk/tags/Tags.svelte";
 import { eventStore } from "../../../../stores";
 
-export let categoryId, format, level;
+export let categoryId, format, level, showHours, startTime;
 
 const { categories } = eventStore;
 
 $: tags = [$categories.find((c) => c.id === categoryId).name, level];
+
+$: if (showHours && startTime) tags.push(startTime)
 
 const formatShort = format.includes("Workshop") ? "workshop" : "talk";
 </script>

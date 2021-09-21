@@ -115,6 +115,9 @@ header :global(.networks) {
 <script>
 import SocialNetworks from "./SocialNetworks.svelte";
 import Stats from "./Stats.svelte";
+import { eventStore } from "../../../stores";
+
+const { description } = eventStore;
 </script>
 
 <header>
@@ -125,11 +128,10 @@ import Stats from "./Stats.svelte";
   <img class="logo-tz" src="logos/technozaure.svg" alt="Technozaure" />
   <p class="date">24/09/2021</p>
 
-
   <Stats />
 
   <p class="event-description">
-    Bienvenue sur notre page <strong>TechnoZaure Nantes</strong> !<br> Une TechnoZaure <em>- TZ -</em> c’est quoi ? Une
+    Bienvenue sur notre page <strong>{$description.name}</strong> !<br> Une TechnoZaure <em>- TZ -</em> c’est quoi ? Une
     journée de conférences, d’ateliers et d’échanges organisée par et dédiée à
     tous les collaborateurs.trices d’une agence Zenika.<br>Découvrez le programme !
   </p>

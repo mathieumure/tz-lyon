@@ -1,36 +1,25 @@
 import { writable } from "svelte/store";
 
-const { subscribe: subscribeCategories, update: updateCategories } = writable(
-  []
-);
-const { subscribe: subscribeFormats, update: updateFormats } = writable([]);
-
-const { subscribe: subscribeTalks, update: updateTalks } = writable([]);
-
-const { subscribe: subscribeSpeakers, update: updateSpeakers } = writable([]);
-
+const categories = writable([]);
+const formats = writable([]);
+const talks = writable([]);
+const speakers = writable([]);
+const description = writable({ name: 'TechnoZaure' });
 const filterStore = writable('');
-
 const selectedTalkStore = writable('');
 
 const eventStore = {
-  categories: {
-    subscribe: subscribeCategories,
-  },
-  formats: {
-    subscribe: subscribeFormats,
-  },
-  talks: {
-    subscribe: subscribeTalks,
-  },
-  speakers: {
-    subscribe: subscribeSpeakers,
-  },
+  categories,
+  formats,
+  talks,
+  speakers,
+  description,
   setEvent: (event) => {
-    updateCategories((_) => [...event.categories]);
-    updateFormats((_) => [...event.formats]);
-    updateTalks((_) => [...event.talks]);
-    updateSpeakers((_) => [...event.speakers]);
+    categories.set(event.categories);
+    formats.set(event.formats);
+    talks.set(event.talks);
+    speakers.set(event.speakers);
+    description.set({ name: event.name });
   },
 };
 
