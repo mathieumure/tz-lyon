@@ -46,6 +46,8 @@ const {
   level,
   speakers,
   title,
+  track,
+  startTime,
 } = selectedTalk;
 
 const handleBackdropClick = () => selectedTalkStore.set("");
@@ -65,7 +67,10 @@ const handleBackdropClick = () => selectedTalkStore.set("");
         {language}
         {level}
         {speakers}
-        {title} />
+        {title}
+        {track}
+        showHours
+        {startTime} />
     </div>
   </div>
 </Portal>
