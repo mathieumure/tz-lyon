@@ -19,7 +19,13 @@ const { categories } = eventStore;
 
 $: tags = [$categories.find((c) => c.id === categoryId).name, level];
 
-$: if (showHours && startTime) tags.push(`🕥 ${startTime}`);
+$: if (showHours && startTime) {
+  tags.push(
+    `🕥 ${new Date(startTime).toLocaleTimeString(undefined, {
+      timeStyle: "short",
+    })}`
+  );
+}
 
 $: if (room) tags.push(`🏠 ${room}`);
 
