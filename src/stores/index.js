@@ -6,9 +6,9 @@ const talks = writable([]);
 const speakers = writable([]);
 const tracks = writable([]);
 const levels = writable([]);
-const description = writable({ name: 'TechnoZaure' });
-const filterStore = writable({ trackId: '', categoryId: '' });
-const selectedTalkStore = writable('');
+const description = writable({ name: "TechnoZaure" });
+const filterStore = writable({ trackId: "", categoryId: "" });
+const selectedTalkStore = writable("");
 
 const eventStore = {
   categories,
@@ -25,7 +25,7 @@ const eventStore = {
     speakers.set(event.speakers);
     tracks.set(event.tracks);
     levels.set(event.levels);
-    description.set({ name: event.name });
+    description.set({ name: event.name, date: event.conferenceDates?.start });
   },
 };
 

@@ -77,12 +77,12 @@ header {
 }
 
 header :global(.networks) {
-    display: flex;
-    position: fixed;
-    right: 0;
-    margin: 12px;
-    flex-direction: column;
-    align-items: baseline;
+  display: flex;
+  position: fixed;
+  right: 0;
+  margin: 12px;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 @media only screen and (min-width: 768px) {
@@ -108,7 +108,6 @@ header :global(.networks) {
   .event-description {
     font-size: 1.625rem;
   }
-
 }
 </style>
 
@@ -126,13 +125,20 @@ const { description } = eventStore;
 
   <img class="logo-znk" src="logos/logo-zenika.png" alt="Zenika" />
   <img class="logo-tz" src="logos/technozaure.svg" alt="Technozaure" />
-  <p class="date">24/09/2021</p>
+  {#if $description.date}
+    <p class="date">
+      {new Date($description.date).toLocaleDateString(undefined, {
+        dateStyle: "short",
+      })}
+    </p>
+  {/if}
 
   <Stats />
 
   <p class="event-description">
-    Bienvenue sur notre page <strong>{$description.name}</strong> !<br> Une TechnoZaure <em>- TZ -</em> c’est quoi ? Une
-    journée de conférences, d’ateliers et d’échanges organisée par et dédiée à
-    tous les collaborateurs.trices d’une agence Zenika.<br>Découvrez le programme !
+    Bienvenue sur notre page <strong>{$description.name}</strong> !<br /> Une
+    TechnoZaure <em>- TZ -</em> c’est quoi ? Une journée de conférences,
+    d’ateliers et d’échanges organisée par et dédiée à tous les
+    collaborateurs.trices d’une agence Zenika.<br />Découvrez le programme !
   </p>
 </header>
