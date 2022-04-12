@@ -123,7 +123,7 @@ const { description } = eventStore;
   <div class="background parallax__layer parallax__layer--deep" />
   <SocialNetworks class="networks" />
 
-  <img class="logo-znk" src="logos/logo-zenika.png" alt="Zenika" />
+  <img class="logo-znk" src="logos/logo-zenika.svg" alt="Zenika" />
   <img class="logo-tz" src="logos/technozaure.svg" alt="Technozaure" />
   {#if $description.date}
     <p class="date">
