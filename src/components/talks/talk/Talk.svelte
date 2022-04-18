@@ -8,7 +8,6 @@
   background-color: var(--dark-grey);
   border-radius: var(--card-border-radius);
   color: white;
-  padding: 0 1.125rem 1.125rem;
   height: 100%;
 }
 

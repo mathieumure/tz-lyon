@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   --img-size: 90px;
-  margin-top: calc(-1 * var(--img-size) / 2);
 }
 
 img {

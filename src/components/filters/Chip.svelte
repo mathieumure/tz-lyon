@@ -59,6 +59,6 @@
     }
 </style>
 
-<button class="chip {selected ? 'chip--selected' : ''}" role="button" on:click>
+<button class="chip {selected ? 'chip--selected' : ''}" type="button" on:click>
     <span>{label}</span>
 </button>

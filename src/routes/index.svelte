@@ -16,6 +16,7 @@ export async function preload() {
 <script>
 import Talks from "../components/talks/Talks.svelte";
 import Filters from "../components/filters/Filters.svelte";
+import Program from "../components/program/Program.svelte";
 export let event;
 
 const { setEvent, description } = eventStore;
@@ -27,5 +28,7 @@ setEvent(event);
 </svelte:head>
 
 <h1>Le programme</h1>
+<Program />
+<h1>Les talks</h1>
 <Filters />
 <Talks />

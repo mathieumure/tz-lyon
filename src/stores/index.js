@@ -9,6 +9,7 @@ const levels = writable([]);
 const description = writable({ name: "TechnoZaure" });
 const filterStore = writable({ trackId: "", categoryId: "" });
 const selectedTalkStore = writable("");
+const slots = writable([]);
 
 const eventStore = {
   categories,
@@ -18,6 +19,7 @@ const eventStore = {
   tracks,
   levels,
   description,
+  slots,
   setEvent: (event) => {
     categories.set(event.categories);
     formats.set(event.formats);
@@ -26,6 +28,7 @@ const eventStore = {
     tracks.set(event.tracks);
     levels.set(event.levels);
     description.set({ name: event.name, date: event.conferenceDates?.start });
+    slots.set(event.slots);
   },
 };
 

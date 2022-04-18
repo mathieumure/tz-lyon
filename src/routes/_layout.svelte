@@ -21,7 +21,7 @@ import { selectedTalkStore } from "../stores";
 
 
 if (
-  typeof window !== "undefined" 
+  typeof window !== "undefined"
   && window?.location?.protocol === "http:"
   && window?.location?.hostname !== "localhost"
 ) {
