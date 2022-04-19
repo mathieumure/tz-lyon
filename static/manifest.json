@@ -1,8 +1,8 @@
 {
 	"background_color": "#010006",
 	"theme_color": "#0F0E0E",
-	"name": "Technozaure Nantes 2022 #1",
-	"short_name": "TZ Nantes 2022 #1",
+	"name": "Technozaure Lyon 2022",
+	"short_name": "TZ Lyon 2022",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [

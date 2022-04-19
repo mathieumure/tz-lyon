@@ -91,20 +91,25 @@
       "talk": true
     },
     {
-      "startTime": "2022-04-29T17:15:00.000+0200",
+      "startTime": "2022-04-29T17:00:00.000+0200",
       "talk": false,
       "name": "Mot de la fin"
+    },
+    {
+      "startTime": "2022-04-29T17:15:00.000+0200",
+      "talk": false,
+      "name": ""
     }
   ],
   "tracks": [
     {
       "id": "zenikave",
       "name": "Zenikave",
-      "room": "🌙 Zenikave"
+      "room": "Zenikave"
     },
     {
       "id": "openspace",
-      "name": "☀️ Open Space",
+      "name": "Open Space",
       "room": "Open Space"
     }
   ],
@@ -237,7 +242,7 @@
       ],
       "rating": 3.533333333333333,
       "track": "openspace",
-      "startTime": "2022-04-29T15:00:00.000+0200",
+      "startTime": "2022-04-29T16:15:00.000+0200",
       "loves": 7,
       "hates": 0,
       "language": "French",

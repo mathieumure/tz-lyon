@@ -5,15 +5,6 @@
         align-items: center;
         row-gap: 2rem;
     }
-    ul {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 0 1rem;
-        box-sizing: border-box;
-        margin: 0;
-    }
 
     :global(.time-tag-time) {
         justify-content: center;
@@ -41,16 +32,13 @@
         margin-bottom: 1rem;
     }
 
-    .track-row {
-        width: 100%;
-    }
-
 </style>
 
 <script>
   import { eventStore } from "../../stores";
   import Slot from "./slots/Slot.svelte";
   import TimeTag from "../cdk/tags/tag/TimeTag.svelte";
+  import Slots from "./slots/Slots.svelte";
 
   const { slots, talks } = eventStore;
 
@@ -63,12 +51,9 @@
 
 <section class="wrapper">
   {#each $slots as { startTime, talk, name }}
-    <TimeTag hour={new Date(startTime).getHours()} minutes={new Date(startTime).getMinutes()} />
+    <TimeTag class="time-tag-time" hour={new Date(startTime).getHours()} minutes={new Date(startTime).getMinutes()} />
     {#if talk}
-      <ul class="track-row">
-        <Slot talk={talksByStartTime[startTime][0]} />
-        <Slot talk={talksByStartTime[startTime][1]} />
-      </ul>
+      <Slots slots={talksByStartTime[startTime]} />
     {:else}
       <h2 class="title">{name}</h2>
     {/if}

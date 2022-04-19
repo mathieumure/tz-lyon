@@ -1,5 +1,5 @@
 <style>
-main {
+:global(main) {
   position: relative;
   background-color: var(--z-black);
   margin: 0 auto;
@@ -8,14 +8,13 @@ main {
 }
 
 @media (max-width: 1200px) {
-  main {
+  :global(main) {
     padding-bottom: 2em;
   }
 }
 </style>
 
 <script>
-import Header from "../components/layout/header/Header.svelte";
 import TalkModal from '../components/talkModal/TalkModal.svelte'
 import { selectedTalkStore } from "../stores";
 
@@ -29,10 +28,7 @@ if (
 }
 </script>
 
-<Header />
 {#if $selectedTalkStore}
   <TalkModal />
 {/if}
-<main>
-  <slot />
-</main>
+<slot />

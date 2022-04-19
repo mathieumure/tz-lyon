@@ -8,18 +8,22 @@
         box-sizing: border-box;
         margin: 0;
     }
+
+    .track-row {
+        width: 100%;
+    }
 </style>
 
 <script>
-  import { eventStore } from "../../stores";
-  import ClockTag from "../cdk/tags/tag/ClockTag.svelte";
-  import Slot from "./slots/Slot.svelte";
+  import Slot from "./Slot.svelte";
 
-  const { slots, talks } = eventStore;
+  export let slots;
 
-  $: talksByStartTime = $talks.reduce((acc, cur) => {
-    acc[cur.startTime] = acc[cur.startTime] || []
-    acc[cur.startTime].push(cur);
-    return acc;
-  }, {});
+  $: sortedSlots = slots.sort((a, b) => a.track < b.track ? 1 : -1)
 </script>
+
+<ul class="track-row">
+  {#each sortedSlots as talk}
+    <Slot talk={talk} />
+  {/each}
+</ul>

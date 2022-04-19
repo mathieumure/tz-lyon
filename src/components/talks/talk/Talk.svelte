@@ -111,9 +111,9 @@ const handleDetailButtonClick = () => selectedTalkStore.set(id);
     <p class="text-xs">{@html abstractHtml}</p>
   </section>
   <footer>
-    <TalkTags categoryId={categories} level={levelName} {format} {showHours} {startTime} {room} />
+    <TalkTags categoryId={categories} level={levelName} {format} {showHours} {startTime} />
     <div class="footer-bottom">
-      <TalkMeta {language} {format} />
+      <TalkMeta {language} {format} {room} />
       {#if showVideoLink}
         <a
           class="video-link"

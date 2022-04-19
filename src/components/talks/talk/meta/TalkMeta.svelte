@@ -2,21 +2,20 @@
 .talk-meta {
   display: flex;
   align-items: center;
+    column-gap: 1rem;
 }
 
-.talk-time {
-    border-radius: 2rem;
-    display: inline-flex;
-    align-items: center;
-    background: white;
-    padding: 0.375rem 0.75rem;
-    margin-right: 1rem;
+:global(.text-xl) {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    margin-left: 0.25rem;
 }
 
-.talk-time > img {
-    height: 15px;
-    width: 15px;
-    margin-right: 0.25rem;
+:global(.talk-duration) {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 </style>
@@ -24,8 +23,9 @@
 <script>
 import TalkLang from "./TalkLang.svelte";
 import ClockTag from "../../../cdk/tags/tag/ClockTag.svelte";
+import MainTag from "../../../cdk/tags/tag/MainTag.svelte";
 
-export let language, format;
+export let language, format, room;
 
 const formatContainsFrenchFlag = /\uD83C\uDDEB\uD83C\uDDF7/.test(format); // regexp for 🇫🇷
 const lang = language === "French" || formatContainsFrenchFlag ? "fr" : "en";
@@ -36,8 +36,11 @@ const [_, hour, minutes] = /(\d{1})?h?(\d{2})\s?[min]?/.exec(format);
 </script>
 
 <section class="talk-meta">
-  <ClockTag class="talk-time" {hour} {minutes} />
+  <MainTag class="text-xl">
+    { room }
+  </MainTag>
   <TalkLang
     {lang}
     title="{formatShort} donné en {lang === 'fr' ? 'Français' : 'Anglais'}" />
+  <ClockTag class="talk-duration" {hour} {minutes} />
 </section>

@@ -15,7 +15,6 @@ export async function preload() {
 
 <script>
 import Program from "../components/program/Program.svelte";
-import Header from "../components/layout/header/Header.svelte";
 export let event;
 
 const { setEvent, description } = eventStore;
@@ -23,10 +22,10 @@ setEvent(event);
 </script>
 
 <svelte:head>
-  <title>{$description.name} - Zenika</title>
+  <title>Program - {$description.name} - Zenika</title>
 </svelte:head>
 
-<Header />
 <main>
+  <h1>Programme</h1>
   <Program />
 </main>
