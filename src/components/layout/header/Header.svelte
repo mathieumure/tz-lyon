@@ -115,12 +115,14 @@ header :global(.networks) {
 import SocialNetworks from "./SocialNetworks.svelte";
 import Stats from "./Stats.svelte";
 import { eventStore } from "../../../stores";
+import Archives from "./Archives.svelte";
 
 const { description } = eventStore;
 </script>
 
 <header>
   <div class="background parallax__layer parallax__layer--deep" />
+  <Archives />
   <SocialNetworks class="networks" />
 
   <img class="logo-znk" src="logos/logo-zenika.svg" alt="Zenika" />

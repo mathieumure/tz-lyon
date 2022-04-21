@@ -1,0 +1,754 @@
+{
+  "name": "Technozaure Lyon |> 19 Novembre 2021",
+  "categories": [
+    {
+      "id": "e734f88f-0223-5592-9063-8fc86b42d48e",
+      "name": "Agilité"
+    },
+    {
+      "id": "0284f44a-8d7e-51f5-a234-fedd3cafe817",
+      "name": "Back"
+    },
+    {
+      "id": "db4af8b6-9236-5442-a563-c94dd3701784",
+      "name": "Front"
+    },
+    {
+      "id": "f3bdcb33-71ad-5ae8-b902-2afeae08529d",
+      "name": "DevOps"
+    },
+    {
+      "name": " UX/UI ",
+      "id": "391dfc5c-24d4-58ae-96b7-675c389e6182"
+    },
+    {
+      "name": "Alien",
+      "id": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9"
+    },
+    {
+      "id": "9e3ec6c6-3ec2-50d3-a3e1-3b15e42a1860",
+      "name": "Linux"
+    },
+    {
+      "name": "Craft",
+      "id": "0ec948f6-35d6-5024-bce0-78a714a8f703"
+    },
+    {
+      "name": " Cloud ",
+      "id": "a20c8d36-75c8-566c-9d91-dc04f901ff8b"
+    },
+    {
+      "name": "Machine Learning",
+      "id": "e633b03c-9aaf-5981-830d-0bb2f27acc13"
+    },
+    {
+      "id": "337b9cba-b8da-5250-9301-49ed959354d8",
+      "name": " IOT "
+    },
+    {
+      "id": "50ee1867-defb-5799-b27c-dbf5ba1906d5",
+      "name": "Android "
+    },
+    {
+      "id": "6cb5455f-23f1-5da7-b066-19017060dda7",
+      "name": "Mobile"
+    },
+    {
+      "id": "b7032f33-99a4-506b-94d0-690df6e1a618",
+      "name": " Data"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Quickie (20 min)",
+      "id": "7bcccc0f-a091-5d44-81e7-4a40ce2695ca"
+    },
+    {
+      "id": "9860c841-1a91-5ea1-aa29-d60346963036",
+      "name": "Talk (50 min)"
+    },
+    {
+      "name": "Atelier (2h00)",
+      "id": "df917569-a2ac-58e1-8aaa-fb149bf42a58"
+    },
+    {
+      "name": "(15 min)",
+      "id": "91baba5f-caec-5969-abe1-97914b3af30c"
+    },
+    {
+      "name": "(30 min)",
+      "id": "adb75545-6f8c-5a5a-bae6-910bbfbe4af5"
+    },
+    {
+      "id": "4fae576f-8b51-5dc2-8007-9e7c4a30a728",
+      "name": "(45 min)"
+    },
+    {
+      "name": "(1h30 min)",
+      "id": "afcfdea2-5d78-5c5f-97ae-9d1bcffa18ef"
+    },
+    {
+      "id": "d893ef65-8893-5016-a083-afb9c9524625",
+      "name": "(2h00)"
+    }
+  ],
+  "levels": [
+    {
+      "id": "beginner",
+      "name": "👶 Beginner"
+    },
+    {
+      "id": "intermediate",
+      "name": "👩‍🎓 Intermediate"
+    }
+  ],
+  "slots":  [
+    {
+      "startTime": "2021-11-18T09:00:00.000+0100",
+      "talk": false,
+      "name": "ZeniDej"
+    },
+    {
+      "startTime": "2021-11-18T09:20:00.000+0100",
+      "talk": false,
+      "name": "Mot d'accueil"
+    },
+    {
+      "startTime": "2021-11-18T09:30:00.000+0100",
+      "talk": true
+    },
+    {
+      "startTime": "2021-11-18T10:00:00.000+0100",
+      "talk": true
+    },
+    {
+      "startTime": "2021-11-18T10:45:00.000+0100",
+      "talk": false,
+      "name": "Pause"
+    },
+    {
+      "startTime": "2021-11-18T11:00:00.000+0100",
+      "talk": true
+    },
+    {
+      "startTime": "2021-11-18T11:30:00.000+0100",
+      "talk": true
+    },
+    {
+      "startTime": "2021-11-18T12:00:00.000+0100",
+      "talk": true
+    },
+    {
+      "startTime": "2021-11-18T12:30:00.000+0100",
+      "talk": false,
+      "name": "Repas"
+    },
+    {
+      "startTime": "2021-11-18T14:00:00.000+0100",
+      "talk": true
+    },
+    {
+      "startTime": "2021-11-18T14:15:00.000+0100",
+      "talk": true
+    },
+    {
+      "startTime": "2021-11-18T15:00:00.000+0100",
+      "talk": true
+    },
+    {
+      "startTime": "2021-11-18T15:30:00.000+0100",
+      "talk": false,
+      "name": "Pause"
+    },
+    {
+      "startTime": "2021-11-18T15:45:00.000+0100",
+      "talk": true
+    },
+    {
+      "startTime": "2021-11-18T16:15:00.000+0100",
+      "talk": true
+    },
+    {
+      "startTime": "2021-11-18T16:45:00.000+0100",
+      "talk": true
+    },
+    {
+      "startTime": "2021-11-18T17:00:00.000+0100",
+      "talk": false,
+      "name": "Mot de la fin"
+    },
+    {
+      "startTime": "2021-11-18T17:15:00.000+0100",
+      "talk": false,
+      "name": ""
+    }
+  ],
+  "tracks": [
+    {
+      "id": "theatre",
+      "name": "Théâtre",
+      "room": "Théâtre"
+    },
+    {
+      "id": "class",
+      "name": "Classe",
+      "room": "Classe"
+    }
+  ],
+  "address": {
+    "timezone": null,
+    "country": {
+      "long_name": "France",
+      "short_name": "FR"
+    },
+    "locality": {
+      "short_name": "Lyon",
+      "long_name": "Lyon"
+    },
+    "latLng": {
+      "lng": 4.8588711,
+      "lat": 45.7665272
+    },
+    "formattedAddress": "6 Pl. Jules Ferry, 69006 Lyon, France"
+  },
+  "conferenceDates": {
+    "start": "2021-11-18T09:00:00.000Z",
+    "end": "2021-11-18T23:00:00.000Z"
+  },
+  "talks": [
+    {
+      "id": "0eSFfLahq0onkTq5PcGv",
+      "title": "Les lambdas par la pratique",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "Un atelier de deux heures pour:  \n- mettre en place des lambdas avec AWS  \n- appeler des lambdas depuis une application front\n- mettre en place une base de données serverless\n- Créer des gifs de vos films préférés (what?) ",
+      "categories": "a20c8d36-75c8-566c-9d91-dc04f901ff8b",
+      "formats": "df917569-a2ac-58e1-8aaa-fb149bf42a58",
+      "speakers": [
+        "7VQ8wdjtOlaqGRPwS4X9XdFCEVh1"
+      ],
+      "comments": null,
+      "references": "Matériel requis:\n- Un ordinateur avec nodeJS 12 ou +\n- Un compte AWS (Rien à prévoir pour les Zenikas)\n- Docker peut être utile pour la fin de l'atelier",
+      "rating": 3.772727272727273,
+      "track": "class",
+      "startTime": "2021-11-18T11:30:00.000+0100",
+      "loves": 3,
+      "hates": 2,
+      "language": "French",
+      "organizersThread": []
+    },
+    {
+      "id": "5InSOQbXufV0Y3calMaL",
+      "title": "Blockchain, révolution ou scam ?",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Web3, Web décentralisé, NFT, Blockchain, Cryptomonnaies, Bitcoin...\n\nAutant de buzzwords dont on entend beaucoup parler ces derniers temps, mais que se cache-t-il vraiment derrière ses notions ?\nEst-on en face d'un énorme scam qui disparaitra aussi vite qu'il est apparu ou assiste-t-on a une vraie révolution de l'internet qui permettra de retrouver sa souveraineté numérique ?",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "adb75545-6f8c-5a5a-bae6-910bbfbe4af5",
+      "speakers": [
+        "nUlc73kTEnNvgCcKX6tXteYrREu1",
+        "H7CVD8xsquS1k8HhOSelk9S0k4y2"
+      ],
+      "rating": 3.8275862068965516,
+      "loves": 4,
+      "hates": 1,
+      "language": "French",
+      "track": "theatre",
+      "startTime": "2021-11-18T09:30:00.000+0100",
+      "organizersThread": []
+    },
+    {
+      "id": "GOnUW64ecIHhHR4SpjpW",
+      "title": "REX: VCStream: a new messaging platform for DECATHLON’s Value Chain",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "REX après un an de construction d'une plateforme de messaging basée sur Quarkus, Kafka, GKE, etc....\n\nJe reviendrais sur comment est organisée notre équipe chez DKT, les technologies mises en place, les difficultés que nous avons rencontrés, les écueils, les réussites et quels sont les nouveaux  challenges qui nous attendent.",
+      "categories": "0284f44a-8d7e-51f5-a234-fedd3cafe817",
+      "formats": "4fae576f-8b51-5dc2-8007-9e7c4a30a728",
+      "speakers": [
+        "acXRt2QDzVZ46LnQvR4jtYmrfnL2"
+      ],
+      "track": "theatre",
+      "startTime": "2021-11-18T16:15:00.000+0100",
+      "rating": 3.625,
+      "loves": 2,
+      "hates": 1,
+      "organizersThread": []
+    },
+    {
+      "id": "HJfFXGSDpcyPP782vaRh",
+      "title": "Appwrite est-il prêt à éteindre Firebase ? 🔥",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Est-ce que Firebase vous dit quelque chose ? Vous en avez sûrement entendu parlé et vous l'avez peut-être déjà utilisé, et pour le coup, c'est normal ! Voilà maintenant plusieurs années que de nombreux développeurs l'utilisent pour faciliter la création de back-end scalable et performant. \n\nMais avez-vous déjà entendu parler d'Appwrite ❓\n\nPeut importe votre réponse, venez découvrir avec nous le duel entre Appwrite la jeune solution open-source et Firebase la flamme de Google 🥊",
+      "categories": "0284f44a-8d7e-51f5-a234-fedd3cafe817",
+      "formats": "adb75545-6f8c-5a5a-bae6-910bbfbe4af5",
+      "speakers": [
+        "Udf01cJXIkb7XHeqPdZQGlTX5uG2",
+        "eGA6OY0HEhP9d6WQ7HZtq054tW22"
+      ],
+      "rating": 3.7916666666666665,
+      "loves": 4,
+      "hates": 0,
+      "language": "French",
+      "track": "theatre",
+      "startTime": "2021-11-18T12:00:00.000+0100",
+      "organizersThread": []
+    },
+    {
+      "id": "TsiSq8wPvgbBEuvb5ldA",
+      "title": "Retour d'expérience après 6 mois de dev en Kotlin",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "Le langage Kotlin est de plus en plus populaire et vous avez surement en tête un certain nombre de ses features vantées par sa documentation, comme les **data class**,  les **extension fonctions**, le **null-safety**, la **destructuration**, le **pattern matching** ou d'autres...\n\nAprès (seulement) 6 mois d'expérience sur le langage, je vous propose **mon** classement de ces features, de celles qui sont \"sympa mais sans plus\" à celles qui vous motiveront à changer de langage.\n\nPour chacune des features je le comparerai à son \"équivalent\" java.",
+      "categories": "0284f44a-8d7e-51f5-a234-fedd3cafe817",
+      "formats": "adb75545-6f8c-5a5a-bae6-910bbfbe4af5",
+      "speakers": [
+        "IzLVAOy5fCUc4W8enR6TYpAH4Ku1"
+      ],
+      "comments": "Go TZ teams !",
+      "rating": 4.086956521739131,
+      "loves": 3,
+      "hates": 1,
+      "language": "French",
+      "track": "theatre",
+      "startTime": "2021-11-18T15:00:00.000+0100",
+      "organizersThread": []
+    },
+    {
+      "id": "hNKdz2ZynarQbGvWqVev",
+      "title": "Atelier : Vous n'êtes pas si bons développeurs",
+      "state": "confirmed",
+      "level": "intermediate",
+      "abstract": "Alors oui, vous rentrez chez vous le soir vous avez bien bossé, et sans trop de doute je peux même dire que vous avez été excellent... mais voilà, vous n'avez effleuré qu'une infime partie du monde du développement.\n\nÀ travers cet atelier on vous propose d'utiliser vos connaissances en développement pour affronter vos meilleurs collègues sur un terrain inconnu à chacun d'entre vous. On pourrait appeler ça une bataille de développement, mais on va se contenter de BattleDev !\n\nPendant cet atelier vous allez résoudre des casses-tête de programmation amusants, réalisables dans différents langages. Chacun y trouve son compte, de l'exo très simple à celui qui vous donnera besoin d'une boîte de Lexo'.",
+      "categories": "0ec948f6-35d6-5024-bce0-78a714a8f703",
+      "formats": "df917569-a2ac-58e1-8aaa-fb149bf42a58",
+      "speakers": [
+        "wWYKM4fzp9SqMgB6euFohSb8ud33",
+        "1FnJVQspiYgiKe3q8RZcHuE6gD83"
+      ],
+      "comments": "Pour la réalisation de cet atelier il va falloir coder, donc c'est cool si les participants on de quoi poser leur PC (et une connexion à internet est vitale pour soumettre le code, no-joke).",
+      "references": "Atelier réalisé 2x chez Bedrock, et qui a beaucoup plu à presque tous les participants.",
+      "rating": 4,
+      "loves": 9,
+      "hates": 0,
+      "language": "French",
+      "track": "class",
+      "startTime": "2021-11-18T14:00:00.000+0100",
+      "organizersThread": []
+    },
+    {
+      "id": "lDz19pAAGpTiJtaHQ9et",
+      "title": "Comment dynamiser un site pour attirer les milléniaux",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "On a tous déjà vu un site plein de belles fonctionnalités, qui fait le travail, sans CSS (pourquoi s’ennuyer avec ce “pseudo-langage”, ce n’est même pas du vrai code), sans être dynamique (pourquoi s’ennuyer avec ce “pseudo-langage” qu’est le JS, on ne peut même pas typer) et sans animation (c’est quoi ce truc de millénial, c’était mieux avant de toute façon). Puis il y a un nouveau site qui arrive dont tout le monde parle, et qui fait la même chose avec une interface fluide et animée.\n\nQu’est ce qui rend ce site sexy ? Pourquoi autant de hype ? Comment on buzz sur internet ?  ? Comment faire pour que les milléniaux parlent de notre site ?\n\nC’est ce qu’on va essayer de vous montrer pendant ce talk où on va dynamiser un site “boring” (ou banal pour nos amis québécois) en un site “juicy” et avec des astuces pas si compliquées que vous pourrez utiliser dès demain. L’occasion de vous parler de design, d’animation, de micro-interaction, de sons, ...\n",
+      "categories": "db4af8b6-9236-5442-a563-c94dd3701784",
+      "formats": "adb75545-6f8c-5a5a-bae6-910bbfbe4af5",
+      "speakers": [
+        "wWYKM4fzp9SqMgB6euFohSb8ud33",
+        "6MElgUNi6qWbLldRNrbi8tSYEcz2"
+      ],
+      "comments": "On peut adapter la durée si besoin",
+      "rating": 3.933333333333333,
+      "loves": 6,
+      "hates": 1,
+      "language": "French",
+      "track": "theatre",
+      "startTime": "2021-11-18T15:45:00.000+0100",
+      "organizersThread": []
+    },
+    {
+      "id": "qhn9Hd51q61RUTNfEyQt",
+      "title": "I18N ou comment passer de \"Hello World\" à \"Bonjour le monde\"",
+      "state": "confirmed",
+      "level": "beginner",
+      "abstract": "I18N - L10N - G11N - T8N : Les nouveaux concurrents de K8S ? Que nenni ! Derrière ces numéronymes se cachent plusieurs mots-clés liés au domaine de la traduction et c'est le sujet sur lequel nous allons nous pencher ici.\n\nNous travaillons au quotidien dans plusieurs langages de programmation, mais il faut bien à un moment transmettre une information textuelle à nos utilisateur·rice·s. \nÀ défaut de parler tou·te·s la même langue, il faut alors se cantonner à la langue locale. \nLes années passent et vient alors le moment de la renommée, de la gloire internationale, ou plus simplement de la levée de fond qui va nous permettre de **scale worldwide** comme on dit dans notre belle **start-up nation**. \n\nMais au fait : comment on fait pour transformer notre interface complètement codée en français par de l'anglais ? Comment je peux extraire mes chaînes de texte pour les mettre dans Google Trad ? Et comment on fait si le sens de lecture de la langue cible n'est pas le même ? Et pourquoi le gaëlique irlandais a-t-il 5 formes de pluriels ?\n\nAu cours de ce talk, nous verrons l'ensemble du processus d'internationalisation (I18N) et les pièges à éviter pour mieux vous préparer à conquérir le monde !",
+      "categories": "db4af8b6-9236-5442-a563-c94dd3701784",
+      "formats": "4fae576f-8b51-5dc2-8007-9e7c4a30a728",
+      "speakers": [
+        "qYlDSJd3hzN7uAneWAThHAow58V2"
+      ],
+      "rating": 3.238095238095238,
+      "loves": 2,
+      "hates": 1,
+      "language": "French",
+      "track": "theatre",
+      "startTime": "2021-11-18T14:15:00.000+0100",
+      "organizersThread": []
+    },
+    {
+      "id": "AG63mx6EctWUwdthjEyZ",
+      "title": "DevOps vs SRE (rabbit or duck ?)",
+      "state": "accepted",
+      "level": "beginner",
+      "abstract": "Tout le monde sait ce qu'est **DevOps**, beaucoup ont entendu parlé de **SRE**.\n\nEst-ce un synonyme ? Encore une mode lancée par Google ? Est-ce qu'on va *encore* devoir changer notre **façon de travailler** ?\n\nLa réponse est dans ce talk !",
+      "categories": "f3bdcb33-71ad-5ae8-b902-2afeae08529d",
+      "formats": "9860c841-1a91-5ea1-aa29-d60346963036",
+      "speakers": [
+        "rI5HlT4Ij9alZ1NUZf5RtNfRh6s1"
+      ],
+      "rating": 3.7857142857142856,
+      "loves": 6,
+      "hates": 0,
+      "language": "French",
+      "track": "theatre",
+      "startTime": "2021-11-18T11:30:00.000+0100",
+      "organizersThread": []
+    },
+    {
+      "id": "J06h0LXitOoZPyY16eZx",
+      "title": "Mais que fait mon (mes!) PO?...",
+      "state": "accepted",
+      "level": "beginner",
+      "abstract": "Tu as un, 2 voir 5 PO dans ton équipe,  ils sont jamais d'accord et tu sais plus à qui demander quoi...\n \n\nComment t'en sortir? Pourquoi c'est fréquent? Il est censé faire quoi le PO? Est ce que ca peut arriver que ca marche bien le multi PO?\n\nPar ici pour avoir des réponses et nous partager ton expérience!",
+      "categories": "e734f88f-0223-5592-9063-8fc86b42d48e",
+      "formats": "adb75545-6f8c-5a5a-bae6-910bbfbe4af5",
+      "speakers": [
+        "S8Ea2QE42fRUeAe605H0WmGHyBN2"
+      ],
+      "rating": 3.4838709677419355,
+      "track": "theatre",
+      "startTime": "2021-11-18T11:00:00.000+0100",
+      "loves": 2,
+      "hates": 1,
+      "organizersThread": []
+    },
+    {
+      "id": "SbZUnoE4XhPBtdB9aLdk",
+      "title": "Comment trouver un sujet de talk ?",
+      "state": "accepted",
+      "level": "beginner",
+      "abstract": "Difficile, difficile est le moment des CFPs !\n\nCe petit talk est l'usage de tout ceux qui n'ont pas soumis de talks à cet événement :\n- De quels sujets puis-je parler ?\n- Comment savoir si je suis \"assez bon\" pour parler d'un sujet en public ?\n- Comment vraincre ma timidité/mon stress ?",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "7bcccc0f-a091-5d44-81e7-4a40ce2695ca",
+      "speakers": [
+        "oc31eWFj4QSS3rDIjxobsiNL2AE2"
+      ],
+      "comments": "J'ai pas trouvé de sujet :(",
+      "rating": 3.4615384615384617,
+      "loves": 1,
+      "hates": 2,
+      "language": "French",
+      "track": "theatre",
+      "startTime": "2021-11-18T16:45:00.000+0100",
+      "organizersThread": []
+    },
+    {
+      "id": "YwrD0XO55b7caTzPG4xy",
+      "title": "Découvrez le sketchnoting ou comment utiliser la pensée visuelle",
+      "state": "accepted",
+      "level": "beginner",
+      "abstract": "Un sensibilisation à la pratique du sketchnoting : \n- les formes de bases\n- le vocabulaire et la grammaire visuelle\n- la typographie\n- les cadres, les séparateurs et connecteurs\n- des mises en pratiques pour se lancer et s'y essayer\n\nVous pourrez également tester les différents feutres Neuland que j'amènerai pour l'occasion ! ",
+      "categories": "ed8afd05-a6aa-58e7-a6fd-7413d262a8b9",
+      "formats": "afcfdea2-5d78-5c5f-97ae-9d1bcffa18ef",
+      "speakers": [
+        "1838WNgCO3aHQyRSobVWCSBmWmw2"
+      ],
+      "references": "Extrait de la formation donnée aux clients",
+      "rating": 3.5714285714285716,
+      "loves": 6,
+      "hates": 2,
+      "language": "French",
+      "track": "class",
+      "startTime": "2021-11-18T09:30:00.000+0100",
+      "organizersThread": []
+    },
+    {
+      "id": "Z48aK6v4fVNOje3uFwvH",
+      "title": "Comment fonctionne mon variable à Zenika ?",
+      "state": "accepted",
+      "level": "beginner",
+      "abstract": "Sortons le tableur, et démystifions le fonctionnement de notre variable !\nAvec en prime, des trucs et astuces pour le maximiser.",
+      "categories": "b7032f33-99a4-506b-94d0-690df6e1a618",
+      "formats": "7bcccc0f-a091-5d44-81e7-4a40ce2695ca",
+      "speakers": [
+        "oc31eWFj4QSS3rDIjxobsiNL2AE2"
+      ],
+      "rating": 3.7419354838709675,
+      "loves": 6,
+      "hates": 2,
+      "language": "French",
+      "track": "theatre",
+      "startTime": "2021-11-18T14:00:00.000+0100",
+      "organizersThread": []
+    },
+    {
+      "id": "i5mdHCluDOm6175bRMvX",
+      "title": "Pourquoi je n'écris pas de tests ? 🤮",
+      "state": "accepted",
+      "level": "beginner",
+      "abstract": "> Tester c'est douter !\n\nMoi je ne doute jamais de mon code, je voudrais vous montrer pourquoi je ne teste pas, comment je fais pour être serein malgré une couverture de tests à 0, comment je peux encore pondre des fonctionnalités et faire plaisir à mon PO mais aussi vous raconter les bugs qui me sont remontés (car il y en a, de temps en temps). \n\nJe vous présente le code, j'essaie de vous faire comprendre tous les impacts de ce que j'utilise, je vous montre mon architecture logicielle, je vous présente des exemples de tests que vous pourriez écrire (que j'ai écrit pendant \"trop\" longtemps), j'essaie de vous convaincre ! \n\nPuis après on discute tous ensemble pour avoir vos opinons ! Laurent Tardif animera un fishbowl (https://communagir.org/contenus-et-outils/communagir-pour-emporter/les-outils-d-animation/le-fishbowl/) pour rendre tout ça  attrayant ! 😋",
+      "categories": "0ec948f6-35d6-5024-bce0-78a714a8f703",
+      "formats": "4fae576f-8b51-5dc2-8007-9e7c4a30a728",
+      "speakers": [
+        "TAOtQGUhDacpgGBwVfn2CvjIOWG3"
+      ],
+      "comments": "Il faudrait une salle assez grande pour faire un fishbowl",
+      "rating": 4.206896551724138,
+      "loves": 8,
+      "hates": 0,
+      "language": "French",
+      "track": "theatre",
+      "startTime": "2021-11-18T10:00:00.000+0100",
+      "organizersThread": []
+    }
+  ],
+  "speakers": [
+    {
+      "uid": "7VQ8wdjtOlaqGRPwS4X9XdFCEVh1",
+      "displayName": "Jérémie Picard",
+      "photoURL": "https://lh6.googleusercontent.com/-TpUP6kVMTBc/AAAAAAAAAAI/AAAAAAAAAAo/c-TZDH31M_Q/photo.jpg",
+      "email": "jeremie.picard@zenika.com"
+    },
+    {
+      "uid": "nUlc73kTEnNvgCcKX6tXteYrREu1",
+      "displayName": "Théo Murgat",
+      "company": "Zenika",
+      "photoURL": "https://lh4.googleusercontent.com/-7WCvR-HbsAM/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdforlLAx48lKStfF2gCwuwSyNcGA/photo.jpg",
+      "github": "murgatt",
+      "email": "theo.murgat@zenika.com"
+    },
+    {
+      "uid": "H7CVD8xsquS1k8HhOSelk9S0k4y2",
+      "displayName": "Pierre Reynaud",
+      "photoURL": "https://lh3.googleusercontent.com/-dVcUFkUhdUE/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdfKxfFTqTi7Ou4aHHdAnYW3w1G9g/photo.jpg",
+      "email": "pierre.reynaud@zenika.com"
+    },
+    {
+      "uid": "acXRt2QDzVZ46LnQvR4jtYmrfnL2",
+      "displayName": "Victor Gallet",
+      "bio": "Consultant Java #Zenika ascendant craftman soupoudré d'ops",
+      "company": "Zenika",
+      "photoURL": "https://lh4.googleusercontent.com/-UmTNhNagn9Y/AAAAAAAAAAI/AAAAAAAAAN0/nvPqpw_9GtY/photo.jpg",
+      "twitter": "@GalletVictor",
+      "github": "vgallet",
+      "address": {
+        "locality": {
+          "short_name": "Lyon",
+          "long_name": "Lyon"
+        },
+        "latLng": {
+          "lng": 4.835658999999964,
+          "lat": 45.764043
+        },
+        "formattedAddress": "Lyon, France",
+        "country": {
+          "long_name": "France",
+          "short_name": "FR"
+        }
+      },
+      "language": "French",
+      "email": "victor.gallet@zenika.com",
+      "phone": "+33681137853"
+    },
+    {
+      "uid": "Udf01cJXIkb7XHeqPdZQGlTX5uG2",
+      "displayName": "Lucas AUDART",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14Giyq3_4Hz9R0BunclQboy24YFJoMK9zBA3YPqSZ=s96-c",
+      "twitter": "@Slocalyy",
+      "github": "Slocaly",
+      "address": {
+        "latLng": {
+          "lng": 4.835659,
+          "lat": 45.764043
+        },
+        "timezone": null,
+        "locality": {
+          "short_name": "Lyon",
+          "long_name": "Lyon"
+        },
+        "country": {
+          "short_name": "FR",
+          "long_name": "France"
+        },
+        "formattedAddress": "Lyon, France"
+      },
+      "language": "Français, Anglais",
+      "email": "lucas.audart@zenika.com",
+      "phone": "06 29 01 53 02"
+    },
+    {
+      "uid": "eGA6OY0HEhP9d6WQ7HZtq054tW22",
+      "displayName": "Mickael Alves",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14GiMP1p6HwYMmFSLpHQMVRa7EczmI4Hx_MjgPfvn=s96-c",
+      "twitter": "@CruuzAzul",
+      "github": "CruuzAzul",
+      "address": {
+        "locality": {
+          "short_name": "Lyon",
+          "long_name": "Lyon"
+        },
+        "country": {
+          "long_name": "France",
+          "short_name": "FR"
+        },
+        "formattedAddress": "Lyon, France",
+        "latLng": {
+          "lng": 4.835659,
+          "lat": 45.764043
+        },
+        "timezone": null
+      },
+      "email": "alves.mckl@gmail.com"
+    },
+    {
+      "uid": "IzLVAOy5fCUc4W8enR6TYpAH4Ku1",
+      "displayName": "Christophe Tardella",
+      "photoURL": "https://lh3.googleusercontent.com/-DUEKqdLO8rI/AAAAAAAAAAI/AAAAAAAAANk/ZbR9OcbM00M/photo.jpg",
+      "email": "christophe.tardella@zenika.com"
+    },
+    {
+      "uid": "wWYKM4fzp9SqMgB6euFohSb8ud33",
+      "displayName": "Mathieu Mure",
+      "bio": "Consultant Web à Zenika le matin, CTO l'apès-midi, orga du LyonJS la nuit et speaker le reste du temps.\n\nJe ❤️ le web et je ❤️ encore plus lorsque je peux partager ce que j'aime.\n\n",
+      "speakerReferences": "## Vite the webpack killer\n- [DevFest Nantes 2021](https://devfest2021.gdgnantes.com/sessions/_%EF%B8%8F_vite_%EF%B8%8Fthe_webpack_killer/) et enregistré [ici](https://www.youtube.com/watch?v=9R5JuyfsGwc)\n- [JUG Summer Camp 2021](https://www.jugsummercamp.org/edition/12/presentations/QYeD36ff9h4A8v243Hu3) et enregistré [ici](https://www.youtube.com/watch?v=zBz9flHFWHA&list=PL4Z_Bm3ccVwfmPFuR-QZMg2YLdL0WnGbZ&index=10)\n- LyonJS et enregistré [ici](https://www.youtube.com/watch?v=EziH0ZDpTCM)\n- [Technozaure World](https://tz.zenika.com/) et a été enregistrée [ici](https://www.youtube.com/watch?v=iMYbpIhxurU)\n\n## De Spring boot à Kotlin\n- [Snowcamp](https://sched.co/XoNB)\n- [Nightclazz by Zenika](https://www.meetup.com/fr-FR/NightClazz-by-Zenika-Lyon/events/260672304/)\n\n## Comment se faire traquer sur TOR sans s'en rendre compte\n- [Devfest Strasbourg](https://devfest.gdgstrasbourg.fr/schedule/2018-11-06?sessionId=109)\n\n## Handson Jigsaw\n- [Devoxx](https://cfp.devoxx.fr/2018/talk/LPJ-5998/Hands_on_Jigsaw.html)\n- [Devfest Nantes](https://devfest.gdgnantes.com/schedule/day1?sessionId=166)\n- [Devfest du bout du monde](https://devfestbdm.firebaseapp.com/schedule/2019-02-22?sessionId=3101).\n\n## VueJS\n-[snowcamp](https://sched.co/J2s8) \n- nightclazz by Zenika\n- Alpes Jug.",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/-zW9q6DSj72k/AAAAAAAAAAI/AAAAAAAAABs/_pqpmU87wFk/photo.jpg",
+      "twitter": "@MathieuMure",
+      "github": "mathieumure",
+      "address": {
+        "latLng": {
+          "lat": 45.764043,
+          "lng": 4.835659
+        },
+        "formattedAddress": "Lyon, France",
+        "locality": {
+          "short_name": "Lyon",
+          "long_name": "Lyon"
+        },
+        "country": {
+          "short_name": "FR",
+          "long_name": "France"
+        }
+      },
+      "language": "Javascript, VueJS, React, Kotlin",
+      "email": "mathieu.mure@zenika.com"
+    },
+    {
+      "uid": "1FnJVQspiYgiKe3q8RZcHuE6gD83",
+      "displayName": "Olivier Perez",
+      "bio": "Développeur piloté par la passion, j'ai arrêté de compter les langages que j'ai rencontré depuis mes 14 ans. Après 5 ans chez Worldline, dont 2 de Spring et 3 d'Android, je suis aujourd'hui développeur chez Zenika, mes journées m'amènent à faire beaucoup de Kotlin sur Android.\n\nLe soir je joue en ligne, et je code pour... coder.",
+      "speakerReferences": "**Conférences en interne**\n\n- Sujets mensuels autour de Git (10 à 15 min, ~50 spectateurs)\n- Git Undercover, le Git qu'on ne connait pas (45 min, ~30 spectateurs)\n- Différents sujets sur Android (de 5 et 45 minutes, ~15 spectateurs)\n- Android Débutant pour développeurs confirmés (45 min, 15 spectateurs)\n- Présentation sur Kotlin en anglais (45 min, 80 spectateurs)\n\n**Meetups & Conférences**\n\n- Atelier : Handson SpringBoot2Kotlin\n  - [NightClazz](https://www.meetup.com/fr-FR/NightClazz-by-Zenika-Lyon/)\n  - [Snowcamp 2020](https://sched.co/XoNB)\n  - Devoxx Paris 2020 (planing pas encore annoncé)\n- Atelier : Apprenons par l'erreur... de nos paires\n  - [Software Craftmanship Lyon](https://www.meetup.com/fr-FR/NightClazz-by-Zenika-Lyon/)\n  - Breizhcamp (planing pas encore annoncé)\n\n**Animation de formations**\n\n- Kotlin\n- Programmation réactive",
+      "company": "Zenika",
+      "photoURL": "https://lh6.googleusercontent.com/-yri0cdoXh-0/AAAAAAAAAAI/AAAAAAAAAA0/kWXopdYYBZM/photo.jpg",
+      "twitter": "@olivierperez",
+      "github": "olivierperez",
+      "address": {
+        "formattedAddress": "Lyon",
+        "locality": {
+          "short_name": "Lyon",
+          "long_name": "Lyon"
+        },
+        "country": {
+          "short_name": "FR",
+          "long_name": "France"
+        },
+        "latLng": {
+          "lng": 4.835659,
+          "lat": 45.764043
+        }
+      },
+      "language": "Français et Kotlin",
+      "email": "olivier.perez@zenika.com"
+    },
+    {
+      "uid": "6MElgUNi6qWbLldRNrbi8tSYEcz2",
+      "displayName": "Julien Sulpis",
+      "bio": "Développeur front-end passionné, j'aime explorer les dernières technologies du web pour faire des applications aussi agréables à développer (DX, clean code) qu'à utiliser (UX/UI, rapidité, animations).",
+      "speakerReferences": "Expériences speaker :\n- SnowCamp\n- LyonJS (x2)\n- NightClazz by Zenika",
+      "company": "Zenika",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mCeBbAgZZcJbtoDVeh2Ta3iBHGKiYolFQbME1uU",
+      "twitter": "@jsulpis",
+      "github": "jsulpis",
+      "address": {
+        "formattedAddress": "Lyon, France",
+        "country": {
+          "long_name": "France",
+          "short_name": "FR"
+        },
+        "latLng": {
+          "lng": 4.835659,
+          "lat": 45.764043
+        },
+        "timezone": null,
+        "locality": {
+          "long_name": "Lyon",
+          "short_name": "Lyon"
+        }
+      },
+      "language": "Français",
+      "email": "julien.sulpis@zenika.com"
+    },
+    {
+      "uid": "qYlDSJd3hzN7uAneWAThHAow58V2",
+      "displayName": "Thomas HUCHEDE",
+      "bio": "Développeur front-end à Zenika Grenoble, je suis passionné de performance, d'accessibilité et d'outils pour améliorer la qualité de code. Mes langages du moment sont Javascript, Rust et Flutter.",
+      "speakerReferences": "J'ai déjà donné plusieurs présentations lors de conf. internes et à certains meetups\n\nCertains de ces meetups sont consultables sur youtube par exemple ici ( https://www.youtube.com/watch?v=-x8MiWA7OBw ) ou là ( https://www.youtube.com/watch?v=sMQT2_uZ1-A )",
+      "photoURL": "https://lh6.googleusercontent.com/-hKDz-b1XKtU/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucm-0zSvn5OyQO_SlPqgNbKnx5jjIg/photo.jpg",
+      "twitter": "thuchede",
+      "github": "thuchede",
+      "language": "Français",
+      "email": "thomas.huchede@zenika.com"
+    },
+    {
+      "uid": "rI5HlT4Ij9alZ1NUZf5RtNfRh6s1",
+      "displayName": "Ilyes Semlali",
+      "company": "Zenika",
+      "photoURL": "https://lh4.googleusercontent.com/-ZM6V1J5cODc/AAAAAAAAAAI/AAAAAAAAADI/Vq-ZqYjzNFg/photo.jpg",
+      "github": "IlyesSemlali",
+      "language": "French, English",
+      "email": "ilyes.semlali@zenika.com",
+      "phone": null
+    },
+    {
+      "uid": "S8Ea2QE42fRUeAe605H0WmGHyBN2",
+      "displayName": "Solène Lassiaille",
+      "bio": "PO, ScM, coach, je nage dans l'agilité meme quand le niveau n'est pas tres haut",
+      "photoURL": "https://lh3.googleusercontent.com/-zQ8wbdaVjGs/AAAAAAAAAAI/AAAAAAAAAAc/oKKOU2cPhRw/photo.jpg",
+      "email": "solene.lassiaille@zenika.com"
+    },
+    {
+      "uid": "oc31eWFj4QSS3rDIjxobsiNL2AE2",
+      "displayName": "Guillaume Facchini",
+      "photoURL": "https://lh6.googleusercontent.com/-_Yk7b_T858g/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQNNNS7yroY-Se9vf-sUXczBZ8aUXA/mo/photo.jpg",
+      "email": "guillaume.facchini@zenika.com"
+    },
+    {
+      "uid": "1838WNgCO3aHQyRSobVWCSBmWmw2",
+      "displayName": "Cyrielle Eudeline",
+      "bio": "Facilitatrice agile et graphique, coach agile aussi, je m'intéresse à beaucoup de sujets différents tant que ça concerne les humains, leurs interactions et ce qui les anime !",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AAuE7mAlCYr4Atx9tYlf2zYee9VVW2manD1s1DcpZy0O5vMgU6JfqNYfBWuYK5nP1l4sTfK69ClKsFqjDpS3i4LGjOqTfOMIUnuSBZmSAPorbKZKDTmSiG9PGMCAaCqmSqxgAYsCI_iusdv5C9AaMIs9gWC1iR52PmFwbycAEUJxevjWkzEocPLjS_hYC_U6xAA2HHAbjSbwZcqZMoofx-ztefm0tJ-L8igWARqhSczcbaBD20Vbqoex3IohKKHqaVa2CopBZGQJ9pZkyUIJ9sUL4KuokkiblUpDXOEkZ0-ZIIfusf3RZeQZTCNJAJk3zdudAi_mGSS-ibQ1hBUxeTm_3fjL9vjQrFhGT95TaPvWe5zp3OU2tSygXkVZt5KatftZGegRJ4IN4ORmhTLqIYoAgJuwI9TzmIEdmUv78V8WtIHYRd_-gE9gEqFrSq263uyUxHtxXlJZKYp30Z-XWzOW5LkGppvQFWmvn2_MyfPDZdNdlNCUcfN6ICiek-TM5bdda-UTU9dmy2HKnSV3E2rCvSxWwEiQmwduHr9diCKVOUtiW60C9bhF7O0agqxY7kxDuSO1R8eqTICuHLUFrWMSdkIFRx33HUxUsf8dsOvZx7TFxm3r7Rh0Yn0Vs42amkn1kYRVcWZRCHQcI2DNy8moIwlFY6r6MNev_sUGwa6IoVMYbNbKqOhR3PUoAD-aJ8cZbTxZ9hs3bNrv_XhE5vln_jkYSFwQGwoFim53Ea_rHkIMDO-ruHlkO7KFBmAaG9o",
+      "email": "cyrielle.eudeline@zenika.com"
+    },
+    {
+      "uid": "TAOtQGUhDacpgGBwVfn2CvjIOWG3",
+      "displayName": "Jules Hablot",
+      "bio": "Je suis développeur front dans une boite de consultants à Grenoble. Je ne suis pas passionné de développement mais j'aime ce que je fais au jour le jour : apprendre des nouvelles choses. Et j'aime transmettre ce savoir aux plus petits comme aux plus expérimentés. ",
+      "speakerReferences": "Youtube playliste : https://www.youtube.com/playlist?list=PLQ4JswfwARecptNUa0n1LAO3oX1oRXwmt",
+      "company": "Grenika (Zenika Grenoble)",
+      "photoURL": "https://lh4.googleusercontent.com/-NYc24i4fNqI/AAAAAAAAAAI/AAAAAAAAAAs/lPLMZJwhlbw/photo.jpg",
+      "github": "P0ppoff",
+      "address": {
+        "latLng": {
+          "lng": 5.724524,
+          "lat": 45.188529
+        },
+        "formattedAddress": "Grenoble",
+        "locality": {
+          "long_name": "Grenoble",
+          "short_name": "Grenoble"
+        },
+        "country": {
+          "long_name": "France",
+          "short_name": "FR"
+        }
+      },
+      "language": "Français",
+      "email": "jules.hablot@zenika.com",
+      "phone": "06 74 67 38 60"
+    }
+  ]
+}

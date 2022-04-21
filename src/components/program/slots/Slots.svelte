@@ -19,7 +19,7 @@
 
   export let slots;
 
-  $: sortedSlots = slots.sort((a, b) => a.track < b.track ? 1 : -1)
+  $: sortedSlots = slots?.sort((a, b) => a.track < b.track ? 1 : -1) ?? []
 </script>
 
 <ul class="track-row">
