@@ -18,7 +18,7 @@ jobs:
   build:
     timeout-minutes: 10
     runs-on: ubuntu-latest
-    name: "Lint: node-16, ubuntu-latest"
+    name: "Build"
     steps:
       - uses: actions/checkout@v3
         with:
@@ -35,8 +35,8 @@ jobs:
           node-version: 16
 
       - name: Install deps
-        run: npm install
+        run: pnpm install
 
       - name: Build
-        run: npm run export
+        run: pnpm run export
 
